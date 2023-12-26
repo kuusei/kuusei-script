@@ -2,6 +2,7 @@ name: Docker Image Build on Directory Update
 
 on:
   push:
+    branches: [main]
     paths:
       - 'other/98_tang/**'
 
@@ -20,7 +21,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker Image
-        if: ${{ github.event_name == 'push' && github.event_path == 'other/98_tang' }}
         run: |
           cd other/98_tang
           docker build -t 98_tang:${{ steps.vars.outputs.TIMESTAMP }} .
