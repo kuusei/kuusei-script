@@ -1,9 +1,11 @@
-name: Docker Image Build on Directory Update
+name: Docker Image Build 98_tang
 
 on:
   push:
     branches: 
       - 'main'
+    paths:
+      - 'other/98_tang/**'
 
 jobs:
   build:
