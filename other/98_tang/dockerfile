@@ -1,0 +1,20 @@
+# layer 1
+FROM node:16 as build-stage
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y git
+RUN git clone https://github.com/super-upup/98tang.git .
+RUN npm install
+RUN npm run build
+RUN find ./ -type f -name "*.map" -delete
+
+# layer 2
+FROM busybox as runtime-stage
+
+WORKDIR /www
+
+COPY --from=build-stage /app/dist /www
+
+EXPOSE 80
+CMD ["httpd", "-f", "-h", "/www", "-p", "80"]
