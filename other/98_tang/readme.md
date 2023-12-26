@@ -1,4 +1,4 @@
-[![Docker Image Build on Directory Update](https://github.com/kuusei/docker/actions/workflows/docker_build.yml/badge.svg)](https://github.com/kuusei/docker/actions/workflows/docker_build.yml)
+[![Docker Build](https://github.com/kuusei/docker/actions/workflows/docker_build.yml/badge.svg)](https://github.com/kuusei/docker/actions/workflows/docker_build.yml)
 
 # 98堂自动签到 Docker 构建
 
