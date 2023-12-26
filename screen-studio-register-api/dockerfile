@@ -4,7 +4,7 @@ FROM golang:latest as build-stage
 WORKDIR /app
 COPY . .
 
-RUN go build -ldflags="-s -w" -o screen-studio-register-api
+RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o screen-studio-register-api
 
 # layer 2
 FROM scratch as runtime-stage
@@ -12,4 +12,4 @@ FROM scratch as runtime-stage
 COPY --from=build-stage /app/screen-studio-register-api /screen-studio-register-api
 
 EXPOSE 8080
-CMD ["/screen-studio-register-api"]
+CMD ["./screen-studio-register-api"]
