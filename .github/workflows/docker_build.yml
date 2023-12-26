@@ -1,0 +1,27 @@
+name: Docker Image Build on Directory Update
+
+on:
+  push:
+    paths:
+      - 'other/98_tang/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build Docker Image
+        if: ${{ github.event_name == 'push' && github.event_path == 'other/98_tang' }}
+        run: |
+          cd other/98_tang
+          docker build -t 98_tang:${{ steps.vars.outputs.TIMESTAMP }} .
+          docker push 98_tang:${{ steps.vars.outputs.TIMESTAMP }}
