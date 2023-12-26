@@ -2,4 +2,4 @@
 
 尝试使用最小化构建方式
 
-使用 Github Action 自动构建
+使用 Github Action 自动构建 + Push Docker HUB
