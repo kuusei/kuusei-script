@@ -1,4 +1,4 @@
-name: Docker Image Build 98_tang
+name: Docker Image Build screen_studio_register_api
 
 on:
   push:
