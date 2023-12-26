@@ -34,4 +34,4 @@ jobs:
         with:
           context: other/98_tang
           push: true
-          tags: closecv/98_tang:latest
+          tags: kuusei/98_tang:latest
