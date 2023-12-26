@@ -1,4 +1,4 @@
-[![Docker Build](https://github.com/kuusei/docker/actions/workflows/docker_build.yml/badge.svg)](https://github.com/kuusei/docker/actions/workflows/docker_build.yml)
+[![Docker Image Build 98_tang](https://github.com/kuusei/kuusei-script/actions/workflows/98_tang_docker_build.yml/badge.svg)](https://github.com/kuusei/kuusei-script/actions/workflows/98_tang_docker_build.yml)
 
 # 98堂自动签到 Docker 构建
 
