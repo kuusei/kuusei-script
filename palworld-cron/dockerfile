@@ -1,0 +1,14 @@
+FROM alpine:latest
+
+WORKDIR /app
+
+RUN apk --no-cache add curl
+
+RUN curl -L -o pst-server https://github.com/zaigie/palworld-server-tool/releases/download/v0.3.3/pst-server_v0.3.3_linux_amd64
+RUN chmod +x pst-server
+
+ENV CRON_IP=""
+ENV ADMIN_PASSWORD=""
+
+EXPOSE 8080
+CMD ["sh", "-c", "./pst-server -a ${CRON_IP} -p ${ADMIN_PASSWORD} --port 8080"]

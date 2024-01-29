@@ -23,3 +23,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# private
+palworld-cron/docker-compose.yml
