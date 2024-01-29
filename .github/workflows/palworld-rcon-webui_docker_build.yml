@@ -32,6 +32,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: palworld-cron
+          context: palworld-rcon-webui
           push: true
-          tags: kuusei/palworld-cron:latest
+          tags: kuusei/palworld-rcon-webui:latest

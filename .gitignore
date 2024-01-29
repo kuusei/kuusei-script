@@ -25,4 +25,4 @@ yarn-error.log*
 next-env.d.ts
 
 # private
-palworld-cron/docker-compose.yml
+palworld-rcon-webui/docker-compose.yml
