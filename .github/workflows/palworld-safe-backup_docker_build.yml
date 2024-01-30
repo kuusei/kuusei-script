@@ -5,7 +5,7 @@ on:
     branches: 
       - 'main'
     paths:
-      - 'palworld-rcon-webui/**'
+      - 'palworld-safe-backup/**'
 
 jobs:
   build:
@@ -32,6 +32,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: palworld-rcon-webui
+          context: palworld-safe-backup
           push: true
-          tags: kuusei/palworld-rcon-webui:latest
+          tags: kuusei/palworld-safe-backup:latest

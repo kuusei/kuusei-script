@@ -1,0 +1,3 @@
+default:
+  address: "###RCON_IP###"
+  password: "###ADMIN_PASSWORD###"
