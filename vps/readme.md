@@ -23,4 +23,8 @@ apt update && apt upgrade && apt install sudo curl wget vim tmux -y
 bash <(curl -fsSL 'https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/key.sh') -o -d -p 34522 -u https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/key.pub
 ```
 
-## trojan-go config
+## trojan/vless config
+
+```shell
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+```
