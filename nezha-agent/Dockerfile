@@ -1,4 +1,4 @@
-FROM debian:11-slim
+FROM debian:11
 
 ARG NEZHA_VER=0.17.6
 
