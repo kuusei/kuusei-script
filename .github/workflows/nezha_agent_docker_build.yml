@@ -1,0 +1,38 @@
+name: Docker Image Build nezha_agent_docker_build
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'nezha-agent/**'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+      -
+        name: Login to DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+    
+      -
+        name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: nezha-agent
+          push: true
+          platforms: linux/amd64,linux/arm64,linux/386
+          tags: kuusei/nezha-agent:latest
