@@ -1,0 +1,43 @@
+version: "3.3"
+services:
+  traefik-certs-dumper:
+    image: ldez/traefik-certs-dumper:v2.8.1
+    container_name: traefik-certs-dumper
+    entrypoint: >
+      sh -c 'apk add jq; while ! [ -e /data/acme.json ] || ! jq "[.. | objects |
+      select(has(\"Certificates\")) | .Certificates | length] | any(. > 0)"
+      /data/acme.json; do sleep 1; done && traefik-certs-dumper file --version
+      v2 --watch --source /data/acme.json --dest /data/certs
+      --domain-subdir=true'
+    labels:
+      traefik.enable: false
+    volumes:
+      - /home/dockge/traefik/certs:/data
+      - /home/dockge/certs:/data/certs
+      - ./hook.sh:/hook.sh
+  caddy:
+    image: caddy:2.6-alpine
+    container_name: caddy
+    command: caddy file-server
+    networks:
+      - tool_network
+    volumes:
+      - ./index.html:/srv/index.html
+  trojan:
+    image: teddysun/trojan:1.16.0
+    container_name: trojan
+    networks:
+      - tool_network
+    labels:
+      - traefik.tcp.routers.tgo.entrypoints=websecure
+      - traefik.tcp.routers.tgo.rule=HostSNI(`${host}`)
+      - traefik.tcp.routers.tgo.tls=true
+      - traefik.tcp.routers.tgo.tls.passthrough=true
+      - traefik.tcp.routers.tgo.tls.certresolver=myresolver
+      - traefik.tcp.services.tgo.loadbalancer.server.port=443
+    volumes:
+      - ./trojan.json:/etc/trojan/config.json
+      - /home/dockge/certs/${host}:/etc/data
+networks:
+  tool_network:
+    external: true
