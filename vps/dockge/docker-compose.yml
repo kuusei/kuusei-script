@@ -1,0 +1,53 @@
+version: "3"
+services:
+  # 网关配置
+  traefik:
+    image: traefik:v3.0
+    restart: unless-stopped
+    container_name: traefik
+    command: 
+      - --providers.docker
+      - --providers.file.directory=/etc/traefik/config
+      - --api=true
+      - --entrypoints.websecure.address=:443
+      - --certificatesresolvers.myresolver.acme.tlschallenge=true
+      - --certificatesresolvers.myresolver.acme.email=${email}
+      - --certificatesresolvers.myresolver.acme.storage=/etc/traefik/certs/acme.json
+    ports:
+      - 443:443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik/letsencrypt:/letsencrypt
+      - ./traefik:/etc/traefik/config
+      - ./traefik/certs:/etc/traefik/certs
+    labels:
+      - traefik.http.routers.traefik.service=api@internal
+      - traefik.http.routers.traefik.rule=Host(`${traefikHost}`)
+      - traefik.http.routers.traefik.entrypoints=websecure
+      - traefik.http.routers.traefik.tls.certresolver=myresolver
+    networks:
+      - tool_network
+  # docker 管理工具
+  dockge:
+    image: louislam/dockge:1
+    restart: unless-stopped
+    container_name: dockge
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./dockge:/app/data
+      - ./docker:/home/dockge/docker
+    environment:
+      - DOCKGE_STACKS_DIR=/home/dockge/docker
+    labels:
+      - traefik.docker.network=tool_network
+      - traefik.http.services.dockge.loadbalancer.server.port=5001
+      - traefik.http.routers.dockge.rule=Host(`${dockgeHost}`)
+      - traefik.http.routers.dockge.entrypoints=websecure
+      - traefik.http.routers.dockge.tls.certresolver=myresolver
+    networks:
+      - tool_network
+
+networks:
+  tool_network:
+    driver: bridge
+    name: tool_network
