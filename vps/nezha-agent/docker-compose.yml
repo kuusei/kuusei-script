@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  nezha-agent:
+    image: kuusei/nezha-agent:latest
+    restart: always
+    container_name: nezha-agent
+    environment:
+      - domain=${domain}
+      - port=5555
+      - secret=${secret}
+      - args=--disable-auto-update --disable-command-execute
+      # - platform=<自定义系统名>
+      # - version=<自定义系统版本>
+    network_mode: host
