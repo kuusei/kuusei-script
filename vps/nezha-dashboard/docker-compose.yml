@@ -1,0 +1,26 @@
+version: "3.3"
+
+services:
+  nezha-dashboard:
+    image: ghcr.io/naiba/nezha-dashboard:v0.17.9
+    restart: always
+    container_name: nezha-dashboard
+    volumes:
+      - ./data:/dashboard/data
+      - ./static-custom/static:/dashboard/resource/static/custom:ro
+      - ./theme-custom/template:/dashboard/resource/template/theme-custom:ro
+      - ./dashboard-custom/template:/dashboard/resource/template/dashboard-custom:ro
+    ports:
+      - 5555:5555
+    labels:
+      - traefik.docker.network=tool_network
+      - traefik.http.services.nezha_dashboard.loadbalancer.server.port=80
+      - traefik.http.routers.nezha_dashboard.rule=Host(`${host}`)
+      - traefik.http.routers.nezha_dashboard.entrypoints=websecure
+      - traefik.http.routers.nezha_dashboard.tls.certresolver=myresolver
+    networks:
+      - tool_network
+
+networks:
+  tool_network:
+    external: true
