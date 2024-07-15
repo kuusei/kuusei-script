@@ -26,3 +26,5 @@ next-env.d.ts
 
 # private
 palworld-rcon-webui/docker-compose.yml
+
+.env
