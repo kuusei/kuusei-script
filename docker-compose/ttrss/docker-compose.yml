@@ -1,0 +1,67 @@
+version: "3"
+services:
+  service.rss:
+    image: wangqiru/ttrss:latest
+    container_name: ttrss
+    environment:
+      - SELF_URL_PATH=https://${host} # please change to your own domain
+      - DB_PASS=${db_password} # use the same password defined in `database.postgres`
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - feed-icons:/var/www/feed-icons/
+    networks:
+      - tool_network
+      - service_only
+      - database_only
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=tool_network
+      - traefik.http.services.ttrss.loadbalancer.server.port=80
+      - traefik.http.routers.ttrss.rule=Host(`${host}`)
+      - traefik.http.routers.ttrss.entrypoints=websecure
+      - traefik.http.routers.ttrss.tls.certresolver=myresolver
+    stdin_open: true
+    tty: true
+    restart: always
+
+  service.mercury:
+    # set Mercury Parser API endpoint to `service.mercury:3000` on TTRSS plugin setting page
+    image: wangqiru/mercury-parser-api:latest
+    container_name: mercury
+    networks:
+      - service_only
+    restart: always
+
+  service.opencc:
+    # set OpenCC API endpoint to `service.opencc:3000` on TTRSS plugin setting page
+    image: wangqiru/opencc-api-server:latest
+    container_name: opencc
+    environment:
+      - NODE_ENV=production
+    networks:
+      - service_only
+    restart: always
+
+  database.postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    environment:
+      - POSTGRES_PASSWORD=${db_password} # feel free to change the password
+    volumes:
+      - ~/postgres/data/:/var/lib/postgresql/data # persist postgres data to ~/postgres/data/ on the host
+    networks:
+      - database_only
+    restart: always
+
+volumes:
+  feed-icons:
+
+
+networks:
+  tool_network:
+    external: true
+  service_only:
+    internal: true
+  database_only:
+    internal: true
