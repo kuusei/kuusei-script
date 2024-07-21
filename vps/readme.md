@@ -6,6 +6,8 @@
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd.sh') -d 12 -v 64 -port "22" -p "PASSWORD"
 # 如果dd不上去可以换, 默认密码 MoeClub.org
 wget -qO InstallNET.sh https://github.com/teddysun/across/raw/master/InstallNET.sh && bash InstallNET.sh
+# ARM DD
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian
 # dd 后需要使用 ssh-keygen -R ip 来重置
 # dd 后使用 -o PreferredAuthentications=password 强制进行密码链接
 # 可以使用 cat /etc/issue 查看版本号
@@ -22,7 +24,7 @@ apt update && apt upgrade && apt install sudo curl wget vim tmux -y
 ```shell
 # 禁用密码登录, 修改端口
 # 注意也会修改端口号, 对于有防火墙的vps, 需要放行
-bash <(curl -fsSL 'https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/key.sh') -o -d -p 34522 -u https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/key.pub
+bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p 22 -u https://link.kuusei.moe/ssh-key
 ```
 
 ## trojan/vless config
@@ -48,4 +50,17 @@ echo \
 sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+## 文件传输&通用 dockge 文件夹
+
+```shell
+curl https://getcroc.schollz.com | bash
+
+# 发送文件使用
+croc send <path>
+
+# dockge 文件夹
+mkdir /home/dockge
+cd /home/dockge
 ```
