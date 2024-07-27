@@ -89,11 +89,11 @@ function dd_menu() {
   select dd_opt in "${dd_options[@]}"
   do
       case $dd_opt in
-          "kuusei fork")
+          "Kuusei Fork")
               dd_kuusei
               break
               ;;
-          "teddysun")
+          "Teddysun")
               dd_teddysun
               break
               ;;
@@ -171,10 +171,23 @@ function init_debian() {
 
 # 功能: set ssh key
 function set_ssh_key() {
-  echo "Setting SSH key..."
-  read -p "Please enter the SSH port (default: 34522): " ssh_port
+  echo "设置 SSH 密钥..."
+  
+  # 使用提供的 URL 或提示用户输入
+  if [ -z "$ssh_key_url" ]; then
+    read -p "请输入 SSH 密钥 URL (必须以 http:// 或 https:// 开头): " ssh_key_url
+    while [[ ! "$ssh_key_url" =~ ^https?:// ]]; do
+      echo "无效的 URL。请确保 URL 以 http:// 或 https:// 开头。"
+      read -p "请输入 SSH 密钥 URL (必须以 http:// 或 https:// 开头): " ssh_key_url
+    done
+  fi
+
+  read -p "请输入 SSH 端口 (默认: 34522): " ssh_port
   ssh_port=${ssh_port:-34522}
-  bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p "$ssh_port" -u https://link.kuusei.moe/ssh-key
+  bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p "$ssh_port" -u "$ssh_key_url"
+
+  echo "SSH 密钥设置完成。"
+  cat /root/.ssh/authorized_keys
 }
 
 # 功能: trojan/vless config
@@ -285,4 +298,28 @@ function tcp_window_optimization() {
   sudo sysctl -p
 }
 
-print_menu
+# 功能: 脚本启动和参数处理
+function start_script() {
+  while [[ $# -gt 0 ]]; do
+    case $1 in
+      -x)
+        init_debian
+        shift
+        ;;
+      --key)
+        ssh_key_url="$2"
+        shift 2
+        ;;
+      *)
+        echo "无效的选项: $1"
+        exit 1
+        ;;
+    esac
+  done
+
+  # 显示菜单
+  print_menu
+}
+
+# 主脚本执行
+start_script "$@"
