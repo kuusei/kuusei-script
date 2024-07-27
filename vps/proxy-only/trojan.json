@@ -1,0 +1,28 @@
+{
+  "run_type": "server",
+  "local_addr": "0.0.0.0",
+  "local_port": 443,
+  "remote_addr": "caddy",
+  "remote_port": 80,
+  "password": ["<password>"],
+  "log_level": 1,
+  "ssl": {
+    "cert": "/etc/data/certificate.crt",
+    "key": "/etc/data/privatekey.key",
+    "prefer_server_cipher": true,
+    "sni": "",
+    "alpn": ["http/1.1"],
+    "reuse_session": true
+  },
+  "tcp": {
+    "prefer_ipv4": false,
+    "no_delay": true,
+    "keep_alive": true
+  },
+  "mysql": {
+    "enabled": false
+  },
+  "websocket": {
+    "enabled": false
+  }
+}

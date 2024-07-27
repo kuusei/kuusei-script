@@ -15,7 +15,7 @@ services:
       - --global.sendanonymoususage=false
       - --global.checknewversion=false
       - --certificatesresolvers.myresolver.acme.tlschallenge=true
-      - --certificatesresolvers.myresolver.acme.email=${email}
+      - --certificatesresolvers.myresolver.acme.email=${EMAIL}
       - --certificatesresolvers.myresolver.acme.storage=/etc/traefik/certs/acme.json
     ports:
       - 443:443
@@ -49,7 +49,7 @@ services:
       - traefik.enable=true
       - traefik.docker.network=tool_network
       - traefik.http.services.dockge.loadbalancer.server.port=5001
-      - traefik.http.routers.dockge.rule=Host(`${dockgeHost}`)
+      - traefik.http.routers.dockge.rule=Host(`${DOCKGE_HOST}`)
       - traefik.http.routers.dockge.entrypoints=websecure
       - traefik.http.routers.dockge.tls.certresolver=myresolver
     networks:

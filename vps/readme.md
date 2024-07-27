@@ -1,13 +1,23 @@
 # script
 
+## 测试脚本
+
+```shell
+# 融合怪
+curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+# yabs
+curl -sL yabs.sh | bash
+```
+
 ## dd debian 12
 
 ```shell
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd.sh') -d 12 -v 64 -port "22" -p "PASSWORD"
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd.sh') -d 12 -v 64 -port "34522" -p "<password>"
 # 如果dd不上去可以换, 默认密码 MoeClub.org
 wget -qO InstallNET.sh https://github.com/teddysun/across/raw/master/InstallNET.sh && bash InstallNET.sh
 # ARM DD
 wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -u 20.04 -v 64 -p "<password>" -port 22 -a
 # dd 后需要使用 ssh-keygen -R ip 来重置
 # dd 后使用 -o PreferredAuthentications=password 强制进行密码链接
 # 可以使用 cat /etc/issue 查看版本号
@@ -16,7 +26,8 @@ wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com
 ## init debian
 
 ```shell
-apt update && apt upgrade && apt install sudo curl wget vim tmux -y
+apt update -y && apt upgrade -y && apt install sudo curl wget vim tmux git rsync htop -y
+curl https://getcroc.schollz.com | bash
 ```
 
 ## set ssh key
@@ -24,7 +35,7 @@ apt update && apt upgrade && apt install sudo curl wget vim tmux -y
 ```shell
 # 禁用密码登录, 修改端口
 # 注意也会修改端口号, 对于有防火墙的vps, 需要放行
-bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p 22 -u https://link.kuusei.moe/ssh-key
+bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p 34522 -u https://link.kuusei.moe/ssh-key
 ```
 
 ## trojan/vless config
@@ -63,4 +74,25 @@ croc send <path>
 # dockge 文件夹
 mkdir /home/dockge
 cd /home/dockge
+wget https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/dockge/docker-compose.yml
+wget https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/dockge/.env
+mkdir ./docker
+mkdir ./docker/nezha-agent
+cd ./docker/nezha-agent
+wget https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/nezha-agent/docker-compose.yml
+wget https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/nezha-agent/.env
+cd ../../
+```
+
+## tcp 窗口调优
+
+```shell
+net.ipv4.tcp_window_scaling = 1
+net.core.rmem_max = 33554432
+net.core.wmem_max = 33554432
+net.ipv4.tcp_rmem = 4096 131072 33554432
+net.ipv4.tcp_wmem = 4096 16384 33554432
+
+# 将这个写入 /etc/sysctl.conf, 然后
+sysctl -p
 ```

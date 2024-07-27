@@ -1,0 +1,85 @@
+version: "3.3"
+services:
+  # 网关配置
+  traefik:
+    image: traefik:v3.0
+    restart: unless-stopped
+    container_name: traefik
+    command:
+      - --providers.docker
+      # 禁止自动导出
+      - --providers.docker.exposedbydefault=false
+      - --providers.file.directory=/etc/traefik/config
+      - --api=false
+      - --entrypoints.websecure.address=:443
+      - --global.sendanonymoususage=false
+      - --global.checknewversion=false
+      - --certificatesresolvers.myresolver.acme.tlschallenge=true
+      - --certificatesresolvers.myresolver.acme.email=${email}
+      - --certificatesresolvers.myresolver.acme.storage=/etc/traefik/certs/acme.json
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik/letsencrypt:/letsencrypt
+      - ./traefik:/etc/traefik/config
+      - ./traefik/certs:/etc/traefik/certs
+    network_mode: host
+    extra_hosts:
+      "host.docker.internal": "172.18.0.1"
+  traefik-certs-dumper:
+    image: ldez/traefik-certs-dumper:v2.8.1
+    container_name: traefik-certs-dumper
+    entrypoint: >
+      sh -c 'apk add jq; while ! [ -e /data/acme.json ] || ! jq "[.. | objects |
+      select(has(\"Certificates\")) | .Certificates | length] | any(. > 0)"
+      /data/acme.json; do sleep 1; done && traefik-certs-dumper file --version
+      v2 --watch --source /data/acme.json --dest /data/certs
+      --domain-subdir=true'
+    labels:
+      traefik.enable: false
+    volumes:
+      - ./traefik/certs:/data
+      - ./certs:/data/certs
+  caddy:
+    image: caddy:2.6-alpine
+    container_name: caddy
+    command: caddy file-server
+    networks:
+      - tool_network
+    volumes:
+      - ./index.html:/srv/index.html
+  trojan:
+    image: teddysun/trojan-go:0.10.6
+    container_name: trojan
+    networks:
+      - tool_network
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=tool_network
+      - traefik.tcp.routers.tgo.entrypoints=websecure
+      - traefik.tcp.routers.tgo.rule=HostSNI(`${trojan_host}`)
+      - traefik.tcp.routers.tgo.tls=true
+      - traefik.tcp.routers.tgo.tls.passthrough=true
+      - traefik.tcp.routers.tgo.tls.certresolver=myresolver
+      - traefik.tcp.services.tgo.loadbalancer.server.port=443
+    volumes:
+      - ./trojan.json:/etc/trojan-go/config.json
+      - ./certs/${trojan_host}:/etc/data
+  nezha-agent:
+    image: kuusei/nezha-agent:latest
+    restart: always
+    container_name: nezha-agent
+    environment:
+      - domain=${dashboard_domain}
+      - port=5555
+      - secret=${secret}
+      - args=--disable-auto-update --disable-command-execute
+    network_mode: host
+
+networks:
+  tool_network:
+    driver: bridge
+    name: tool_network
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.18.0.0/24"

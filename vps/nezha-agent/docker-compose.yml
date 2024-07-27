@@ -6,10 +6,8 @@ services:
     restart: always
     container_name: nezha-agent
     environment:
-      - domain=${domain}
+      - domain=${DASHBOARD_DOMAIN}
       - port=5555
-      - secret=${secret}
+      - secret=${SECRET}
       - args=--disable-auto-update --disable-command-execute
-      # - platform=<自定义系统名>
-      # - version=<自定义系统版本>
     network_mode: host
