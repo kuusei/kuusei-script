@@ -1,57 +1,61 @@
 #!/bin/bash
 
+exit_flag=0
+
 function print_menu() {
-  echo
-  PS3="请输入需要执行的选项: "
-  options=("Debian初始化" "测试脚本" "DD" "设置 SSH Key" "Trojan/VLESS 一键脚本" "Install Docker" "Install Dockge" "Install NezhaAgent" "TCP 窗口调优" "退出")
-  select opt in "${options[@]}"
-  do
-      case $opt in
-          "Debian初始化")
-              init_debian
-              print_menu
-              ;;
-          "测试脚本")
-              test_menu
-              print_menu
-              ;;
-          "DD")
-              dd_menu
-              print_menu
-              ;;
-          "设置 SSH Key")
-              set_ssh_key
-              print_menu
-              ;;
-          "Trojan/VLESS 一键脚本")
-              trojan_vless_config
-              print_menu
-              ;;
-          "Install Docker")
-              install_docker
-              print_menu
-              ;;
-          "Install Dockge")
-              install_dockge
-              print_menu
-              ;;
-          "Install NezhaAgent")
-              install_nezha_agent
-              print_menu
-              ;;
-          "TCP 窗口调优")
-              tcp_window_optimization
-              print_menu
-              ;;
-          "退出")
-              echo "DUANG~"
-              break
-              ;;
-          *)
-              echo "无效的选项 $REPLY"
-              print_menu
-              ;;
-      esac
+  while [ $exit_flag -eq 0 ]; do
+    echo
+    PS3="请输入需要执行的选项: "
+    options=("Debian初始化" "测试脚本" "DD" "设置 SSH Key" "Trojan/VLESS 一键脚本" "Install Docker" "Install Dockge" "Install NezhaAgent" "TCP 窗口调优" "退出")
+    select opt in "${options[@]}"
+    do
+        case $opt in
+            "Debian初始化")
+                init_debian
+                break
+                ;;
+            "测试脚本")
+                test_menu
+                break
+                ;;
+            "DD")
+                dd_menu
+                break
+                ;;
+            "设置 SSH Key")
+                set_ssh_key
+                break
+                ;;
+            "Trojan/VLESS 一键脚本")
+                trojan_vless_config
+                break
+                ;;
+            "Install Docker")
+                install_docker
+                break
+                ;;
+            "Install Dockge")
+                install_dockge
+                break
+                ;;
+            "Install NezhaAgent")
+                install_nezha_agent
+                break
+                ;;
+            "TCP 窗口调优")
+                tcp_window_optimization
+                break
+                ;;
+            "退出")
+                echo "DUANG~"
+                exit_flag=1
+                break
+                ;;
+            *)
+                echo "无效的选项 $REPLY"
+                ;;
+        esac
+    done
   done
 }
 
@@ -81,15 +85,15 @@ function test_menu() {
 
 function dd_menu() {
   PS3="请选择要运行的 dd 脚本: "
-  dd_options=("主脚本" "备份" "ARM" "MoeClub" "返回")
+  dd_options=("kuusei fork" "teddysun" "ARM" "MoeClub" "返回")
   select dd_opt in "${dd_options[@]}"
   do
       case $dd_opt in
-          "主脚本")
+          "kuusei fork")
               dd_kuusei
               break
               ;;
-          "备份")
+          "teddysun")
               dd_teddysun
               break
               ;;
@@ -253,14 +257,31 @@ function install_nezha_agent() {
 # 功能: tcp 窗口调优
 function tcp_window_optimization() {
   echo "Optimizing TCP window settings..."
-  cat <<EOT | sudo tee -a /etc/sysctl.conf
-net.ipv4.tcp_window_scaling = 1
-net.core.rmem_max = 33554432
-net.core.wmem_max = 33554432
-net.ipv4.tcp_rmem = 4096 131072 33554432
-net.ipv4.tcp_wmem = 4096 16384 33554432
-EOT
 
+  # 检查并写入配置
+  if ! grep -q "net.ipv4.tcp_window_scaling = 1" /etc/sysctl.conf; then
+    echo "net.ipv4.tcp_window_scaling = 1" | sudo tee -a /etc/sysctl.conf
+  fi
+
+  if ! grep -q "net.core.rmem_max = 33554432" /etc/sysctl.conf; then
+    echo "net.core.rmem_max = 33554432" | sudo tee -a /etc/sysctl.conf
+  fi
+
+  if ! grep -q "net.core.wmem_max = 33554432" /etc/sysctl.conf; then
+    echo "net.core.wmem_max = 33554432" | sudo tee -a /etc/sysctl.conf
+  fi
+
+  if ! grep -q "net.ipv4.tcp_rmem = 4096 131072 33554432" /etc/sysctl.conf; then
+    echo "net.ipv4.tcp_rmem = 4096 131072 33554432" | sudo tee -a /etc/sysctl.conf
+  fi
+
+  if ! grep -q "net.ipv4.tcp_wmem = 4096 16384 33554432" /etc/sysctl.conf; then
+    echo "net.ipv4.tcp_wmem = 4096 16384 33554432" | sudo tee -a /etc/sysctl.conf
+  fi
+
+  echo "Running sysctl -p..."
+
+  # 应用配置
   sudo sysctl -p
 }
 

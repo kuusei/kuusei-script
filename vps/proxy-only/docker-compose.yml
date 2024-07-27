@@ -3,8 +3,8 @@ services:
   # 网关配置
   traefik:
     image: traefik:v3.0
-    restart: unless-stopped
     container_name: traefik
+    restart: always
     command:
       - --providers.docker
       # 禁止自动导出
@@ -28,6 +28,7 @@ services:
   traefik-certs-dumper:
     image: ldez/traefik-certs-dumper:v2.8.1
     container_name: traefik-certs-dumper
+    restart: always
     entrypoint: >
       sh -c 'apk add jq; while ! [ -e /data/acme.json ] || ! jq "[.. | objects |
       select(has(\"Certificates\")) | .Certificates | length] | any(. > 0)"
@@ -42,6 +43,7 @@ services:
   caddy:
     image: caddy:2.6-alpine
     container_name: caddy
+    restart: always
     command: caddy file-server
     networks:
       - tool_network
@@ -50,6 +52,7 @@ services:
   trojan:
     image: teddysun/trojan-go:0.10.6
     container_name: trojan
+    restart: always
     networks:
       - tool_network
     labels:
@@ -66,8 +69,8 @@ services:
       - ./certs/${trojan_host}:/etc/data
   nezha-agent:
     image: kuusei/nezha-agent:latest
-    restart: always
     container_name: nezha-agent
+    restart: always
     environment:
       - domain=${dashboard_domain}
       - port=5555
