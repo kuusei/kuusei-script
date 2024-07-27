@@ -27,7 +27,7 @@ services:
     # 关闭api和traefik面板
     # labels:
     #   - traefik.http.routers.traefik.service=api@internal
-    #   - traefik.http.routers.traefik.rule=Host(`${traefikHost}`)
+    #   - traefik.http.routers.traefik.rule=Host(`${TRAEFIK_HOST}`)
     #   - traefik.http.routers.traefik.entrypoints=websecure
     #   - traefik.http.routers.traefik.tls.certresolver=myresolver
     #   - traefik.http.routers.traefik.middlewares=traefik-auth
