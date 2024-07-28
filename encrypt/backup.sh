@@ -6,7 +6,7 @@ show_help() {
   echo "Options:"
   echo "  --from <source_directory>        Specify the source directory to back up"
   echo "  --backup <backup_directory>      Specify the directory to store backups"
-  echo "  --cron <cron_schedule>           Specify the cron job schedule (default: '0 2 * * *')"
+  echo "  --cron <cron_schedule>           Specify the cron job schedule (default: '30 2,8,14,20 * * *')"
   echo "  --age-recipient <age_key_url>    Specify the URL to download the age public key"
   echo "  -h, --help                       Show this help message and exit"
 }
@@ -66,6 +66,35 @@ fi
 
 mkdir -p "$BACKUP_DIR"
 
+if ! command -v age &> /dev/null; then
+  echo "age is not installed. Attempting to install..."
+  
+  if command -v apt-get &> /dev/null; then
+    . /etc/os-release
+    if [[ "$VERSION_ID" == "11" || "$VERSION_ID" < "11" ]]; then
+      echo "Debian 11 or earlier detected. Adding bullseye-backports repository..."
+      echo "deb http://deb.debian.org/debian bullseye-backports main" | sudo tee -a /etc/apt/sources.list.d/bullseye-backports.list
+      sudo apt-get update
+      sudo apt-get install -y -t bullseye-backports age
+    else
+      sudo apt-get update
+      sudo apt-get install -y age
+    fi
+  elif command -v yum &> /dev/null; then
+    sudo yum install -y age
+  else
+    echo "Package manager not found. Please install age manually."
+    exit 1
+  fi
+  
+  if ! command -v age &> /dev/null; then
+    echo "Failed to install age. Exiting."
+    exit 1
+  fi
+  
+  echo "age installed successfully."
+fi
+
 # Remove existing cron job if it exists
 existing_crontab=$(crontab -l 2>/dev/null)
 if [ -n "$existing_crontab" ]; then
@@ -82,23 +111,32 @@ TIMESTAMP=\$(date +'%Y%m%d%H%M%S')
 BACKUP_FILE="backup_\${TIMESTAMP}.tar.gz"
 ENCRYPTED_FILE="backup_\${TIMESTAMP}.tar.gz.age"
 AGE_KEY_URL="$AGE_KEY_URL"
+LOG_FILE="\$BACKUP_DIR/backup.log"
 
-tar -czf "\$BACKUP_DIR/\$BACKUP_FILE" -C "\$SOURCE_DIR" .
+log() {
+  echo "\$(date +'%Y-%m-%d %H:%M:%S') - \$1" >> "\$LOG_FILE"
+}
+
+tar -czf "\$BACKUP_DIR/\$BACKUP_FILE" -C "\$SOURCE_DIR" . &>> "\$LOG_FILE"
 
 if [[ \$? -eq 0 ]]; then
-  echo "Backup successful: \$BACKUP_DIR/\$BACKUP_FILE"
-  curl -sL "\$AGE_KEY_URL" -o /tmp/age-key.pub
-  age -R /tmp/age-key.pub -o "\$BACKUP_DIR/\$ENCRYPTED_FILE" "\$BACKUP_DIR/\$BACKUP_FILE"
+  log "Backup successful: \$BACKUP_DIR/\$BACKUP_FILE"
+  curl -sL "\$AGE_KEY_URL" -o /tmp/age-key.pub &>> "\$LOG_FILE"
+  age -R /tmp/age-key.pub -o "\$BACKUP_DIR/\$ENCRYPTED_FILE" "\$BACKUP_DIR/\$BACKUP_FILE" &>> "\$LOG_FILE"
   
   if [[ \$? -eq 0 ]]; then
-    echo "Encryption successful: \$BACKUP_DIR/\$ENCRYPTED_FILE"
+    log "Encryption successful: \$BACKUP_DIR/\$ENCRYPTED_FILE"
     rm "\$BACKUP_DIR/\$BACKUP_FILE"
   else
-    echo "Encryption failed"
+    log "Encryption failed"
+    exit 1
   fi
 else
-  echo "Backup failed"
+  log "Backup failed"
+  exit 1
 fi
+
+find "\$BACKUP_DIR" -name "backup_*.tar.gz" -exec rm {} \;
 EOF
 
 chmod +x "$BACKUP_SCRIPT"
