@@ -143,6 +143,13 @@ chmod +x "$BACKUP_SCRIPT"
 
 "$BACKUP_SCRIPT"
 
+if [[ $? -ne 0 ]]; then
+  echo "Backup script execution failed. Please check the log file at \$BACKUP_DIR/backup.log for details."
+  exit 1
+else
+  echo "Backup script executed successfully."
+fi
+
 (crontab -l 2>/dev/null; echo "$CRON_JOB $BACKUP_SCRIPT") | crontab -
 
 echo "Backup script and crontab job have been set up."
