@@ -2,6 +2,7 @@
 
 ENCRYPTED_FILE=""
 DECRYPTED_FILE=""
+KEY="VPS Encrypt"
 
 while [[ $# -gt 0 ]]; do
   case $1 in
@@ -13,9 +14,13 @@ while [[ $# -gt 0 ]]; do
       DECRYPTED_FILE="$2"
       shift 2
       ;;
+    -k|--key)
+      KEY="$2"
+      shift 2
+      ;;
     *)
       echo "Invalid option: $1"
-      echo "Usage: $0 [-i input_file] [-o output_file]"
+      echo "Usage: $0 [-i input_file] [-o output_file] [-n item_name]"
       exit 1
       ;;
   esac
@@ -29,7 +34,7 @@ if [[ -z "$DECRYPTED_FILE" ]]; then
   read -p "Please enter the path to the output decrypted file: " DECRYPTED_FILE
 fi
 
-SSH_KEY=$(op item get "VPS Encrypt" --fields label="private key" --reveal)
+SSH_KEY=$(op item get "$KEY" --fields label="private key" --reveal)
 
 if [[ -z "$SSH_KEY" ]]; then
   echo "Failed to retrieve SSH key from 1Password"
