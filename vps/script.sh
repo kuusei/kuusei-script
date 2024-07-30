@@ -85,11 +85,11 @@ function test_menu() {
 
 function dd_menu() {
   PS3="请选择要运行的 dd 脚本: "
-  dd_options=("kuusei fork" "teddysun" "ARM" "MoeClub" "返回")
+  dd_options=("Kuusei-Fork" "Teddysun" "ARM" "MoeClub" "返回")
   select dd_opt in "${dd_options[@]}"
   do
       case $dd_opt in
-          "Kuusei Fork")
+          "Kuusei-Fork")
               dd_kuusei
               break
               ;;
