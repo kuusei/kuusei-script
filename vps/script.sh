@@ -207,7 +207,7 @@ function trojan_vless_config() {
   )
 
   for file in "${files[@]}"; do
-    if wget -O "$proxy_dir/$file" "$base_url/$file"; then
+    if wget -q -O "$proxy_dir/$file" "$base_url/$file"; then
       echo "✓ Successfully downloaded $file"
     else
       echo "✗ Failed to download $file"

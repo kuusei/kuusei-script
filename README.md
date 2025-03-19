@@ -2,13 +2,13 @@
 
 此脚本绝大部分情况下只能在 Debian 使用, 不建议其他系统使用
 ```shell
-bash <(curl -sL https://link.kuusei.moe/vps-script)
+bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script)
 ```
 对于全新机器, 可以直接安装 bash 并启动自动安装模式
 ```shell
-bash <(curl -sL https://link.kuusei.moe/vps-script) -x
+bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script) -x
 # or
-apt-get update && apt install curl -y && bash <(curl -sL https://link.kuusei.moe/vps-script) -x
+apt-get update && apt install curl -y && bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script) -x
 ```
 
 | 参数    | 功能                                                         | 示例                                  |
