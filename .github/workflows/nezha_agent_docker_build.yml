@@ -28,11 +28,24 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
     
-      -
-        name: Build and push
-        uses: docker/build-push-action@v5
-        with:
-          context: nezha-agent
-          push: true
-          platforms: linux/amd64,linux/arm64,linux/386
-          tags: kuusei/nezha-agent:latest
+      # Fetch the latest Nezha Agent release version
+      - name: Check for Nezha Agent updates
+        run: |
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/nezhahq/agent/releases/latest | jq -r '.tag_name')
+          if [[ -z "$LATEST_VERSION" ]]; then
+            echo "Failed to get latest version" >&2
+            exit 1
+          fi
+          echo "LATEST_VERSION=$LATEST_VERSION" >> $GITHUB_ENV
+          echo "LATEST_VERSION is $LATEST_VERSION"
+
+      # Build and push the multi-architecture Docker image
+      - name: Build and push multi-arch Docker image
+        working-directory: nezha-agent
+        run: |
+          docker buildx build --platform linux/amd64,linux/arm64 \
+            --build-arg VERSION=${{ env.LATEST_VERSION }} \
+            --tag kuusei/nezha-agent:${{ env.LATEST_VERSION }} \
+            --tag kuusei/nezha-agent:latest \
+            --push \
+            .

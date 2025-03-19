@@ -1,21 +1,37 @@
-FROM debian:11-slim
+# Use multi-platform build to avoid QEMU simulation issues
+FROM alpine:latest
 
-ARG NEZHA_VER=0.15.19
+# Set non-interactive mode to prevent prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
 
-ENV domain="" port="5555" secret="" args="--disable-auto-update" platform="" version=""
+# Define architecture-based variables
+ARG TARGETARCH
+ARG VERSION
+ENV AGENT_URL=https://github.com/nezhahq/agent/releases/download/${VERSION}/nezha-agent_linux_${TARGETARCH}.zip
 
-WORKDIR /usr/local/bin
+# Install necessary dependencies
+RUN apk add --no-cache \
+    curl \
+    wget \
+    unzip \
+    ca-certificates \
+    uuidgen
 
-COPY ./entrypoint.sh /usr/local/bin/
+# Create the working directory for Nezha Agent
+RUN mkdir -p /usr/local/bin/nezha && cd /usr/local/bin/nezha
 
-RUN apt-get update &&\
-    apt-get install -y --no-install-recommends tini wget unzip ca-certificates &&\
-    rm -rf /var/lib/apt/lists/* &&\
-    arch=$(uname -m | sed "s#x86_64#amd64#; s#aarch64#arm64#; s#i386#386#") &&\
-    wget -O ./nezha-agent.zip -t 4 -T 5 "https://github.com/nezhahq/agent/releases/download/v${NEZHA_VER}/nezha-agent_linux_${arch}.zip" &&\
-    unzip ./nezha-agent.zip &&\
-    rm -f ./nezha-agent.zip &&\
-    chmod +x ./entrypoint.sh &&\
-    chmod +x ./nezha-agent
+# Download and extract the Nezha Agent binary
+RUN wget $AGENT_URL -O nezha-agent.zip && \
+    unzip nezha-agent.zip && \
+    chmod +x nezha-agent && \
+    rm -f nezha-agent.zip
 
-ENTRYPOINT ["/usr/bin/tini","-g","--","/usr/local/bin/entrypoint.sh"]
+# Copy the setup configuration script
+COPY setup-config.sh /usr/local/bin/nezha/setup-config.sh
+RUN chmod +x /usr/local/bin/nezha/setup-config.sh && \
+    ls -la /usr/local/bin/nezha/setup-config.sh
+
+# Set working directory
+WORKDIR /usr/local/bin/nezha
+
+CMD ["sh", "-c", "./setup-config.sh && ./nezha-agent -c config.yml"]
