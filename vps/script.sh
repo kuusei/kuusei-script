@@ -192,8 +192,61 @@ function set_ssh_key() {
 
 # 功能: trojan/vless config
 function trojan_vless_config() {
-  echo "Configuring Trojan/VLESS..."
-  wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+  echo "Configuring Proxy Service..."
+
+  # Create necessary directories
+  proxy_dir="/home/dockge/docker/proxy"
+  mkdir -p "$proxy_dir"
+
+  # Download configuration files
+  base_url="https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/proxy"
+  files=(
+    "docker-compose.yml"
+    "index.html"
+    "trojan.json"
+  )
+
+  for file in "${files[@]}"; do
+    if wget -O "$proxy_dir/$file" "$base_url/$file"; then
+      echo "✓ Successfully downloaded $file"
+    else
+      echo "✗ Failed to download $file"
+      exit 1
+    fi
+  done
+
+  # Get configuration information
+  read -p "Enter your domain: " domain_name
+  domain_name=${domain_name:-"example.com"}
+  # Generate random password
+  trojan_password=$(openssl rand -base64 16)
+  echo "Generated random password: $trojan_password"
+
+  # Create and update environment file
+  env_file="$proxy_dir/.env"
+  if [ ! -f "$env_file" ]; then
+    touch "$env_file"
+  fi
+
+  # Update environment variables
+  sed -i "/^host=/d" "$env_file"
+  echo "host=$domain_name" >> "$env_file"
+
+  # Update trojan configuration
+  sed -i "s/<password>/$trojan_password/g" "$proxy_dir/trojan.json"
+
+  # Start services
+  cd "$proxy_dir" && docker compose up -d
+
+  echo "--------------------"
+  echo "Installation completed!"
+  echo "Domain: $domain_name"
+  echo "Password: $trojan_password"
+  echo "--------------------"
+  echo "Please ensure:"
+  echo "1. Domain is correctly pointed to the server"
+  echo "2. Traefik service is properly configured and running"
+  echo "3. Wait for certificate to be automatically issued"
 }
 
 # 功能: docker 安装

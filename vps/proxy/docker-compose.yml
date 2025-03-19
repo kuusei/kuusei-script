@@ -24,11 +24,14 @@ services:
     volumes:
       - ./index.html:/srv/index.html
   trojan:
-    image: teddysun/trojan:1.16.0
+    image: teddysun/trojan-go:0.10.6
     container_name: trojan
+    restart: always
     networks:
       - tool_network
     labels:
+      - traefik.enable=true
+      - traefik.docker.network=tool_network
       - traefik.tcp.routers.tgo.entrypoints=websecure
       - traefik.tcp.routers.tgo.rule=HostSNI(`${host}`)
       - traefik.tcp.routers.tgo.tls=true
@@ -36,7 +39,7 @@ services:
       - traefik.tcp.routers.tgo.tls.certresolver=myresolver
       - traefik.tcp.services.tgo.loadbalancer.server.port=443
     volumes:
-      - ./trojan.json:/etc/trojan/config.json
+      - ./trojan.json:/etc/trojan-go/config.json
       - /home/dockge/certs/${host}:/etc/data
 networks:
   tool_network:
