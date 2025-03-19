@@ -332,32 +332,30 @@ function install_nezha_agent() {
 }
 
 # 功能: tcp 窗口调优
-function tcp_window_optimization() {
+tcp_window_optimization() {
   echo "Optimizing TCP window settings..."
 
-  # 检查并写入配置
-  if ! grep -q "net.ipv4.tcp_window_scaling = 1" /etc/sysctl.conf; then
-    echo "net.ipv4.tcp_window_scaling = 1" | sudo tee -a /etc/sysctl.conf
-  fi
+  # 删除已有的相关配置（如果存在）
+  sudo sed -i '/net.core.default_qdisc/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_congestion_control/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_rmem/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_wmem/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_window_scaling/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_adv_win_scale/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_notsent_lowat/d' /etc/sysctl.conf
+  sudo sed -i '/net.ipv4.tcp_slow_start_after_idle/d' /etc/sysctl.conf
 
-  if ! grep -q "net.core.rmem_max = 33554432" /etc/sysctl.conf; then
-    echo "net.core.rmem_max = 33554432" | sudo tee -a /etc/sysctl.conf
-  fi
-
-  if ! grep -q "net.core.wmem_max = 33554432" /etc/sysctl.conf; then
-    echo "net.core.wmem_max = 33554432" | sudo tee -a /etc/sysctl.conf
-  fi
-
-  if ! grep -q "net.ipv4.tcp_rmem = 4096 131072 33554432" /etc/sysctl.conf; then
-    echo "net.ipv4.tcp_rmem = 4096 131072 33554432" | sudo tee -a /etc/sysctl.conf
-  fi
-
-  if ! grep -q "net.ipv4.tcp_wmem = 4096 16384 33554432" /etc/sysctl.conf; then
-    echo "net.ipv4.tcp_wmem = 4096 16384 33554432" | sudo tee -a /etc/sysctl.conf
-  fi
+  # 追加新的配置
+  echo "net.core.default_qdisc = cake" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_congestion_control = bbr" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_rmem = 8192 262144 67108864" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_wmem = 4096 16384 67108864" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_window_scaling = 1" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_adv_win_scale = -2" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_notsent_lowat = 131072" | sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_slow_start_after_idle = 0" | sudo tee -a /etc/sysctl.conf
 
   echo "Running sysctl -p..."
-
   # 应用配置
   sudo sysctl -p
 }
