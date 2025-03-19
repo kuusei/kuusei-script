@@ -163,7 +163,8 @@ function dd_moeclub() {
 function init_debian() {
   echo "Initializing Debian..."
   apt update -y && apt upgrade -y
-  apt install sudo curl wget vim tmux git rsync htop -y
+  apt install sudo curl wget vim tmux git rsync htop systemd-timesyncd -y
+  timedatectl set-ntp true
   
   echo "Installing croc..."
   curl https://getcroc.schollz.com | bash
