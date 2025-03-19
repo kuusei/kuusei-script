@@ -246,6 +246,11 @@ function install_dockge() {
 function install_nezha_agent() {
   echo "Installing nezha-agent..."
 
+  if ! command -v uuidgen &> /dev/null; then
+    echo "Installing uuid-runtime..."
+    apt-get update && apt-get install -y uuid-runtime
+  fi
+
   nezha_agent_dir="/home/dockge/docker/nezha-agent"
   mkdir -p "$nezha_agent_dir"
 
@@ -254,6 +259,9 @@ function install_nezha_agent() {
   read -p "Please enter the dashboard domain: " dashboard_domain
   dashboard_domain=${dashboard_domain:-"localhost"}
   read -p "Please enter the secret: " secret
+  
+  generated_uuid=$(uuidgen)
+  echo "Generated UUID: $generated_uuid"
 
   env_file="$nezha_agent_dir/.env"
   if [ ! -f "$env_file" ]; then
@@ -263,6 +271,8 @@ function install_nezha_agent() {
   echo "DASHBOARD_DOMAIN=$dashboard_domain" >> "$env_file"
   sed -i "/^SECRET=/d" "$env_file"
   echo "SECRET=$secret" >> "$env_file"
+  sed -i "/^UUID=/d" "$env_file"
+  echo "UUID=$generated_uuid" >> "$env_file"
 
   docker compose -f "$nezha_agent_dir/docker-compose.yml" up -d
 }

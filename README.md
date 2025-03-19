@@ -8,7 +8,7 @@ bash <(curl -sL https://link.kuusei.moe/vps-script)
 ```shell
 bash <(curl -sL https://link.kuusei.moe/vps-script) -x
 # or
-apt install curl -y && bash <(curl -sL https://link.kuusei.moe/vps-script) -x
+apt-get update && apt install curl -y && bash <(curl -sL https://link.kuusei.moe/vps-script) -x
 ```
 
 | 参数    | 功能                                                         | 示例                                  |

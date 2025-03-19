@@ -1,13 +1,12 @@
 version: "3.3"
-
 services:
   nezha-agent:
-    image: kuusei/nezha-agent:latest
-    restart: always
     container_name: nezha-agent
     environment:
-      - domain=${DASHBOARD_DOMAIN}
-      - port=5555
-      - secret=${SECRET}
-      - args=--disable-auto-update --disable-command-execute
+      - SERVER=${DASHBOARD_DOMAIN}
+      - CLIENT_SECRET=${SECRET}
+      - UUID=${UUID}
+    image: kuusei/nezha-agent:v1.9.5
+    restart: unless-stopped
     network_mode: host
+networks: {}
