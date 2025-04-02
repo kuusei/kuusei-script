@@ -6,6 +6,7 @@ services:
       - SERVER=${DASHBOARD_DOMAIN}
       - CLIENT_SECRET=${SECRET}
       - UUID=${UUID}
+      - NZ_DISABLE_COMMAND_EXECUTE=true
     image: kuusei/nezha-agent:v1.9.5
     restart: unless-stopped
     network_mode: host
