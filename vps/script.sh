@@ -2,6 +2,14 @@
 
 exit_flag=0
 
+function require_command() {
+  local cmd="$1"
+  if ! command -v "$cmd" >/dev/null 2>&1; then
+    echo "错误: 缺少依赖命令 '$cmd'，请先安装后再运行。"
+    return 1
+  fi
+}
+
 function print_menu() {
   while [ $exit_flag -eq 0 ]; do
     echo
@@ -118,18 +126,21 @@ function dd_menu() {
 # 功能: 测试: yabs
 function test_yabs() {
   echo "Running yabs script..."
-  curl -sL yabs.sh | bash
+  require_command curl || return 1
+  curl -sL https://yabs.sh | bash
 }
 
 # 功能: 测试: 融合怪
 function test_fusion_monster() {
   echo "Running fusion monster script..."
+  require_command curl || return 1
   curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
 }
 
 # 功能: dd: kuusei fork
 function dd_kuusei() {
   echo "Running dd: kuusei fork script..."
+  require_command wget || return 1
   read -p "Please enter the password to use for dd Debian 12 scripts (default: default_password): " password
   password=${password:-default_password}
   read -p "Please enter the SSH port (default: 34522): " ssh_port
@@ -140,18 +151,21 @@ function dd_kuusei() {
 # 功能: dd: teddysun
 function dd_teddysun() {
   echo "Running dd: teddysun script..."
+  require_command wget || return 1
   wget -qO InstallNET.sh https://github.com/teddysun/across/raw/master/InstallNET.sh && bash InstallNET.sh
 }
 
 # 功能: dd: arm leitbogioro
 function dd_arm() {
   echo "Running dd: arm leitbogioro script..."
+  require_command wget || return 1
   wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian
 }
 
 # 功能: dd: MoeClub
 function dd_moeclub() {
   echo "Running dd: MoeClub script..."
+  require_command wget || return 1
   read -p "Please enter the password to use for dd Debian 12 scripts (default: default_password): " password
   password=${password:-default_password}
   read -p "Please enter the SSH port (default: 34522): " ssh_port
@@ -173,6 +187,7 @@ function init_debian() {
 # 功能: set ssh key
 function set_ssh_key() {
   echo "设置 SSH 密钥..."
+  require_command curl || return 1
   
   # 使用提供的 URL 或提示用户输入
   if [ -z "$ssh_key_url" ]; then
@@ -185,7 +200,10 @@ function set_ssh_key() {
 
   read -p "请输入 SSH 端口 (默认: 34522): " ssh_port
   ssh_port=${ssh_port:-34522}
-  bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p "$ssh_port" -u "$ssh_key_url"
+  if ! bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p "$ssh_port" -u "$ssh_key_url"; then
+    echo "SSH 密钥设置失败，请检查 URL 和网络连接。"
+    return 1
+  fi
 
   echo "SSH 密钥设置完成。"
   cat /root/.ssh/authorized_keys
@@ -194,6 +212,9 @@ function set_ssh_key() {
 # 功能: trojan/vless config
 function trojan_vless_config() {
   echo "Configuring Proxy Service..."
+  require_command wget || return 1
+  require_command openssl || return 1
+  require_command docker || return 1
 
   # Create necessary directories
   proxy_dir="/home/dockge/docker/proxy"
@@ -237,7 +258,11 @@ function trojan_vless_config() {
   sed -i "s/<password>/$trojan_password/g" "$proxy_dir/trojan.json"
 
   # Start services
-  cd "$proxy_dir" && docker compose up -d
+  if ! cd "$proxy_dir"; then
+    echo "✗ Failed to enter $proxy_dir"
+    return 1
+  fi
+  docker compose up -d
 
   echo "--------------------"
   echo "Installation completed!"
@@ -272,6 +297,8 @@ function install_docker() {
 # 功能: dockge 安装
 function install_dockge() {
   echo "Installing dockge..."
+  require_command wget || return 1
+  require_command docker || return 1
 
   # 检查并创建目录
   dockge_dir="/home/dockge"
@@ -299,6 +326,8 @@ function install_dockge() {
 # 功能: nezha-agent 安装
 function install_nezha_agent() {
   echo "Installing nezha-agent..."
+  require_command wget || return 1
+  require_command docker || return 1
 
   if ! command -v uuidgen &> /dev/null; then
     echo "Installing uuid-runtime..."
