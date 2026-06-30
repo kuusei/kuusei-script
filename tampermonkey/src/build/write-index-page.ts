@@ -66,6 +66,7 @@ export async function writeIndexPage(
     .map((script) => {
       const title = escapeHtml(script.meta.name);
       const description = escapeHtml(script.meta.description);
+      const author = escapeHtml(script.meta.author);
       const version = escapeHtml(script.meta.version);
       const updatedAt = escapeHtml(formatUpdatedAt(script.meta.updatedAt));
       const installHref = `./${script.name}.user.js`;
@@ -86,6 +87,7 @@ export async function writeIndexPage(
                 <code>${script.name}</code>
               </div>
               <div class="script-meta">
+                <span>作者：${author}</span>
                 <span>版本：${version}</span>
                 <span>更新时间：${updatedAt}</span>
               </div>
