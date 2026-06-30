@@ -53,3 +53,4 @@ tampermonkey/
    - `tampermonkey/dist/index.html`
    - `tampermonkey/dist/<script-name>.user.js`
    - `tampermonkey/dist/<script-name>.meta.js`
+   - `tampermonkey/dist/<script-name>.full.js`

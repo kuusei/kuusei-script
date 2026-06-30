@@ -73,20 +73,24 @@ function userscriptBanner(meta: UserscriptMeta) {
   ].join("\n");
 }
 
-function createUserBuildOptions(script: ScriptEntry): BuildOptions {
+function createBuildOptions(
+  script: ScriptEntry,
+  outFile: string,
+  minify: boolean,
+): BuildOptions {
   return {
     alias: {
       "@": path.join(__dirname, "src"),
     },
     entryPoints: [script.entry],
-    outfile: path.join(distDir, `${script.name}.user.js`),
+    outfile: outFile,
     bundle: true,
     format: "iife",
     platform: "browser",
     target: "es2020",
     charset: "utf8",
     legalComments: "none",
-    minify: true,
+    minify,
     banner: {
       js: userscriptBanner(resolveMeta(script)),
     },
@@ -102,9 +106,26 @@ async function writeMetaFile(script: ScriptEntry) {
 }
 
 async function buildScript(script: ScriptEntry) {
-  await build(createUserBuildOptions(script));
+  await build(
+    createBuildOptions(
+      script,
+      path.join(distDir, `${script.name}.user.js`),
+      true,
+    ),
+  );
   console.log(
     `[build:user] ${script.name} -> ${path.relative(__dirname, path.join(distDir, `${script.name}.user.js`))}`,
+  );
+
+  await build(
+    createBuildOptions(
+      script,
+      path.join(distDir, `${script.name}.full.js`),
+      false,
+    ),
+  );
+  console.log(
+    `[build:full] ${script.name} -> ${path.relative(__dirname, path.join(distDir, `${script.name}.full.js`))}`,
   );
 
   await writeMetaFile(script);
@@ -125,7 +146,13 @@ async function run() {
 
   if (watchMode) {
     for (const script of scripts) {
-      const ctx = await context(createUserBuildOptions(script));
+      const ctx = await context(
+        createBuildOptions(
+          script,
+          path.join(distDir, `${script.name}.user.js`),
+          true,
+        ),
+      );
       await ctx.watch();
       console.log(
         `[watch:user] ${script.name} -> ${path.relative(__dirname, path.join(distDir, `${script.name}.user.js`))}`,
@@ -135,7 +162,7 @@ async function run() {
   }
 
   await Promise.all(scripts.map(buildScript));
-  await writeIndexPage(distDir, scripts);
+  await writeIndexPage(distDir, scripts, pagesBaseUrl);
   console.log(
     `[build:index] index -> ${path.relative(__dirname, path.join(distDir, "index.html"))}`,
   );

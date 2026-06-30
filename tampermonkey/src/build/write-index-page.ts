@@ -39,8 +39,15 @@ function renderReadme(readme: string) {
   return `<div class="script-readme">${escapeHtml(readme.trim())}</div>`;
 }
 
-export async function writeIndexPage(distDir: string, scripts: ScriptEntry[]) {
+export async function writeIndexPage(
+  distDir: string,
+  scripts: ScriptEntry[],
+  pageBaseUrl?: string,
+) {
   const css = await readFile(new URL("./index-page.css", import.meta.url), "utf8");
+  const pageTitle = "Tampermonkey 脚本列表";
+  const pageDescription = "自动构建的脚本发布页，按更新时间倒序展示当前可安装脚本。";
+  const pageUrl = pageBaseUrl?.replace(/\/$/, "") || "";
   const items = scripts
     .slice()
     .sort((left, right) => {
@@ -55,6 +62,7 @@ export async function writeIndexPage(distDir: string, scripts: ScriptEntry[]) {
       const updatedAt = escapeHtml(formatUpdatedAt(script.meta.updatedAt));
       const installHref = `./${script.name}.user.js`;
       const metaHref = `./${script.name}.meta.js`;
+      const fullHref = `./${script.name}.full.js`;
 
       return `
         <article class="script-card">
@@ -73,6 +81,7 @@ export async function writeIndexPage(distDir: string, scripts: ScriptEntry[]) {
           <div class="script-links">
             <a class="primary" href="${installHref}" target="_blank" rel="noopener noreferrer">安装脚本</a>
             <a href="${metaHref}" target="_blank" rel="noopener noreferrer">查看元信息</a>
+            <a href="${fullHref}" target="_blank" rel="noopener noreferrer">查看完整源码</a>
           </div>
         </article>
       `;
@@ -84,13 +93,18 @@ export async function writeIndexPage(distDir: string, scripts: ScriptEntry[]) {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tampermonkey 脚本列表</title>
+    <title>${pageTitle}</title>
+    <meta name="description" content="${pageDescription}" />
+    <meta property="og:title" content="${pageTitle}" />
+    <meta property="og:description" content="${pageDescription}" />
+    <meta property="og:type" content="website" />
+    ${pageUrl ? `<meta property="og:url" content="${pageUrl}/" />` : ""}
     <style>${css}</style>
   </head>
   <body>
     <main>
-      <h1>Tampermonkey 脚本列表</h1>
-      <p class="lead">自动构建的脚本发布页，按更新时间倒序展示当前可安装脚本。</p>
+      <h1>${pageTitle}</h1>
+      <p class="lead">${pageDescription}</p>
       <section class="grid">${items}
       </section>
     </main>
