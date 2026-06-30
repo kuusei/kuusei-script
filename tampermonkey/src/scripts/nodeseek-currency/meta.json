@@ -1,0 +1,18 @@
+{
+  "name": "Nodeseek 货币转化脚本",
+  "namespace": "http://www.nodeseek.com/",
+  "version": "1.24",
+  "updatedAt": "2025-07-27T00:00:00+08:00",
+  "description": "为 Nodeseek 帖子里的外币价格显示人民币参考",
+  "author": "kuusei",
+  "icon": "https://www.nodeseek.com/static/image/favicon/android-chrome-192x192.png",
+  "match": [
+    "*://www.nodeseek.com/*"
+  ],
+  "grant": [
+    "none"
+  ],
+  "connect": [
+    "open.er-api.com"
+  ]
+}
