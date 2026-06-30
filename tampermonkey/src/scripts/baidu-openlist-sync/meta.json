@@ -1,0 +1,20 @@
+{
+  "name": "百度网盘转存自动同步下载",
+  "namespace": "http://tampermonkey.net/",
+  "version": "4.4.0",
+  "description": "转存自动同步下载",
+  "author": "YourName",
+  "match": [
+    "https://pan.baidu.com/disk/*",
+    "https://pan.baidu.com/s/*"
+  ],
+  "grant": [
+    "GM_xmlhttpRequest",
+    "GM_setValue",
+    "GM_getValue",
+    "GM_registerMenuCommand"
+  ],
+  "connect": [
+    "*"
+  ]
+}

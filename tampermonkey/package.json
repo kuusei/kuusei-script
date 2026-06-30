@@ -1,0 +1,19 @@
+{
+  "name": "kuusei-tampermonkey",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "bun@1.2.17",
+  "scripts": {
+    "build": "bun run ./build.ts",
+    "build:typecheck": "tsc --noEmit && bun run ./build.ts",
+    "dev": "bun run ./build.ts --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@types/tampermonkey": "^5.0.4",
+    "esbuild": "^0.25.6",
+    "typescript": "^5.8.3"
+  }
+}
