@@ -4,7 +4,7 @@
   "version": "4.4.0",
   "updatedAt": "2026-06-30T23:30:00+08:00",
   "description": "转存自动同步下载",
-  "author": "YourName",
+  "author": "kuusei",
   "match": [
     "https://pan.baidu.com/disk/*",
     "https://pan.baidu.com/s/*"

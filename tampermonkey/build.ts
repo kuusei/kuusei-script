@@ -48,6 +48,7 @@ function resolveMeta(script: ScriptEntry) {
   return pagesBaseUrl
     ? {
         ...script.meta,
+        homepageURL: `${pagesBaseUrl}`,
         downloadURL: `${pagesBaseUrl}/${script.name}.user.js`,
         updateURL: `${pagesBaseUrl}/${script.name}.meta.js`,
       }
@@ -62,9 +63,12 @@ function userscriptBanner(meta: UserscriptMeta) {
     `// @version      ${meta.version}`,
     `// @description  ${meta.description}`,
     `// @author       ${meta.author}`,
+    ...(meta.icon ? [`// @icon         ${meta.icon}`] : []),
     ...meta.match.map((item) => `// @match        ${item}`),
     ...meta.grant.map((item) => `// @grant        ${item}`),
     ...(meta.connect ?? []).map((item) => `// @connect      ${item}`),
+    ...(meta.license ? [`// @license      ${meta.license}`] : []),
+    ...(meta.homepageURL ? [`// @homepageURL  ${meta.homepageURL}`] : []),
     ...(meta.downloadURL ? [`// @downloadURL  ${meta.downloadURL}`] : []),
     ...(meta.updateURL ? [`// @updateURL     ${meta.updateURL}`] : []),
     ...(meta.runAt ? [`// @run-at       ${meta.runAt}`] : []),

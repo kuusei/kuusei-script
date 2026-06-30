@@ -43,12 +43,42 @@ h1 {
   box-shadow: 0 10px 30px rgba(25, 39, 68, 0.06);
 }
 
+.script-layout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.script-body {
+  min-width: 0;
+  flex: 1;
+}
+
 .script-head {
   display: flex;
   gap: 12px;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.script-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  object-fit: cover;
+  background: #eef3fb;
+  border: 1px solid #dde4f0;
+  flex: 0 0 auto;
+}
+
+.script-logo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #245bdb;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .script-card h2 {

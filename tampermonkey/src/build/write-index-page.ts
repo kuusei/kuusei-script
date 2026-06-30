@@ -39,6 +39,14 @@ function renderReadme(readme: string) {
   return `<div class="script-readme">${escapeHtml(readme.trim())}</div>`;
 }
 
+function renderLogo(name: string, icon?: string) {
+  if (icon) {
+    return `<img class="script-logo" src="${escapeHtml(icon)}" alt="${escapeHtml(name)} logo" loading="lazy" />`;
+  }
+
+  return `<div class="script-logo script-logo-fallback" aria-hidden="true">${escapeHtml(name.slice(0, 1).toUpperCase())}</div>`;
+}
+
 export async function writeIndexPage(
   distDir: string,
   scripts: ScriptEntry[],
@@ -63,25 +71,31 @@ export async function writeIndexPage(
       const installHref = `./${script.name}.user.js`;
       const metaHref = `./${script.name}.meta.js`;
       const fullHref = `./${script.name}.full.js`;
+      const logo = renderLogo(script.meta.name, script.meta.icon);
 
       return `
-        <article class="script-card">
-          <div class="script-head">
-            <div>
-              <h2>${title}</h2>
-              <p class="script-desc">${description}</p>
+        <article class="script-card" id="${script.name}">
+          <div class="script-layout">
+            ${logo}
+            <div class="script-body">
+              <div class="script-head">
+                <div>
+                  <h2>${title}</h2>
+                  <p class="script-desc">${description}</p>
+                </div>
+                <code>${script.name}</code>
+              </div>
+              <div class="script-meta">
+                <span>版本：${version}</span>
+                <span>更新时间：${updatedAt}</span>
+              </div>
+              ${renderReadme(script.readme)}
+              <div class="script-links">
+                <a class="primary" href="${installHref}" target="_blank" rel="noopener noreferrer">安装脚本</a>
+                <a href="${metaHref}" target="_blank" rel="noopener noreferrer">查看元信息</a>
+                <a href="${fullHref}" target="_blank" rel="noopener noreferrer">查看完整源码</a>
+              </div>
             </div>
-            <code>${script.name}</code>
-          </div>
-          <div class="script-meta">
-            <span>版本：${version}</span>
-            <span>更新时间：${updatedAt}</span>
-          </div>
-          ${renderReadme(script.readme)}
-          <div class="script-links">
-            <a class="primary" href="${installHref}" target="_blank" rel="noopener noreferrer">安装脚本</a>
-            <a href="${metaHref}" target="_blank" rel="noopener noreferrer">查看元信息</a>
-            <a href="${fullHref}" target="_blank" rel="noopener noreferrer">查看完整源码</a>
           </div>
         </article>
       `;

@@ -1,0 +1,21 @@
+{
+  "name": "EH高亮本地本子",
+  "namespace": "http://tampermonkey.net/",
+  "version": "2025.01.12",
+  "updatedAt": "2025-01-12T00:00:00+08:00",
+  "description": "彩色高亮本地 exhentai-manga-manager 中存在的本子",
+  "author": "Cury & kuusei",
+  "icon": "https://raw.githubusercontent.com/SchneeHertz/exhentai-manga-manager/master/public/icon.png",
+  "license": "MIT",
+  "match": [
+    "*://exhentai.org/*",
+    "*://e-hentai.org/*"
+  ],
+  "grant": [
+    "GM_addStyle",
+    "GM.xmlHttpRequest"
+  ],
+  "connect": [
+    "localhost"
+  ]
+}
