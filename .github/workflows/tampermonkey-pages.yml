@@ -41,7 +41,7 @@ jobs:
 
       - name: Build
         env:
-          PAGES_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/tampermonkey
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
         run: bun run build
 
       - name: Prepare Pages artifact
