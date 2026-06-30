@@ -2,6 +2,7 @@ export type UserscriptMeta = {
   name: string;
   namespace: string;
   version: string;
+  updatedAt?: string;
   description: string;
   author: string;
   match: string[];

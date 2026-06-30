@@ -2,6 +2,7 @@
   "name": "百度网盘转存自动同步下载",
   "namespace": "http://tampermonkey.net/",
   "version": "4.4.0",
+  "updatedAt": "2026-06-30T23:30:00+08:00",
   "description": "转存自动同步下载",
   "author": "YourName",
   "match": [

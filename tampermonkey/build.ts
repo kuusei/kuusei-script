@@ -4,12 +4,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import type { UserscriptMeta } from "./src/shared";
-
-type ScriptEntry = {
-  name: string;
-  entry: string;
-  meta: UserscriptMeta;
-};
+import { writeIndexPage } from "./src/build/write-index-page";
+import type { ScriptEntry } from "./src/shared/types/script-entry";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distDir = path.join(__dirname, "dist");
@@ -19,6 +15,14 @@ const pagesBaseUrl = process.env.PAGES_BASE_URL?.replace(/\/$/, "");
 async function readJson<T>(filePath: string): Promise<T> {
   const content = await readFile(filePath, "utf8");
   return JSON.parse(content) as T;
+}
+
+async function readOptionalText(filePath: string) {
+  try {
+    return await readFile(filePath, "utf8");
+  } catch {
+    return "";
+  }
 }
 
 async function loadScripts(): Promise<ScriptEntry[]> {
@@ -34,18 +38,10 @@ async function loadScripts(): Promise<ScriptEntry[]> {
         name,
         entry: path.join(baseDir, "index.ts"),
         meta: await readJson<UserscriptMeta>(path.join(baseDir, "meta.json")),
+        readme: await readOptionalText(path.join(baseDir, "README.md")),
       };
     }),
   );
-}
-
-function escapeHtml(value: string) {
-  return value
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/\"/g, "&quot;")
-    .replace(/'/g, "&#39;");
 }
 
 function resolveMeta(script: ScriptEntry) {
@@ -105,113 +101,6 @@ async function writeMetaFile(script: ScriptEntry) {
   );
 }
 
-async function writeIndexPage(scripts: ScriptEntry[]) {
-  const items = scripts
-    .map((script) => {
-      const title = escapeHtml(script.meta.name);
-      const description = escapeHtml(script.meta.description);
-      const installHref = `./${script.name}.user.js`;
-      const metaHref = `./${script.name}.meta.js`;
-
-      return `
-        <article class="script-card">
-          <h2>${title}</h2>
-          <p>${description}</p>
-          <div class="script-links">
-            <a href="${installHref}">Install</a>
-            <a href="${metaHref}">Meta</a>
-          </div>
-        </article>
-      `;
-    })
-    .join("\n");
-
-  const html = `<!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tampermonkey Scripts</title>
-    <style>
-      :root {
-        color-scheme: light dark;
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      }
-
-      body {
-        margin: 0;
-        padding: 40px 20px;
-        background: #0b0d10;
-        color: #f4f7fb;
-      }
-
-      main {
-        max-width: 960px;
-        margin: 0 auto;
-      }
-
-      h1 {
-        margin: 0 0 12px;
-        font-size: 32px;
-      }
-
-      .lead {
-        margin: 0 0 32px;
-        color: #a8b3c2;
-      }
-
-      .grid {
-        display: grid;
-        gap: 16px;
-      }
-
-      .script-card {
-        padding: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 16px;
-        background: rgba(255, 255, 255, 0.04);
-      }
-
-      .script-card h2 {
-        margin: 0 0 8px;
-        font-size: 20px;
-      }
-
-      .script-card p {
-        margin: 0 0 16px;
-        color: #a8b3c2;
-      }
-
-      .script-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
-
-      .script-links a {
-        color: #7cc4ff;
-        text-decoration: none;
-      }
-
-      .script-links a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>Tampermonkey Scripts</h1>
-      <p class="lead">Auto-generated install page for all published userscripts.</p>
-      <section class="grid">${items}
-      </section>
-    </main>
-  </body>
-</html>
-`;
-
-  await writeFile(path.join(distDir, "index.html"), html, "utf8");
-}
-
 async function buildScript(script: ScriptEntry) {
   await build(createUserBuildOptions(script));
   console.log(
@@ -246,7 +135,7 @@ async function run() {
   }
 
   await Promise.all(scripts.map(buildScript));
-  await writeIndexPage(scripts);
+  await writeIndexPage(distDir, scripts);
   console.log(
     `[build:index] index -> ${path.relative(__dirname, path.join(distDir, "index.html"))}`,
   );

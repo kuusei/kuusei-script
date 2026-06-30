@@ -27,7 +27,7 @@ bun run build
 
 这些 URL 由 GitHub Actions 通过仓库变量 `PAGES_BASE_URL` 动态注入。
 
-例如可以配置成：`https://script.example.com/tampermonkey`
+例如可以配置成：`https://script.example.com`
 
 配置位置：`Settings > Secrets and variables > Actions > Variables`
 
@@ -48,7 +48,8 @@ tampermonkey/
 
 1. 在 `src/scripts/<script-name>/index.ts` 新建入口。
 2. 在 `src/scripts/<script-name>/meta.json` 填写脚本元信息。
-3. `bun run build` 后会自动输出到：
+3. 在 `src/scripts/<script-name>/README.md` 写清楚功能和使用方式。
+4. `bun run build` 后会自动输出到：
    - `tampermonkey/dist/index.html`
    - `tampermonkey/dist/<script-name>.user.js`
    - `tampermonkey/dist/<script-name>.meta.js`
