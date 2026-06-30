@@ -1,11 +1,11 @@
 {
   "name": "百度网盘转存自动同步下载",
   "namespace": "http://tampermonkey.net/",
-  "version": "4.4.0",
-  "updatedAt": "2026-06-30T23:30:00+08:00",
+  "version": "4.4.1",
+  "updatedAt": "2026-06-30T23:59:00+08:00",
   "description": "转存自动同步下载",
   "author": "kuusei",
-  "icon": "https://pan.baidu.com/favicon.ico",
+  "icon": "https://nd-static.bdstatic.com/m-static/v20-main/home/img/icon-home-new.b4083345.png",
   "match": [
     "https://pan.baidu.com/disk/*",
     "https://pan.baidu.com/s/*"
