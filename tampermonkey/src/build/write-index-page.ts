@@ -53,9 +53,10 @@ export async function writeIndexPage(
   pageBaseUrl?: string,
 ) {
   const css = await readFile(new URL("./index-page.css", import.meta.url), "utf8");
-  const pageTitle = "Tampermonkey 脚本列表";
-  const pageDescription = "自动构建的脚本发布页，按更新时间倒序展示当前可安装脚本。";
+  const pageTitle = "Kuusei Tampermonkey 脚本列表";
+  const pageDescription = "脚本仓库";
   const pageUrl = pageBaseUrl?.replace(/\/$/, "") || "";
+  const repositoryUrl = "https://github.com/kuusei/kuusei-script";
   const items = scripts
     .slice()
     .sort((left, right) => {
@@ -120,7 +121,7 @@ export async function writeIndexPage(
   <body>
     <main>
       <h1>${pageTitle}</h1>
-      <p class="lead">${pageDescription}</p>
+      <p class="lead"><a href="${repositoryUrl}" target="_blank" rel="noopener noreferrer">查看仓库：kuusei/kuusei-script</a></p>
       <section class="grid">${items}
       </section>
     </main>
