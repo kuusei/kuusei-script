@@ -142,9 +142,15 @@ dd_ubuntu_install() {
     ds_opt='ds=nocloud\;s=/cidata/'
   fi
 
-  # 对齐官方 netboot 参数，并加上 autoinstall
-  local boot_option
-  boot_option="root=/dev/ram0 ramdisk_size=1500000 ip=${IPv4}::${GATE}:${MASK}:ubuntu:${interface}:off iso-url=${ISO_URL} autoinstall ${ds_opt}$(dd_extra_kernel_opts)$(dd_console_opt)"
+  # 对齐官方 netboot 参数，并加上 autoinstall。
+  # ip= 第六段（设备名）留空：让 initramfs 用第一块可用网卡，避免宿主 eth0
+  # 与安装器 ens*/enp* 预测名不一致导致「Waiting for eth0」。
+  # 同时强制 net.ifnames=0，保证 late-commands / 装完后的网卡名与宿主一致。
+  local boot_option net_name_opts=''
+  if [[ "$setInterfaceName" != '1' ]]; then
+    net_name_opts=' net.ifnames=0 biosdevname=0'
+  fi
+  boot_option="root=/dev/ram0 ramdisk_size=1500000 ip=${IPv4}::${GATE}:${MASK}:ubuntu::off iso-url=${ISO_URL} autoinstall ${ds_opt}${net_name_opts}$(dd_extra_kernel_opts)$(dd_console_opt)"
 
   dd_prepare_grub_entry "Install Ubuntu ${UBUNTU_RELEASE} ${VER}"
   dd_apply_grub_boot "$boot_option"
