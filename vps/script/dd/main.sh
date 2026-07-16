@@ -50,6 +50,7 @@ UBUNTU_RELEASE=''
 UBUNTU_CODENAME=''
 NETBOOT_BASE=''
 ISO_URL=''
+INITRD_REPACK_COMPRESS='gzip'
 
 dd_usage() {
   cat <<'EOF'

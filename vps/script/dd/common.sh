@@ -298,49 +298,91 @@ dd_apply_grub_boot() {
   [[ -f "$GRUBDIR/grubenv" ]] && sed -i 's/saved_entry/#saved_entry/g' "$GRUBDIR/grubenv"
 }
 
-# 解压 gzip/xz/lzma initrd 到 /tmp/boot
+# 解压 initrd 到 /tmp/boot（支持 gzip / xz / lzma / zstd / 未压缩 cpio）
 dd_extract_initrd() {
   local src="$1"
-  local comptype='gzip'
-  local new_img uncomp
+  local kind='gzip'
+  local desc
 
   [[ -d /tmp/boot ]] && rm -rf /tmp/boot
   mkdir -p /tmp/boot
   cd /tmp/boot || dd_die "无法进入 /tmp/boot"
 
-  if file "$src" | grep -qi 'xz compressed'; then
-    comptype='xz'
-  elif file "$src" | grep -qi 'lzma compressed'; then
-    comptype='lzma'
+  desc="$(file -b "$src" 2>/dev/null || true)"
+  if echo "$desc" | grep -qi 'cpio archive'; then
+    kind='cpio'
+  elif echo "$desc" | grep -qi 'xz compressed'; then
+    kind='xz'
+  elif echo "$desc" | grep -qi 'lzma compressed'; then
+    kind='lzma'
+  elif echo "$desc" | grep -qi 'zstandard\|zstd'; then
+    kind='zstd'
+  elif echo "$desc" | grep -qi 'gzip compressed\|compress.d data'; then
+    kind='gzip'
   else
-    comptype='gzip'
+    # 魔数兜底：ASCII cpio 以 070701 开头
+    if head -c 6 "$src" | grep -q '070701\|070702\|070707'; then
+      kind='cpio'
+    fi
   fi
 
-  case "$comptype" in
+  # 记录打包时是否应压缩（Ubuntu live netboot 原文件为未压缩 cpio）
+  case "$kind" in
+    cpio) INITRD_REPACK_COMPRESS='none' ;;
+    *) INITRD_REPACK_COMPRESS='gzip' ;;
+  esac
+
+  case "$kind" in
+    cpio)
+      if ! (set -o pipefail; cpio --extract --verbose --make-directories --no-absolute-filenames <"$src" >/dev/null 2>&1); then
+        dd_die "解压 initrd 失败（未压缩 cpio）"
+      fi
+      ;;
     gzip)
-      new_img='/tmp/initrd.img.gz'
-      uncomp='gzip -d'
+      if ! (set -o pipefail; gzip -d <"$src" | cpio --extract --verbose --make-directories --no-absolute-filenames >/dev/null 2>&1); then
+        dd_die "解压 initrd 失败（gzip）"
+      fi
       ;;
     xz)
-      new_img='/tmp/initrd.img.xz'
-      uncomp='xz --decompress'
+      if ! (set -o pipefail; xz --decompress <"$src" | cpio --extract --verbose --make-directories --no-absolute-filenames >/dev/null 2>&1); then
+        dd_die "解压 initrd 失败（xz）"
+      fi
       ;;
     lzma)
-      new_img='/tmp/initrd.img.lzma'
-      uncomp='xz --format=lzma --decompress'
+      if ! (set -o pipefail; xz --format=lzma --decompress <"$src" | cpio --extract --verbose --make-directories --no-absolute-filenames >/dev/null 2>&1); then
+        dd_die "解压 initrd 失败（lzma）"
+      fi
+      ;;
+    zstd)
+      if ! (set -o pipefail; zstd -d <"$src" | cpio --extract --verbose --make-directories --no-absolute-filenames >/dev/null 2>&1); then
+        dd_die "解压 initrd 失败（zstd）"
+      fi
+      ;;
+    *)
+      dd_die "无法识别 initrd 格式: $desc"
       ;;
   esac
 
-  mv -f "$src" "$new_img"
-  if ! (set -o pipefail; $uncomp <"$new_img" | cpio --extract --verbose --make-directories --no-absolute-filenames >/dev/null 2>&1); then
-    dd_die "解压 initrd 失败"
+  # 解压结果至少应有若干文件，避免静默失败
+  if [[ "$(find . -mindepth 1 | head -n 5 | wc -l | tr -d ' ')" -lt 1 ]]; then
+    dd_die "解压 initrd 后目录为空（格式可能识别错误: $desc）"
   fi
+
+  rm -f "$src"
 }
 
 dd_repack_initrd() {
   cd /tmp/boot || dd_die "无法进入 /tmp/boot"
-  if ! (set -o pipefail; find . | cpio -H newc --create --verbose | gzip -9 >/tmp/initrd.img); then
-    dd_die "打包 initrd 失败"
+  local compress="${INITRD_REPACK_COMPRESS:-gzip}"
+
+  if [[ "$compress" == 'none' ]]; then
+    if ! (set -o pipefail; find . | cpio -H newc --create --verbose >/tmp/initrd.img); then
+      dd_die "打包 initrd 失败"
+    fi
+  else
+    if ! (set -o pipefail; find . | cpio -H newc --create --verbose | gzip -9 >/tmp/initrd.img); then
+      dd_die "打包 initrd 失败"
+    fi
   fi
 }
 
