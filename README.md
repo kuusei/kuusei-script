@@ -58,6 +58,10 @@ bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com
 
 重装后仅允许 SSH 公钥登录（密码登录关闭）。`--key` 必须是 HTTPS 公钥地址。
 
+Ubuntu 使用官方 Subiquity **autoinstall + NoCloud**：
+- 默认：官方 netboot 内核/initrd 原样下载，仅追加 `cidata` 种子
+- 可选：`--seed-url https://example.com/seed/`（目录下需有 `user-data`、`meta-data`），完全不改 initrd
+
 ## 关于推荐的构建方式
 使用这种方式能够构建跨平台镜像, 但是性能也差一些, 注意机器使用
 

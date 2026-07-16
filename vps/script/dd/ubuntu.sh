@@ -1,6 +1,13 @@
 #!/bin/bash
 
-# Ubuntu 24.04 / 26.04 网络重装：live netboot + Subiquity autoinstall
+# Ubuntu 24.04 / 26.04：按官方 Subiquity autoinstall 方式安装
+#
+# 官方推荐：用 cloud-init NoCloud 提供 autoinstall 配置，不改安装器本体。
+# 本脚本默认：
+#   1. 下载官方 netboot 的 linux / initrd（不拆包）
+#   2. 官方 iso-url 指向 live-server ISO
+#   3. 将 user-data/meta-data 以未压缩 cpio 追加进 initrd（本地 NoCloud）
+# 也可用 --seed-url 走更纯的 nocloud-net（配置完全在 HTTP 上，不改 initrd）
 
 dd_ubuntu_normalize_dist() {
   local raw
@@ -9,12 +16,10 @@ dd_ubuntu_normalize_dist() {
     24|24.04|noble)
       DIST='noble'
       UBUNTU_RELEASE='24.04'
-      UBUNTU_CODENAME='noble'
       ;;
     26|26.04|resolute)
       DIST='resolute'
       UBUNTU_RELEASE='26.04'
-      UBUNTU_CODENAME='resolute'
       ;;
     *)
       dd_die "Ubuntu 仅支持 24.04/noble 或 26.04/resolute（收到: $1）"
@@ -25,12 +30,10 @@ dd_ubuntu_normalize_dist() {
 dd_ubuntu_validate_arch() {
   case "$VER" in
     amd64|arm64) ;;
-    i386) dd_die "Ubuntu ${UBUNTU_RELEASE} 不支持 i386，请使用 amd64/arm64" ;;
-    *) dd_die "Ubuntu 不支持架构: $VER" ;;
+    *) dd_die "Ubuntu 仅支持 amd64/arm64（收到: $VER）" ;;
   esac
 }
 
-# amd64 走 releases.ubuntu.com；arm64 走 cdimage.ubuntu.com
 dd_ubuntu_urls() {
   if [[ "$VER" == 'amd64' ]]; then
     NETBOOT_BASE="https://releases.ubuntu.com/${UBUNTU_RELEASE}/netboot/amd64"
@@ -41,21 +44,13 @@ dd_ubuntu_urls() {
   fi
 }
 
-dd_ubuntu_ip_cmdline() {
-  # 内核 ip= 静态格式: client::gateway:netmask:hostname:device:off
-  if [[ "$setNet" == '1' || "$loaderMode" == '0' ]]; then
-    echo "ip=${IPv4}::${GATE}:${MASK}:ubuntu:${interface}:off"
-  else
-    echo 'ip=dhcp'
-  fi
-}
-
-dd_ubuntu_write_autoinstall() {
+# 生成官方格式的 NoCloud 种子（user-data + meta-data）
+dd_ubuntu_write_seed() {
+  local seed_root="${1:-/tmp/kuusei_seed}"
   local keys_yaml='' line prefix
 
   while IFS= read -r line || [[ -n "$line" ]]; do
     [[ -n "$line" ]] || continue
-    # YAML 双引号内转义反斜杠与引号
     line="${line//\\/\\\\}"
     line="${line//\"/\\\"}"
     keys_yaml+="$(printf '\n      - "%s"' "$line")"
@@ -64,10 +59,15 @@ dd_ubuntu_write_autoinstall() {
   prefix=$(ip addr show dev "$interface" 2>/dev/null | grep 'inet ' | head -n1 | grep -oE '/[0-9]+' | tr -d '/' || true)
   [[ -n "$prefix" ]] || prefix='24'
 
-  mkdir -p /tmp/boot/cidata
-  printf 'instance-id: kuusei-dd\nlocal-hostname: ubuntu\n' >/tmp/boot/cidata/meta-data
+  rm -rf "$seed_root"
+  mkdir -p "$seed_root/cidata"
+  cat >"$seed_root/cidata/meta-data" <<EOF
+instance-id: kuusei-dd
+local-hostname: ubuntu
+EOF
 
-  cat >/tmp/boot/cidata/user-data <<EOF
+  # 精简 autoinstall：身份 + SSH 公钥 + 整盘 + 静态网卡 + root 公钥
+  cat >"$seed_root/cidata/user-data" <<EOF
 #cloud-config
 autoinstall:
   version: 1
@@ -88,7 +88,9 @@ autoinstall:
   network:
     version: 2
     ethernets:
-      ${interface}:
+      any:
+        match:
+          name: "en*|eth*"
         dhcp4: false
         addresses:
           - ${IPv4}/${prefix}
@@ -96,22 +98,16 @@ autoinstall:
           - to: default
             via: ${GATE}
         nameservers:
-          addresses:
-            - ${ipDNS}
+          addresses: [${ipDNS}]
   packages:
     - openssh-server
   late-commands:
-    - curtin in-target -- mkdir -p /root/.ssh
+    - curtin in-target -- mkdir -p /root/.ssh /etc/ssh/sshd_config.d
     - curtin in-target -- cp /home/ubuntu/.ssh/authorized_keys /root/.ssh/authorized_keys
     - curtin in-target -- chmod 700 /root/.ssh
     - curtin in-target -- chmod 600 /root/.ssh/authorized_keys
     - curtin in-target -- chown -R root:root /root/.ssh
-    - curtin in-target -- mkdir -p /etc/ssh/sshd_config.d
     - curtin in-target -- bash -c "printf 'Port ${sshPORT}\\nPermitRootLogin prohibit-password\\nPasswordAuthentication no\\nPubkeyAuthentication yes\\n' >/etc/ssh/sshd_config.d/99-kuusei.conf"
-    - curtin in-target -- sed -ri 's/^#?Port.*/Port ${sshPORT}/g' /etc/ssh/sshd_config
-    - curtin in-target -- sed -ri 's/^#?PermitRootLogin.*/PermitRootLogin prohibit-password/g' /etc/ssh/sshd_config
-    - curtin in-target -- sed -ri 's/^#?PasswordAuthentication.*/PasswordAuthentication no/g' /etc/ssh/sshd_config
-    - curtin in-target -- sed -ri 's/^#?PubkeyAuthentication.*/PubkeyAuthentication yes/g' /etc/ssh/sshd_config
 EOF
 }
 
@@ -121,24 +117,36 @@ dd_ubuntu_install() {
   dd_ubuntu_urls
 
   echo
-  echo "[Ubuntu] [${UBUNTU_RELEASE}/${DIST}] [${VER}] 下载 netboot..."
-  dd_download "${NETBOOT_BASE}/initrd" /tmp/initrd.img
+  echo "[Ubuntu] ${UBUNTU_RELEASE} / ${VER}"
+  echo "按官方 autoinstall + NoCloud 方式准备..."
+
   dd_download "${NETBOOT_BASE}/linux" /tmp/vmlinuz
+  dd_download "${NETBOOT_BASE}/initrd" /tmp/initrd.img
 
   if ! wget --spider --timeout=8 -q "$ISO_URL"; then
-    dd_die "无法访问 live-server ISO: $ISO_URL"
+    dd_die "无法访问官方 ISO: $ISO_URL"
   fi
 
+  dd_ubuntu_write_seed /tmp/kuusei_seed
+
+  local ds_opt
+  if [[ -n "${seedURL:-}" ]]; then
+    # 官方推荐：配置放在 HTTP，完全不改 initrd
+    [[ "$seedURL" =~ ^https?:// ]] || dd_die "--seed-url 需要 http(s) 地址，且需能访问 user-data 与 meta-data"
+    echo "使用 nocloud-net 种子: $seedURL"
+    echo "请确认该 URL 下已有 user-data / meta-data（可用 /tmp/kuusei_seed/cidata/ 内容上传）"
+    ds_opt="ds=nocloud-net\;s=${seedURL}"
+  else
+    # 本地 NoCloud：只追加一小段 cpio，不拆解官方 initrd
+    dd_append_dir_to_initrd /tmp/initrd.img /tmp/kuusei_seed
+    ds_opt='ds=nocloud\;s=/cidata/'
+  fi
+
+  # 对齐官方 netboot 参数，并加上 autoinstall
+  local boot_option
+  boot_option="root=/dev/ram0 ramdisk_size=1500000 ip=${IPv4}::${GATE}:${MASK}:ubuntu:${interface}:off iso-url=${ISO_URL} autoinstall ${ds_opt}$(dd_extra_kernel_opts)$(dd_console_opt)"
+
   dd_prepare_grub_entry "Install Ubuntu ${UBUNTU_RELEASE} ${VER}"
-
-  local ip_opt boot_option
-  ip_opt="$(dd_ubuntu_ip_cmdline)"
-  # GRUB 中分号需转义；autoinstall 配置已嵌入 initrd 的 /cidata
-  boot_option="root=/dev/ram0 ramdisk_size=1500000 ${ip_opt} iso-url=${ISO_URL} autoinstall ds=nocloud\;s=/cidata/$(dd_extra_kernel_opts)$(dd_console_opt)"
   dd_apply_grub_boot "$boot_option"
-
-  dd_extract_initrd /tmp/initrd.img
-  dd_ubuntu_write_autoinstall
-  dd_repack_initrd
   dd_finish_boot
 }

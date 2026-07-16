@@ -386,6 +386,33 @@ dd_repack_initrd() {
   fi
 }
 
+# 向现有 initrd 末尾追加一段未压缩 cpio（不拆解原文件，适合 Ubuntu live netboot）
+# $1 = initrd 文件路径，$2 = 含待注入目录树的根（例如含 cidata/ 的目录）
+dd_append_dir_to_initrd() {
+  local initrd_file="$1"
+  local content_root="$2"
+  local tmp_cpio
+
+  [[ -f "$initrd_file" ]] || dd_die "initrd 不存在: $initrd_file"
+  [[ -d "$content_root" ]] || dd_die "注入目录不存在: $content_root"
+
+  tmp_cpio="$(mktemp /tmp/kuusei_extra.XXXXXX.cpio)" || dd_die "创建临时 cpio 失败"
+  (
+    cd "$content_root" || exit 1
+    find . -print | cpio -H newc --create
+  ) >"$tmp_cpio" || {
+    rm -f "$tmp_cpio"
+    dd_die "生成附加 cpio 失败"
+  }
+
+  cat "$tmp_cpio" >>"$initrd_file" || {
+    rm -f "$tmp_cpio"
+    dd_die "追加 initrd 失败"
+  }
+  rm -f "$tmp_cpio"
+  echo "已向 initrd 追加配置（$(du -h "$initrd_file" | awk '{print $1}')）"
+}
+
 dd_finish_boot() {
   if [[ "$loaderMode" == '0' ]]; then
     cp -f /tmp/initrd.img /boot/initrd.img || dd_die "写入 /boot/initrd.img 失败"

@@ -51,6 +51,7 @@ UBUNTU_CODENAME=''
 NETBOOT_BASE=''
 ISO_URL=''
 INITRD_REPACK_COMPRESS='gzip'
+seedURL=''
 
 dd_usage() {
   cat <<'EOF'
@@ -60,6 +61,7 @@ dd_usage() {
 
 常用选项:
   -k, --key <https://...>   SSH 公钥 URL（必填）
+  --seed-url <http(s)://...>  Ubuntu 专用：官方 nocloud-net 种子目录（含 user-data/meta-data）
   -port <端口>              SSH 端口（默认 22）
   -v, --ver <64|32|amd64|arm64|i386>
   -i, --interface <网卡>
@@ -73,7 +75,8 @@ dd_usage() {
 
 说明:
   - Debian: 12/13；架构 amd64、arm64（i386 仅 12）
-  - Ubuntu: 24.04/26.04；架构 amd64、arm64
+  - Ubuntu: 24.04/26.04；官方 autoinstall。默认把 NoCloud 种子追加进 initrd；
+    若提供 --seed-url，则完全不改 initrd（更贴近官方推荐）
 EOF
 }
 
@@ -124,6 +127,11 @@ dd_parse_args() {
       -k|--key)
         [[ $# -ge 2 ]] || { dd_usage; exit 1; }
         sshKeyURL="$2"
+        shift 2
+        ;;
+      --seed-url)
+        [[ $# -ge 2 ]] || { dd_usage; exit 1; }
+        seedURL="$2"
         shift 2
         ;;
       -i|--interface)
