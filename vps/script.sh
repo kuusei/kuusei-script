@@ -5,8 +5,8 @@
 
 set -uo pipefail
 
-# 仓库内脚本的 raw 地址前缀
-READONLY_REPO_RAW='https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script'
+# 仓库内脚本地址前缀（jsDelivr，避免 raw.githubusercontent.com CDN 长时间返回旧文件）
+READONLY_REPO_RAW='https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script'
 # 默认 SSH 端口
 DEFAULT_SSH_PORT='34522'
 # Kuusei DD 默认安装的 Ubuntu 版本
@@ -16,6 +16,7 @@ DEFAULT_DD_UBUNTU='26.04'
 ssh_key_url=''
 ubuntu_pro_token=''
 ssh_port=''
+run_init_after_parse=0
 
 # 检查外部命令是否存在
 require_command() {
@@ -26,12 +27,22 @@ require_command() {
   fi
 }
 
-# 拉取远程脚本并用 bash 执行，可附加额外参数
-# 使用 bash -s -- 传递参数，避免 process substitution 在部分环境下丢参
+# 拉取远程脚本到临时文件再执行，保证参数/环境变量可靠传递
 run_remote_bash() {
   local url="$1"
   shift
-  curl -fsSL -H 'Cache-Control: no-cache' "$url" | bash -s -- "$@"
+  local tmp
+  tmp="$(mktemp)"
+  # 查询串用于绕过中间缓存；jsDelivr 会忽略未知 query
+  if ! curl -fsSL -H 'Cache-Control: no-cache' "${url}?$(date +%s)" -o "$tmp"; then
+    rm -f "$tmp"
+    echo "错误: 下载失败: $url" >&2
+    return 1
+  fi
+  bash "$tmp" "$@"
+  local rc=$?
+  rm -f "$tmp"
+  return "$rc"
 }
 
 # 循环提示，直到拿到以 https:// 开头的 URL
@@ -71,8 +82,9 @@ init_system() {
   if [[ -n "$ubuntu_pro_token" ]]; then
     args+=(--pro "$ubuntu_pro_token")
     echo "已预填 Ubuntu Pro token，初始化时将自动绑定。"
+  else
+    echo "未预填 Ubuntu Pro token，初始化时将询问（可回车跳过）。"
   fi
-  # 同时用环境变量兜底，避免管道传参异常时丢失
   KUUSEI_UBUNTU_PRO_TOKEN="$ubuntu_pro_token" \
     run_remote_bash "${READONLY_REPO_RAW}/init.sh" "${args[@]}"
 }

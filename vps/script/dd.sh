@@ -4,7 +4,7 @@
 
 set -uo pipefail
 
-DD_MAIN_URL="${DD_MAIN_URL:-https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd/main.sh}"
+DD_MAIN_URL="${DD_MAIN_URL:-https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script/dd/main.sh}"
 
 if [[ -n "${BASH_SOURCE[0]:-}" && -e "${BASH_SOURCE[0]}" ]]; then
   script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" 2>/dev/null && pwd || true)"

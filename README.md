@@ -1,21 +1,29 @@
 ## 多功能一键脚本
 
-此脚本绝大部分情况下只能在 Debian / Ubuntu 使用, 不建议其他系统使用
+此脚本绝大部分情况下只能在 Debian / Ubuntu 使用, 不建议其他系统使用。
+
+推荐用 jsDelivr（GitHub raw CDN 常缓存旧文件，会导致 `--pro` 等修复不生效）:
+```shell
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script.sh)
+```
+短链（可能仍指向会被缓存的 raw 地址）:
 ```shell
 bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script)
 ```
-对于全新机器, 可以直接安装 bash 并启动自动安装模式
+
+对于全新机器, 可以直接启动自动初始化:
 ```shell
-bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script) -x
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script.sh) -x
 # or
-apt-get update && apt install curl -y && bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script) -x
+apt-get update && apt install curl -y && \
+  bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script.sh) -x
 ```
 
 也可单独运行系统初始化脚本:
 ```shell
-bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/init.sh)
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script/init.sh)
 # Ubuntu Pro（可选）
-bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/init.sh) --pro <token>
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script/init.sh) --pro <token>
 ```
 
 | 参数    | 功能                                                         | 示例                                  |
@@ -24,9 +32,9 @@ bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com
 | `--key` | 指定 SSH 密钥的 HTTPS URL；设置密钥或 DD 时直接复用  | `--key https://example.com/ssh-key` |
 | `--pro` | Ubuntu Pro token；仅 Ubuntu 初始化时生效，Debian 忽略   | `--pro <token>` |
 
-示例（先写齐参数再初始化，顺序无关）:
+示例（参数顺序无关；成功时应先看到「已预填 Ubuntu Pro token」）:
 ```shell
-bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script) \
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script.sh) \
   -x --key https://link.kuusei.moe/ssh-key --pro <token>
 ```
 
@@ -39,11 +47,11 @@ DD 入口是薄封装，实际安装委托给 [bin456789/reinstall](https://gith
 
 ```shell
 # Ubuntu 26.04
-bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd/main.sh) \
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script/dd/main.sh) \
   -u 26.04 -port 34522 --key https://example.com/key.pub
 
 # Debian 13
-bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd/main.sh) \
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/kuusei/kuusei-script@main/vps/script/dd/main.sh) \
   -d 13 -port 34522 --key https://example.com/key.pub
 ```
 
