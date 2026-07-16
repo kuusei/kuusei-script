@@ -1,207 +1,143 @@
 #!/bin/bash
 
-exit_flag=0
+# VPS 多功能菜单脚本
+# 功能：系统初始化、DD 重装、SSH 密钥、TCP 调优、性能测试
 
-function require_command() {
+set -uo pipefail
+
+# 仓库内脚本的 raw 地址前缀
+READONLY_REPO_RAW='https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script'
+# 默认 SSH 端口
+DEFAULT_SSH_PORT='34522'
+# Kuusei DD 默认安装的 Ubuntu 版本
+DEFAULT_DD_UBUNTU='26.04'
+
+# 可由命令行参数预填，也可在交互时输入
+ssh_key_url=''
+ubuntu_pro_token=''
+ssh_port=''
+
+# 检查外部命令是否存在
+require_command() {
   local cmd="$1"
   if ! command -v "$cmd" >/dev/null 2>&1; then
-    echo "错误: 缺少依赖命令 '$cmd'，请先安装后再运行。"
+    echo "错误: 缺少依赖命令 '$cmd'，请先安装后再运行。" >&2
     return 1
   fi
 }
 
-function print_menu() {
-  while [ $exit_flag -eq 0 ]; do
-    echo
-    PS3="请输入需要执行的选项: "
-    options=("Debian初始化" "测试脚本" "DD" "设置 SSH Key" "Trojan/VLESS 一键脚本" "Install Docker" "Install Dockge" "Install NezhaAgent" "TCP 窗口调优" "退出")
-    select opt in "${options[@]}"
-    do
-        case $opt in
-            "Debian初始化")
-                init_debian
-                break
-                ;;
-            "测试脚本")
-                test_menu
-                break
-                ;;
-            "DD")
-                dd_menu
-                break
-                ;;
-            "设置 SSH Key")
-                set_ssh_key
-                break
-                ;;
-            "Trojan/VLESS 一键脚本")
-                trojan_vless_config
-                break
-                ;;
-            "Install Docker")
-                install_docker
-                break
-                ;;
-            "Install Dockge")
-                install_dockge
-                break
-                ;;
-            "Install NezhaAgent")
-                install_nezha_agent
-                break
-                ;;
-            "TCP 窗口调优")
-                tcp_window_optimization
-                break
-                ;;
-            "退出")
-                echo "DUANG~"
-                exit_flag=1
-                break
-                ;;
-            *)
-                echo "无效的选项 $REPLY"
-                ;;
-        esac
-    done
-  done
+# 拉取远程脚本并用 bash 执行，可附加额外参数
+run_remote_bash() {
+  local url="$1"
+  shift
+  bash <(curl -fsSL -H 'Cache-Control: no-cache' "$url") "$@"
 }
 
-function test_menu() {
-  PS3="请选择要运行的测试脚本: "
-  test_options=("YABS" "融合怪" "返回")
-  select test_opt in "${test_options[@]}"
-  do
-      case $test_opt in
-          "YABS")
-              test_yabs
-              break
-              ;;
-          "融合怪")
-              test_fusion_monster
-              break
-              ;;
-          "返回")
-              break
-              ;;
-          *)
-              echo "无效的选项 $REPLY"
-              ;;
-      esac
+# 循环提示，直到拿到以 https:// 开头的 URL
+# $1 = 提示语，$2 = 已有值（可为空）
+prompt_https_url() {
+  local prompt="$1"
+  local value="${2:-}"
+
+  while [[ ! "$value" =~ ^https:// ]]; do
+    if [[ -n "$value" ]]; then
+      echo "无效的 URL。请确保 URL 以 https:// 开头。"
+    fi
+    read -r -p "$prompt" value
   done
+
+  printf '%s' "$value"
 }
 
-function dd_menu() {
-  PS3="请选择要运行的 dd 脚本: "
-  dd_options=("Kuusei-Fork" "Teddysun" "ARM" "MoeClub" "返回")
-  select dd_opt in "${dd_options[@]}"
-  do
-      case $dd_opt in
-          "Kuusei-Fork")
-              dd_kuusei
-              break
-              ;;
-          "Teddysun")
-              dd_teddysun
-              break
-              ;;
-          "ARM")
-              dd_arm
-              break
-              ;;
-          "MoeClub")
-              dd_moeclub
-              break
-              ;;
-          "返回")
-              break
-              ;;
-          *)
-              echo "无效的选项 $REPLY"
-              ;;
-      esac
-  done
+# 带默认值的输入：$1 = 提示语，$2 = 默认值
+prompt_with_default() {
+  local prompt="$1"
+  local default="$2"
+  local value=''
+
+  read -r -p "$prompt" value
+  printf '%s' "${value:-$default}"
 }
 
-# 功能: 测试: yabs
-function test_yabs() {
-  echo "Running yabs script..."
+# --- 具体功能 --------------------------------------------------------------
+
+# 系统初始化（Debian / Ubuntu）
+init_system() {
+  echo "正在运行系统初始化脚本..."
+  require_command curl || return 1
+
+  local args=()
+  [[ -n "$ubuntu_pro_token" ]] && args+=(--pro "$ubuntu_pro_token")
+  run_remote_bash "${READONLY_REPO_RAW}/init.sh" "${args[@]}"
+}
+
+# 性能测试：YABS
+test_yabs() {
+  echo "正在运行 YABS 测试脚本..."
   require_command curl || return 1
   curl -sL https://yabs.sh | bash
 }
 
-# 功能: 测试: 融合怪
-function test_fusion_monster() {
-  echo "Running fusion monster script..."
+# 性能测试：融合怪
+test_fusion_monster() {
+  echo "正在运行融合怪测试脚本..."
   require_command curl || return 1
-  curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+  curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh
+  chmod +x ecs.sh
+  bash ecs.sh
 }
 
-# 功能: dd: kuusei fork
-function dd_kuusei() {
-  echo "Running dd: kuusei fork script..."
-  require_command wget || return 1
-  read -p "Please enter the password to use for dd Debian 12 scripts (default: default_password): " password
-  password=${password:-default_password}
-  read -p "Please enter the SSH port (default: 34522): " ssh_port
-  ssh_port=${ssh_port:-34522}
-  bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd.sh') -d 12 -v 64 -port "${ssh_port}" -p "$password"
-}
-
-# 功能: dd: teddysun
-function dd_teddysun() {
-  echo "Running dd: teddysun script..."
-  require_command wget || return 1
-  wget -qO InstallNET.sh https://github.com/teddysun/across/raw/master/InstallNET.sh && bash InstallNET.sh
-}
-
-# 功能: dd: arm leitbogioro
-function dd_arm() {
-  echo "Running dd: arm leitbogioro script..."
-  require_command wget || return 1
-  wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian
-}
-
-# 功能: dd: MoeClub
-function dd_moeclub() {
-  echo "Running dd: MoeClub script..."
-  require_command wget || return 1
-  read -p "Please enter the password to use for dd Debian 12 scripts (default: default_password): " password
-  password=${password:-default_password}
-  read -p "Please enter the SSH port (default: 34522): " ssh_port
-  ssh_port=${ssh_port:-34522}
-  bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -u 12 -v 64 -p "$password" -port "${ssh_port}" -a
-}
-
-# 功能: Debian 初始化
-function init_debian() {
-  echo "Initializing Debian..."
-  apt update -y && apt upgrade -y
-  apt install sudo curl wget vim tmux git rsync htop systemd-timesyncd -y
-  timedatectl set-ntp true
-  
-  echo "Installing croc..."
-  curl https://getcroc.schollz.com | bash
-}
-
-# 功能: set ssh key
-function set_ssh_key() {
-  echo "设置 SSH 密钥..."
+# DD 重装：Kuusei（强制 SSH 公钥，默认 Ubuntu 26.04）
+dd_kuusei() {
+  echo "正在运行 Kuusei DD 脚本..."
   require_command curl || return 1
-  
-  # 使用提供的 URL 或提示用户输入
-  if [ -z "$ssh_key_url" ]; then
-    read -p "请输入 SSH 密钥 URL (必须以 http:// 或 https:// 开头): " ssh_key_url
-    while [[ ! "$ssh_key_url" =~ ^https?:// ]]; do
-      echo "无效的 URL。请确保 URL 以 http:// 或 https:// 开头。"
-      read -p "请输入 SSH 密钥 URL (必须以 http:// 或 https:// 开头): " ssh_key_url
-    done
-  fi
 
-  read -p "请输入 SSH 端口 (默认: 34522): " ssh_port
-  ssh_port=${ssh_port:-34522}
-  if ! bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') -o -d -p "$ssh_port" -u "$ssh_key_url"; then
-    echo "SSH 密钥设置失败，请检查 URL 和网络连接。"
+  ssh_key_url="$(prompt_https_url '请输入 SSH 密钥 URL (必须以 https:// 开头): ' "$ssh_key_url")"
+  ssh_port="$(prompt_with_default "请输入 SSH 端口 (默认: ${DEFAULT_SSH_PORT}): " "$DEFAULT_SSH_PORT")"
+
+  run_remote_bash "${READONLY_REPO_RAW}/dd/main.sh" \
+    -u "$DEFAULT_DD_UBUNTU" \
+    -v 64 \
+    -port "$ssh_port" \
+    --key "$ssh_key_url"
+}
+
+# DD 重装：Debian 13 快捷入口
+dd_debian() {
+  echo "正在运行 Kuusei DD（Debian 13）..."
+  require_command curl || return 1
+
+  ssh_key_url="$(prompt_https_url '请输入 SSH 密钥 URL (必须以 https:// 开头): ' "$ssh_key_url")"
+  ssh_port="$(prompt_with_default "请输入 SSH 端口 (默认: ${DEFAULT_SSH_PORT}): " "$DEFAULT_SSH_PORT")"
+
+  run_remote_bash "${READONLY_REPO_RAW}/dd/main.sh" \
+    -d 13 \
+    -v 64 \
+    -port "$ssh_port" \
+    --key "$ssh_key_url"
+}
+
+# DD 重装：ARM 兜底（leitbogioro）
+dd_arm() {
+  echo "正在运行 ARM DD 脚本..."
+  require_command wget || return 1
+  wget --no-check-certificate -qO InstallNET.sh \
+    'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh'
+  chmod a+x InstallNET.sh
+  bash InstallNET.sh -debian
+}
+
+# 配置 SSH 公钥与端口
+set_ssh_key() {
+  echo "正在设置 SSH 密钥..."
+  require_command curl || return 1
+
+  ssh_key_url="$(prompt_https_url '请输入 SSH 密钥 URL (必须以 https:// 开头): ' "$ssh_key_url")"
+  ssh_port="$(prompt_with_default "请输入 SSH 端口 (默认: ${DEFAULT_SSH_PORT}): " "$DEFAULT_SSH_PORT")"
+
+  if ! bash <(curl -fsSL 'https://link.kuusei.moe/set-ssh-key') \
+    -o -d -p "$ssh_port" -u "$ssh_key_url"; then
+    echo "SSH 密钥设置失败，请检查 URL 和网络连接。" >&2
     return 1
   fi
 
@@ -209,208 +145,136 @@ function set_ssh_key() {
   cat /root/.ssh/authorized_keys
 }
 
-# 功能: trojan/vless config
-function trojan_vless_config() {
-  echo "Configuring Proxy Service..."
-  require_command wget || return 1
-  require_command openssl || return 1
-  require_command docker || return 1
+# TCP 窗口与 BBR 相关调优
+tcp_window_optimization() {
+  echo "正在优化 TCP 窗口参数..."
 
-  # Create necessary directories
-  proxy_dir="/home/dockge/docker/proxy"
-  mkdir -p "$proxy_dir"
-
-  # Download configuration files
-  base_url="https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/proxy"
-  files=(
-    "docker-compose.yml"
-    "index.html"
-    "trojan.json"
+  # 先清掉旧配置，避免重复写入
+  local keys=(
+    net.core.default_qdisc
+    net.ipv4.tcp_congestion_control
+    net.ipv4.tcp_rmem
+    net.ipv4.tcp_wmem
+    net.ipv4.tcp_window_scaling
+    net.ipv4.tcp_adv_win_scale
+    net.ipv4.tcp_notsent_lowat
+    net.ipv4.tcp_slow_start_after_idle
   )
-
-  for file in "${files[@]}"; do
-    if wget -q -O "$proxy_dir/$file" "$base_url/$file"; then
-      echo "✓ Successfully downloaded $file"
-    else
-      echo "✗ Failed to download $file"
-      exit 1
-    fi
+  local key
+  for key in "${keys[@]}"; do
+    sudo sed -i "/${key}/d" /etc/sysctl.conf
   done
 
-  # Get configuration information
-  read -p "Enter your domain: " domain_name
-  domain_name=${domain_name:-"example.com"}
-  # Generate random password
-  trojan_password=$(openssl rand -base64 16)
-  echo "Generated random password: $trojan_password"
+  {
+    echo 'net.core.default_qdisc = cake'
+    echo 'net.ipv4.tcp_congestion_control = bbr'
+    echo 'net.ipv4.tcp_rmem = 8192 262144 67108864'
+    echo 'net.ipv4.tcp_wmem = 4096 16384 67108864'
+    echo 'net.ipv4.tcp_window_scaling = 1'
+    echo 'net.ipv4.tcp_adv_win_scale = -2'
+    echo 'net.ipv4.tcp_notsent_lowat = 131072'
+    echo 'net.ipv4.tcp_slow_start_after_idle = 0'
+  } | sudo tee -a /etc/sysctl.conf >/dev/null
 
-  # Create and update environment file
-  env_file="$proxy_dir/.env"
-  if [ ! -f "$env_file" ]; then
-    touch "$env_file"
-  fi
-
-  # Update environment variables
-  sed -i "/^host=/d" "$env_file"
-  echo "host=$domain_name" >> "$env_file"
-
-  # Update trojan configuration
-  sed -i "s/<password>/$trojan_password/g" "$proxy_dir/trojan.json"
-
-  # Start services
-  if ! cd "$proxy_dir"; then
-    echo "✗ Failed to enter $proxy_dir"
-    return 1
-  fi
-  docker compose up -d
-
-  echo "--------------------"
-  echo "Installation completed!"
-  echo "Domain: $domain_name"
-  echo "Password: $trojan_password"
-  echo "--------------------"
-  echo "Please ensure:"
-  echo "1. Domain is correctly pointed to the server"
-  echo "2. Traefik service is properly configured and running"
-  echo "3. Wait for certificate to be automatically issued"
-}
-
-# 功能: docker 安装
-function install_docker() {
-  echo "Installing Docker..."
-  sudo apt-get update
-  sudo apt-get install ca-certificates curl -y
-  sudo install -m 0755 -d /etc/apt/keyrings
-  sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-  sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-  echo "Adding Docker repository..."
-  echo \
-    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
-    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-    sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-  sudo apt-get update
-
-  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
-}
-
-# 功能: dockge 安装
-function install_dockge() {
-  echo "Installing dockge..."
-  require_command wget || return 1
-  require_command docker || return 1
-
-  # 检查并创建目录
-  dockge_dir="/home/dockge"
-  mkdir -p "$dockge_dir"
-
-  wget -O "$dockge_dir/docker-compose.yml" https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/dockge/docker-compose.yml
-
-  read -p "Please enter your email (default: user@example.com): " email
-  email=${email:-user@example.com}
-  read -p "Please enter the dockge host (default: localhost): " dockgeHost
-  dockgeHost=${dockgeHost:-localhost}
-
-  env_file="$dockge_dir/.env"
-  if [ ! -f "$env_file" ]; then
-    touch "$env_file"
-  fi
-  sed -i "/^EMAIL=/d" "$env_file"
-  echo "EMAIL=$email" >> "$env_file"
-  sed -i "/^DOCKGE_HOST=/d" "$env_file"
-  echo "DOCKGE_HOST=$dockgeHost" >> "$env_file"
-
-  docker compose -f "$dockge_dir/docker-compose.yml" up -d
-}
-
-# 功能: nezha-agent 安装
-function install_nezha_agent() {
-  echo "Installing nezha-agent..."
-  require_command wget || return 1
-  require_command docker || return 1
-
-  if ! command -v uuidgen &> /dev/null; then
-    echo "Installing uuid-runtime..."
-    apt-get update && apt-get install -y uuid-runtime
-  fi
-
-  nezha_agent_dir="/home/dockge/docker/nezha-agent"
-  mkdir -p "$nezha_agent_dir"
-
-  wget -O "$nezha_agent_dir/docker-compose.yml" https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/nezha-agent/docker-compose.yml
-
-  read -p "Please enter the dashboard domain: " dashboard_domain
-  dashboard_domain=${dashboard_domain:-"localhost"}
-  read -p "Please enter the secret: " secret
-  
-  generated_uuid=$(uuidgen)
-  echo "Generated UUID: $generated_uuid"
-
-  env_file="$nezha_agent_dir/.env"
-  if [ ! -f "$env_file" ]; then
-    touch "$env_file"
-  fi
-  sed -i "/^DASHBOARD_DOMAIN=/d" "$env_file"
-  echo "DASHBOARD_DOMAIN=$dashboard_domain" >> "$env_file"
-  sed -i "/^SECRET=/d" "$env_file"
-  echo "SECRET=$secret" >> "$env_file"
-  sed -i "/^UUID=/d" "$env_file"
-  echo "UUID=$generated_uuid" >> "$env_file"
-
-  docker compose -f "$nezha_agent_dir/docker-compose.yml" up -d
-}
-
-# 功能: tcp 窗口调优
-tcp_window_optimization() {
-  echo "Optimizing TCP window settings..."
-
-  # 删除已有的相关配置（如果存在）
-  sudo sed -i '/net.core.default_qdisc/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_congestion_control/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_rmem/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_wmem/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_window_scaling/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_adv_win_scale/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_notsent_lowat/d' /etc/sysctl.conf
-  sudo sed -i '/net.ipv4.tcp_slow_start_after_idle/d' /etc/sysctl.conf
-
-  # 追加新的配置
-  echo "net.core.default_qdisc = cake" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_congestion_control = bbr" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_rmem = 8192 262144 67108864" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_wmem = 4096 16384 67108864" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_window_scaling = 1" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_adv_win_scale = -2" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_notsent_lowat = 131072" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_slow_start_after_idle = 0" | sudo tee -a /etc/sysctl.conf
-
-  echo "Running sysctl -p..."
-  # 应用配置
+  echo "正在应用 sysctl 配置..."
   sudo sysctl -p
 }
 
-# 功能: 脚本启动和参数处理
-function start_script() {
+# --- 菜单 ------------------------------------------------------------------
+
+# 通用 select 菜单：打印提示，返回用户选中的项
+select_menu() {
+  local prompt="$1"
+  shift
+  local -a items=("$@")
+  local choice
+
+  PS3="$prompt"
+  select choice in "${items[@]}"; do
+    if [[ -n "$choice" ]]; then
+      printf '%s' "$choice"
+      return 0
+    fi
+    echo "无效的选项 $REPLY"
+  done
+}
+
+# 测试脚本子菜单
+test_menu() {
+  case "$(select_menu '请选择要运行的测试脚本: ' YABS 融合怪 返回)" in
+    YABS) test_yabs ;;
+    融合怪) test_fusion_monster ;;
+    返回) ;;
+  esac
+}
+
+# DD 子菜单
+dd_menu() {
+  case "$(select_menu '请选择要运行的 DD 脚本: ' 'Ubuntu 26.04' 'Debian 13' ARM 返回)" in
+    'Ubuntu 26.04') dd_kuusei ;;
+    'Debian 13') dd_debian ;;
+    ARM) dd_arm ;;
+    返回) ;;
+  esac
+}
+
+# 主菜单循环
+main_menu() {
+  local choice
+
+  while true; do
+    echo
+    choice="$(select_menu '请输入需要执行的选项: ' \
+      系统初始化 测试脚本 DD '设置 SSH Key' 'TCP 窗口调优' 退出)"
+
+    case "$choice" in
+      系统初始化) init_system ;;
+      测试脚本) test_menu ;;
+      DD) dd_menu ;;
+      '设置 SSH Key') set_ssh_key ;;
+      'TCP 窗口调优') tcp_window_optimization ;;
+      退出)
+        echo 'DUANG~'
+        break
+        ;;
+    esac
+  done
+}
+
+# --- 入口 ------------------------------------------------------------------
+
+# 解析命令行参数
+# -x      直接执行系统初始化
+# --key   预填 SSH 公钥 HTTPS URL
+# --pro   预填 Ubuntu Pro token（仅初始化时用到）
+parse_args() {
   while [[ $# -gt 0 ]]; do
-    case $1 in
+    case "$1" in
       -x)
-        init_debian
+        init_system
         shift
         ;;
       --key)
+        [[ $# -ge 2 ]] || { echo "错误: --key 需要 URL 参数" >&2; exit 1; }
         ssh_key_url="$2"
         shift 2
         ;;
+      --pro)
+        [[ $# -ge 2 ]] || { echo "错误: --pro 需要 token 参数" >&2; exit 1; }
+        ubuntu_pro_token="$2"
+        shift 2
+        ;;
       *)
-        echo "无效的选项: $1"
+        echo "无效的选项: $1" >&2
         exit 1
         ;;
     esac
   done
-
-  # 显示菜单
-  print_menu
 }
 
-# 主脚本执行
-start_script "$@"
+main() {
+  parse_args "$@"
+  main_menu
+}
+
+main "$@"
