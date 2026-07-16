@@ -27,10 +27,11 @@ require_command() {
 }
 
 # 拉取远程脚本并用 bash 执行，可附加额外参数
+# 使用 bash -s -- 传递参数，避免 process substitution 在部分环境下丢参
 run_remote_bash() {
   local url="$1"
   shift
-  bash <(curl -fsSL -H 'Cache-Control: no-cache' "$url") "$@"
+  curl -fsSL -H 'Cache-Control: no-cache' "$url" | bash -s -- "$@"
 }
 
 # 循环提示，直到拿到以 https:// 开头的 URL
@@ -67,8 +68,13 @@ init_system() {
   require_command curl || return 1
 
   local args=()
-  [[ -n "$ubuntu_pro_token" ]] && args+=(--pro "$ubuntu_pro_token")
-  run_remote_bash "${READONLY_REPO_RAW}/init.sh" "${args[@]}"
+  if [[ -n "$ubuntu_pro_token" ]]; then
+    args+=(--pro "$ubuntu_pro_token")
+    echo "已预填 Ubuntu Pro token，初始化时将自动绑定。"
+  fi
+  # 同时用环境变量兜底，避免管道传参异常时丢失
+  KUUSEI_UBUNTU_PRO_TOKEN="$ubuntu_pro_token" \
+    run_remote_bash "${READONLY_REPO_RAW}/init.sh" "${args[@]}"
 }
 
 # 性能测试：YABS
@@ -242,14 +248,16 @@ main_menu() {
 # --- 入口 ------------------------------------------------------------------
 
 # 解析命令行参数
-# -x      直接执行系统初始化
+# -x      解析完成后直接执行系统初始化并退出
 # --key   预填 SSH 公钥 HTTPS URL
 # --pro   预填 Ubuntu Pro token（仅初始化时用到）
 parse_args() {
+  run_init_after_parse=0
+
   while [[ $# -gt 0 ]]; do
     case "$1" in
       -x)
-        init_system
+        run_init_after_parse=1
         shift
         ;;
       --key)
@@ -272,6 +280,10 @@ parse_args() {
 
 main() {
   parse_args "$@"
+  if [[ "$run_init_after_parse" -eq 1 ]]; then
+    init_system
+    exit $?
+  fi
   main_menu
 }
 

@@ -20,9 +20,15 @@ bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com
 
 | 参数    | 功能                                                         | 示例                                  |
 |---------|--------------------------------------------------------------|---------------------------------------|
-| `-x`    | 直接执行 Debian / Ubuntu 系统初始化                      |                                     |
+| `-x`    | 解析完所有参数后执行系统初始化并退出            | `-x --pro <token>`                  |
 | `--key` | 指定 SSH 密钥的 HTTPS URL；设置密钥或 DD 时直接复用  | `--key https://example.com/ssh-key` |
 | `--pro` | Ubuntu Pro token；仅 Ubuntu 初始化时生效，Debian 忽略   | `--pro <token>` |
+
+示例（先写齐参数再初始化，顺序无关）:
+```shell
+bash <(curl -sL -H 'Cache-Control: no-cache' https://link.kuusei.moe/vps-script) \
+  -x --key https://link.kuusei.moe/ssh-key --pro <token>
+```
 
 - **`--key`** 参数的 URL 需要以 `https://` 开头。
 - **`--pro`** 仅 Ubuntu 使用；未提供时初始化过程中可交互输入，回车跳过。

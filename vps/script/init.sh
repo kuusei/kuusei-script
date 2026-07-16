@@ -13,7 +13,7 @@ BASE_PACKAGES=(
   sudo curl wget vim tmux git rsync htop systemd-timesyncd
 )
 
-ubuntu_pro_token=''
+ubuntu_pro_token="${KUUSEI_UBUNTU_PRO_TOKEN:-}"
 
 # 打印用法
 usage() {
