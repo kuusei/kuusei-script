@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# 兼容入口：转发到拆分后的 dd/main.sh
-# 推荐直接调用:
-#   bash <(curl -fsSL .../vps/script/dd/main.sh) -u 26.04 ...
+# 兼容入口：转发到 dd/main.sh（内部再调用 bin456789/reinstall）
 
 set -uo pipefail
 

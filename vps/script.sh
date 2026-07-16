@@ -87,44 +87,43 @@ test_fusion_monster() {
   bash ecs.sh
 }
 
-# DD 重装：Kuusei（强制 SSH 公钥，默认 Ubuntu 26.04）
+# DD 重装：经 Kuusei 薄封装调用 bin456789/reinstall（注入 SSH 公钥与端口）
+dd_run() {
+  local distro="$1"
+  local release="$2"
+
+  echo "正在运行 DD（${distro} ${release}，底层 bin456789/reinstall）..."
+  require_command curl || return 1
+
+  ssh_key_url="$(prompt_https_url '请输入 SSH 密钥 URL (必须以 https:// 开头): ' "$ssh_key_url")"
+  ssh_port="$(prompt_with_default "请输入 SSH 端口 (默认: ${DEFAULT_SSH_PORT}): " "$DEFAULT_SSH_PORT")"
+
+  case "$distro" in
+    ubuntu)
+      run_remote_bash "${READONLY_REPO_RAW}/dd/main.sh" \
+        -u "$release" \
+        -port "$ssh_port" \
+        --key "$ssh_key_url"
+      ;;
+    debian)
+      run_remote_bash "${READONLY_REPO_RAW}/dd/main.sh" \
+        -d "$release" \
+        -port "$ssh_port" \
+        --key "$ssh_key_url"
+      ;;
+    *)
+      echo "错误: 未知发行版 $distro" >&2
+      return 1
+      ;;
+  esac
+}
+
 dd_kuusei() {
-  echo "正在运行 Kuusei DD 脚本..."
-  require_command curl || return 1
-
-  ssh_key_url="$(prompt_https_url '请输入 SSH 密钥 URL (必须以 https:// 开头): ' "$ssh_key_url")"
-  ssh_port="$(prompt_with_default "请输入 SSH 端口 (默认: ${DEFAULT_SSH_PORT}): " "$DEFAULT_SSH_PORT")"
-
-  run_remote_bash "${READONLY_REPO_RAW}/dd/main.sh" \
-    -u "$DEFAULT_DD_UBUNTU" \
-    -v 64 \
-    -port "$ssh_port" \
-    --key "$ssh_key_url"
+  dd_run ubuntu "$DEFAULT_DD_UBUNTU"
 }
 
-# DD 重装：Debian 13 快捷入口
 dd_debian() {
-  echo "正在运行 Kuusei DD（Debian 13）..."
-  require_command curl || return 1
-
-  ssh_key_url="$(prompt_https_url '请输入 SSH 密钥 URL (必须以 https:// 开头): ' "$ssh_key_url")"
-  ssh_port="$(prompt_with_default "请输入 SSH 端口 (默认: ${DEFAULT_SSH_PORT}): " "$DEFAULT_SSH_PORT")"
-
-  run_remote_bash "${READONLY_REPO_RAW}/dd/main.sh" \
-    -d 13 \
-    -v 64 \
-    -port "$ssh_port" \
-    --key "$ssh_key_url"
-}
-
-# DD 重装：ARM 兜底（leitbogioro）
-dd_arm() {
-  echo "正在运行 ARM DD 脚本..."
-  require_command wget || return 1
-  wget --no-check-certificate -qO InstallNET.sh \
-    'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh'
-  chmod a+x InstallNET.sh
-  bash InstallNET.sh -debian
+  dd_run debian 13
 }
 
 # 配置 SSH 公钥与端口
@@ -208,12 +207,11 @@ test_menu() {
   esac
 }
 
-# DD 子菜单
+# DD 子菜单（架构由 reinstall 自动识别，无需单独 ARM 入口）
 dd_menu() {
-  case "$(select_menu '请选择要运行的 DD 脚本: ' 'Ubuntu 26.04' 'Debian 13' ARM 返回)" in
+  case "$(select_menu '请选择要运行的 DD 脚本: ' 'Ubuntu 26.04' 'Debian 13' 返回)" in
     'Ubuntu 26.04') dd_kuusei ;;
     'Debian 13') dd_debian ;;
-    ARM) dd_arm ;;
     返回) ;;
   esac
 }

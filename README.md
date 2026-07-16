@@ -29,38 +29,22 @@ bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com
 
 ## DD 网络重装
 
-脚本已拆分为 `vps/script/dd/`：
-
-| 文件 | 作用 |
-|------|------|
-| `main.sh` | 入口与参数解析 |
-| `common.sh` | 网络 / GRUB / SSH 公钥等共用逻辑 |
-| `debian.sh` | Debian 12/13（debian-installer + preseed） |
-| `ubuntu.sh` | Ubuntu 24.04/26.04（live netboot + autoinstall） |
+DD 入口是薄封装，实际安装委托给 [bin456789/reinstall](https://github.com/bin456789/reinstall)（Alpine 中转 / cloud image 等）。本仓库只负责选择发行版，并注入 SSH 公钥与端口。
 
 ```shell
-# 默认推荐：Ubuntu 26.04
+# Ubuntu 26.04
 bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd/main.sh) \
-  -u 26.04 -v 64 -port 34522 --key https://example.com/key.pub
+  -u 26.04 -port 34522 --key https://example.com/key.pub
 
 # Debian 13
 bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/kuusei/kuusei-script/main/vps/script/dd/main.sh) \
-  -d 13 -v 64 -port 34522 --key https://example.com/key.pub
+  -d 13 -port 34522 --key https://example.com/key.pub
 ```
 
-### 支持矩阵
-
-| 系统 | 版本 | amd64 | arm64 | i386 |
-|------|------|-------|-------|------|
-| Ubuntu | 24.04 / 26.04 | 是 | 是 | 否 |
-| Debian | 12 | 是 | 是 | 是 |
-| Debian | 13 | 是 | 是 | 否 |
-
-重装后仅允许 SSH 公钥登录（密码登录关闭）。`--key` 必须是 HTTPS 公钥地址。
-
-Ubuntu 使用官方 Subiquity **autoinstall + NoCloud**：
-- 默认：官方 netboot 内核/initrd 原样下载，仅追加 `cidata` 种子
-- 可选：`--seed-url https://example.com/seed/`（目录下需有 `user-data`、`meta-data`），完全不改 initrd
+- `-k/--key`：SSH 公钥 HTTPS URL（也支持 `github:user` 等 reinstall 接受的格式）
+- `-port/--ssh-port`：重装后 SSH 端口
+- 固定以 `root` 用户安装；有公钥时不会再交互询问密码
+- 版本/架构支持以 upstream reinstall 为准；脚本跑完后按提示手动重启
 
 ## 关于推荐的构建方式
 使用这种方式能够构建跨平台镜像, 但是性能也差一些, 注意机器使用
