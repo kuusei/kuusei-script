@@ -1,21 +1,23 @@
+import {
+  loadTimedValue,
+  requestJson,
+  saveTimedValue,
+  startPolling,
+  whenDocumentReady,
+} from "@/shared";
+
 const CACHE_KEY = "exchangeRatesCache";
 const CACHE_DURATION_MS = 12 * 60 * 60 * 1000;
 const CACHE_VERSION = "v1";
 const PROCESSED_CLASS = "nodeseek-currency-processed";
 const API_URL = "https://open.er-api.com/v6/latest/USD";
+const POLL_INTERVAL_MS = 1500;
 
 type CurrencyConfigItem = {
   symbol: string;
   code: string;
   type: "emoji" | "char" | "word";
   prefix: boolean;
-};
-
-type ExchangeRateCache = {
-  version: string;
-  timestamp: number;
-  rates: Record<string, number>;
-  time_last_update_unix: number;
 };
 
 type ExchangeRates = {
@@ -110,44 +112,9 @@ function buildRegexFromConfig(config: CurrencyConfigItem[]) {
 
 const regex = buildRegexFromConfig(currencyConfig);
 
-function getCachedRates(): ExchangeRateCache | null {
-  try {
-    const raw = localStorage.getItem(CACHE_KEY);
-    if (!raw) {
-      return null;
-    }
-
-    const cache = JSON.parse(raw) as ExchangeRateCache;
-    if (cache.version !== CACHE_VERSION) {
-      return null;
-    }
-    if (Date.now() - cache.timestamp > CACHE_DURATION_MS) {
-      return null;
-    }
-    return cache;
-  } catch {
-    return null;
-  }
-}
-
-function setCachedRates(rates: Record<string, number>, timeLastUpdateUnix: number) {
-  const cache: ExchangeRateCache = {
-    version: CACHE_VERSION,
-    timestamp: Date.now(),
-    rates,
-    time_last_update_unix: timeLastUpdateUnix,
-  };
-  localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
-}
-
 async function fetchExchangeRates(): Promise<ExchangeRates | null> {
   try {
-    const res = await fetch(API_URL);
-    if (!res.ok) {
-      throw new Error(`HTTP error ${res.status}`);
-    }
-
-    const data = (await res.json()) as ExchangeRateResponse;
+    const data = await requestJson<ExchangeRateResponse>({ url: API_URL });
     if (data.result === "success" && data.rates && data.time_last_update_unix) {
       return {
         rates: data.rates,
@@ -162,17 +129,17 @@ async function fetchExchangeRates(): Promise<ExchangeRates | null> {
 }
 
 async function getExchangeRates(): Promise<ExchangeRates | null> {
-  const cache = getCachedRates();
+  const cache = loadTimedValue<ExchangeRates>(CACHE_KEY, {
+    version: CACHE_VERSION,
+    ttlMs: CACHE_DURATION_MS,
+  });
   if (cache) {
-    return {
-      rates: cache.rates,
-      time_last_update_unix: cache.time_last_update_unix,
-    };
+    return cache;
   }
 
   const fetched = await fetchExchangeRates();
   if (fetched) {
-    setCachedRates(fetched.rates, fetched.time_last_update_unix);
+    saveTimedValue(CACHE_KEY, fetched, CACHE_VERSION);
   }
   return fetched;
 }
@@ -372,7 +339,7 @@ async function startDomLengthWatcher() {
     lastCounts.set(container, container.childElementCount);
   });
 
-  window.setInterval(async () => {
+  startPolling(async () => {
     let changed = false;
     for (const container of [...containers]) {
       if (!document.body.contains(container)) {
@@ -395,18 +362,9 @@ async function startDomLengthWatcher() {
     if (changed) {
       await scanAndProcessAll(cache);
     }
-  }, 1500);
+  }, POLL_INTERVAL_MS, { immediate: false });
 }
 
-function onReady(fn: () => void) {
-  if (document.readyState === "complete" || document.readyState === "interactive") {
-    window.setTimeout(fn, 0);
-    return;
-  }
-
-  document.addEventListener("DOMContentLoaded", fn, { once: true });
-}
-
-onReady(() => {
+whenDocumentReady(() => {
   void startDomLengthWatcher();
 });

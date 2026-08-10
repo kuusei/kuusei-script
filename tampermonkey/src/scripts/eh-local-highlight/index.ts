@@ -1,63 +1,126 @@
-const highlightColor = "霓虹色";
+import {
+  injectStyle,
+  loadValue,
+  requestJson,
+  saveValue,
+  startPolling,
+} from "@/shared";
 
-GM_addStyle(`
-  :root {
-    --彩虹色: linear-gradient(-90deg, #602ce5cc 0, #2ce597cc 20%, #e7bb18cc 40%, #ff7657cc 60%, #45c1eecc 80%, #2ce597cc 100%);
-    --夕阳海滩: linear-gradient(-90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-    --薰衣草田: linear-gradient(-90deg, #a18cd1 0%, #fbc2eb 100%);
-    --柑橘清新: linear-gradient(-90deg, #f6d365 0%, #fda085 100%);
-    --深海幻想: linear-gradient(-90deg, #43e97b 0%, #38f9d7 100%);
-    --樱花飞舞: linear-gradient(-90deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
-    --北极光: linear-gradient(-90deg, #4facfe 0%, #00f2fe 100%);
-    --秋叶飘落: linear-gradient(-90deg, #fa709a 0%, #fee140 100%);
-    --星空漫步: linear-gradient(-90deg, #30cfd0 0%, #330867 100%);
-    --热带雨林: linear-gradient(-90deg, #43e97b 0%, #38f9d7 100%);
-    --火焰燃烧: linear-gradient(-90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-    --日落色: linear-gradient(-90deg, #ff5e62cc 0%, #ff9966cc 50%, #ffcc66cc 100%);
-    --海洋色: linear-gradient(-90deg, #00c9ffcc 0%, #92fe9dcc 100%);
-    --星空色: linear-gradient(-90deg, #1e3c72cc 0%, #2a5298cc 100%);
-    --森林色: linear-gradient(-90deg, #005a3ccc 0%, #35c24ecc 100%);
-    --糖果色: linear-gradient(-90deg, #ff6b6bcc 0%, #f8b195cc 50%, #f67280cc 100%);
-    --黎明色: linear-gradient(-90deg, #f953c6cc 0%, #b91dcc 100%);
-    --霓虹色: linear-gradient(-90deg, #12c2eccc 0%, #c471edcc 50%, #f64f59cc 100%);
-    --地平线色: linear-gradient(-90deg, #f7971ecc 0%, #ffd200cc 100%);
-    --午夜蓝: linear-gradient(-90deg, #000428cc 0%, #004e92cc 100%);
-    --火焰色: linear-gradient(-90deg, #fc466bcc 0%, #3f5efbcc 100%);
-  }
-`);
+import { EdgeRailToggle } from "./ui/edge-rail-toggle";
+
+const FILTER_STORAGE_KEY = "eh-local-highlight-filter-unhighlighted";
+const LOCAL_SEARCH_URL = "http://localhost:23786/api/search?length=1000000";
+const POLL_INTERVAL_MS = 10_000;
+
+type LocalSearchResult = {
+  hash: string;
+  data: Array<{ url: string }>;
+};
+
+injectStyle(
+  "eh-local-highlight-style",
+  `
+    .eh-lh-marked {
+      border: 1px solid rgba(255, 255, 255, 0.55) !important;
+      border-radius: 6px !important;
+      background: rgba(10, 132, 255, 0.42) !important;
+      box-shadow: inset 0 0.5px 0 rgba(255, 255, 255, 0.28);
+      overflow: hidden !important;
+      color: #fff !important;
+    }
+
+    #favoritelink.eh-lh-marked {
+      border-radius: 8px !important;
+      padding: 2px 6px !important;
+    }
+
+    @media (prefers-reduced-transparency: reduce) {
+      .eh-lh-marked {
+        background: #0a84ff !important;
+      }
+    }
+  `,
+);
 
 let dataHash = "";
 const gids = new Set<string>();
+let filterToggle: EdgeRailToggle | null = null;
 
-function updateLink(currentGids: Set<string>) {
-  currentGids.forEach((gid) => {
-    const posted = document.getElementById(`posted_${gid}`);
-    if (posted) {
-      posted.style.borderColor = "#fff";
-      posted.style.backgroundImage = `var(--${highlightColor})`;
-      posted.style.overflow = "hidden";
+const getFilterActive = () =>
+  filterToggle?.isActive ?? loadValue(FILTER_STORAGE_KEY, false);
+
+const getGalleryItem = (posted: Element) =>
+  posted.closest(".gl1t, tr") as HTMLElement | null;
+
+const applyFilter = (currentGids: Set<string>) => {
+  const filterUnhighlighted = getFilterActive();
+
+  document.querySelectorAll<HTMLElement>("[id^='posted_']").forEach((posted) => {
+    const gid = posted.id.slice("posted_".length);
+    const item = getGalleryItem(posted);
+    if (!item) {
+      return;
     }
+
+    item.style.display =
+      filterUnhighlighted && currentGids.has(gid) ? "none" : "";
+  });
+};
+
+const updateLink = (currentGids: Set<string>) => {
+  currentGids.forEach((gid) => {
+    document.getElementById(`posted_${gid}`)?.classList.add("eh-lh-marked");
 
     if (window.location.href.includes(`/g/${gid}/`)) {
-      const favoriteLink = document.getElementById("favoritelink");
-      if (favoriteLink) {
-        favoriteLink.style.borderRadius = "4px";
-        favoriteLink.style.padding = "2px";
-        favoriteLink.style.border = "1px solid #fff";
-        favoriteLink.style.backgroundImage = `var(--${highlightColor})`;
-      }
+      document.getElementById("favoritelink")?.classList.add("eh-lh-marked");
     }
   });
-}
 
-async function checkUrl() {
-  const response = await GM.xmlHttpRequest({
-    url: "http://localhost:23786/api/search?length=1000000",
+  applyFilter(currentGids);
+};
+
+const ensureFilterButton = () => {
+  if (filterToggle || !document.querySelector("[id^='posted_']")) {
+    return;
+  }
+
+  filterToggle = new EdgeRailToggle({
+    id: "eh-local-highlight-filter",
+    label: "仅未高亮",
+    ariaLabel: "仅显示未高亮",
+    activeTitle: "正在筛选：仅显示未高亮",
+    inactiveTitle: "点击筛选未高亮本子",
+    initialActive: loadValue(FILTER_STORAGE_KEY, false),
+    onChange: (active) => {
+      saveValue(FILTER_STORAGE_KEY, active);
+      applyFilter(gids);
+    },
   });
-  const result = JSON.parse(response.responseText) as {
-    hash: string;
-    data: Array<{ url: string }>;
-  };
+};
+
+const parseGids = (data: LocalSearchResult["data"]) => {
+  const next = new Set<string>();
+
+  data.forEach((manga) => {
+    try {
+      const gid = new URL(manga.url).pathname.split("/")[2];
+      if (gid) {
+        next.add(gid);
+      }
+    } catch {
+      // Ignore invalid URLs from local service.
+    }
+  });
+
+  return next;
+};
+
+const checkUrl = async () => {
+  ensureFilterButton();
+
+  const result = await requestJson<LocalSearchResult>({
+    url: LOCAL_SEARCH_URL,
+  });
 
   if (result.hash === dataHash) {
     updateLink(gids);
@@ -66,24 +129,8 @@ async function checkUrl() {
 
   dataHash = result.hash;
   gids.clear();
-
-  result.data.forEach((manga) => {
-    try {
-      const path = new URL(manga.url).pathname;
-      const gid = path.split("/")[2];
-      if (gid) {
-        gids.add(gid);
-      }
-    } catch {
-      // Ignore invalid URLs from local service.
-    }
-  });
-
+  parseGids(result.data).forEach((gid) => gids.add(gid));
   updateLink(gids);
-}
+};
 
-window.setInterval(() => {
-  void checkUrl();
-}, 10000);
-
-void checkUrl();
+startPolling(checkUrl, POLL_INTERVAL_MS);

@@ -1,0 +1,15 @@
+{
+  "name": "PT 修改图片样式",
+  "namespace": "http://tampermonkey.net/",
+  "version": "0.2",
+  "updatedAt": "2026-08-10T00:00:00+08:00",
+  "description": "统一 M-Team 与 KamePT 种子列表缩略图尺寸",
+  "author": "kuusei",
+  "match": [
+    "*://kp.m-team.cc/browse/adult*",
+    "*://kamept.com/torrents.php*"
+  ],
+  "grant": [
+    "none"
+  ]
+}

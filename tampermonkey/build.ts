@@ -77,11 +77,7 @@ function userscriptBanner(meta: UserscriptMeta) {
   ].join("\n");
 }
 
-function createBuildOptions(
-  script: ScriptEntry,
-  outFile: string,
-  minify: boolean,
-): BuildOptions {
+function createBuildOptions(script: ScriptEntry, outFile: string): BuildOptions {
   return {
     alias: {
       "@": path.join(__dirname, "src"),
@@ -94,7 +90,7 @@ function createBuildOptions(
     target: "es2020",
     charset: "utf8",
     legalComments: "none",
-    minify,
+    minify: false,
     banner: {
       js: userscriptBanner(resolveMeta(script)),
     },
@@ -111,25 +107,10 @@ async function writeMetaFile(script: ScriptEntry) {
 
 async function buildScript(script: ScriptEntry) {
   await build(
-    createBuildOptions(
-      script,
-      path.join(distDir, `${script.name}.user.js`),
-      true,
-    ),
+    createBuildOptions(script, path.join(distDir, `${script.name}.user.js`)),
   );
   console.log(
     `[build:user] ${script.name} -> ${path.relative(__dirname, path.join(distDir, `${script.name}.user.js`))}`,
-  );
-
-  await build(
-    createBuildOptions(
-      script,
-      path.join(distDir, `${script.name}.full.js`),
-      false,
-    ),
-  );
-  console.log(
-    `[build:full] ${script.name} -> ${path.relative(__dirname, path.join(distDir, `${script.name}.full.js`))}`,
   );
 
   await writeMetaFile(script);
@@ -151,11 +132,7 @@ async function run() {
   if (watchMode) {
     for (const script of scripts) {
       const ctx = await context(
-        createBuildOptions(
-          script,
-          path.join(distDir, `${script.name}.user.js`),
-          true,
-        ),
+        createBuildOptions(script, path.join(distDir, `${script.name}.user.js`)),
       );
       await ctx.watch();
       console.log(

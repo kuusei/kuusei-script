@@ -72,7 +72,6 @@ export async function writeIndexPage(
       const updatedAt = escapeHtml(formatUpdatedAt(script.meta.updatedAt));
       const installHref = `./${script.name}.user.js`;
       const metaHref = `./${script.name}.meta.js`;
-      const fullHref = `./${script.name}.full.js`;
       const logo = renderLogo(script.meta.name, script.meta.icon);
 
       return `
@@ -96,7 +95,6 @@ export async function writeIndexPage(
               <div class="script-links">
                 <a class="primary" href="${installHref}" target="_blank" rel="noopener noreferrer">安装脚本</a>
                 <a href="${metaHref}" target="_blank" rel="noopener noreferrer">查看元信息</a>
-                <a href="${fullHref}" target="_blank" rel="noopener noreferrer">查看完整源码</a>
               </div>
             </div>
           </div>

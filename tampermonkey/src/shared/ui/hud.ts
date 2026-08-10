@@ -1,4 +1,5 @@
 import { injectStyle } from "../dom/style";
+import { ensureAppleMaterial } from "./apple-material";
 
 const CONTAINER_ID = "sync-pipeline-container";
 
@@ -12,24 +13,26 @@ const HUD_STYLE = `
   display: flex;
   flex-direction: column;
   gap: 12px;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+  font-family: var(--tm-apple-font);
   pointer-events: none;
 }
 
 .sync-hud-card {
-  background: rgba(28, 28, 30, 0.75);
+  background: var(--tm-apple-glass-bg-strong);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--tm-apple-hairline);
   border-radius: 12px;
   padding: 14px 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    inset 0 0.5px 0 var(--tm-apple-highlight),
+    0 10px 30px rgba(0, 0, 0, 0.25);
   color: #e5e5ea;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: -0.1px;
   pointer-events: auto;
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.4s var(--tm-apple-ease-out);
   opacity: 0;
   transform: translateY(-10px) scale(0.98);
 }
@@ -53,12 +56,12 @@ const HUD_STYLE = `
 
 .sync-hud-status {
   font-size: 11px;
-  color: #8e8e93;
+  color: var(--tm-apple-secondary-label);
   font-variant-numeric: tabular-nums;
 }
 
 .sync-hud-body {
-  color: #aeaeb2;
+  color: var(--tm-apple-tertiary-label);
   font-size: 12px;
   word-break: break-all;
   overflow: hidden;
@@ -77,30 +80,39 @@ const HUD_STYLE = `
 }
 
 .sync-hud-progress-bar {
-  background: #0a84ff;
+  background: var(--tm-apple-blue);
   height: 100%;
   width: 0%;
-  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: width 0.3s var(--tm-apple-ease);
 }
 
 .sync-hud-card.success {
-  border-top: 2px solid #30d158;
+  border-top: 2px solid var(--tm-apple-green);
 }
 
 .sync-hud-card.error {
-  border-top: 2px solid #ff453a;
+  border-top: 2px solid var(--tm-apple-red);
 }
 
 .sync-hud-card.success .sync-hud-progress-bar {
-  background: #30d158;
+  background: var(--tm-apple-green);
 }
 
 .sync-hud-card.error .sync-hud-progress-bar {
-  background: #ff453a;
+  background: var(--tm-apple-red);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .sync-hud-card {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: var(--tm-apple-glass-solid);
+  }
 }
 `;
 
 function ensureContainer() {
+  ensureAppleMaterial();
   injectStyle("tm-shared-hud-style", HUD_STYLE);
 
   let container = document.getElementById(CONTAINER_ID) as HTMLDivElement | null;
