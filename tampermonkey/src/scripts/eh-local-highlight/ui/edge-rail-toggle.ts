@@ -63,7 +63,8 @@ const EDGE_RAIL_STYLE = `
   text-orientation: mixed;
 }
 
-.eh-lh-edge-rail[data-active="true"] {
+.eh-lh-edge-rail[data-mode="highlighted"],
+.eh-lh-edge-rail[data-mode="unhighlighted"] {
   background: rgba(10, 132, 255, 0.78);
   box-shadow:
     inset 0 0.5px 0 rgba(255, 255, 255, 0.35),
@@ -71,13 +72,15 @@ const EDGE_RAIL_STYLE = `
     -8px 0 24px rgba(10, 132, 255, 0.18);
 }
 
-.eh-lh-edge-rail[data-active="true"] .eh-lh-edge-rail__dot {
+.eh-lh-edge-rail[data-mode="highlighted"] .eh-lh-edge-rail__dot,
+.eh-lh-edge-rail[data-mode="unhighlighted"] .eh-lh-edge-rail__dot {
   background: #fff;
 }
 
 @media (prefers-reduced-transparency: reduce) {
   .eh-lh-edge-rail,
-  .eh-lh-edge-rail[data-active="true"] {
+  .eh-lh-edge-rail[data-mode="highlighted"],
+  .eh-lh-edge-rail[data-mode="unhighlighted"] {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
   }
@@ -86,7 +89,8 @@ const EDGE_RAIL_STYLE = `
     background: var(--tm-apple-glass-solid);
   }
 
-  .eh-lh-edge-rail[data-active="true"] {
+  .eh-lh-edge-rail[data-mode="highlighted"],
+  .eh-lh-edge-rail[data-mode="unhighlighted"] {
     background: var(--tm-apple-blue);
   }
 }
@@ -105,68 +109,78 @@ const EDGE_RAIL_STYLE = `
 }
 `;
 
-export type EdgeRailToggleOptions = {
+export type FilterMode = "all" | "highlighted" | "unhighlighted";
+
+export type EdgeRailFilterOptions = {
   id: string;
-  label: string;
-  ariaLabel?: string;
-  activeTitle: string;
-  inactiveTitle: string;
-  initialActive?: boolean;
-  onChange?: (active: boolean) => void;
+  modes: Array<{
+    value: FilterMode;
+    label: string;
+    title: string;
+  }>;
+  initialMode?: FilterMode;
+  onChange?: (mode: FilterMode) => void;
 };
 
-export class EdgeRailToggle {
+export class EdgeRailFilter {
   private readonly button: HTMLButtonElement;
-  private readonly activeTitle: string;
-  private readonly inactiveTitle: string;
-  private readonly onChange?: (active: boolean) => void;
-  private active: boolean;
+  private readonly labelEl: HTMLSpanElement;
+  private readonly modes: EdgeRailFilterOptions["modes"];
+  private readonly onChange?: (mode: FilterMode) => void;
+  private mode: FilterMode;
 
-  constructor(options: EdgeRailToggleOptions) {
+  constructor(options: EdgeRailFilterOptions) {
     ensureAppleMaterial();
     injectStyle(STYLE_ID, EDGE_RAIL_STYLE);
 
-    this.active = options.initialActive ?? false;
-    this.activeTitle = options.activeTitle;
-    this.inactiveTitle = options.inactiveTitle;
+    this.modes = options.modes;
+    this.mode = options.initialMode ?? options.modes[0]?.value ?? "all";
     this.onChange = options.onChange;
 
     this.button = document.createElement("button");
     this.button.id = options.id;
     this.button.type = "button";
     this.button.className = "eh-lh-edge-rail";
-    this.button.setAttribute("aria-label", options.ariaLabel ?? options.label);
+    this.button.setAttribute("aria-label", "切换高亮筛选");
 
     const dot = document.createElement("span");
     dot.className = "eh-lh-edge-rail__dot";
     dot.setAttribute("aria-hidden", "true");
 
-    const label = document.createElement("span");
-    label.className = "eh-lh-edge-rail__label";
-    label.textContent = options.label;
+    this.labelEl = document.createElement("span");
+    this.labelEl.className = "eh-lh-edge-rail__label";
 
-    this.button.append(dot, label);
+    this.button.append(dot, this.labelEl);
     this.button.addEventListener("click", () => {
-      this.setActive(!this.active);
-      this.onChange?.(this.active);
+      this.setMode(this.nextMode());
+      this.onChange?.(this.mode);
     });
 
     this.sync();
     document.body.appendChild(this.button);
   }
 
-  get isActive() {
-    return this.active;
+  get currentMode() {
+    return this.mode;
   }
 
-  setActive(active: boolean) {
-    this.active = active;
+  setMode(mode: FilterMode) {
+    this.mode = mode;
     this.sync();
   }
 
+  private nextMode() {
+    const index = this.modes.findIndex((item) => item.value === this.mode);
+    const next = this.modes[(index + 1) % this.modes.length];
+    return next?.value ?? "all";
+  }
+
   private sync() {
-    this.button.dataset.active = this.active ? "true" : "false";
-    this.button.setAttribute("aria-pressed", this.active ? "true" : "false");
-    this.button.title = this.active ? this.activeTitle : this.inactiveTitle;
+    const current =
+      this.modes.find((item) => item.value === this.mode) ?? this.modes[0];
+
+    this.button.dataset.mode = this.mode;
+    this.labelEl.textContent = current?.label ?? "全部";
+    this.button.title = current?.title ?? "";
   }
 }

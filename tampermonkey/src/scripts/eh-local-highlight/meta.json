@@ -1,9 +1,9 @@
 {
   "name": "EH高亮本地本子",
   "namespace": "http://tampermonkey.net/",
-  "version": "2026.08.10",
-  "updatedAt": "2026-08-10T00:00:00+08:00",
-  "description": "彩色高亮本地 exhentai-manga-manager 中存在的本子，支持筛选未高亮项",
+  "version": "2026.08.10.1",
+  "updatedAt": "2026-08-10T21:21:00+08:00",
+  "description": "彩色高亮本地 exhentai-manga-manager 中存在的本子，支持全部/仅高亮/仅未高亮筛选",
   "author": "Cury & kuusei",
   "icon": "https://raw.githubusercontent.com/SchneeHertz/exhentai-manga-manager/master/public/icon.png",
   "license": "MIT",
