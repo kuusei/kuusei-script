@@ -1,0 +1,16 @@
+{
+  "name": "kuusei-humble-choice",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "bun@1.2.17",
+  "scripts": {
+    "build": "bun run ./build.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.17",
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,89 @@
+name: Build Humble Choice
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "humble-choice/**"
+      - ".github/workflows/humble-choice.yml"
+  schedule:
+    - cron: "20 7 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "humble-choice"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: humble-choice
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.17
+
+      - name: Restore archive
+        working-directory: .
+        continue-on-error: true
+        run: |
+          mkdir -p humble-choice/.archive
+          if ! git ls-remote --exit-code origin hb-data; then
+            echo "hb-data does not exist yet"
+            exit 0
+          fi
+          git fetch origin hb-data
+          workdir="$(mktemp -d)"
+          git archive FETCH_HEAD | tar -x -C "$workdir"
+          if [ -f "$workdir/data/catalog.json" ]; then
+            rsync -a "$workdir/data/" humble-choice/.archive/
+          elif [ -f "$workdir/catalog.json" ]; then
+            cp "$workdir/catalog.json" humble-choice/.archive/catalog.json
+            if [ -d "$workdir/months" ]; then
+              rsync -a "$workdir/months/" humble-choice/.archive/months/
+            fi
+          fi
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Typecheck
+        run: bun run typecheck
+
+      - name: Build
+        run: bun run build --archive=.archive
+
+      - name: Publish hb-data
+        working-directory: .
+        run: |
+          set -euo pipefail
+          workdir="$(mktemp -d)"
+          origin="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code origin hb-data; then
+            git clone --depth 1 --branch hb-data "$origin" "$workdir"
+          else
+            git init "$workdir"
+            git -C "$workdir" checkout -b hb-data
+            git -C "$workdir" remote add origin "$origin"
+          fi
+          rsync -a --delete --exclude .git humble-choice/.archive/ "$workdir"/
+          git -C "$workdir" add -A
+          if git -C "$workdir" diff --cached --quiet; then
+            echo "hb-data is already up to date"
+            exit 0
+          fi
+          git -C "$workdir" -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update Humble Choice archive"
+          git -C "$workdir" push origin HEAD:hb-data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_TERMINAL_PROMPT: "0"
