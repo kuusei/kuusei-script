@@ -1,0 +1,213 @@
+{
+  "id": "2025-04",
+  "slug": "April-2025",
+  "title": "April 2025",
+  "url": "https://www.humblebundle.com/membership/April-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:39.881Z",
+  "games": [
+    {
+      "id": "tombraideri-iiiremasteredstarringlaracroft",
+      "title": "Tomb Raider 1-3 Remastered",
+      "image": "https://hb.imgix.net/afb4bee232f6415879700a4a616784f00feaf15c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c3d7b9a9223002a16148167ca7a6bf39",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2478970
+      ],
+      "developers": [
+        "Aspyr",
+        "Crystal Dynamics"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dredge",
+      "title": "Dredge",
+      "image": "https://hb.imgix.net/05fe37354b7d5a337aecf5a1f6db975406ebe6d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4616c84e6864e268a46a6a27a91e0a1b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1562430
+      ],
+      "developers": [
+        "Team17/ Black Salt Games"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.95,
+      "expiresAt": "2026-01-01T07:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "aliens_darkdescent",
+      "title": "Aliens Dark Descent",
+      "image": "https://hb.imgix.net/d37cb1dc8749dac5a886061492a939ca8afa9fb7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d89a90724320c08678e6f2ce6d9c9f6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1150440
+      ],
+      "developers": [
+        "Focus Entertainment/Tindalos Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "1000xresist",
+      "title": "1000xRESIST",
+      "image": "https://hb.imgix.net/4b6cf2f5f7bba588833aaad4ffb4fa71047de9bb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=af497fc6c801a0d2e99de5d982f58146",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1675830
+      ],
+      "developers": [
+        "Fellow Traveller/ sunset visitor 斜陽過客"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "novalands",
+      "title": "Nova Lands",
+      "image": "https://hb.imgix.net/1488343380c7d150c5d5cccd0d69d65d2f312443.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d6a0508f082d2ee4ae44e64aa9a29395",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1501610
+      ],
+      "developers": [
+        "HypeTrain Digital/ BEHEMUTT"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "diplomacyisnotanoption",
+      "title": "Diplomacy is Not an Option",
+      "image": "https://hb.imgix.net/edc8958c445ae54fddb1218499f518b84a72f074.jpg?auto=compress,format&fit=clip&h=383&w=667&s=342e52e0e5cf93e12966c24d045365ee",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Door 407"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "distantworlds2",
+      "title": "Distant Worlds 2",
+      "image": "https://hb.imgix.net/171cec346da05c0dd621171166ac8ffe99c69eef.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f317d1265ec2af66c327114b1aa26e2e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1531540
+      ],
+      "developers": [
+        "Slitherine Ltd./ CodeForce"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nomadsurvival",
+      "title": "Nomad Survival",
+      "image": "https://hb.imgix.net/2071242ab23a847a13e4e2cf8962147019c7bffb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d63a812b3654fd33cfef13011504f9b1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1929870
+      ],
+      "developers": [
+        "The Fox Knocks"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 4.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

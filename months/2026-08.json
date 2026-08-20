@@ -1,0 +1,259 @@
+{
+  "id": "2026-08",
+  "slug": "August-2026",
+  "title": "August 2026",
+  "url": "https://www.humblebundle.com/membership/August-2026",
+  "isActive": true,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:26.113Z",
+  "games": [
+    {
+      "id": "likeadragon_infinitewealth",
+      "title": "Like a Dragon: Infinite Wealth",
+      "image": "https://hb.imgix.net/628958957a648a1bd69498e8be7ba95eddb18e42.png?auto=compress,format&fit=clip&h=383&w=667&s=b607b0569e700124975371ce6b9b9f9c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2072450
+      ],
+      "developers": [
+        "RGG Studio"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 69.99,
+      "ratingPercent": 0.87,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "deadcells",
+      "title": "Dead Cells + The Bad Seed DLC",
+      "image": "https://hb.imgix.net/635ba2fde78310c19f7511c03279a68e49356e94.png?auto=compress,format&fit=clip&h=383&w=667&s=f254d688e91f31dc2a54915fe7805e93",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        588650,
+        1204130
+      ],
+      "developers": [
+        "Motion Twin"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.98,
+      "ratingPercent": 0.97,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "teenagemutantninjaturtles_shreddersrevenge",
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge - Ultimate Edition",
+      "image": "https://hb.imgix.net/d960938b0cb1d35e1d6a846e56c546af265fe2d8.png?auto=compress,format&fit=clip&h=383&w=667&s=0930828fad52f0d208bbf94a9668626c",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        44669
+      ],
+      "developers": [
+        "Tribute Games Inc."
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 36.97,
+      "ratingPercent": 0.94,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "decktamer",
+      "title": "Decktamer",
+      "image": "https://hb.imgix.net/8a1223dc8cb6e553c9c7504c5401a5d714145911.jpg?auto=compress,format&fit=clip&h=383&w=667&s=30b37acc5ec5ff3d8128ac4909b1f7d8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2870340
+      ],
+      "developers": [
+        "Horizon Edge"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 15.99,
+      "ratingPercent": 0.85,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "conquestdark",
+      "title": "Conquest Dark",
+      "image": "https://hb.imgix.net/f3fb2e98dd9507a4d8bb55f3dd7f6801a7004a90.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f46fd7b2e06ed7ff154036e737d7e5fe",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3238670
+      ],
+      "developers": [
+        "Eldritch Sword Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.92,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "gatekeeper",
+      "title": "Gatekeeper",
+      "image": "https://hb.imgix.net/f90abc152ff953fa950cd98341b86b8a38094e15.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7f467223bbd9975679f06aff75b52b99",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2106670
+      ],
+      "developers": [
+        "Gravity Lagoon"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.79,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "pileup",
+      "title": "Pile Up!",
+      "image": "https://hb.imgix.net/57ce3e88c1aa538dc2bd00352b815de6b833539e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7c4150c8b4e3e312cfb939883a13eab7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2094910
+      ],
+      "developers": [
+        "Remoob"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.74,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "darkenvoy",
+      "title": "Dark Envoy",
+      "image": "https://hb.imgix.net/91bc225ab2bad9bf452834dcc8afba6587146084.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7433918ef714f97ceacc34692a1f6cde",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        945770
+      ],
+      "developers": [
+        "Event Horizon"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.69,
+      "expiresAt": "2027-03-01T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "kinginthemountain",
+      "title": "King in the Mountain Playtest",
+      "image": "https://hb.imgix.net/cb56341a79c09fe322a7459c1b274b8de0f0f06b.png?auto=compress,format&fit=clip&h=383&w=667&s=f2493d1f90de4c6c5147946a09b58ed1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Milo Panta"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-09-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-09-01T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

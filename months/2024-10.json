@@ -1,0 +1,218 @@
+{
+  "id": "2024-10",
+  "slug": "October-2024",
+  "title": "October 2024",
+  "url": "https://www.humblebundle.com/membership/October-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:45.128Z",
+  "games": [
+    {
+      "id": "remnant2",
+      "title": "REMNANT II®",
+      "image": "https://hb.imgix.net/c9c00a83eea1f4c88a9ccc364a5d68ddd2ec1138.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a0a5baa12968a6609e25b73046d9fef3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1282100
+      ],
+      "developers": [
+        "Gunfire Games/Arc Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2025-11-05T07:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "persona5strikers",
+      "title": "Persona 5 Strikers",
+      "image": "https://hb.imgix.net/9e5f720bb8ee35799c446c35a5cb432f055fe254.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5463ed365258c1304a1caf43ae55fdb8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1382330
+      ],
+      "developers": [
+        "Atlus/Sega"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jusant",
+      "title": "Jusant",
+      "image": "https://hb.imgix.net/2f1bbaa4777ef89e5fd87d4b823598636827f71a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c2ae67e346986e0cb211931c832336d9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1977170
+      ],
+      "developers": [
+        "DON'T NOD"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "domekeeper",
+      "title": "Dome Keeper",
+      "image": "https://hb.imgix.net/348066cbb675900695d9e902bae1bb48893071a2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=84e49750a54cc2873f508702bed4fbc9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Bippinbits/Raw Fury"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "jackmove",
+      "title": "Jack Move",
+      "image": "https://hb.imgix.net/5572fb1302e67703d418f796237d732f7a436ba0.png?auto=compress,format&fit=clip&h=383&w=667&s=6051b41ae90ccd0c4ec2b85ea71a4c24",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "So Romantic/HypeTrain Digital"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "stationtostation",
+      "title": "Station to Station",
+      "image": "https://hb.imgix.net/6bfd12101ab2e7aba0b1e66f4bd2083bab28d95f.png?auto=compress,format&fit=clip&h=383&w=667&s=135799c56b2a31dabc7bbc0ed1d832a7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2272400
+      ],
+      "developers": [
+        "Galaxy Grove/Prismatika"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "remnantrecords",
+      "title": "Remnant Records",
+      "image": "https://hb.imgix.net/8d00a6a936a59b18fafc938de7e03c0aba30f985.png?auto=compress,format&fit=clip&h=383&w=667&s=7f12e6851cae3029d1769700c0f25bef",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1916310
+      ],
+      "developers": [
+        "Noctiluca Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 15.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mcpixel3",
+      "title": "McPixel 3",
+      "image": "https://hb.imgix.net/c4db705ca2125ecfeb4e86074477b8bbd4bfad55.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1a230179b181dca1588f6625e9a20b65",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1338580
+      ],
+      "developers": [
+        "Sos Sosowski/Devolver Digital"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.97,
+      "expiresAt": "2025-11-04T19:00:00",
+      "isExtra": false
+    }
+  ]
+}

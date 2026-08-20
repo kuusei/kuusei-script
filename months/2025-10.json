@@ -1,0 +1,269 @@
+{
+  "id": "2025-10",
+  "slug": "October-2025",
+  "title": "October 2025",
+  "url": "https://www.humblebundle.com/membership/October-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:34.544Z",
+  "games": [
+    {
+      "id": "atomicheart",
+      "title": "Atomic Heart",
+      "image": "https://hb.imgix.net/16560819a17eec6a8e5c8f6d91cad53975913cf6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=85ce864787a9be64bafe2dda41639ad8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        668580
+      ],
+      "developers": [
+        "Mundfish",
+        "Focus Entertainment",
+        "4Divinity"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "vrising",
+      "title": "V Rising",
+      "image": "https://hb.imgix.net/e2f2afc6a8a71bb19b48c3dc0c34b96aec6cffa4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c0af752d53651fdeb1279f4e8f018fd3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1604030
+      ],
+      "developers": [
+        "Stunlock Studios"
+      ],
+      "genres": [
+        "Action",
+        "MMO",
+        "Adventure"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "systemshock",
+      "title": "System Shock",
+      "image": "https://hb.imgix.net/c3179df5dfb3f655a0b5a21de9aef933c35ea64e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=af2945d02f4f5b40452b64bc9bdbcc34",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        482400
+      ],
+      "developers": [
+        "Nightdive Studios",
+        "Atari"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "storyofseasons_pioneersofolivetown",
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "image": "https://hb.imgix.net/3257d035f6ec3d842aba0d4412965f3add51c123.jpg?auto=compress,format&fit=clip&h=383&w=667&s=32c732dad8116a0d90a1fb0374551c07",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1392960
+      ],
+      "developers": [
+        "Marvelous Inc.",
+        "XSEED Games, Marvelous USA, Inc.",
+        "Marvelous Europe"
+      ],
+      "genres": [
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cryptmaster",
+      "title": "Cryptmaster",
+      "image": "https://hb.imgix.net/16ffe446531814ea2c9f7b8e7e5e9a1bc89e7438.png?auto=compress,format&fit=clip&h=383&w=667&s=6e26833b9ecc7d21c6bc7d4051b0247e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1885110
+      ],
+      "developers": [
+        "Paul Hart",
+        "Lee Williams",
+        "Akupara Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shogunshowdown",
+      "title": "Shogun Showdown",
+      "image": "https://hb.imgix.net/ff768b0386a3319d219e2effe3832fae60c12b0b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e5d5a6086e8575a9cb70597a2cfc68a1",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2084000
+      ],
+      "developers": [
+        "Roboatino"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hotelrenovator",
+      "title": "Hotel Renovator",
+      "image": "https://hb.imgix.net/08b3c3cf484420631f3837be89d4e606c1b7908b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e0308f74da5447cd39a8ed0d49f049d0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1214470
+      ],
+      "developers": [
+        "Two Horizons",
+        "Focus Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "caravansandwitch",
+      "title": "Caravan SandWitch",
+      "image": "https://hb.imgix.net/adeb713aea13fffda5d0e6108ee55af60564027a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eed158ba47171c3624a3482c6bc262db",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1582650
+      ],
+      "developers": [
+        "Studio Plane Toast",
+        "Dear Villagers"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2025-11-11T18:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "frogreign_playtest",
+      "title": "Frogreign Playtest (Oct 22 - Nov 26)",
+      "image": "https://hb.imgix.net/0921c94a1696f69544c377f8fa9433140d21eff2.png?auto=compress,format&fit=clip&h=383&w=667&s=66b0d5dc7da1c4c90c324cd5e938f192",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Arkanpixel"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2025-11-26T18:00:00",
+      "isExtra": false
+    }
+  ]
+}

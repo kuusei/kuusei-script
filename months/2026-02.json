@@ -1,0 +1,260 @@
+{
+  "id": "2026-02",
+  "slug": "February-2026",
+  "title": "February 2026",
+  "url": "https://www.humblebundle.com/membership/February-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:30.962Z",
+  "games": [
+    {
+      "id": "residentevilvillage",
+      "title": "Resident Evil Village",
+      "image": "https://hb.imgix.net/c00fd12f184ae2a95f3ecf53bc392f2bf7559f6e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ad11210b29117cac92e421189314e889",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1196590
+      ],
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.95,
+      "expiresAt": "2026-09-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "dateeverything",
+      "title": "Date Everything",
+      "image": "https://hb.imgix.net/7fe5c188374a716a3fe7465b143bdcbeaa5e6b7d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=726ef958734b421d1872f6f9ae079591",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2201320
+      ],
+      "developers": [
+        "Sassy Chap Games"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.9,
+      "expiresAt": "2026-09-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "corekeeper",
+      "title": "Core Keeper",
+      "image": "https://hb.imgix.net/907fc36be602709c01da1805d07bd4a0808de2dd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=317427ac780b6419f5dc9ec4cd233e76",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1621690
+      ],
+      "developers": [
+        "Pugstorm"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": "2027-03-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "starvaders",
+      "title": "StarVaders",
+      "image": "https://hb.imgix.net/2fe76d830fb3f0d03e826cd9cc9b548ba6961c4b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f2825029263d810692486ad5d579c0ac",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2097570
+      ],
+      "developers": [
+        "Pengonauts"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.97,
+      "expiresAt": "2027-03-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "squirrelwithagun",
+      "title": "Squirrel with a Gun",
+      "image": "https://hb.imgix.net/f199f801a1b9a3729a1904f6691bfa5ab3291247.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a8bb4fe643f6734acf1875f518d5e64a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2067050
+      ],
+      "developers": [
+        "Dee Dee Creations LLC"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2026-09-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "steamworldbuild",
+      "title": "SteamWorld Build",
+      "image": "https://hb.imgix.net/edb03f8bd61e8593642e4f08994727a76f55d865.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e32c80038cc4f9b8736d2c144375bda6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2134770
+      ],
+      "developers": [
+        "The Station"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.83,
+      "expiresAt": "2027-03-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "bussimulator21nextstop",
+      "title": "Bus Simulator 21 Next Stop",
+      "image": "https://hb.imgix.net/43b1292738cd2a97192393004fe84333cf3cb00a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=43a667bdc92152a036587784d4edeced",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        976590
+      ],
+      "developers": [
+        "stillalive studios"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.7,
+      "expiresAt": "2026-09-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "bighelmetheroes",
+      "title": "Big Helmet Heroes",
+      "image": "https://hb.imgix.net/c1e933a562fbf5f14ebcb4719f88e4c6d568fe3e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5f99a34c4a3f75d50cdc36990e19690a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2397250
+      ],
+      "developers": [
+        "Exalted Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.78,
+      "expiresAt": "2027-03-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "tape101_liminaldescent",
+      "title": "Tape 101: Liminal Descent Playtest",
+      "image": "https://hb.imgix.net/ca15f684eb7364942caa8a79e7fc51e0c880ab03.png?auto=compress,format&fit=clip&h=383&w=667&s=bc78b2cabdb116069d1741444755ae20",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Suversa, Nana"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-03-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-03-03T18:00:00",
+      "isExtra": true
+    }
+  ]
+}

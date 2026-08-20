@@ -1,0 +1,260 @@
+{
+  "id": "2025-06",
+  "slug": "June-2025",
+  "title": "June 2025",
+  "url": "https://www.humblebundle.com/membership/June-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:37.951Z",
+  "games": [
+    {
+      "id": "warhammer40000_boltgun",
+      "title": "Warhammer 40,000: Boltgun",
+      "image": "https://hb.imgix.net/a1dc8b4eac625e4162f3b7263ac215af723602d9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=deaf4144969f910874b844ee3bba386d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2005010
+      ],
+      "developers": [
+        "Focus Entertainment/Auroch Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 21.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "legacyofkainsoulreaver12remastered",
+      "title": "Legacy of Kain Soul Reaver 1&2 Remastered",
+      "image": "https://hb.imgix.net/393b2c071cfa37dfb2cec0eae5f83a8e1bd58bce.jpg?auto=compress,format&fit=clip&h=383&w=667&s=822b0148a2b4d0caa2da05d9b06897fe",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2521380
+      ],
+      "developers": [
+        "Aspyr/Crystal Dynamics"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nobodywantstodie",
+      "title": "Nobody Wants to Die",
+      "image": "https://hb.imgix.net/ff11afd85a715019db27d66d0ac4f9a93ee35a0f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=04572accf88946e094e516d25f4c26f1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1939970
+      ],
+      "developers": [
+        "PLAION/Critical Hit Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dungeonsofhinterberg",
+      "title": "Dungeons of Hinterberg",
+      "image": "https://hb.imgix.net/cb2b6f283213eb501776d5d671f46268b961d31a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=27ce4905a341bac30014f01486a39d2e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1983260
+      ],
+      "developers": [
+        "Curve Games/Microbird Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 22.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tchia",
+      "title": "Tchia",
+      "image": "https://hb.imgix.net/8e9299eed846ec20fce88671b1084b8b54314cf0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a1191a8a1113bad68d58c6e0ebf2e2dd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1496590
+      ],
+      "developers": [
+        "Kepler Interactive/Awaceb"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2026-01-05T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "skerritual",
+      "title": "Sker Ritual",
+      "image": "https://hb.imgix.net/9602ea4078f53d08b235106de5634d756f23636c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02f816b2d2cf98a4db383811bd64dba0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1492070
+      ],
+      "developers": [
+        "Wales Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "biped",
+      "title": "Biped",
+      "image": "https://hb.imgix.net/177c7f84757e3073aacafd005a573f12ab3107f0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98c7a26bab86e52a050a246a5a5b5539",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1071870
+      ],
+      "developers": [
+        "META Publishing/NEXT Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "havendock",
+      "title": "Havendock",
+      "image": "https://hb.imgix.net/28d3de78494c4fb19a929f003147ebdb124e9d76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=55b55c13119d741c32c015c59bbfdab0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2020710
+      ],
+      "developers": [
+        "Pretty Soon, IndieArk/ YYZ Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2025-07-06T07:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "bootdev_june2025_onemonthfree",
+      "title": "Boot.dev 1 Month Subscription",
+      "image": "https://hb.imgix.net/2be6eeb205d8b93f051869b4fa0bda0bff5d1015.png?auto=compress,format&fit=clip&h=383&w=667&s=1fdb02136441c4ea3933d2a016d6ef5e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Boot.dev"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49,
+      "ratingPercent": null,
+      "expiresAt": "2025-08-01T06:59:00",
+      "isExtra": true
+    }
+  ]
+}

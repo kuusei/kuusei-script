@@ -1,0 +1,240 @@
+{
+  "id": "2025-02",
+  "slug": "February-2025",
+  "title": "February 2025",
+  "url": "https://www.humblebundle.com/membership/February-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:41.461Z",
+  "games": [
+    {
+      "id": "immortalsofaveum",
+      "title": "Immortals of Aveum",
+      "image": "https://hb.imgix.net/5dc0b4c0d8ed3d3ccfff3c33cb37e9ffbcce9fed.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f1375db26825c06ea6e975c202d44a38",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "origin"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "EA/ Ascendant Studios"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "trepang2",
+      "title": "Trepang2",
+      "image": "https://hb.imgix.net/87be095e0861ec4ac3ee799f69527052f912eddd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d6b30f71009b31ba320788cc43b32f18",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1164940
+      ],
+      "developers": [
+        "Team17/ Trepang Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "totalwar_pharaohdynasties",
+      "title": "Total War: PHARAOH DYNASTIES",
+      "image": "https://hb.imgix.net/c0c4cad3ed0345d8208f73663c50c53bf5ba062c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=91c68044dbca509d19951aaae3f283a9",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2951630
+      ],
+      "developers": [
+        "SEGA/ Feral Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fabledom",
+      "title": "Fabledom",
+      "image": "https://hb.imgix.net/24e3e98db78fc988cf6133213d5f860167ed329a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bf6edd49e4618015a026a2c035d43408",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1651560
+      ],
+      "developers": [
+        "Dear Villagers, Doyoyo Games/  Grenaa Games"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 20.99,
+      "ratingPercent": 0.87,
+      "expiresAt": "2026-03-04T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "griftlands",
+      "title": "Griftlands",
+      "image": "https://hb.imgix.net/4b0259b31d2016661b7cbdad3dd677e4d9313325.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e6c82755ab6010797665e38726c0896f",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        601840
+      ],
+      "developers": [
+        "Klei Entertainment"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "talestactics",
+      "title": "Tales & Tactics",
+      "image": "https://hb.imgix.net/38406ba92d8d535bfb46458ae6c1405fefe2b93a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c43ad72f5ddb44afed168d152f35e9ce",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1652250
+      ],
+      "developers": [
+        "Yogscast Games/  Table 9 Studio"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "naheulbeuksdungeonmaster",
+      "title": "Naheulbeuk's Dungeon Master",
+      "image": "https://hb.imgix.net/9de06bb5cde681182d44d6220ae394fee1037c17.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4bbc9d1a8dfb33795f252ebc845f300d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2005160
+      ],
+      "developers": [
+        "Dear Villagers/ Artefacts Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.73,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mylittleuniverse",
+      "title": "My Little Universe",
+      "image": "https://hb.imgix.net/cf3642e87c30bc6238f1d69668d6cf40e8c2379d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ab5a816eee94cdb2add005a07b935f79",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2328750
+      ],
+      "developers": [
+        "SayGames/ Estoty"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nestedlands_alphaplaytest",
+      "title": "BONUS: Nested Lands Alpha Playtest",
+      "image": "https://hb.imgix.net/852b6d0279ab2fd7df2589352745543907957d73.png?auto=compress,format&fit=clip&h=383&w=667&s=09d47733dd62f8abfc5c0a74bc276ddd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [
+        2553040
+      ],
+      "developers": [
+        "1M Bits Horde"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 0,
+      "ratingPercent": null,
+      "expiresAt": "2025-04-09T06:59:59",
+      "isExtra": false
+    }
+  ]
+}

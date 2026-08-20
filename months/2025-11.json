@@ -1,0 +1,261 @@
+{
+  "id": "2025-11",
+  "slug": "November-2025",
+  "title": "November 2025",
+  "url": "https://www.humblebundle.com/membership/November-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:33.534Z",
+  "games": [
+    {
+      "id": "totalwar_warhammeriii",
+      "title": "Total War: WARHAMMER III",
+      "image": "https://hb.imgix.net/1a9f3977dd5c9637b03577695f32039d0c81321f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=2229ba74c129ee746b5d22be5a2ae5ed",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1142710
+      ],
+      "developers": [
+        "CREATIVE ASSEMBLY, Feral Interactive, SEGA"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-05-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "anothercrabstreasure",
+      "title": "Another Crab's Treasure",
+      "image": "https://hb.imgix.net/35eb4c7029582d670be8c30a3c5c79f6d1e5eceb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=870643ca62a435eac29e17d8105fbfb0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1887840
+      ],
+      "developers": [
+        "Aggro Crab"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": "2026-12-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "nomoreheroes3",
+      "title": "No More Heroes 3",
+      "image": "https://hb.imgix.net/1e7d9b4f32fb27da7f1025170b9991ca6fcd6b01.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0dcf1778c189255678af335e9ae47261",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1744330
+      ],
+      "developers": [
+        "GRASSHOPPER MANUFACTURE INC."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.82,
+      "expiresAt": "2026-12-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "etrianodysseyhd",
+      "title": "Etrian Odyssey HD",
+      "image": "https://hb.imgix.net/801a6d18ca4de8c850a33c7602fba50a14f0d8b6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cce411a5238fb4e258c36bd20c3a29dd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1868180
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2026-05-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "pharaoh_anewera",
+      "title": "Pharaoh: A New Era",
+      "image": "https://hb.imgix.net/160f6a6cdc5787d91ffcaf443038d4d24e5bc44d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8fcf565d496ef8805ec7edcd73578eb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1351080
+      ],
+      "developers": [
+        "Triskell Interactive"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 22.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "synergy",
+      "title": "Synergy",
+      "image": "https://hb.imgix.net/651eb6c458a781cd6455d38cb6fc19c772f40566.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bd5c1884c9588dc52f6c0e579068f2ee",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1989070
+      ],
+      "developers": [
+        "Leikir Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.8,
+      "expiresAt": "2026-12-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "spinhero",
+      "title": "Spin Hero",
+      "image": "https://hb.imgix.net/c92db6603d342ca9d26fc473da5524d50b7111d5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d2cfa99bb390c2e884afeab5c3662e38",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2917350
+      ],
+      "developers": [
+        "Goblinz"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 7.99,
+      "ratingPercent": 0.75,
+      "expiresAt": "2026-12-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "paleopines",
+      "title": "Paleo Pines",
+      "image": "https://hb.imgix.net/1ab5bfeb8e99521afe28c48f7ef03f50151bfd6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7fe3419174384a13ea357c29f83cd79a",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1202200
+      ],
+      "developers": [
+        "Italic Pig"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2026-04-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2025-12-02T18:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "lootbane_playtest",
+      "title": "Lootbane (Nov 20 - Dec 11)",
+      "image": "https://hb.imgix.net/f54df0927b8be6b34e34d21783798fc049dbf147.png?auto=compress,format&fit=clip&h=383&w=667&s=8686d4223ec9c646e8d090a4f55e1586",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Milo Panta"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2025-12-11T18:00:00",
+      "isExtra": false
+    }
+  ]
+}

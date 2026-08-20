@@ -1,0 +1,266 @@
+{
+  "id": "2025-08",
+  "slug": "August-2025",
+  "title": "August 2025",
+  "url": "https://www.humblebundle.com/membership/August-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:36.166Z",
+  "games": [
+    {
+      "id": "persona5royal",
+      "title": "Persona 5 Royal",
+      "image": "https://hb.imgix.net/d16509e341557c2bfe484d5cb90e1db522911498.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b17f4e481327d779d8c078a20c9f71e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1687950
+      ],
+      "developers": [
+        "ATLUS",
+        "Sega"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.96,
+      "expiresAt": "2026-05-27T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "banishers_ghostsofneweden",
+      "title": "Banishers: Ghost of New Eden",
+      "image": "https://hb.imgix.net/dce6d9be03fe05d8b76380ef12e33ef28b7bb1b7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9788623693b6f3bfae581444d658bcf8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1493640
+      ],
+      "developers": [
+        "Focus Entertainment",
+        "DON'T NOD"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2026-09-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "mytimeatsandrock",
+      "title": "My Time at Sandrock",
+      "image": "https://hb.imgix.net/ccc7c2c3ba5afcc0271151b2f4441df63f9c3620.jpg?auto=compress,format&fit=clip&h=383&w=667&s=86caab3284f88268204ee107b0a5ef9a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1084600
+      ],
+      "developers": [
+        "Pathea Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.88,
+      "expiresAt": "2026-09-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "letsschool",
+      "title": "Let's School!",
+      "image": "https://hb.imgix.net/0bfce48f2ea49d53bc5f98e971facbec64c12912.jpg?auto=compress,format&fit=clip&h=383&w=667&s=13f2adb181f3e83c33bbc5e6a8e42cf8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1937500
+      ],
+      "developers": [
+        "Pathea Games"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": "2026-09-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "lilgatorgame",
+      "title": "Lil Gator Game",
+      "image": "https://hb.imgix.net/1c3530b3170d837ecb5334c3dc2a72a372aba289.jpg?auto=compress,format&fit=clip&h=383&w=667&s=48723d2164352ed7df51e631cc07584f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1586800
+      ],
+      "developers": [
+        "MegaWobble",
+        "Playtonic Friends"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.99,
+      "expiresAt": "2026-09-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "tinyterrysturbotrip",
+      "title": "Tiny Terry's Turbo Trip",
+      "image": "https://hb.imgix.net/4c9d13124379f778799ad8c5b4076413b811d673.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6aa59c11eafb152b996f1cbfbfabee69",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2238040
+      ],
+      "developers": [
+        "Super Rare Games",
+        "snekflat"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.95,
+      "expiresAt": "2026-03-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "wildmender",
+      "title": "Wildmender",
+      "image": "https://hb.imgix.net/4c3bb2cf5e80770832d1a1f3b576e2722a0441ff.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a5f32b19e61356044090eb35c38d668e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1599330
+      ],
+      "developers": [
+        "Muse Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.86,
+      "expiresAt": "2026-09-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "warpips",
+      "title": "Warpips",
+      "image": "https://hb.imgix.net/1eb9b1c7840fcb79d293b214e82b5a7e2928b392.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c86a92db8ebffd4b0e2b034d8f56d327",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1291010
+      ],
+      "developers": [
+        "Skirmish Mode Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.88,
+      "expiresAt": "2026-09-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "aksun",
+      "title": "Aksun Playtest (Aug 8 - Aug 29)",
+      "image": "https://hb.imgix.net/fc10cc8994f190449f75b3401f5333b4e71fedda.png?auto=compress,format&fit=clip&h=383&w=667&s=b5abbe0d94c4ef12a39123f4d7ab8c9b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3129360
+      ],
+      "developers": [
+        "Wayway Inc"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2025-09-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2025-09-02T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

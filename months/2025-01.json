@@ -1,0 +1,219 @@
+{
+  "id": "2025-01",
+  "slug": "January-2025",
+  "title": "January 2025",
+  "url": "https://www.humblebundle.com/membership/January-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:42.336Z",
+  "games": [
+    {
+      "id": "againstthestorm",
+      "title": "Against the Storm",
+      "image": "https://hb.imgix.net/9882ea6071fe9d8b3284c741bcf64bfde8e2de5c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=07d926dc639a3b02b913494599435f9c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1336490
+      ],
+      "developers": [
+        "Hooded Horse",
+        "Eremite Games"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jaggedalliance3",
+      "title": "Jagged Alliance 3",
+      "image": "https://hb.imgix.net/95ee3ba1adcb1f3f3fdb55d3442e0c8619369ed1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8f784c88ed5f02325bc0909788aa87b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1084160
+      ],
+      "developers": [
+        "THQ Nordic",
+        "Haemimont Games"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blasphemous2",
+      "title": "Blasphemous 2",
+      "image": "https://hb.imgix.net/e7441e6a73a236c83258028272c5fd6aac659fa9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d338d91e2c52fd310bf38405f0b406c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2114740
+      ],
+      "developers": [
+        "Team17",
+        "The Game Kitchen"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beneathoresa",
+      "title": "Beneath Oresa",
+      "image": "https://hb.imgix.net/816a74f5257a63e10ab6f1b05f987f34d74efad5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2dbb7e446649666836d5a23bdbb7b9e1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1803400
+      ],
+      "developers": [
+        "Goblinz Publishing",
+        "Broken Spear Inc."
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fortsolis",
+      "title": "Fort Solis",
+      "image": "https://hb.imgix.net/6dee46b892d55d12ca4c987e996456aea4cd2ca0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=245b1b9b980efe743152d65bb649728a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Dear Villagers",
+        "Black Drakkar Games",
+        "Fallen Leaf"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "boxes_lostfragments",
+      "title": "Boxes: Lost Fragments",
+      "image": "https://hb.imgix.net/156e4d145c14e0dc6b4ce40a5b5253b2e3aef985.jpg?auto=compress,format&fit=clip&h=383&w=667&s=778dd02081ba7e42097b1c8e85d6d36b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2019810
+      ],
+      "developers": [
+        "Snapbreak",
+        "Big Loop Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dordogne",
+      "title": "Dordogne",
+      "image": "https://hb.imgix.net/9227955bd1d2f88e49d2dcac9bc42ada5bd3c0d0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e4be919fd82bad5ffb6a97ab16afb4b6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1272840
+      ],
+      "developers": [
+        "Focus Entertainment",
+        "UMANIMATION",
+        "UN JE NE SAIS QUOI"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thepegasusexpedition",
+      "title": "The Pegasus Expedition",
+      "image": "https://hb.imgix.net/b62ef17772fd81da4b970ac61a91b35cdad10138.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a0713a10c916053394ee687251b81415",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Kalla Gameworks",
+        "Fulqrum Publishing"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "2026-06",
+  "slug": "June-2026",
+  "title": "June 2026",
+  "url": "https://www.humblebundle.com/membership/June-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:27.473Z",
+  "games": [
+    {
+      "id": "octopathtravelerii",
+      "title": "OCTOPATH TRAVELER II",
+      "image": "https://hb.imgix.net/a7186991a19fdc115d05fc00e183314ebaa79b19.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5bc9af2796b53f9c042ff0e757490d74",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1971650
+      ],
+      "developers": [
+        "Square Enix",
+        "ACQUIRE Corp."
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.93,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "theriftbreaker",
+      "title": "The Riftbreaker",
+      "image": "https://hb.imgix.net/6a7750e84dbdad32fafe1d47b0e8d6250879830d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=62bd170ea07780d8d09cec03024df983",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        780310
+      ],
+      "developers": [
+        "EXOR Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Action",
+        "Simulation"
+      ],
+      "msrpUsd": 49.48,
+      "ratingPercent": 0.9,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "lifeisstrange_doubleexposure",
+      "title": "Life is Strange: Double Exposure",
+      "image": "https://hb.imgix.net/e70766267e62c24388e854bf57aa1399d4f5f20a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=425617540a9117fb90835196e095bc2f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1874000
+      ],
+      "developers": [
+        "Square Enix"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.67,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "indika",
+      "title": "INDIKA",
+      "image": "https://hb.imgix.net/957080779db12ee5ef85087d6994ce878ade42e7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=620dd43b6ebf9214f1c66d47b7f9ecf8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1373960
+      ],
+      "developers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "citizensleeper2_starwardvector",
+      "title": "Citizen Sleeper 2: Starward Vector",
+      "image": "https://hb.imgix.net/ce9dbc61091c88ee14b947f259f4c23a73bac164.jpg?auto=compress,format&fit=clip&h=383&w=667&s=029d66f663e47bb75ac487eeb1ce5522",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2442460
+      ],
+      "developers": [
+        "Fellow Traveller"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.91,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "constructionsimulator",
+      "title": "Construction Simulator",
+      "image": "https://hb.imgix.net/3f33867c6e4b4495fb940b0fc1d07e2322f7d664.jpg?auto=compress,format&fit=clip&h=383&w=667&s=96fcce5ff792cd344f9cf5c0c8328c0b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1273400
+      ],
+      "developers": [
+        "Astragon"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "hellclock",
+      "title": "Hell Clock",
+      "image": "https://hb.imgix.net/e4a24111eb52ee08819a712fbaa6cbd0d2c61c79.png?auto=compress,format&fit=clip&h=383&w=667&s=4ff698a1107b206a20c722b4a6412353",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1782460
+      ],
+      "developers": [
+        "Mad Mushroom"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "overlooting",
+      "title": "Overlooting",
+      "image": "https://hb.imgix.net/4b85ff6337b9293b95bb7073c67b35281860eff8.png?auto=compress,format&fit=clip&h=383&w=667&s=10adb66d4fcbb0181b0b37c730914b43",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3410180
+      ],
+      "developers": [
+        "Posing Possums"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2027-07-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "flowersanddeities",
+      "title": "Flowers and Deities Playtest",
+      "image": "https://hb.imgix.net/e5c4cbb985dce6c3ea3f0ec90719f3b737f483c7.png?auto=compress,format&fit=clip&h=383&w=667&s=e9b5360f574fefa90843b86bec4c7e64",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Chill Winter Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-06-30T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-07-07T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

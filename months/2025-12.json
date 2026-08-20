@@ -1,0 +1,272 @@
+{
+  "id": "2025-12",
+  "slug": "December-2025",
+  "title": "December 2025",
+  "url": "https://www.humblebundle.com/membership/December-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:32.555Z",
+  "games": [
+    {
+      "id": "ninesols",
+      "title": "Nine Sols",
+      "image": "https://hb.imgix.net/fee0f80e74b352b96186a839c58bcc1543731d8d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d87a0a92d43d1e8a970bcd53c839122e",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1809540
+      ],
+      "developers": [
+        "RedCandleGames"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.93,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "likeadragongaiden_themanwhoerasedhisname",
+      "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+      "image": "https://hb.imgix.net/ad211638f99cfcc981f59dcc29eac6986a1d195e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=74e06d57664c5ad4d85a55cd24c70fbb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2375550
+      ],
+      "developers": [
+        "SEGA",
+        "Ryu Ga Gotoku Studio"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.96,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "streetsofrage4",
+      "title": "Streets of Rage 4",
+      "image": "https://hb.imgix.net/d4454032daa6bb9f930ea235a3da44039725a21e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c098b9f0fc17aa31addfdaf4470fecaa",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        985890
+      ],
+      "developers": [
+        "Dotemu",
+        "Guard Crush",
+        "Lizardcube"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 22.99,
+      "ratingPercent": 0.93,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "lostskies",
+      "title": "Lost Skies",
+      "image": "https://hb.imgix.net/533e9c1c41c4ef938e8d3140f2815c536d05b955.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7902c6ece81935534cf675e70bdc153c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1931180
+      ],
+      "developers": [
+        "Humble Games",
+        "Bossa Studios"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.66,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "intravenous2",
+      "title": "Intravenous II",
+      "image": "https://hb.imgix.net/6904671b988aa09172b9850c852fb003b3f01178.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b61733a7fcfcc25676977e18a2340771",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2608270
+      ],
+      "developers": [
+        "HypeTrain Digital",
+        "Explosive Squat Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "dungeontycoon",
+      "title": "Dungeon Tycoon",
+      "image": "https://hb.imgix.net/1fb516f41434b272a9a60756e59962c8a8a52e79.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53adaa53d0e2bcdebb2d091c8589443c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2400770
+      ],
+      "developers": [
+        "Goblinz Publishing",
+        "Lunheim Studios"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.78,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "beholder_conductor",
+      "title": "Beholder Conductor",
+      "image": "https://hb.imgix.net/ad62c1fba203c6af206a530ca5bfe4d08444601d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=172a1b0b186e613cbb348c84435d40bb",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2825530
+      ],
+      "developers": [
+        "Alawar"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 13.99,
+      "ratingPercent": 0.86,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "godlikeburger",
+      "title": "Godlike Burger",
+      "image": "https://hb.imgix.net/c1557bfb708eaa57ac66c5dcadd6af15f2ae18fd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e7a846f7295227a5eaae455bdb9a224a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1432910
+      ],
+      "developers": [
+        "Daedalic Entertainment",
+        "Liquid Pug"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": "2027-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-01-06T18:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "bootdev_dec2025_onemonthfree",
+      "title": "Boot.dev 1 Month Subscription",
+      "image": "https://hb.imgix.net/d954d5c2a90e722677cd87152f1f0b0b918ccb4f.png?auto=compress,format&fit=clip&h=383&w=667&s=5e4c9d2d5155e7f6001381dea6d29f7a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Boot.dev"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49,
+      "ratingPercent": null,
+      "expiresAt": "2026-03-01T18:00:00",
+      "isExtra": true
+    }
+  ]
+}

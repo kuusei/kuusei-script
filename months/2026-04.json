@@ -1,0 +1,262 @@
+{
+  "id": "2026-04",
+  "slug": "April-2026",
+  "title": "April 2026",
+  "url": "https://www.humblebundle.com/membership/April-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:29.362Z",
+  "games": [
+    {
+      "id": "assassinscreed_valhalla",
+      "title": "Assassin's Creed Valhalla",
+      "image": "https://hb.imgix.net/73dfd4a3336e29e7843d67a3d21930e45278ad5e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=26971eeaada67af8f4b2e8dd054db077",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2208920
+      ],
+      "developers": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.68,
+      "expiresAt": "2026-11-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "daemonxmachina_titanicscion",
+      "title": "Daemon X Machina: Titanic Scion",
+      "image": "https://hb.imgix.net/0495b3c546d0e76443413387e99b4b5791feb15c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e3d35a812ad76199956011b34095f471",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1342490
+      ],
+      "developers": [
+        "Marvelous Inc."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 69.99,
+      "ratingPercent": 0.63,
+      "expiresAt": "2027-01-05T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "thelordoftherings_returntomoria",
+      "title": "The Lord of the Rings: Return to Moria",
+      "image": "https://hb.imgix.net/5a2e280700df8c211ac623eb61499e497f94946b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4a3454c58df11ca4f4b8870ce5b0fe9c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2933130
+      ],
+      "developers": [
+        "Free Range Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.83,
+      "expiresAt": "2027-05-05T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "untilthen",
+      "title": "Until Then",
+      "image": "https://hb.imgix.net/6abfa777c21840f646ef25a1aa6b71f9fb404d8a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=13130eedd09cad4fce5217da1370694b",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1574820
+      ],
+      "developers": [
+        "Polychroma Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.99,
+      "expiresAt": "2026-09-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "planetoflana",
+      "title": "Planet of Lana",
+      "image": "https://hb.imgix.net/5b16917f27818cda4240396715997c9c7f81f44f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d37b7515ca832596c3570ae1ab24c6fc",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1608230
+      ],
+      "developers": [
+        "Wishfully"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": "2027-05-05T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "artisantd",
+      "title": "Artisan TD",
+      "image": "https://hb.imgix.net/1f5e7a1c058dcfcab6bc1016dd7378b02d7798f3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fb237b76285c00ed8abe0457f345acee",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2224640
+      ],
+      "developers": [
+        "4rtisans"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.88,
+      "expiresAt": "2026-11-05T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "theprocessiontocalvary",
+      "title": "The Procession to Calvary",
+      "image": "https://hb.imgix.net/65f19b7e15c63cac4565f7d1ac1edde1d46569e2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=83ef62d6250005ba58690b57892e05aa",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1071130
+      ],
+      "developers": [
+        "Joe Richardson"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.97,
+      "expiresAt": "2027-05-05T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "buddysimulator1984",
+      "title": "Buddy Simulator 1984",
+      "image": "https://hb.imgix.net/3752be6cdc8c6b91f1fa7b2c8d35173794dc2e3a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=635fc665d157ec9706219e9577234463",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1269950
+      ],
+      "developers": [
+        "Not a Sailor Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.94,
+      "expiresAt": "2027-05-05T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "heartabyss",
+      "title": "HEART ABYSS Playtest",
+      "image": "https://hb.imgix.net/a43bcee8d966ea80a23d278d3700ca2095968011.png?auto=compress,format&fit=clip&h=383&w=667&s=48433099e238e64fa8ffaae387aadb84",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1892100
+      ],
+      "developers": [
+        "DEADMAP"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-05-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-05-05T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

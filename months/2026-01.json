@@ -1,0 +1,261 @@
+{
+  "id": "2026-01",
+  "slug": "January-2026",
+  "title": "January 2026",
+  "url": "https://www.humblebundle.com/membership/January-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:31.802Z",
+  "games": [
+    {
+      "id": "sonicfrontiers",
+      "title": "Sonic Frontiers",
+      "image": "https://hb.imgix.net/a9588faa19a137f2e9762e833053609529efa7ab.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fadbabaa168542c341db3d1077a5898b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1237320
+      ],
+      "developers": [
+        "Sonic Team"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.9,
+      "expiresAt": "2027-02-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "tombraideriv-viremastered",
+      "title": "Tomb Raider IV-VI Remastered",
+      "image": "https://hb.imgix.net/f5c34c5b498c3a8ca454dfe5f8b271a3232ff508.png?auto=compress,format&fit=clip&h=383&w=667&s=4235ba98af9df131619f71018bc026e6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2525380
+      ],
+      "developers": [
+        "Aspyr",
+        "Crystal Dynamics"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.9,
+      "expiresAt": "2027-02-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "hunt_showdown1896",
+      "title": "Hunt: Showdown 1896",
+      "image": "https://hb.imgix.net/8efbaf7b0bd7a9658fa0422068593d3d6e75c802.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6c4daa5c21c2192ce2feda999c43c34b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        594650
+      ],
+      "developers": [
+        "Crytek"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.8,
+      "expiresAt": "2027-02-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "etrianodysseyiihd",
+      "title": "Etrian Odyssey II HD",
+      "image": "https://hb.imgix.net/ea8cb30b44abcabd8b9b49aa0ec10735feb75bcb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4736852b21853c25775aa15d8bf2a40d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1868170
+      ],
+      "developers": [
+        "ATLUS"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2026-07-06T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "nicedayforfishing",
+      "title": "Nice Day for Fishing",
+      "image": "https://hb.imgix.net/ecac42fe42f0c0c71b4818add4937bcdb82c0863.png?auto=compress,format&fit=clip&h=383&w=667&s=f1c30d9f24f1c99c04906f6303138d19",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2393160
+      ],
+      "developers": [
+        "FusionPlay"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2026-08-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "metalslugtactics",
+      "title": "Metal Slug Tactics",
+      "image": "https://hb.imgix.net/25856456cdff60d3a9b6a1487d853f961f3a5307.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d62f18a075b51bfd3f1f1a7070665b91",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1590760
+      ],
+      "developers": [
+        "Leikir Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.77,
+      "expiresAt": "2026-08-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "settlementsurvival",
+      "title": "Settlement Survival",
+      "image": "https://hb.imgix.net/20ff14cf63d63b109c40a440c597533ffaaaff4f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fb3bda7cc5d1f471190605f9c2b65eb6",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1509510
+      ],
+      "developers": [
+        "Gleamer Studio"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.85,
+      "expiresAt": "2026-08-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "wizardoflegend2",
+      "title": "Wizard of Legend 2",
+      "image": "https://hb.imgix.net/88b24ffdc288db58438b7347c9b379e9201e5107.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8ff30839e7f0b6800a4bf05fd4101a4d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2193540
+      ],
+      "developers": [
+        "Dead Mage"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.57,
+      "expiresAt": "2027-02-03T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-02-03T18:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "handmancers",
+      "title": "Handmancers Playtest",
+      "image": "https://hb.imgix.net/3de45bd24d8e166f299ed75cae13b007c96bae44.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a19cc2e16bda35658c3bf66f4fbfc5a8",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2423290
+      ],
+      "developers": [
+        "58BLADES"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-02-03T19:00:00",
+      "isExtra": false
+    }
+  ]
+}

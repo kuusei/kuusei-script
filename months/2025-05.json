@@ -1,0 +1,236 @@
+{
+  "id": "2025-05",
+  "slug": "May-2025",
+  "title": "May 2025",
+  "url": "https://www.humblebundle.com/membership/May-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:38.915Z",
+  "games": [
+    {
+      "id": "thethaumaturge_deluxeedition",
+      "title": "The Thaumaturge - Deluxe Edition",
+      "image": "https://hb.imgix.net/6c358d81ccf99af66f493a0dfd4a52a9875ef28f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b83210ddf421638ca6bc724c3bdd3c23",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1684350
+      ],
+      "developers": [
+        "Fool's Theory"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 40.47,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "amnesia_thebunker",
+      "title": "Amnesia: The Bunker",
+      "image": "https://hb.imgix.net/b10b3904af67e07520344f23f0492c8c4cab3f76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8d4348cebb9eef2e44c2f5849d94c73",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1944430
+      ],
+      "developers": [
+        "Frictional Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "evilwest",
+      "title": "Evil West",
+      "image": "https://hb.imgix.net/a039a14d6fc76ca8ebe02bacc486652eb3a66978.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0f0a6129c0e320ae73061ff2ad0447f4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1065310
+      ],
+      "developers": [
+        "Flying Wild Hog"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shadowgambit_thecursedcrew",
+      "title": "Shadow Gambit: The Cursed Crew",
+      "image": "https://hb.imgix.net/f05e84b78b7f14b81f42154e817ccbeea3a7a7ef.jpg?auto=compress,format&fit=clip&h=383&w=667&s=044f8d65ec67eed09f37e44ecf4f6a92",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1545560
+      ],
+      "developers": [
+        "Mimimi Games"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "eiyudenchronicle_hundredheroes",
+      "title": "Eiyuden Chronicle: Hundred Heroes",
+      "image": "https://hb.imgix.net/fa9bea4e14757c7f2d3801d43236b888597b4afc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e194de83a609ed5c0aa1d200c11cfb39",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1658280
+      ],
+      "developers": [
+        "Rabbit and Bear Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "starwars_bountyhunter",
+      "title": "STAR WARS: Bounty Hunter",
+      "image": "https://hb.imgix.net/342d77e45c352a24b9a1b8e80291221427ee1779.jpg?auto=compress,format&fit=clip&h=383&w=667&s=99e44b44045a576e34d764327589e0ef",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2419090
+      ],
+      "developers": [
+        "Aspyr"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ultros",
+      "title": "Ultros",
+      "image": "https://hb.imgix.net/07ee0502794beb29c41a6f94a46164cbc5a06a61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0266aa92582536830f0254f86548832c",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2386310
+      ],
+      "developers": [
+        "Hadoque"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.8,
+      "expiresAt": "2025-12-03T07:59:00",
+      "isExtra": false
+    },
+    {
+      "id": "corpsekeeper",
+      "title": "Corpse Keeper",
+      "image": "https://hb.imgix.net/eae84543a099145c3913f5f990a548d813a29d41.jpg?auto=compress,format&fit=clip&h=383&w=667&s=86ba0f4baf9725a7bf82cec20d8129fe",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1601740
+      ],
+      "developers": [
+        "Melancholia Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2025-06-03T07:00:00",
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "2025-07",
+  "slug": "July-2025",
+  "title": "July 2025",
+  "url": "https://www.humblebundle.com/membership/July-2025",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:37.166Z",
+  "games": [
+    {
+      "id": "warhammer40000_roguetrader",
+      "title": "Warhammer 40,000: Rogue Trader",
+      "image": "https://hb.imgix.net/b54f8c8bba7b6ae02420c923e7f56977d5a2c3bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d97502fbc91165de4688c3b06c17eb1",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2186680
+      ],
+      "developers": [
+        "Meta Publishing",
+        "Owlcat Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2026-07-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "catquestiii",
+      "title": "Cat Quest III",
+      "image": "https://hb.imgix.net/513d0658930a7eae1998d648c2b8d9c228e8ba2e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3987b2156c28244429f6fe3294f2e6b5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2305840
+      ],
+      "developers": [
+        "Kepler Interactive",
+        "The Gentlebros"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deathsdoor",
+      "title": "Death's Door",
+      "image": "https://hb.imgix.net/091eb0cf7cfe10ce12102ad115e24484b680ab82.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75658541202b9dd085d1701f432e5d42",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        894020
+      ],
+      "developers": [
+        "Devolver Digital",
+        "Acid Nerve"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": "2026-07-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "daemonxmachina",
+      "title": "DAEMON X MACHINA",
+      "image": "https://hb.imgix.net/fa1740c9cbec7945b05fe73b150134b252ed0609.jpg?auto=compress,format&fit=clip&h=383&w=667&s=74ebfaef2b036174e85eafd6ea5a0a51",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1167450
+      ],
+      "developers": [
+        "Marvelous Inc.",
+        "XSEED Games"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.86,
+      "expiresAt": "2026-07-01T17:00:40",
+      "isExtra": false
+    },
+    {
+      "id": "wizardwithagun",
+      "title": "Wizard with a Gun",
+      "image": "https://hb.imgix.net/32dad45c7abf07b3f56e7a908c017c3846159f46.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e547aa10bfd35aa056f7630dd4b1d142",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1150530
+      ],
+      "developers": [
+        "Devolver Digital / Galvanic Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.8,
+      "expiresAt": "2026-07-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "neocab",
+      "title": "Neo Cab",
+      "image": "https://hb.imgix.net/3e29e15b9174990137fb10afe7d4a37eda8418c2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8a84a1b945ee705a6ee92e98a941e34b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        794540
+      ],
+      "developers": [
+        "Chance Agency",
+        "Fellow Traveller"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2026-07-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "everafterfalls",
+      "title": "Everafter Falls",
+      "image": "https://hb.imgix.net/0199b1f75617b393b6a70f64c9d07d452c2ab242.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b62cccea84c83823bceac9a8fe189c84",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1416960
+      ],
+      "developers": [
+        "Akupara Games",
+        "SquareHusky"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.87,
+      "expiresAt": "2026-07-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "blanc",
+      "title": "Blanc",
+      "image": "https://hb.imgix.net/7147ae28d48c608481b993a92b45e2d640934218.jpg?auto=compress,format&fit=clip&h=383&w=667&s=06ca828fc62f3a526c54980f5f7278ef",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1982340
+      ],
+      "developers": [
+        "Gearbox Publishing",
+        "Casus Ludi"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.75,
+      "expiresAt": "2026-07-01T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2025-08-05T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

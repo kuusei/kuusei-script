@@ -1,0 +1,210 @@
+{
+  "id": "2024-11",
+  "slug": "November-2024",
+  "title": "November 2024",
+  "url": "https://www.humblebundle.com/membership/November-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:44.195Z",
+  "games": [
+    {
+      "id": "warhammer40000_darktide",
+      "title": "Warhammer 40,000 Darktide",
+      "image": "https://hb.imgix.net/3759667018c8f6205fb77ff91f43b312bc07891b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=10ef24215ca6e8cb3ea84a57242d608b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        807591
+      ],
+      "developers": [
+        "Fatshark"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2025-12-05T08:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "persona4gold",
+      "title": "Persona 4 Golden",
+      "image": "https://hb.imgix.net/e70730644c3f5e0532517f568a05b9e27de6d007.png?auto=compress,format&fit=clip&h=383&w=667&s=59cf39a52afd05b1a31fde95266dd42e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "ATLUS/SEGA"
+      ],
+      "genres": [
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thelamplightersleague",
+      "title": "Lamplighters League",
+      "image": "https://hb.imgix.net/f4ebdd41c7d9ed5eea61158d89d86e3101e93d52.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6267abbb6db52ad259d73e0f0a68297a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Harebrained Schemes/Paradox Interactive"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "cassettebeasts",
+      "title": "Cassette Beasts",
+      "image": "https://hb.imgix.net/d5b864b0006d29e7b6d4105d07d3e8e8f837251e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5d3487e1328746018b791d612e354ba9",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1432100
+      ],
+      "developers": [
+        "Bytten Studio/Raw Fury"
+      ],
+      "genres": [
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thebookwalker_thiefoftales",
+      "title": "The Bookwalker: Thief of Tales",
+      "image": "https://hb.imgix.net/7287aed48aabf291355297dc1c0615058d08ce84.jpg?auto=compress,format&fit=clip&h=383&w=667&s=939d7527f9566a22d7201aa86954cbf7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        891004
+      ],
+      "developers": [
+        "DO MY BEST/tinyBuild"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "karmazoo",
+      "title": "KarmaZoo",
+      "image": "https://hb.imgix.net/42c652f57e017bcd7f25b02a29c40cd0992e0dba.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8dbb54e17dc0900176c8ef1f5c31c89",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        590567
+      ],
+      "developers": [
+        "Pastagames/Devolver Digital"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hexarchy",
+      "title": "Hexarchy",
+      "image": "https://hb.imgix.net/d4ac577c2cdc86dbba42bdb8315a70d79eb47eeb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c708a0428b75dd91267d87da365098e4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        923068
+      ],
+      "developers": [
+        "Main Tank Software/Yogscast"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.83,
+      "expiresAt": "2025-12-05T08:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "gardenlife_acozysimulator",
+      "title": "Garden Life",
+      "image": "https://hb.imgix.net/3a808674141f3730fec3d5c88667ec4a640e84bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=059f004433a48b37752879185d74501c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1915380
+      ],
+      "developers": [
+        "stillalive studios/Nacon"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

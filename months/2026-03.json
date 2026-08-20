@@ -1,0 +1,260 @@
+{
+  "id": "2026-03",
+  "slug": "March-2026",
+  "title": "March 2026",
+  "url": "https://www.humblebundle.com/membership/March-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:30.158Z",
+  "games": [
+    {
+      "id": "tempestrising",
+      "title": "Tempest Rising",
+      "image": "https://hb.imgix.net/6007b80b251e4b5e7aa403774037dc97ff28c896.jpg?auto=compress,format&fit=clip&h=383&w=667&s=90736cb4aae289dab8eeb03b39a7301d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1486920
+      ],
+      "developers": [
+        "Knights Peak/3D Realms"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.88,
+      "expiresAt": "2026-08-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "chantsofsennaar",
+      "title": "Chants of Sennaar",
+      "image": "https://hb.imgix.net/a02cb4e3f86d1b24e348bc000501becd7805e7c4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=60388a88dcb67208f7dc469ffec4e507",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1931770
+      ],
+      "developers": [
+        "Focus Entertainment/Rundisc"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.98,
+      "expiresAt": "2027-04-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "sworn",
+      "title": "Sworn",
+      "image": "https://hb.imgix.net/c0e8b759ae7a1ec58521f5ce9586b11653281d6a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c0fec1175a11fc35316daa3ba42675b4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1763250
+      ],
+      "developers": [
+        "Team 17/Windwalk Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.83,
+      "expiresAt": "2026-10-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "etrianodysseyiiihd",
+      "title": "Etrian Odyssey III HD",
+      "image": "https://hb.imgix.net/de70fea177a99620cf8bba93f3a90bfe71ee3e91.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac5a2801fc010b7825c321f38f253dc8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1810820
+      ],
+      "developers": [
+        "SEGA/Atlus"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2026-09-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "breadfred",
+      "title": "Bread & Fred",
+      "image": "https://hb.imgix.net/2bbd7db61bf862d1dd0264abe98c4a824d8f72c0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8f74454e453eabd83b3a2dbb5daf0086",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1607680
+      ],
+      "developers": [
+        "Infogrames LLC/SandCastle Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.79,
+      "expiresAt": "2027-04-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "zerohour",
+      "title": "Zero Hour",
+      "image": "https://hb.imgix.net/6dbc0615629b48818bd76a85e8d876e869d1795d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=04b7bcb560f1d3fadbf43582add9521f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1359090
+      ],
+      "developers": [
+        "AttritoM7 Productions"
+      ],
+      "genres": [
+        "Action",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.78,
+      "expiresAt": "2027-04-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "smalland_survivethewilds",
+      "title": "Smalland: Survive the Wild",
+      "image": "https://hb.imgix.net/15aed99266f2d1ca723793452383c4a8f70c5df5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=88c2615e672e856cda854e0c41cd8561",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        768200
+      ],
+      "developers": [
+        "Merge Games/Maximum Entertainment/Plug in Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2027-04-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "hardwest2",
+      "title": "Hard West 2",
+      "image": "https://hb.imgix.net/ac92154afee4731a27633c67a14fce3f04ef3804.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bc4560cc67adb437889ff90dc810dadd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1282410
+      ],
+      "developers": [
+        "Good Shepherd Entertainment/Ice Code Games"
+      ],
+      "genres": [
+        "Action",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2027-04-07T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "curseofpirates",
+      "title": "Curse of Pirates Playtest",
+      "image": "https://hb.imgix.net/a54701a5884d8f51e1c9b9c61dd3329583861279.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1e7b81e7a2334912091220db58ab3673",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Funky Parrot"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2026-04-06T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-04-07T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

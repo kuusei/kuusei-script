@@ -1,0 +1,271 @@
+{
+  "id": "2024-12",
+  "slug": "December-2024",
+  "title": "December 2024",
+  "url": "https://www.humblebundle.com/membership/December-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:43.260Z",
+  "games": [
+    {
+      "id": "bombrushcyberfunk",
+      "title": "Bomb Rush Cyberfunk",
+      "image": "https://hb.imgix.net/a40224b4ce2ef7e82d6a5ac4fac38a01c1b00d65.jpg?auto=compress,format&fit=clip&h=383&w=667&s=58e585d85def7a87b957367cadefbc46",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1353230
+      ],
+      "developers": [
+        "Team Reptile"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.98,
+      "expiresAt": "2026-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "oldworld",
+      "title": "Old World",
+      "image": "https://hb.imgix.net/6f7b4500c9d5dfb9819d779b48e6ea298d08336a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=549cd97a4ec31ae82118d5fdda139221",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        597180
+      ],
+      "developers": [
+        "Hooded Horse/Mohawk Games"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "atlasfallen_reignofsand",
+      "title": "Atlas Fallen: Reign of Sand",
+      "image": "https://hb.imgix.net/7eaf811085387d9e2f178f91611bb9a2692211ef.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9945aa27793ddb2dbfa92917e6e4d3e3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1230530
+      ],
+      "developers": [
+        "Focus Entertainment /Deck13"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "crimeboss_firstmonthedition",
+      "title": "Crime Boss: Rockay City - First Month Edition",
+      "image": "https://hb.imgix.net/f250c117ee3cb1b86309109ae995aa686f74321b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b6531d2f8df958d0e5a5de31de1e3750",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2933080
+      ],
+      "developers": [
+        "505 Games/INGAME STUDIOS"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 43.95,
+      "ratingPercent": 0.71,
+      "expiresAt": "2026-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "theinvincible",
+      "title": "The Invincible",
+      "image": "https://hb.imgix.net/f9055891d90a372fb8ee64fe3496a9ec2f5d41a2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ada0d65ead3a66fcd452d455b49d7b04",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        731040
+      ],
+      "developers": [
+        "11 bit studios/Starward Industries"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": "2026-01-06T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "moonstoneisland",
+      "title": "Moonstone Island",
+      "image": "https://hb.imgix.net/aa46234634e359930ad30d42a834b8d09014a1d6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6c090c3787c6e4943e0889952ceeeee0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Raw Fury/Studio Supersoft"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.85,
+      "expiresAt": "2026-01-06T18:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "inkulinati",
+      "title": "Inkulinati",
+      "image": "https://hb.imgix.net/280357137a5f747291094d2ffe272d4ece5cb009.jpg?auto=compress,format&fit=clip&h=383&w=667&s=543821bedcf055dc4fcb18153951de89",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        957960
+      ],
+      "developers": [
+        "Daedalic Entertainment/Yaza Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "venba",
+      "title": "Venba",
+      "image": "https://hb.imgix.net/0f9a8857338b38b65c3712590924edcc0e2d73fe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f1e7977eefcccef98973009381be9939",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1491670
+      ],
+      "developers": [
+        "Visai Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "monsterprom3_monsterroadtrip",
+      "title": "Monster Prom 3: Monster Roadtrip",
+      "image": "https://hb.imgix.net/08b8380509354b761c6b453adad43848be4f605c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8696cf8fb12f69e843c0d1951c7f952d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1665190
+      ],
+      "developers": [
+        "Beautiful Glitch"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.98,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bootdev_dec2024_onemonthfree",
+      "title": "Boot.dev 1 Month Subscription",
+      "image": "https://hb.imgix.net/2be6eeb205d8b93f051869b4fa0bda0bff5d1015.png?auto=compress,format&fit=clip&h=383&w=667&s=1fdb02136441c4ea3933d2a016d6ef5e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Boot.dev"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49,
+      "ratingPercent": null,
+      "expiresAt": "2025-01-09T07:59:00",
+      "isExtra": true
+    }
+  ]
+}

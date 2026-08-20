@@ -1,0 +1,258 @@
+{
+  "id": "2026-07",
+  "slug": "July-2026",
+  "title": "July 2026",
+  "url": "https://www.humblebundle.com/membership/July-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:25.273Z",
+  "games": [
+    {
+      "id": "seaofstars_sunsetedition",
+      "title": "Sea of Stars: Sunset Edition",
+      "image": "https://hb.imgix.net/0a72697b8c087640fe03b46e5d09ad2789760ed7.png?auto=compress,format&fit=clip&h=383&w=667&s=6e4650b36672c95bd2c1443f133afd9d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1244090
+      ],
+      "developers": [
+        "Sabotage Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "tunic",
+      "title": "TUNIC",
+      "image": "https://hb.imgix.net/daf8710c6d8353fd16dd26c328705bf557692176.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7df3573a5b5edce55893e08c2fc8671f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        553420
+      ],
+      "developers": [
+        "TUNIC Team"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.91,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "neonwhite",
+      "title": "Neon White",
+      "image": "https://hb.imgix.net/ee9b2005c3de664772f8184402cf41c8f246d247.png?auto=compress,format&fit=clip&h=383&w=667&s=aff43adb63d30fe8c0f45d26f59daea5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1533420
+      ],
+      "developers": [
+        "Angel Matrix"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.98,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "policesimulator_patrolofficers",
+      "title": "Police Simulator: Patrol Officers",
+      "image": "https://hb.imgix.net/41baed644c86d22d7823a25a4baf5eaaeb6f1d74.jpg?auto=compress,format&fit=clip&h=383&w=667&s=27087ce78758775be3d16d256537cf85",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        997010
+      ],
+      "developers": [
+        "Aesir Interactive"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.76,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "dropduchy_completeedition",
+      "title": "Drop Duchy - Complete Edition",
+      "image": "https://hb.imgix.net/181a4ac557022c7992071ebf54b25ef12ec8467c.png?auto=compress,format&fit=clip&h=383&w=667&s=b9b3b4893b15dc3ee255577c54d1f06b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        62193
+      ],
+      "developers": [
+        "Sleepy Mill Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 21.57,
+      "ratingPercent": 0.9,
+      "expiresAt": "2027-02-04T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "sledders",
+      "title": "Sledders",
+      "image": "https://hb.imgix.net/3f89c5ca36f476a91ed41ec3a7a5e09c59f85603.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a503fd336701c906f8d35cb98907cc35",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2486740
+      ],
+      "developers": [
+        "Hanki Games"
+      ],
+      "genres": [
+        "Sports",
+        "Racing",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "dicefolk",
+      "title": "Dicefolk",
+      "image": "https://hb.imgix.net/ae0cf1241d6020cc4b8a5a39c291820bf829fe35.jpg?auto=compress,format&fit=clip&h=383&w=667&s=dee0ba3fb210da96bc9d102aa40f1855",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1996430
+      ],
+      "developers": [
+        "LEAP Game Studios",
+        "Tiny Ghoul"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ouradventurerguild",
+      "title": "Our Adventurer Guild",
+      "image": "https://hb.imgix.net/72f8fb26c2bb6c93cd8ea7b59385eae32d2cead9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9e59bf5e1f7411209c1dfd1458304307",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2026000
+      ],
+      "developers": [
+        "GreenGuy"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.95,
+      "expiresAt": "2027-08-04T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "infinity_hexadometactics",
+      "title": "Infinity: HexaDome Tactics Playtest",
+      "image": "https://hb.imgix.net/b1e00ea337c42cc4524e01725b1ff7a2cff16e4a.png?auto=compress,format&fit=clip&h=383&w=667&s=041b9099e5e87410966537bfa2c4063b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Blindspot Games"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-08-04T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-08-04T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "2026-05",
+  "slug": "May-2026",
+  "title": "May 2026",
+  "url": "https://www.humblebundle.com/membership/May-2026",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T08:57:28.248Z",
+  "games": [
+    {
+      "id": "diabloiv",
+      "title": "Diablo IV",
+      "image": "https://hb.imgix.net/d0e8cf05c9e5f76c2cd02b2d26d109a6b31b5465.png?auto=compress,format&fit=clip&h=383&w=667&s=980abf50aeb7bc8ac8f5c400b61c2725",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "blizzard"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Blizzard Entertainment, Inc."
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": null,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "shinmegamitenseiv_vengeance",
+      "title": "Shin Megami Tensei V: Vengeance",
+      "image": "https://hb.imgix.net/6a8b60ac86212519980c25f8e5f600792f722ea5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1e33f529e8deabc170937e4b5c722d5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1875830
+      ],
+      "developers": [
+        "ATLUS"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.82,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "crysis3remastered",
+      "title": "Crysis 3 Remastered",
+      "image": "https://hb.imgix.net/f328b6315c6731b17e9b65e1c8d625ac53dc5d3b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4cb495eeea9033ed054087ed3586b239",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2096610
+      ],
+      "developers": [
+        "Crytek",
+        "Saber Interactive"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "heroesofhammerwatch2",
+      "title": "Heroes of Hammerwatch II",
+      "image": "https://hb.imgix.net/1475c2e717377348d407f30a66cd2bf172e92fa9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6fe720af25f023490181b4892e97c08c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        619820
+      ],
+      "developers": [
+        "Crackshell"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.72,
+      "expiresAt": "2026-12-02T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "nordhold",
+      "title": "Nordhold",
+      "image": "https://hb.imgix.net/e9bba17df769b5fa49eb05e55bd1272d7f4de7d2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=04754294641fc9fa0a2dc39f3340e5d0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3028310
+      ],
+      "developers": [
+        "StunForge"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.9,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "roguewaters",
+      "title": "Rogue Waters",
+      "image": "https://hb.imgix.net/f9daca5c5d35f7b40cd54b5d121f7c0fc6951927.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e91319572163442565b2ee1180a33907",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1691190
+      ],
+      "developers": [
+        "Ice Code Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.77,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "cubicodyssey",
+      "title": "Cubic Odyssey",
+      "image": "https://hb.imgix.net/2c8abd8dc6239618e22371a176e5d3713bd1c8f5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1270726e421f3c4c6d8eeb130b5365d2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3400000
+      ],
+      "developers": [
+        "Atypical Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.83,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "minisettlers",
+      "title": "Mini Settlers",
+      "image": "https://hb.imgix.net/32f6efb1c58dfe9398cd27e215ff540153d2ae28.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee1d232a3135151b653e1ae60eb56b19",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2521630
+      ],
+      "developers": [
+        "Knight Owl Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.85,
+      "expiresAt": "2027-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "dungeonballer",
+      "title": "Dungeon Baller Playtest",
+      "image": "https://hb.imgix.net/c64e85fefef5c113e6d551e7f448b43ddf168d50.png?auto=compress,format&fit=clip&h=383&w=667&s=4df8429cab6d58b3846aaee31078679e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3009440
+      ],
+      "developers": [
+        "Lazy Bones"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2026-06-02T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-06-02T17:00:00",
+      "isExtra": true
+    }
+  ]
+}
