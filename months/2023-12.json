@@ -1,0 +1,261 @@
+{
+  "id": "2023-12",
+  "slug": "December-2023",
+  "title": "December 2023",
+  "url": "https://www.humblebundle.com/membership/December-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:25.376Z",
+  "games": [
+    {
+      "id": "expeditions_rome",
+      "title": "Expeditions: Rome",
+      "image": "https://hb.imgix.net/175a1395143ebba066f884f7b7a631851482e7d5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8973e2afbaa96404af5653c461b17ba3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        987840
+      ],
+      "developers": [
+        "Logic Artists",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "midnightfightexpress",
+      "title": "Midnight Fight Express",
+      "image": "https://hb.imgix.net/7eb961691349d49d410519cab39654c637c971ae.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b13f7c96191d7a5d1102e5cab74e3ed",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1390410
+      ],
+      "developers": [
+        "Jacob Dzwinel"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "elexii",
+      "title": "ELEX II",
+      "image": "https://hb.imgix.net/ffafdf314998dd5dcc286451af27f061a313f10b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75304808b2630ab70c234f24defc0dba",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        900040
+      ],
+      "developers": [
+        "Piranha Bytes",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nobodysavestheworld",
+      "title": "Nobody Saves the World",
+      "image": "https://hb.imgix.net/e3afd89b5ce6397c1d2a02b6d89e998907ebdb32.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0afcafce8bfaac9c2fd85e973e187f43",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1432050
+      ],
+      "developers": [
+        "DrinkBox Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thegunk",
+      "title": "The Gunk",
+      "image": "https://hb.imgix.net/031dfc9be329c8a9adc325f6affc424c7e14b86a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d74272c34e69ef60535f49a4918dc15c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1087760
+      ],
+      "developers": [
+        "Image & Form Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thepalebeyond",
+      "title": "The Pale Beyond",
+      "image": "https://hb.imgix.net/5e460c434f36adab400275f6dfff1d23e9e4e3e5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=09cfb005b4d1db869fed7f90e4c93920",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1266030
+      ],
+      "developers": [
+        "Bellular Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lastcallbbs",
+      "title": "Last Call BBS",
+      "image": "https://hb.imgix.net/d03d46ab30fc34485f4c41cc4619d13e23b60c7b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=467ffc0b40579f47d9e7cf236313c68a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1511780
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fromspace",
+      "title": "From Space",
+      "image": "https://hb.imgix.net/93cc80708899c1477f08ca7158ff076a1c28ce6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=45d7f467cf9832248ae581003d4d034f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1502190
+      ],
+      "developers": [
+        "Triangle Studios/Curve Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.67,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dcuniverseinfinite_onemonthfreetrial",
+      "title": "DC Universe Infinite 1-Month Free Trial",
+      "image": "https://hb.imgix.net/8a7d4391c87a768af78ae560607b715fde40ae96.png?auto=compress,format&fit=clip&h=383&w=667&s=299f6655bd929177bf7a1c612a37daa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "DC Comics"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 7.99,
+      "ratingPercent": null,
+      "expiresAt": "2024-01-02T18:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "ignplus_choicecoupon",
+      "title": "Get Two Months of IGN Plus",
+      "image": "https://hb.imgix.net/23f5e62ceb0890970ae513f48cf2ee6a304d877f.png?auto=compress,format&fit=clip&h=383&w=667&s=dbd2c67f3331731557bf25a609e3e999",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 9.98,
+      "ratingPercent": null,
+      "expiresAt": "2024-04-30T07:00:00",
+      "isExtra": true
+    }
+  ]
+}

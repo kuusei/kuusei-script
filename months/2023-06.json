@@ -1,0 +1,219 @@
+{
+  "id": "2023-06",
+  "slug": "June-2023",
+  "title": "June 2023",
+  "url": "https://www.humblebundle.com/membership/June-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:30.656Z",
+  "games": [
+    {
+      "id": "ghostwire_tokyo",
+      "title": "Ghostwire Tokyo",
+      "image": "https://hb.imgix.net/38a08f882b7985c7c3d0a93ec41bbaf234333afe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=aea6bbe38452dd6c7bd54179b59c57d4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1475810
+      ],
+      "developers": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.81,
+      "expiresAt": "2024-06-30T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "remnant_fromtheashes_completeedition",
+      "title": "Remnant: From the Ashes - Complete Edition",
+      "image": "https://hb.imgix.net/75f2d8341d03fe98ef96ed9789b4566526c973a0.png?auto=compress,format&fit=clip&h=383&w=667&s=8c82c1b1d99bc876f6a1b24be18aa200",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        15367
+      ],
+      "developers": [
+        "Gunfire Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.77,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "curseofthedeadgods_new",
+      "title": "Curse of the Dead Gods",
+      "image": "https://hb.imgix.net/c06b31fc82a69b026157e7e902bd4017e3386c6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d58ddb0739b1299846b8078b097d274",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1123770
+      ],
+      "developers": [
+        "Focus Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "honeyijoinedacult",
+      "title": "Honey I Joined a Cult",
+      "image": "https://hb.imgix.net/08d9c50fa8ed4780efe46b672e528976722d820f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3e9414d30016e0c5d7a05cd42b46a037",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        841190
+      ],
+      "developers": [
+        "Team17"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 21.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "eternalthreads",
+      "title": "Eternal Threads",
+      "image": "https://hb.imgix.net/2c9b5f2c44cde0994371ba90061492ac74d2e86e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=627d1ab493044741bca531d7a5bbef93",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        841190
+      ],
+      "developers": [
+        "Secret Mode"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "grime",
+      "title": "GRIME",
+      "image": "https://hb.imgix.net/09fff739bb28d8f405a9e411eff7dedef0d2045e.png?auto=compress,format&fit=clip&h=383&w=667&s=374957d93295975efbeaffd81b857fa0",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1123050
+      ],
+      "developers": [
+        "Akupara Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "turbogolfracing",
+      "title": "Turbo Golf Racing",
+      "image": "https://hb.imgix.net/d1da87737f7e0454d1c7e6d9b00b7a09a37bcd99.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2e6a8917060b8ba5d6aa4fe59e2a726c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1324350
+      ],
+      "developers": [
+        "Secret Mode"
+      ],
+      "genres": [
+        "Action",
+        "Racing",
+        "Sports"
+      ],
+      "msrpUsd": 4.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "meeplestation",
+      "title": "Meeple Station",
+      "image": "https://hb.imgix.net/a2bc7f414a1844a9e0dc6b6abeada77abf402543.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7f1bfbc4dfaaca42846564258f179768",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        900010
+      ],
+      "developers": [
+        "Vox Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.6,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

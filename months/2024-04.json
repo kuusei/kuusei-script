@@ -1,0 +1,228 @@
+{
+  "id": "2024-04",
+  "slug": "April-2024",
+  "title": "April 2024",
+  "url": "https://www.humblebundle.com/membership/April-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:21.561Z",
+  "games": [
+    {
+      "id": "victoria3",
+      "title": "Victoria 3",
+      "image": "https://hb.imgix.net/7e3b550a4d5ab1e3f57340ee4db2b8e37145a98c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=36cb3d8402ee574de9b183348801e854",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        529340
+      ],
+      "developers": [
+        "Paradox Development Studio",
+        "Paradox Interactive"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thecallistoprotocol",
+      "title": "The Callisto Protocol",
+      "image": "https://hb.imgix.net/1ab691e4dd58a2a3529d2920067dce2df9b3ad31.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b4561d2ad7f0c59ed2ec86cf77a307f7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1544020
+      ],
+      "developers": [
+        "Striking Distance Studios",
+        "KRAFTON, Inc."
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "humankind_premiumedition",
+      "title": "HUMANKIND Definitive Edition",
+      "image": "https://hb.imgix.net/0d0acfe04a8729839e3d74c4af42101e7e792f2a.png?auto=compress,format&fit=clip&h=383&w=667&s=ba39492a10421cb0b518d177175a21c4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1124300
+      ],
+      "developers": [
+        "AMPLITUDE Studios",
+        "SEGA"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 98.94,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fashionpolicesquad",
+      "title": "Fashion Police Squad",
+      "image": "https://hb.imgix.net/b79f6a65239e58ee9e39b3ba210c5bca0e94586b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a423d4626e23e41ecf6b7f6ef98aaa9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Mopeful Games",
+        "No More Robots"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "terraformers",
+      "title": "Terraformers",
+      "image": "https://hb.imgix.net/b114c1fdcb4ea82d1e5f72f6778568ab1fab7e21.jpg?auto=compress,format&fit=clip&h=383&w=667&s=085f6a2b91af3e61d0e127abf444cb28",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog",
+        "steam"
+      ],
+      "steamAppIds": [
+        1244800
+      ],
+      "developers": [
+        "Asteroid Lab",
+        "Goblinz Publishing"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "symphonyofwar_thenephilimsaga",
+      "title": "Symphony of War: The Nephilim Saga",
+      "image": "https://hb.imgix.net/04bec58945767066771eafba1fa273d62793a444.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02357f798b276c32b19d2fd2d30a3d6c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1488200
+      ],
+      "developers": [
+        "Dancing Dragon Games",
+        "indie.io"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "coromon",
+      "title": "Coromon",
+      "image": "https://hb.imgix.net/a31d130e19091624a56f816d1ceb8c6dbe0c3b07.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9afe60440dcaa4c566f076cec8d4f981",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1218210
+      ],
+      "developers": [
+        "TRAGsoft",
+        "indie.io"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theexcavationofhobsbarrow",
+      "title": "The Excavation of Hob's Barrow",
+      "image": "https://hb.imgix.net/5c9cf911cf9466ed683b0e8368b3fd815d102ab5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d314189ecf6891ea0445f7444fef911",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1182310
+      ],
+      "developers": [
+        "Cloak and Dagger Games",
+        "Wadjet Eye Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

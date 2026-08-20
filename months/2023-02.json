@@ -1,0 +1,212 @@
+{
+  "id": "2023-02",
+  "slug": "February-2023",
+  "title": "February 2023",
+  "url": "https://www.humblebundle.com/membership/February-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:33.998Z",
+  "games": [
+    {
+      "id": "pathfinder_wrathoftherighteous",
+      "title": "Pathfinder: Wrath of the Righteous",
+      "image": "https://hb.imgix.net/e9207e40614b4c266598ff0a143f84b57c4f86ea.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0530185dccb20ee9ff350caa33800ae1",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1184370
+      ],
+      "developers": [
+        "Owlcat Games"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fallout76_fallout1",
+      "title": "Fallout 76 + Fallout 1",
+      "image": "https://hb.imgix.net/1ba49d8f9e28c48cfb5d68f4ae21b9f9aa1a6dc1.png?auto=compress,format&fit=clip&h=383&w=667&s=6f5bf175d200efb71f5d3eac3272fbf6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Bethesda Game Studio"
+      ],
+      "genres": [
+        "Multiplayer",
+        "RPG"
+      ],
+      "msrpUsd": 49.98,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thronebreaker_thewitchertales",
+      "title": "Thronebreaker: The Witcher Tales",
+      "image": "https://hb.imgix.net/fb8f558710ae46d03d1aa274af18442284082f38.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e1a68e666dd2e27752028fa4d685d3c5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        973760
+      ],
+      "developers": [
+        "CD PROJEKT RED"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "othercide",
+      "title": "Othercide",
+      "image": "https://hb.imgix.net/bb9f2f3c028b234db93ee7e435f36643ed12b160.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d9ad2ad35f2be9fea77547c7d8933b8b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        798490
+      ],
+      "developers": [
+        "Lightbulb Crew"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shadypartofme",
+      "title": "Shady Part of Me",
+      "image": "https://hb.imgix.net/e3b3f55ffeb8679214a67feb8d05f6838c4349cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1896c33be495866283a81038c52189f0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1116580
+      ],
+      "developers": [
+        "Douze Dixièmes"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "scourgebringer",
+      "title": "Scourgebringer",
+      "image": "https://hb.imgix.net/a231019f349403598a2d5a0f33c415d59a96aca4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ddb5052bc96ae9f83a508e7c2d901268",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1037020
+      ],
+      "developers": [
+        "Flying Oak Games",
+        "E-Studio",
+        "Dear Villagers"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fobia-stdinfnahotel",
+      "title": "Fobia - St. Dinfna Hotel",
+      "image": "https://hb.imgix.net/f98f6e55c0660a139fd3b7734964799bc586033b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0363cffa8d80e5579bf95f9eab994519",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1298140
+      ],
+      "developers": [
+        "Pulsatrix Studios"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fivedates",
+      "title": "Five Dates",
+      "image": "https://hb.imgix.net/c3efa8b53f709a95707d78693650e3e536ec3c96.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6ea378575bebd13623236436de3e2274",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1353270
+      ],
+      "developers": [
+        "Good Gate Media",
+        "Wales Interactive"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

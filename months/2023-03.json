@@ -1,0 +1,219 @@
+{
+  "id": "2023-03",
+  "slug": "March-2023",
+  "title": "March 2023",
+  "url": "https://www.humblebundle.com/membership/March-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:33.128Z",
+  "games": [
+    {
+      "id": "biomutant",
+      "title": "Biomutant",
+      "image": "https://hb.imgix.net/39fd8c20a42eda6865de9e628bac8eccd7dbb880.jpg?auto=compress,format&fit=clip&h=383&w=667&s=21dc2d9b97ad9b26bb2081712d7c196b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        597820
+      ],
+      "developers": [
+        "Experiment 101/THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.67,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jurassicworldevolution2",
+      "title": "Jurassic World Evolution 2",
+      "image": "https://hb.imgix.net/40578208ac54d6e4e32e2fce9f52fea6408cc423.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11b40e714f33d09886fef6cfab72d495",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1244460
+      ],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "edgeofeternity",
+      "title": "Edge Of Eternity",
+      "image": "https://hb.imgix.net/cc5109a716d3343524ab6976d03e0a9b94ef0760.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6a05dc92e715a4fa29ba368399deead7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        269190
+      ],
+      "developers": [
+        "Midgar Studio/Dear Villagers"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "heroshour",
+      "title": "Hero's Hour",
+      "image": "https://hb.imgix.net/b8d996be14c8f0a4b327a2fd4cf7205aeb7895b7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=691ecfc9a8f560c93865ff64f9d4e04f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1656780
+      ],
+      "developers": [
+        "Benjamin \"ThingOnItsOwn\" Hauer/Goblinz Publishing"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roguelords",
+      "title": "Rogue Lords",
+      "image": "https://hb.imgix.net/f4e7b39a168721b1f344104a888a8d571032faa8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=314a8f0895b7bda4f641792b20cb91b0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        269190
+      ],
+      "developers": [
+        "Leikir Studio, Cyanide Studio/Nacon"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.73,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "demonturf",
+      "title": "Demon Turf",
+      "image": "https://hb.imgix.net/7ef65f3deeab56bf48ff174a3fbfb154326366d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fdf515a80f783d94d86f7a6a0ad34cc5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1069690
+      ],
+      "developers": [
+        "Fabraz/Playtonic Friends"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.86,
+      "expiresAt": "2025-08-05T18:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "goldenlight",
+      "title": "Golden Light",
+      "image": "https://hb.imgix.net/8c7acf10b8753d6de44e665bcc3c693c0193c9c6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e533a0cbd6f75774e64301f7cd52e0f1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1245430
+      ],
+      "developers": [
+        "Mr. Pink/HypeTrain Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "monstercrown",
+      "title": "Monster Crown",
+      "image": "https://hb.imgix.net/840b7291c20e7e41cce7819abd1c9c2a815eabdc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=abbf6f0699636d80a2549011e051bac2",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        830370
+      ],
+      "developers": [
+        "Studio Aurum/SOEDESCO"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

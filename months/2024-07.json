@@ -1,0 +1,230 @@
+{
+  "id": "2024-07",
+  "slug": "July-2024",
+  "title": "July 2024",
+  "url": "https://www.humblebundle.com/membership/July-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:17.378Z",
+  "games": [
+    {
+      "id": "aplaguetale_requiem",
+      "title": "A Plague Tale: Requiem",
+      "image": "https://hb.imgix.net/bdde7926713204647f8c913d88779fb892d1c99f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cdd3630971267a2547e9559b4fa129ad",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1182900
+      ],
+      "developers": [
+        "Asobo Studio/Focus Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ghostrunner2",
+      "title": "Ghostrunner 2",
+      "image": "https://hb.imgix.net/e318a9ab7ba10d3b021ead299ef011072e89328d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=63db35e17b9c644ef1753b326f6797c4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "One More Level/505 Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "starshiptroopers_terrancommand",
+      "title": "Starship Troopers: Terran Command",
+      "image": "https://hb.imgix.net/49a6d3d4ca11e33813873a8ac008d30944944d67.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fa67a201efa333545d4cbe0fd6b0aaad",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1202130
+      ],
+      "developers": [
+        "The Artistocrats/Slitherine Ltd."
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stickybusiness",
+      "title": "Sticky Business",
+      "image": "https://hb.imgix.net/c0c01e7e8333fb04ea77b3eb6608ce3d93176c4d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9df1db4b42fef1afba20f8d1237a8136",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2303350
+      ],
+      "developers": [
+        "Spellgarden Games/Assemble Entertainment"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "zoeti",
+      "title": "Zoeti",
+      "image": "https://hb.imgix.net/a41d4feb5ae45308f699eb21f224e238b02c1724.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e90d6bd05a483c38d0de1521f1e2ddca",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Dusklight CO., LTD./Akupara Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "figment2_creedvalley",
+      "title": "Figment 2: Creed Valley",
+      "image": "https://hb.imgix.net/babdb26bb098ff87b251a30347ce4d8c7fa445a4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9e5137c761a295640a52702341e9e20",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1085220
+      ],
+      "developers": [
+        "Bedtime Digital Games/Plug In Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hereticsfork",
+      "title": "Heretic's Fork",
+      "image": "https://hb.imgix.net/a5b2c2ea7725c969597af3d98fe7c90225a22c58.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53e3a4f10f34d2caca7c923cd149bf77",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2181610
+      ],
+      "developers": [
+        "9FingerGames/Ravenage Games"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hyperviolent",
+      "title": "HYPERVIOLENT",
+      "image": "https://hb.imgix.net/ec839357da3fda5f73ed72c52e201433fe77abe1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01a9ca47f391864199e47bb73b8e1d1b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1409200
+      ],
+      "developers": [
+        "Terminist Arcade/Fulqrum Publishing"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dcuniverseinfinite_july2024_onemonthfreetrial",
+      "title": "DC Universe Infinite 1-Month Free Trial",
+      "image": "https://hb.imgix.net/881242ab73e050828e6b510329f4626c1ff4cf8c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eb964ef50eced08a5c9d55436b8ef37e",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "DC Comics"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 7.99,
+      "ratingPercent": null,
+      "expiresAt": "2024-09-13T17:00:00",
+      "isExtra": true
+    }
+  ]
+}

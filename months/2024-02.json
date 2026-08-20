@@ -1,0 +1,216 @@
+{
+  "id": "2024-02",
+  "slug": "February-2024",
+  "title": "February 2024",
+  "url": "https://www.humblebundle.com/membership/February-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:23.586Z",
+  "games": [
+    {
+      "id": "lifeisstrange_truecolors",
+      "title": "Life is Strange: True Colors",
+      "image": "https://hb.imgix.net/d663cc3f76cd95c41b83c88de820efcef97e6a42.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac54a5d320d33fd6b5b73ce15289c946",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        936790
+      ],
+      "developers": [
+        "Deck Nine/Square Enix"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "scorn",
+      "title": "Scorn",
+      "image": "https://hb.imgix.net/4fe807f243f88697fb0769f635b51af84cacd3dc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d0c1c65d9a7dfd6d6e2c8edb38be15bb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        698670
+      ],
+      "developers": [
+        "Ebb Software/Kepler Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "destroyallhumans2-reprobed",
+      "title": "Destroy All Humans 2! Reprobed",
+      "image": "https://hb.imgix.net/f1811849a163a8dc7914ed6615f2bf2e7096c60b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2fb79a0e10b1975e22c22f17da7b6bce",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1266700
+      ],
+      "developers": [
+        "Black Forest Games/THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beaconpines",
+      "title": "Beacon Pines",
+      "image": "https://hb.imgix.net/0961de39dbf6c6bf96012b8fe20d3829a24c0fad.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b7a27975567e23541d78815ee7ed848",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1269640
+      ],
+      "developers": [
+        "Hiding Spot/Fellow Traveller"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.98,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thereisnolight_enhancededition",
+      "title": "There is No Light: Enhanced Edition",
+      "image": "https://hb.imgix.net/4fc2f0d917cae022981bd8654ccc000432bb897e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9feefa1a7f01670f102a5b786185f14e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1132980
+      ],
+      "developers": [
+        "Zelart/Hypetrain Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "childrenofsilentown",
+      "title": "Children of Silentown",
+      "image": "https://hb.imgix.net/6267cae5602517051d07f9da11688b7378fcb565.jpg?auto=compress,format&fit=clip&h=383&w=667&s=55bca7eb1f3e55a1e0a7f31a53aa4a62",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1108000
+      ],
+      "developers": [
+        "Elf Games",
+        "Luna2 Studio",
+        "Daedalic Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "oaken",
+      "title": "Oaken",
+      "image": "https://hb.imgix.net/273019c02d90dd8f6632903b5b391587b9df9ee8.png?auto=compress,format&fit=clip&h=383&w=667&s=b2c9c6d143737e0199345afc1747a8b5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Laki Studios/Goblinz Publishing"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "snowtopia_skiresorttycoon",
+      "title": "Snowtopia: Ski Resort Builder",
+      "image": "https://hb.imgix.net/db954db8168417adf93c47b834c77a2f0dcbd671.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b9b85a86ec8568cd2fccc1651b92fd5c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "TeaForTwo/Goblinz Publishing"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.65,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

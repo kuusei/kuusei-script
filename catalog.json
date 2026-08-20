@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:57:45.129Z",
+  "generatedAt": "2026-08-20T09:10:36.635Z",
   "source": "humblebundle.com",
   "months": [
     {
@@ -5716,6 +5716,5123 @@
           "msrpUsd": 9.99,
           "ratingPercent": 0.97,
           "expiresAt": "2025-11-04T19:00:00",
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2024-09",
+      "slug": "September-2024",
+      "title": "September 2024",
+      "url": "https://www.humblebundle.com/membership/September-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:15.511Z",
+      "games": [
+        {
+          "id": "marvelsguardiansofthegalaxy",
+          "title": "Marvel's Guardians of the Galaxy",
+          "image": "https://hb.imgix.net/f24310af654f99847c2bb0cfe0020fef1603d348.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5c9134e9f3fad964d37937dc86c9ed43",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1088850
+          ],
+          "developers": [
+            "Crystal Dynamics / Marvel"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "stranded_aliendawn",
+          "title": "Stranded: Alien Dawn",
+          "image": "https://hb.imgix.net/5f7d387856d7aefeef2626a8a40a8b3e09f75c22.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4599567bdfdc2b63991fce42112d86c5",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Haemimont Games/Frontier Foundry"
+          ],
+          "genres": [
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 34.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "coralisland",
+          "title": "Coral Island",
+          "image": "https://hb.imgix.net/c8bf240d4abdbc7eb3de6c4eceba77f4dde65efa.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6fece46663baf2392166a9d11f6de20b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1158160
+          ],
+          "developers": [
+            "Stairway Games/Humble Games"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Adventure",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "spongebobsquarepants_thecosmicshake",
+          "title": "SpongeBob SquarePants: The Cosmic Shake",
+          "image": "https://hb.imgix.net/a99ae01918e914d5627a2c026efae75d498fba91.jpg?auto=compress,format&fit=clip&h=383&w=667&s=462141bbd0809e9e191f5e9a95350e3b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1282150
+          ],
+          "developers": [
+            "Purple Lamp/THQ Nordic"
+          ],
+          "genres": [
+            "Action"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.92,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "losteidolons",
+          "title": "Lost Eidolons",
+          "image": "https://hb.imgix.net/8ac73f4372888428a01ec3d5ae85075c0b376e97.jpg?auto=compress,format&fit=clip&h=383&w=667&s=198bdfe40cc70d0e2b589158ec57681a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1580520
+          ],
+          "developers": [
+            "Ocean Drive Studio, Inc."
+          ],
+          "genres": [
+            "Indie",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 34.99,
+          "ratingPercent": 0.71,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "astrea_six-sidedoracles",
+          "title": "Astrea: Six-Sided Oracles",
+          "image": "https://hb.imgix.net/ed4ebe5853ada8e777bef3c89754c7779a20cc6d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cc9e9206a830fcc44a4fcdd611447c55",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "gog"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Little Leo Games/Akupara Games"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.92,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "infraspace",
+          "title": "InfraSpace",
+          "image": "https://hb.imgix.net/2d97bd67cda65fa32edab0b9e9867cd5be0a11e1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=30876c3a859c604b6aae906e19c7e06b",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1511460
+          ],
+          "developers": [
+            "Dionic Software"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.82,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "yousuckatparking",
+          "title": "You Suck at Parking - Complete Edition",
+          "image": "https://hb.imgix.net/b8421d7bbe89dcfff113c435a15affc388500614.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac03404e59bd2afd71a0dbc966337a60",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            837880
+          ],
+          "developers": [
+            "Happy Volcano/Curve Games"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Racing",
+            "Sports"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "ruevalley_alpha_playtest_september2024choice",
+          "title": "Rue Valley - Alpha Playtest",
+          "image": "https://hb.imgix.net/69a7d3046fa4c62193bfe40a49cb3b9ce2596f7b.png?auto=compress,format&fit=clip&h=383&w=667&s=571e05e1520d7fb04f45e56be034d1a5",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Emotion Spark Studio/ Owlcat Games"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": "2024-10-01T06:59:00",
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2024-08",
+      "slug": "August-2024",
+      "title": "August 2024",
+      "url": "https://www.humblebundle.com/membership/August-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:16.382Z",
+      "games": [
+        {
+          "id": "sifu",
+          "title": "Sifu",
+          "image": "https://hb.imgix.net/dc5a1a1954480a15e3194b022c4ae9c227481f02.jpg?auto=compress,format&fit=clip&h=383&w=667&s=91cff8e176842b95af097843e3594cae",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            2138710
+          ],
+          "developers": [
+            "Sloclap / Kepler Interactive"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.96,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "highonlife",
+          "title": "High On Life",
+          "image": "https://hb.imgix.net/db551c7624c88379faa0b19532c0739b0f14c5cd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=41a98633849306aa6833708939923b29",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            482400
+          ],
+          "developers": [
+            "Nightdive Studios / Squanch Games, Inc."
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "gothamknights",
+          "title": "Gotham Knights",
+          "image": "https://hb.imgix.net/34ff77a7e4790ff04aa9bec21d73d463b13ad956.jpg?auto=compress,format&fit=clip&h=383&w=667&s=56fd48018a7dc19b687c2a9c1a4c9b6f",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1496790
+          ],
+          "developers": [
+            "Warner Bros. Games Montréal / Warner Bros. Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.69,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "dcuniverseinfinite_july2024_onemonthfreetrial",
+          "title": "DC Universe Infinite 1-Month Free Trial",
+          "image": "https://hb.imgix.net/881242ab73e050828e6b510329f4626c1ff4cf8c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eb964ef50eced08a5c9d55436b8ef37e",
+          "platforms": [],
+          "deliveryMethods": [
+            "other-key"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "DC Comics"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 7.99,
+          "ratingPercent": null,
+          "expiresAt": "2024-09-13T17:00:00",
+          "isExtra": true
+        },
+        {
+          "id": "blacktail",
+          "title": "BLACKTAIL",
+          "image": "https://hb.imgix.net/403fe01d3398f3c9dfc6c6ce2d467ade3315a885.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cfd042446b9ecc7190145b054db658b7",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1532690
+          ],
+          "developers": [
+            "THE PARASIGHT / Focus Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.83,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "astralascent",
+          "title": "Astral Ascent",
+          "image": "https://hb.imgix.net/c2cf228a126b70e844769ff67bd901ac55d49617.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b541b1f606fe547c8816183648362c8",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1280930
+          ],
+          "developers": [
+            "Hibernian Workshop / MP2 Games / Maple Whispering Limited"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.93,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "diluvianultra",
+          "title": "Diluvian Ultra",
+          "image": "https://hb.imgix.net/2aa5e1f0a6beb207e9d945d9a565ecb0206c145c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4d5ace6821ad7fd461fcfaa3b151e7f",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Crest Helm Studios / Fulqrum Publishing"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 9.99,
+          "ratingPercent": 0.8,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "universeforsale",
+          "title": "Universe For Sale",
+          "image": "https://hb.imgix.net/2ea43034e79345d808fa520c53900093913fbd0a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9486b79bb3d875f7408336a26267285",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Tmesis Studio / Akupara Games"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.95,
+          "expiresAt": "2025-10-16T07:00:00",
+          "isExtra": true
+        },
+        {
+          "id": "thismeanswarp",
+          "title": "This Means Warp",
+          "image": "https://hb.imgix.net/4035ad11d646bf9f388fa8f4af572528caae3182.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02b394ded1422a26575f807d083ff512",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1269300
+          ],
+          "developers": [
+            "Outlier/Jagex Ltd."
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2024-07",
+      "slug": "July-2024",
+      "title": "July 2024",
+      "url": "https://www.humblebundle.com/membership/July-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:17.378Z",
+      "games": [
+        {
+          "id": "aplaguetale_requiem",
+          "title": "A Plague Tale: Requiem",
+          "image": "https://hb.imgix.net/bdde7926713204647f8c913d88779fb892d1c99f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cdd3630971267a2547e9559b4fa129ad",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1182900
+          ],
+          "developers": [
+            "Asobo Studio/Focus Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "ghostrunner2",
+          "title": "Ghostrunner 2",
+          "image": "https://hb.imgix.net/e318a9ab7ba10d3b021ead299ef011072e89328d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=63db35e17b9c644ef1753b326f6797c4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "One More Level/505 Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Strategy"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.84,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "starshiptroopers_terrancommand",
+          "title": "Starship Troopers: Terran Command",
+          "image": "https://hb.imgix.net/49a6d3d4ca11e33813873a8ac008d30944944d67.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fa67a201efa333545d4cbe0fd6b0aaad",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1202130
+          ],
+          "developers": [
+            "The Artistocrats/Slitherine Ltd."
+          ],
+          "genres": [
+            "Strategy"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "stickybusiness",
+          "title": "Sticky Business",
+          "image": "https://hb.imgix.net/c0c01e7e8333fb04ea77b3eb6608ce3d93176c4d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9df1db4b42fef1afba20f8d1237a8136",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            2303350
+          ],
+          "developers": [
+            "Spellgarden Games/Assemble Entertainment"
+          ],
+          "genres": [
+            "Simulation"
+          ],
+          "msrpUsd": 9.99,
+          "ratingPercent": 0.97,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "zoeti",
+          "title": "Zoeti",
+          "image": "https://hb.imgix.net/a41d4feb5ae45308f699eb21f224e238b02c1724.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e90d6bd05a483c38d0de1521f1e2ddca",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "gog"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Dusklight CO., LTD./Akupara Games"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "figment2_creedvalley",
+          "title": "Figment 2: Creed Valley",
+          "image": "https://hb.imgix.net/babdb26bb098ff87b251a30347ce4d8c7fa445a4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9e5137c761a295640a52702341e9e20",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1085220
+          ],
+          "developers": [
+            "Bedtime Digital Games/Plug In Digital"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.96,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hereticsfork",
+          "title": "Heretic's Fork",
+          "image": "https://hb.imgix.net/a5b2c2ea7725c969597af3d98fe7c90225a22c58.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53e3a4f10f34d2caca7c923cd149bf77",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            2181610
+          ],
+          "developers": [
+            "9FingerGames/Ravenage Games"
+          ],
+          "genres": [
+            "Action",
+            "Strategy"
+          ],
+          "msrpUsd": 9.99,
+          "ratingPercent": 0.86,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hyperviolent",
+          "title": "HYPERVIOLENT",
+          "image": "https://hb.imgix.net/ec839357da3fda5f73ed72c52e201433fe77abe1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01a9ca47f391864199e47bb73b8e1d1b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1409200
+          ],
+          "developers": [
+            "Terminist Arcade/Fulqrum Publishing"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "dcuniverseinfinite_july2024_onemonthfreetrial",
+          "title": "DC Universe Infinite 1-Month Free Trial",
+          "image": "https://hb.imgix.net/881242ab73e050828e6b510329f4626c1ff4cf8c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eb964ef50eced08a5c9d55436b8ef37e",
+          "platforms": [],
+          "deliveryMethods": [
+            "other-key"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "DC Comics"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 7.99,
+          "ratingPercent": null,
+          "expiresAt": "2024-09-13T17:00:00",
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2024-06",
+      "slug": "June-2024",
+      "title": "June 2024",
+      "url": "https://www.humblebundle.com/membership/June-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:18.212Z",
+      "games": [
+        {
+          "id": "riskofrain2",
+          "title": "Risk of Rain 2",
+          "image": "https://hb.imgix.net/36a382fc1e37a7f28cae5ccd40f175252bd46b38.png?auto=compress,format&fit=clip&h=383&w=667&s=a76c1aa54e06881e121e62668d01f87e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            632360
+          ],
+          "developers": [
+            "Hopoo Games/Geabox Publishing"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "knightsofhonorii_sovereign",
+          "title": "Knights of Honor II: Sovereign",
+          "image": "https://hb.imgix.net/1a8a03917b121c67410c9c2b2fb38889761c5400.jpg?auto=compress,format&fit=clip&h=383&w=667&s=18bc93e445ca43e3577cdda75e990db1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            736820
+          ],
+          "developers": [
+            "Black Sea Games/THQ Nordic"
+          ],
+          "genres": [
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 44.99,
+          "ratingPercent": 0.76,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "legodrive_awesomeedition",
+          "title": "LEGO® 2K Drive Awesome Edition",
+          "image": "https://hb.imgix.net/cbeacfbdb90d33a3bd4bf31985b2c299ffd27a6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a68b4e1a3bc744e32d1b5a628a5bde25",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1451810
+          ],
+          "developers": [
+            "Visual Concepts",
+            "Take-Two Interactive"
+          ],
+          "genres": [
+            "Action",
+            "Racing"
+          ],
+          "msrpUsd": 69.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "warhammer40000_battlesector",
+          "title": "Warhammer 40,000: Battlesector",
+          "image": "https://hb.imgix.net/09cd7b77b9c57035bbe7987ec2da5fe7b533da49.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ed7ff8ed16f36d69fc614530ae68a7a4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1295500
+          ],
+          "developers": [
+            "Black Lab Games/Slitherine Ltd.,"
+          ],
+          "genres": [
+            "Strategy"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "miasmachronicles",
+          "title": "Miasma Chronicles",
+          "image": "https://hb.imgix.net/5838c998567961cda93994a3af81d0cc2408224f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=329733121fced4c429c0012c83004125",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "The Bearded Ladies/ 505 Games"
+          ],
+          "genres": [
+            "Action",
+            "Strategy"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": 0.79,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "straygods_theroleplayingmusical",
+          "title": "Stray Gods: The Roleplaying Musical",
+          "image": "https://hb.imgix.net/c3159bceb2e1e7706b42312914e5dc0e0f3c9596.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0db4ecf5889dc7ad7089b1b978e0819d",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1920780
+          ],
+          "developers": [
+            "Summerfall Studios/ Humble Games"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "aguidebookofbabel",
+          "title": "A Guidebook of Babel",
+          "image": "https://hb.imgix.net/4010a1840e75f6db38e2f9e0708e2fdd9fe7d984.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6daa25899c15440d7f1c7bcdbed884ed",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1467920
+          ],
+          "developers": [
+            "StarryStarry/Thermite Games"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.97,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "empyrion-galacticsurvival",
+          "title": "Empyrion - Galactic Survival",
+          "image": "https://hb.imgix.net/1077c4e45e842194c8e94539d5742330c9d82d7d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4d98c60960cf51af8072e1b0aac78c09",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            383120
+          ],
+          "developers": [
+            "Eleon Game Studios"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.8,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2024-05",
+      "slug": "May-2024",
+      "title": "May 2024",
+      "url": "https://www.humblebundle.com/membership/May-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:20.615Z",
+      "games": [
+        {
+          "id": "yakuza_likeadragon",
+          "title": "Yakuza: Like a Dragon",
+          "image": "https://hb.imgix.net/65fdef0507cc058480412b283b69eeac3c691cf8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d1348e21988c0ff965c92173c021356",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1235140
+          ],
+          "developers": [
+            "Ryu Ga Gotoku Studio / SEGA"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hi-firush",
+          "title": "Hi-Fi Rush",
+          "image": "https://hb.imgix.net/0c40227c35ce7bc2c0d9a27022a0681efde2127d.png?auto=compress,format&fit=clip&h=383&w=667&s=87335a9f5fb749b4b5e43be365f980f1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1817230
+          ],
+          "developers": [
+            "Tango Gameworks / Bethesda"
+          ],
+          "genres": [
+            "Action"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.97,
+          "expiresAt": "2025-06-03T17:00:00",
+          "isExtra": false
+        },
+        {
+          "id": "steelrising",
+          "title": "Steelrising",
+          "image": "https://hb.imgix.net/3e2fd06711e2d47feda78d28c222cb4e46e16cf2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d06f051dbfe39621dd06e70d4670253",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1283400
+          ],
+          "developers": [
+            "Spiders / Nacon"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "loddlenaut",
+          "title": "Loddlenaut",
+          "image": "https://hb.imgix.net/f98781ebe979a298533e191ad8080f21a019ca33.jpg?auto=compress,format&fit=clip&h=383&w=667&s=374845315d1cc0d82909fb0e1d67b030",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1839880
+          ],
+          "developers": [
+            "Moon Lagoon / Secret Mode"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.97,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "kingofthecastle",
+          "title": "King Of The Castle",
+          "image": "https://hb.imgix.net/60f3dd3229f79c653917d9b68b0697316cdec35b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=999b1493e069bd03bce25f5ff7c77b71",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1839880
+          ],
+          "developers": [
+            "Tributary Games / Team 17"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 9.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "braveryandgreed",
+          "title": "Bravery and Greed",
+          "image": "https://hb.imgix.net/3d0a083e2fbdc622949108fb983fa2ab048e5ffc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee5737b52836183ff6bc9184da5bd16a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            943370
+          ],
+          "developers": [
+            "Rekka Games / Team17"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.77,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "amandatheadventurer",
+          "title": "Amanda the Adventurer",
+          "image": "https://hb.imgix.net/9f1bba4c25570b30f81a0cc8a8d697620679f881.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7ea6e09216e79c6735dad9ca4bc0d423",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            2166060
+          ],
+          "developers": [
+            "MANGLEDmaw Games / DreadXP"
+          ],
+          "genres": [
+            "Indie"
+          ],
+          "msrpUsd": 8.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "mediterraneainferno",
+          "title": "Mediterranea Inferno",
+          "image": "https://hb.imgix.net/669375b698f805d17685032344035fdc5e657d67.jpg?auto=compress,format&fit=clip&h=383&w=667&s=963c00d19665b77f94bd4f4cab6705a3",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            2103680
+          ],
+          "developers": [
+            "Eyeguys, Lorenzo Redaelli / Santa Ragione"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.97,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2024-04",
+      "slug": "April-2024",
+      "title": "April 2024",
+      "url": "https://www.humblebundle.com/membership/April-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:21.561Z",
+      "games": [
+        {
+          "id": "victoria3",
+          "title": "Victoria 3",
+          "image": "https://hb.imgix.net/7e3b550a4d5ab1e3f57340ee4db2b8e37145a98c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=36cb3d8402ee574de9b183348801e854",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            529340
+          ],
+          "developers": [
+            "Paradox Development Studio",
+            "Paradox Interactive"
+          ],
+          "genres": [
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thecallistoprotocol",
+          "title": "The Callisto Protocol",
+          "image": "https://hb.imgix.net/1ab691e4dd58a2a3529d2920067dce2df9b3ad31.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b4561d2ad7f0c59ed2ec86cf77a307f7",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1544020
+          ],
+          "developers": [
+            "Striking Distance Studios",
+            "KRAFTON, Inc."
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "humankind_premiumedition",
+          "title": "HUMANKIND Definitive Edition",
+          "image": "https://hb.imgix.net/0d0acfe04a8729839e3d74c4af42101e7e792f2a.png?auto=compress,format&fit=clip&h=383&w=667&s=ba39492a10421cb0b518d177175a21c4",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1124300
+          ],
+          "developers": [
+            "AMPLITUDE Studios",
+            "SEGA"
+          ],
+          "genres": [
+            "Strategy"
+          ],
+          "msrpUsd": 98.94,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fashionpolicesquad",
+          "title": "Fashion Police Squad",
+          "image": "https://hb.imgix.net/b79f6a65239e58ee9e39b3ba210c5bca0e94586b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a423d4626e23e41ecf6b7f6ef98aaa9",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Mopeful Games",
+            "No More Robots"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "terraformers",
+          "title": "Terraformers",
+          "image": "https://hb.imgix.net/b114c1fdcb4ea82d1e5f72f6778568ab1fab7e21.jpg?auto=compress,format&fit=clip&h=383&w=667&s=085f6a2b91af3e61d0e127abf444cb28",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "gog",
+            "steam"
+          ],
+          "steamAppIds": [
+            1244800
+          ],
+          "developers": [
+            "Asteroid Lab",
+            "Goblinz Publishing"
+          ],
+          "genres": [
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "symphonyofwar_thenephilimsaga",
+          "title": "Symphony of War: The Nephilim Saga",
+          "image": "https://hb.imgix.net/04bec58945767066771eafba1fa273d62793a444.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02357f798b276c32b19d2fd2d30a3d6c",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1488200
+          ],
+          "developers": [
+            "Dancing Dragon Games",
+            "indie.io"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "coromon",
+          "title": "Coromon",
+          "image": "https://hb.imgix.net/a31d130e19091624a56f816d1ceb8c6dbe0c3b07.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9afe60440dcaa4c566f076cec8d4f981",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1218210
+          ],
+          "developers": [
+            "TRAGsoft",
+            "indie.io"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theexcavationofhobsbarrow",
+          "title": "The Excavation of Hob's Barrow",
+          "image": "https://hb.imgix.net/5c9cf911cf9466ed683b0e8368b3fd815d102ab5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d314189ecf6891ea0445f7444fef911",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1182310
+          ],
+          "developers": [
+            "Cloak and Dagger Games",
+            "Wadjet Eye Games"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2024-03",
+      "slug": "March-2024",
+      "title": "March 2024",
+      "url": "https://www.humblebundle.com/membership/March-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:22.683Z",
+      "games": [
+        {
+          "id": "warhammerageofsigmar_realmsofruin_ultimate",
+          "title": "Warhammer Age of Sigmar: Realms of Ruin – Ultimate Edition",
+          "image": "https://hb.imgix.net/3e67fa32981fdd3b3936bb9e177ea7651d450b8a.png?auto=compress,format&fit=clip&h=383&w=667&s=3dd91aa108474a0f7f84c7a5089dd764",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1844380
+          ],
+          "developers": [
+            "Frontier Developments"
+          ],
+          "genres": [
+            "Action",
+            "Strategy"
+          ],
+          "msrpUsd": 74.99,
+          "ratingPercent": 0.6,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "nioh2thecompleteedition",
+          "title": "Nioh 2 - The Complete Edition",
+          "image": "https://hb.imgix.net/9880c8139c91c85797081ef3866b1bc5fcf41432.jpg?auto=compress,format&fit=clip&h=383&w=667&s=104323501487f1e4b7d3b0a90efdaaa4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1325200
+          ],
+          "developers": [
+            "KOEI TECMO GAMES CO., LTD."
+          ],
+          "genres": [
+            "Action",
+            "RPG"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "saintsrow_2022",
+          "title": "Saints Row",
+          "image": "https://hb.imgix.net/b4436a49047597b345473c442c64bf16ad8d4664.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c61f0c68b6865a37f151524b73a8bc8e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Volition/Plaion"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.64,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "citizensleeper",
+          "title": "Citizen Sleeper",
+          "image": "https://hb.imgix.net/6a199bf255acc04480ee0f20423a406892c191a7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=40e92a1ee1321c2c576aa10193ee9bc5",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1578650
+          ],
+          "developers": [
+            "Jump Over The Age/Fellow Traveller"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "blackskylands",
+          "title": "Black Skylands",
+          "image": "https://hb.imgix.net/2cca09865e26ad495c1142ce3c4741ee9cc6b4bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=804156303124b65b629075ccd8342aca",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1143810
+          ],
+          "developers": [
+            "Hungry Couch Games/tinyBuild"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.8,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "soulstice",
+          "title": "Soulstice",
+          "image": "https://hb.imgix.net/fa44c7329ce9a641f042b1000a2ff5289f40e6b1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6dcf46618d282938d26c1d2f3d9e52c3",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1602080
+          ],
+          "developers": [
+            "Reply Game Studios /Maximum Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.78,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "afterimage",
+          "title": "Afterimage",
+          "image": "https://hb.imgix.net/24b7e8ceadc10a98470448e4f62d884fe004281a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f9e446f8934eb9e84f89460b220f5180",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1701520
+          ],
+          "developers": [
+            "Aurogon Shanghai/Maximum Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.8,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "destroyer_theu-boathunter",
+          "title": "Destroyer: The U-Boat Hunter",
+          "image": "https://hb.imgix.net/c51030cd53295febb54ec1b97abcc8cf75c86d6b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9b7b84fe40f538c95a397f17a5c6f70d",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1272010
+          ],
+          "developers": [
+            "Iron Wolf Studio S.A/Daedalic Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.77,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2024-02",
+      "slug": "February-2024",
+      "title": "February 2024",
+      "url": "https://www.humblebundle.com/membership/February-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:23.586Z",
+      "games": [
+        {
+          "id": "lifeisstrange_truecolors",
+          "title": "Life is Strange: True Colors",
+          "image": "https://hb.imgix.net/d663cc3f76cd95c41b83c88de820efcef97e6a42.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac54a5d320d33fd6b5b73ce15289c946",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            936790
+          ],
+          "developers": [
+            "Deck Nine/Square Enix"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "scorn",
+          "title": "Scorn",
+          "image": "https://hb.imgix.net/4fe807f243f88697fb0769f635b51af84cacd3dc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d0c1c65d9a7dfd6d6e2c8edb38be15bb",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            698670
+          ],
+          "developers": [
+            "Ebb Software/Kepler Interactive"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.77,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "destroyallhumans2-reprobed",
+          "title": "Destroy All Humans 2! Reprobed",
+          "image": "https://hb.imgix.net/f1811849a163a8dc7914ed6615f2bf2e7096c60b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2fb79a0e10b1975e22c22f17da7b6bce",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1266700
+          ],
+          "developers": [
+            "Black Forest Games/THQ Nordic"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.78,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "beaconpines",
+          "title": "Beacon Pines",
+          "image": "https://hb.imgix.net/0961de39dbf6c6bf96012b8fe20d3829a24c0fad.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b7a27975567e23541d78815ee7ed848",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1269640
+          ],
+          "developers": [
+            "Hiding Spot/Fellow Traveller"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.98,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thereisnolight_enhancededition",
+          "title": "There is No Light: Enhanced Edition",
+          "image": "https://hb.imgix.net/4fc2f0d917cae022981bd8654ccc000432bb897e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9feefa1a7f01670f102a5b786185f14e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1132980
+          ],
+          "developers": [
+            "Zelart/Hypetrain Digital"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.74,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "childrenofsilentown",
+          "title": "Children of Silentown",
+          "image": "https://hb.imgix.net/6267cae5602517051d07f9da11688b7378fcb565.jpg?auto=compress,format&fit=clip&h=383&w=667&s=55bca7eb1f3e55a1e0a7f31a53aa4a62",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1108000
+          ],
+          "developers": [
+            "Elf Games",
+            "Luna2 Studio",
+            "Daedalic Entertainment"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "oaken",
+          "title": "Oaken",
+          "image": "https://hb.imgix.net/273019c02d90dd8f6632903b5b391587b9df9ee8.png?auto=compress,format&fit=clip&h=383&w=667&s=b2c9c6d143737e0199345afc1747a8b5",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "gog"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Laki Studios/Goblinz Publishing"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "snowtopia_skiresorttycoon",
+          "title": "Snowtopia: Ski Resort Builder",
+          "image": "https://hb.imgix.net/db954db8168417adf93c47b834c77a2f0dcbd671.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b9b85a86ec8568cd2fccc1651b92fd5c",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "gog"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "TeaForTwo/Goblinz Publishing"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.65,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2024-01",
+      "slug": "January-2024",
+      "title": "January 2024",
+      "url": "https://www.humblebundle.com/membership/January-2024",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:24.411Z",
+      "games": [
+        {
+          "id": "marvelsmidnightsuns",
+          "title": "Marvel's Midnight Suns Digital+ Edition",
+          "image": "https://hb.imgix.net/8a617b55b388cd9e0d5dea7f67483d11cdd22d54.png?auto=compress,format&fit=clip&h=383&w=667&s=d0d8fe958f942a74f2d40a05eb8165e2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            368260
+          ],
+          "developers": [
+            "Firaxis Games",
+            "2K"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 79.99,
+          "ratingPercent": 0.82,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "doctorstrangedefendersskin",
+          "title": "Midnight Suns - Doctor Strange Defenders Skin",
+          "image": "https://hb.imgix.net/70d809acabc33ba75366ed003c2a201ca9f9b146.jpg?auto=compress,format&fit=clip&h=383&w=667&s=dd4f28c491def166d2b32723d73a2052",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1712442
+          ],
+          "developers": [
+            "Firaxis Games",
+            "2K"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 2.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "twopointcampus",
+          "title": "Two Point Campus",
+          "image": "https://hb.imgix.net/262cf09ef53e343ad11a11f894902c1c4570dda1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ffc08e85b25e1f4a22ef303c9f7d63cd",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "SEGA",
+            "Two Point Studios"
+          ],
+          "genres": [
+            "Indie",
+            "Simulation"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "aragami2",
+          "title": "Aragami 2",
+          "image": "https://hb.imgix.net/174491182396f1f713085e44e879bde1f7150948.jpg?auto=compress,format&fit=clip&h=383&w=667&s=31fe19c305b326e7645ec6746d7741f1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1158370
+          ],
+          "developers": [
+            "Lince Works"
+          ],
+          "genres": [
+            "Action"
+          ],
+          "msrpUsd": 34.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "otxo",
+          "title": "OTXO",
+          "image": "https://hb.imgix.net/d912225eb9659b2322610594a2c5b426cd2a4bde.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee5b0462bc699a1cdea019757c7ca165",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1608640
+          ],
+          "developers": [
+            "Lateralis Heavy Industries",
+            "Super Rare Games"
+          ],
+          "genres": [
+            "Action",
+            "Simulation"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "roguebook",
+          "title": "Roguebook",
+          "image": "https://hb.imgix.net/5deff697f2b160c1c8bbaae73ba6e5b0f6a69251.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98925f47209f5d526458019f25a6c218",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1076200
+          ],
+          "developers": [
+            "Abrakam Entertainment SA",
+            "Nacon"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.82,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theredlantern",
+          "title": "The Red Lantern",
+          "image": "https://hb.imgix.net/2b8366264ce8c987b2961b9f13d98f4519e79ea4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4aeb90943cd42753d5c648b934aa311",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1053710
+          ],
+          "developers": [
+            "Timberline Studio"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.85,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hellpie",
+          "title": "Hell Pie",
+          "image": "https://hb.imgix.net/edf3070b8119aa0b808b09d5220e75faccb8d068.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2aeb483812286139b5ee331ab4b7ade2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            889910
+          ],
+          "developers": [
+            "Sluggerfly",
+            "Headup Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.92,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "twinmirror",
+          "title": "Twin Mirror",
+          "image": "https://hb.imgix.net/38ebba214db6684814c8e89934f06c724b0fdeac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53752e4987e2cde14980a92773b76afa",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1552810
+          ],
+          "developers": [
+            "DON'T NOD"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-12",
+      "slug": "December-2023",
+      "title": "December 2023",
+      "url": "https://www.humblebundle.com/membership/December-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:25.376Z",
+      "games": [
+        {
+          "id": "expeditions_rome",
+          "title": "Expeditions: Rome",
+          "image": "https://hb.imgix.net/175a1395143ebba066f884f7b7a631851482e7d5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8973e2afbaa96404af5653c461b17ba3",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            987840
+          ],
+          "developers": [
+            "Logic Artists",
+            "THQ Nordic"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 44.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "midnightfightexpress",
+          "title": "Midnight Fight Express",
+          "image": "https://hb.imgix.net/7eb961691349d49d410519cab39654c637c971ae.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b13f7c96191d7a5d1102e5cab74e3ed",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1390410
+          ],
+          "developers": [
+            "Jacob Dzwinel"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "elexii",
+          "title": "ELEX II",
+          "image": "https://hb.imgix.net/ffafdf314998dd5dcc286451af27f061a313f10b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75304808b2630ab70c234f24defc0dba",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            900040
+          ],
+          "developers": [
+            "Piranha Bytes",
+            "THQ Nordic"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "nobodysavestheworld",
+          "title": "Nobody Saves the World",
+          "image": "https://hb.imgix.net/e3afd89b5ce6397c1d2a02b6d89e998907ebdb32.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0afcafce8bfaac9c2fd85e973e187f43",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1432050
+          ],
+          "developers": [
+            "DrinkBox Studios"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thegunk",
+          "title": "The Gunk",
+          "image": "https://hb.imgix.net/031dfc9be329c8a9adc325f6affc424c7e14b86a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d74272c34e69ef60535f49a4918dc15c",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1087760
+          ],
+          "developers": [
+            "Image & Form Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.85,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thepalebeyond",
+          "title": "The Pale Beyond",
+          "image": "https://hb.imgix.net/5e460c434f36adab400275f6dfff1d23e9e4e3e5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=09cfb005b4d1db869fed7f90e4c93920",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1266030
+          ],
+          "developers": [
+            "Bellular Studios"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Adventure",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "lastcallbbs",
+          "title": "Last Call BBS",
+          "image": "https://hb.imgix.net/d03d46ab30fc34485f4c41cc4619d13e23b60c7b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=467ffc0b40579f47d9e7cf236313c68a",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1511780
+          ],
+          "developers": [
+            "Zachtronics"
+          ],
+          "genres": [
+            "Indie",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.96,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fromspace",
+          "title": "From Space",
+          "image": "https://hb.imgix.net/93cc80708899c1477f08ca7158ff076a1c28ce6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=45d7f467cf9832248ae581003d4d034f",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1502190
+          ],
+          "developers": [
+            "Triangle Studios/Curve Games"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.67,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "dcuniverseinfinite_onemonthfreetrial",
+          "title": "DC Universe Infinite 1-Month Free Trial",
+          "image": "https://hb.imgix.net/8a7d4391c87a768af78ae560607b715fde40ae96.png?auto=compress,format&fit=clip&h=383&w=667&s=299f6655bd929177bf7a1c612a37daa5",
+          "platforms": [],
+          "deliveryMethods": [
+            "other-key"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "DC Comics"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 7.99,
+          "ratingPercent": null,
+          "expiresAt": "2024-01-02T18:00:00",
+          "isExtra": true
+        },
+        {
+          "id": "ignplus_choicecoupon",
+          "title": "Get Two Months of IGN Plus",
+          "image": "https://hb.imgix.net/23f5e62ceb0890970ae513f48cf2ee6a304d877f.png?auto=compress,format&fit=clip&h=383&w=667&s=dbd2c67f3331731557bf25a609e3e999",
+          "platforms": [],
+          "deliveryMethods": [
+            "other-key"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "IGN Plus"
+          ],
+          "genres": [],
+          "msrpUsd": 9.98,
+          "ratingPercent": null,
+          "expiresAt": "2024-04-30T07:00:00",
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2023-11",
+      "slug": "November-2023",
+      "title": "November 2023",
+      "url": "https://www.humblebundle.com/membership/November-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:26.330Z",
+      "games": [
+        {
+          "id": "hardspace_shipbreaker",
+          "title": "Hardspace: Shipbreaker",
+          "image": "https://hb.imgix.net/bc7bc6cdf42f799296cb2b485708ab8bfd412105.jpg?auto=compress,format&fit=clip&h=383&w=667&s=102b108fc152ee8b5ae4fc74ae7e5ad6",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1161580
+          ],
+          "developers": [
+            "Blackbird Interactive/Focus Entertainment"
+          ],
+          "genres": [
+            "Simulation"
+          ],
+          "msrpUsd": 34.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wwe2k23",
+          "title": "WWE 2K23",
+          "image": "https://hb.imgix.net/8f4ebd43cd8218dda6535d0aee580735dddba9dd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=640e4b2576cd7c7e1909fe92739fd416",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1942660
+          ],
+          "developers": [
+            "2K"
+          ],
+          "genres": [
+            "Sports",
+            "Simulation"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "unpacking",
+          "title": "Unpacking",
+          "image": "https://hb.imgix.net/36119e35ef1792274ae5b08aa94f55db7f951760.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d65d464160e022953f6164c47e0ffd75",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1135690
+          ],
+          "developers": [
+            "Witch Beam/Humble Games"
+          ],
+          "genres": [
+            "Indie",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.92,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "friendsvsfriends",
+          "title": "Friends vs Friends",
+          "image": "https://hb.imgix.net/f2db4a0b19a7d18b49f375150cc1adf24ae902e7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=12c42b36b2084ace3ac4a98ed12aee52",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1785150
+          ],
+          "developers": [
+            "Brainwash Gang/Raw Fury"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 12.76,
+          "ratingPercent": 0.81,
+          "expiresAt": "2024-12-04T07:59:00",
+          "isExtra": false
+        },
+        {
+          "id": "prodeus",
+          "title": "Prodeus",
+          "image": "https://hb.imgix.net/bd892663cca6ed23c1928d377766573390baa0e9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0679669339096861720e000b9dbae17d",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            964800
+          ],
+          "developers": [
+            "Bounding Box Software Inc./Humble Games"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.93,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thelegendoftianding",
+          "title": "The Legend of Tianding",
+          "image": "https://hb.imgix.net/21e4da07feaba79fe1f1c936940f67cd58ccde76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d2c33530cc7d03de8515bc6064ed9c27",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1406850
+          ],
+          "developers": [
+            "Neon Doctrine"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "scp_secretfiles",
+          "title": "SCP: Secret Files",
+          "image": "https://hb.imgix.net/aae78ae114a508bad98eb2fad0f1c7f72f426e31.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a4dad653b2fc323b2743fdff42c9b6ac",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1718130
+          ],
+          "developers": [
+            "GameZoo Studio/Pixmain"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "souldiers",
+          "title": "Souldiers",
+          "image": "https://hb.imgix.net/8250256f2f89a92178b8ebbe0c9f47394d970992.jpg?auto=compress,format&fit=clip&h=383&w=667&s=23ec7453a320fd96ff89354c8e0d9b5b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1374970
+          ],
+          "developers": [
+            "Retro Forge/Dear Villagers"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-10",
+      "slug": "October-2023",
+      "title": "October 2023",
+      "url": "https://www.humblebundle.com/membership/October-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:27.177Z",
+      "games": [
+        {
+          "id": "thequarry_deluxe",
+          "title": "The Quarry Deluxe Edition",
+          "image": "https://hb.imgix.net/0e5fe82a0a4ecc134930215be741f12ebb5b791a.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bdd28344969ed64c239e090ccaf35008",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1577120
+          ],
+          "developers": [
+            "Supermassive Games/2K Games"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 69.99,
+          "ratingPercent": 0.8,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "metal_hellsinger",
+          "title": "Metal Hellsinger",
+          "image": "https://hb.imgix.net/8bccced407e23208d9ff4ce2057bd1938b8ee2d3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=aeb15f7690df41bdba7f921615e37f2e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1061910
+          ],
+          "developers": [
+            "The Outsiders/Funcom"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.96,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thedarkpicturesanthology_houseofashes",
+          "title": "Dark Pictures Anthology: House of Ashes",
+          "image": "https://hb.imgix.net/abf1137a7e59e92dc6de4411abed34cd026b2c2f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c1e1f52cd349ac7094bf68ec1fa51ff2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1281590
+          ],
+          "developers": [
+            "Supermassive Games/Bandai NAMCO"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "rebelinc",
+          "title": "Rebel Inc: Escalation",
+          "image": "https://hb.imgix.net/539f1a19818c4a1bcdefac41eb68832a480e88da.jpg?auto=compress,format&fit=clip&h=383&w=667&s=989f0136f5f9e33ac6d9bd3ea752afa4",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1088790
+          ],
+          "developers": [
+            "Ndemic Creations"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.83,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "spiritoftheisland",
+          "title": "Spirit of the Island",
+          "image": "https://hb.imgix.net/8b0647acc2b0138e9a606dc37608bdf5f4d88588.png?auto=compress,format&fit=clip&h=383&w=667&s=d5ddfeba431302735deaa2163f5d85be",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1592110
+          ],
+          "developers": [
+            "1M Bits Horde"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "lordsandvilleins",
+          "title": "Lords and Villeins",
+          "image": "https://hb.imgix.net/5f206b650b06e4c967f4d7c79910da588c1e8b78.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b0c78511fbe48d5c9f2daacafb03e1da",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1287530
+          ],
+          "developers": [
+            "Fulqrum Publishing"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.78,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "ajugglerstale",
+          "title": "A Juggler's Tale",
+          "image": "https://hb.imgix.net/efd85b852cd8ab87b6c2a751df9b75418f5555b3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1d4f1891be4cba39d70f2d1fb6806096",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1252830
+          ],
+          "developers": [
+            "Kaleidoscube/Assemble Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 17.99,
+          "ratingPercent": 0.93,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "mrprepper",
+          "title": "Mr. Prepper",
+          "image": "https://hb.imgix.net/24de57404a7edf3146208197da775cfb0a909cac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=34af62d8211a242d01a8987a2915fe23",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            761830
+          ],
+          "developers": [
+            "Rejected Games"
+          ],
+          "genres": [
+            "Indie",
+            "Action",
+            "Adventure",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.82,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-09",
+      "slug": "September-2023",
+      "title": "September 2023",
+      "url": "https://www.humblebundle.com/membership/September-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:28.130Z",
+      "games": [
+        {
+          "id": "tinytinaswonderlands_chaoticgreatedition",
+          "title": "Tiny Tina's Wonderlands Chaotic Great Edition",
+          "image": "https://hb.imgix.net/e0d3c271ca8510984b54e56e6d9acfcbd5b22a6e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=90627b9e7d96e6a1901ef2187241e183",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1286680
+          ],
+          "developers": [
+            "Gearbox Software"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 79.99,
+          "ratingPercent": 0.76,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "deceiveinc",
+          "title": "Deceive Inc.",
+          "image": "https://hb.imgix.net/692eba7e29cf0fd8d3f52dc30e53ac9b2ae6ec69.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae49ed9eaddd48d9edc77fda1085765e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Sweet Bandits Studios"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.86,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theforgottencity",
+          "title": "The Forgotten City",
+          "image": "https://hb.imgix.net/bda31fe6d5d6fa44b10b28d22b3aa651da23791a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f772ca576f10318d8b50a819947c63cf",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Modern Storyteller"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "acesadventures",
+          "title": "Aces & Adventures",
+          "image": "https://hb.imgix.net/ad0bdd936cb2a2b61e7e483c45d7466084048855.jpg?auto=compress,format&fit=clip&h=383&w=667&s=16e785dcdd97359bf3e77c5760889cef",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Triple.B.Titles"
+          ],
+          "genres": [
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "patchquest",
+          "title": "Patch Quest",
+          "image": "https://hb.imgix.net/3662905c398f8200323bf767431eed9d84fe88de.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11f8db2780918b778eb3eb503ec179fe",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Lychee Game Labs"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "foretales",
+          "title": "Foretales",
+          "image": "https://hb.imgix.net/879dc4c1fd962aa0b5b771e93a5354b9ad0ee287.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b95336bcee011cbb4b97f58cc04bcda2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Alkemi"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "whopressedmuteonunclemarcus",
+          "title": "Who Pressed Mute on Uncle Marcus",
+          "image": "https://hb.imgix.net/965073cc089ea2c5eeedf71dbd62172367cd6bc7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8c14e5719a2fdd0314a26ad548cd6d7e",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1628130
+          ],
+          "developers": [
+            "Wales Interactive",
+            "Good Gate Media"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.73,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "autonautsvspiratebots",
+          "title": "Autonauts vs PirateBots",
+          "image": "https://hb.imgix.net/fd2fb9a114eaa81256ed2aae9d19aa2e12ae1452.jpg?auto=compress,format&fit=clip&h=383&w=667&s=79bf674477ccd6ef255190bf8384e02a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1907720
+          ],
+          "developers": [
+            "Denki"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.84,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-08",
+      "slug": "August-2023",
+      "title": "August 2023",
+      "url": "https://www.humblebundle.com/membership/August-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:29.005Z",
+      "games": [
+        {
+          "id": "discoelysium-thefinalcut",
+          "title": "Disco Elysium - The Final Cut",
+          "image": "https://hb.imgix.net/6b87bcf48b39c06d2315b052239321de55512e7c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d8bc2acf5f54f05bebbbaa2f1bc9e9c4",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            632470
+          ],
+          "developers": [
+            "ZA/UM"
+          ],
+          "genres": [
+            "RPG"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.93,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "chivalry2",
+          "title": "Chivalry 2 - Epic Edition",
+          "image": "https://hb.imgix.net/126aa8b6fb0bf0bc5ffb7fb4844e911a9eaa371c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5ce919ece9b5ef3e8f1565f1fd450b95",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1824220
+          ],
+          "developers": [
+            "Torn Banner Studios"
+          ],
+          "genres": [
+            "Action",
+            "MMO"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "road96",
+          "title": "Road 96",
+          "image": "https://hb.imgix.net/cdb70daf9aa8527babf2ae6ae20ee93b819adef3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=96ab2c014a17aadd475f07a69220f5f7",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1466640
+          ],
+          "developers": [
+            "Plaion",
+            "Digixart"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.96,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "trektoyomi",
+          "title": "Trek to Yomi",
+          "image": "https://hb.imgix.net/bea5576bfcee34511b1cb237cb4bd2c8ba59fb5a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2f33c0941a66729dc54e49987b40d515",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1370050
+          ],
+          "developers": [
+            "Devolver Digital",
+            "Flying Wild Hog"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.71,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "arcadeparadise",
+          "title": "Arcade Paradise",
+          "image": "https://hb.imgix.net/03023b6b7424596bdb5f489b0c8631ac47f4df4a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=24f27e7105a0b6ab8b4969d1323c716f",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Nosebleed Interactive"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "suchart_geniusartistsimulator",
+          "title": "SuchArt: Genius Artist Simulator",
+          "image": "https://hb.imgix.net/e6fb6821bfa0ef163948242392b38ce1d5976ee3.png?auto=compress,format&fit=clip&h=383&w=667&s=6d23d5580fa7be5d1e0dff0d4d437b2c",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1293180
+          ],
+          "developers": [
+            "Hypetrain Digital",
+            "Goose Minded"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.98,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "tincan",
+          "title": "Tin Can",
+          "image": "https://hb.imgix.net/f592a0bb5421f1f69dc4c59ba68e3b847ebc1d9e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8fcead49feefc4a2ac629fbfc5af9910",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1315980
+          ],
+          "developers": [
+            "Goblinz Studio"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hotbrass",
+          "title": "Hot Brass",
+          "image": "https://hb.imgix.net/b8fc6bfb0dd88ef6c49e633a8ee5b95e95d54ab4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75eabf69db3dba2db0fcf934bc584dec",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            892860
+          ],
+          "developers": [
+            "Fellow Traveller",
+            "Walk the Kings"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.83,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-07",
+      "slug": "July-2023",
+      "title": "July 2023",
+      "url": "https://www.humblebundle.com/membership/July-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:29.870Z",
+      "games": [
+        {
+          "id": "theouterworlds_spacerschoice",
+          "title": "The Outer Worlds: Spacer's Choice Edition",
+          "image": "https://hb.imgix.net/f04ab675768fbb0882355af2d91154a7ffe4c1cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c58d1181673dd6141668728a4a1845ef",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1920490
+          ],
+          "developers": [
+            "Obsidian Entertainment/Private Division"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "temtem",
+          "title": "Temtem",
+          "image": "https://hb.imgix.net/1abcf2add2c1b2e80857ac9f50ee2966a4a975cb.png?auto=compress,format&fit=clip&h=383&w=667&s=e2f53fee99547cf3cf7907e7a69eddc1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            745920
+          ],
+          "developers": [
+            "Crema/Humble Games"
+          ],
+          "genres": [
+            "Indie",
+            "MMO",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 44.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "yakuza_4remaster",
+          "title": "Yakuza 4 Remastered",
+          "image": "https://hb.imgix.net/7a68e738dfbb01cbde1d80d3a943774e5b603c2c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=481bdbf3406d84fee8a06fb939ba10f9",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1105500
+          ],
+          "developers": [
+            "SEGA"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "roadwarden",
+          "title": "Roadwarden",
+          "image": "https://hb.imgix.net/85b553ed13c82d59422fd30e017ed6f0405d8e61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a37838b86fff166eb9de276186c1bdf9",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1155970
+          ],
+          "developers": [
+            "Assemble Entertainment"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 10.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "krakenacademy",
+          "title": "Kraken Academy!!",
+          "image": "https://hb.imgix.net/65ad335a0ed35e3634c2fd0fb1a5e6ab0d1a74ff.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3318a10a4663303db16ff55af815e47e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1158220
+          ],
+          "developers": [
+            "Happy Broccoli Games/Fellow Traveller"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 17.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "merchantoftheskies",
+          "title": "Merchant of the Skies",
+          "image": "https://hb.imgix.net/1ec7cbbd407c731229423718598b8f4e76d99f7f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=36266ba89217fb3e34d9d86a240ec5ee",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1040070
+          ],
+          "developers": [
+            "Coldwild Games"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "ozymandias_bronzeageempiresim",
+          "title": "Ozymandias: Bronze Age Empire Sim",
+          "image": "https://hb.imgix.net/ca231d3229b6477579c54dd5df4041129c36cb87.jpg?auto=compress,format&fit=clip&h=383&w=667&s=675fdba6d194c9d5f3d5a2c852c70ad1",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1768280
+          ],
+          "developers": [
+            "The Secret Games Company/Goblinz Publishing"
+          ],
+          "genres": [
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "shotgunking_thefinalcheckmate",
+          "title": "Shotgun King: The Final Checkmate",
+          "image": "https://hb.imgix.net/f21fbfe2607acfedbb0cabf3636c055a019e29f8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f52f9f941cd4c826988cf3551b15fc34",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1972440
+          ],
+          "developers": [
+            "PUNKCAKE Delicieux"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 9.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-06",
+      "slug": "June-2023",
+      "title": "June 2023",
+      "url": "https://www.humblebundle.com/membership/June-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:30.656Z",
+      "games": [
+        {
+          "id": "ghostwire_tokyo",
+          "title": "Ghostwire Tokyo",
+          "image": "https://hb.imgix.net/38a08f882b7985c7c3d0a93ec41bbaf234333afe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=aea6bbe38452dd6c7bd54179b59c57d4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1475810
+          ],
+          "developers": [
+            "Bethesda Softworks"
+          ],
+          "genres": [
+            "Action"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.81,
+          "expiresAt": "2024-06-30T07:00:00",
+          "isExtra": false
+        },
+        {
+          "id": "remnant_fromtheashes_completeedition",
+          "title": "Remnant: From the Ashes - Complete Edition",
+          "image": "https://hb.imgix.net/75f2d8341d03fe98ef96ed9789b4566526c973a0.png?auto=compress,format&fit=clip&h=383&w=667&s=8c82c1b1d99bc876f6a1b24be18aa200",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            15367
+          ],
+          "developers": [
+            "Gunfire Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 49.77,
+          "ratingPercent": 0.85,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "curseofthedeadgods_new",
+          "title": "Curse of the Dead Gods",
+          "image": "https://hb.imgix.net/c06b31fc82a69b026157e7e902bd4017e3386c6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d58ddb0739b1299846b8078b097d274",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1123770
+          ],
+          "developers": [
+            "Focus Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "honeyijoinedacult",
+          "title": "Honey I Joined a Cult",
+          "image": "https://hb.imgix.net/08d9c50fa8ed4780efe46b672e528976722d820f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3e9414d30016e0c5d7a05cd42b46a037",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            841190
+          ],
+          "developers": [
+            "Team17"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 21.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "eternalthreads",
+          "title": "Eternal Threads",
+          "image": "https://hb.imgix.net/2c9b5f2c44cde0994371ba90061492ac74d2e86e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=627d1ab493044741bca531d7a5bbef93",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            841190
+          ],
+          "developers": [
+            "Secret Mode"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "grime",
+          "title": "GRIME",
+          "image": "https://hb.imgix.net/09fff739bb28d8f405a9e411eff7dedef0d2045e.png?auto=compress,format&fit=clip&h=383&w=667&s=374957d93295975efbeaffd81b857fa0",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1123050
+          ],
+          "developers": [
+            "Akupara Games"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "RPG"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "turbogolfracing",
+          "title": "Turbo Golf Racing",
+          "image": "https://hb.imgix.net/d1da87737f7e0454d1c7e6d9b00b7a09a37bcd99.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2e6a8917060b8ba5d6aa4fe59e2a726c",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1324350
+          ],
+          "developers": [
+            "Secret Mode"
+          ],
+          "genres": [
+            "Action",
+            "Racing",
+            "Sports"
+          ],
+          "msrpUsd": 4.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "meeplestation",
+          "title": "Meeple Station",
+          "image": "https://hb.imgix.net/a2bc7f414a1844a9e0dc6b6abeada77abf402543.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7f1bfbc4dfaaca42846564258f179768",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            900010
+          ],
+          "developers": [
+            "Vox Games"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.6,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-05",
+      "slug": "May-2023",
+      "title": "May 2023",
+      "url": "https://www.humblebundle.com/membership/May-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:31.483Z",
+      "games": [
+        {
+          "id": "warhammer40000_chaosgate-daemonhunters",
+          "title": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+          "image": "https://hb.imgix.net/e92658eb68e93ee039f401b98450210db3578fc4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a22141486375487fd378ba1a0a155b9",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1611910
+          ],
+          "developers": [
+            "Complex Games"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 44.99,
+          "ratingPercent": 0.78,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "spiritfarer",
+          "title": "Spiritfarer: Farewell Edition",
+          "image": "https://hb.imgix.net/95285e01875b7edb3eda01c6e8c76e284d4ff441.jpg?auto=compress,format&fit=clip&h=383&w=667&s=46c45f08ebde04672f8e952d39177235",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            972660
+          ],
+          "developers": [
+            "Thunder Lotus Games"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "bendyandthedarkrevival",
+          "title": "Bendy and the Dark Revival",
+          "image": "https://hb.imgix.net/7baa85a536d4e812f7b93cbf476d2b0d8ce0b1fc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=043ccd3dbdd22756b2548075d54e22dd",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1063660
+          ],
+          "developers": [
+            "Joey Drew Studios"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "operation_tango",
+          "title": "Operation: Tango",
+          "image": "https://hb.imgix.net/68bcbec1f5d01d8b5c17306bb6d4e295a71b9d32.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4080afcfdaa6dc1823382c4d8841e17d",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1335790
+          ],
+          "developers": [
+            "Clever Plays"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.8,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "windjammers2",
+          "title": "Windjammers 2",
+          "image": "https://hb.imgix.net/3b7fdc2ca37921f20700d0d3b272bdee51d610a7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b417ef7496ea8bfd768b07c14b30a24",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1114290
+          ],
+          "developers": [
+            "Dotemu"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Sports"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "buildersimulator",
+          "title": "Builder Simulator",
+          "image": "https://hb.imgix.net/66a87ee59173a5922ccde77b0736fcc3f8a74402.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a2528ceb791aa5b3e5bdc08ce47c9bcc",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1120320
+          ],
+          "developers": [
+            "Live Motion Games",
+            "Frozen Way"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.76,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "behindtheframe_thefinestscenery",
+          "title": "Behind the Frame: The Finest Scenery",
+          "image": "https://hb.imgix.net/092cef544f55225a00df5da3fbd2fc841b8b8b07.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f528f531b364c44c298c2aeacf08c9da",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1634150
+          ],
+          "developers": [
+            "Silver Lining Studio"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 12.99,
+          "ratingPercent": 0.89,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theinvisiblehand",
+          "title": "The Invisible Hand",
+          "image": "https://hb.imgix.net/55f111f746dcc9c8e5be3f7a10bdf1c65afd8e7c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=76c5f168c31d397e1fae209215b4927c",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            628200
+          ],
+          "developers": [
+            "Power Struggle Games"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Adventure",
+            "Simulation"
+          ],
+          "msrpUsd": 12.99,
+          "ratingPercent": 0.76,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-04",
+      "slug": "April-2023",
+      "title": "April 2023",
+      "url": "https://www.humblebundle.com/membership/April-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:32.244Z",
+      "games": [
+        {
+          "id": "deathstrandingdirectorscut",
+          "title": "DEATH STRANDING DIRECTOR'S CUT",
+          "image": "https://hb.imgix.net/4bc63ce61cb8daa252ae06667443f93b52aefc98.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7adbc6f1c1a51d10148d8b426c93c556",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "epic"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Kojima Productions/505 Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.93,
+          "expiresAt": "2025-12-31T08:00:00",
+          "isExtra": true
+        },
+        {
+          "id": "aliens_fireteamelite",
+          "title": "Aliens: Fireteam Elite",
+          "image": "https://hb.imgix.net/a5e3f581c0cb2e83c954607e8463bd61a48e17b8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4112f5abd0ec42d864bf0c936c5a3442",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Cold Iron Studios/Focus Entertainment"
+          ],
+          "genres": [
+            "Action",
+            "RPG"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "rollerdrome",
+          "title": "Rollerdrome",
+          "image": "https://hb.imgix.net/21aa660e3ae82f474c23754a025466ae51ef9a3a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e79be47b464be91ef9cb2f37ce679819",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1294420
+          ],
+          "developers": [
+            "Roll7/Private Division"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Sports"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "lifeisstrange2",
+          "title": "Life is Strange 2: Complete Season",
+          "image": "https://hb.imgix.net/c7c481549f9262b09942a06ad567514357c4ffbb.png?auto=compress,format&fit=clip&h=383&w=667&s=22c3689942e31017551985d7e2349f0e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            532210
+          ],
+          "developers": [
+            "Feral Interactive/Square Enix"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 31.96,
+          "ratingPercent": 0.85,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thelifeandsufferingofsirbrante",
+          "title": "The Life and Suffering of Sir Brante",
+          "image": "https://hb.imgix.net/05ee2f3759c5276898cf3548635132f765cd9021.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1424f43243e5a54f9ce944d797737d2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1272160
+          ],
+          "developers": [
+            "Sever/101XP"
+          ],
+          "genres": [
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "monsterprom2_monstercamp",
+          "title": "Monster Prom 2: Monster Camp",
+          "image": "https://hb.imgix.net/630edbb28670abb9ea9e093f200ace00cfb785ed.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e4ba180acc41054fea4f808df6ba9b3c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1140270
+          ],
+          "developers": [
+            "Beautiful Glitch"
+          ],
+          "genres": [
+            "Indie",
+            "Simulation"
+          ],
+          "msrpUsd": 11.99,
+          "ratingPercent": 0.97,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "revita",
+          "title": "Revita",
+          "image": "https://hb.imgix.net/69c6a3d7b4853938f4f33da4ed270491b0075f72.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6850b21dab88ae3eafb09a2c4fcaee49",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1175460
+          ],
+          "developers": [
+            "BenStar/Dear Villagers"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 16.99,
+          "ratingPercent": 0.83,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "foundersfortune",
+          "title": "Founders' Fortune",
+          "image": "https://hb.imgix.net/4908c95bc2da21c8ed0b9466670705d6d1aab29d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8d4df5eac7b7a15eae0d5bfd21fa56e6",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1104330
+          ],
+          "developers": [
+            "Dionic Software"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 21.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-03",
+      "slug": "March-2023",
+      "title": "March 2023",
+      "url": "https://www.humblebundle.com/membership/March-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:33.128Z",
+      "games": [
+        {
+          "id": "biomutant",
+          "title": "Biomutant",
+          "image": "https://hb.imgix.net/39fd8c20a42eda6865de9e628bac8eccd7dbb880.jpg?auto=compress,format&fit=clip&h=383&w=667&s=21dc2d9b97ad9b26bb2081712d7c196b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            597820
+          ],
+          "developers": [
+            "Experiment 101/THQ Nordic"
+          ],
+          "genres": [
+            "Action",
+            "RPG"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.67,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "jurassicworldevolution2",
+          "title": "Jurassic World Evolution 2",
+          "image": "https://hb.imgix.net/40578208ac54d6e4e32e2fce9f52fea6408cc423.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11b40e714f33d09886fef6cfab72d495",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1244460
+          ],
+          "developers": [
+            "Frontier Developments"
+          ],
+          "genres": [
+            "Strategy",
+            "Simulation"
+          ],
+          "msrpUsd": 59.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "edgeofeternity",
+          "title": "Edge Of Eternity",
+          "image": "https://hb.imgix.net/cc5109a716d3343524ab6976d03e0a9b94ef0760.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6a05dc92e715a4fa29ba368399deead7",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            269190
+          ],
+          "developers": [
+            "Midgar Studio/Dear Villagers"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "heroshour",
+          "title": "Hero's Hour",
+          "image": "https://hb.imgix.net/b8d996be14c8f0a4b327a2fd4cf7205aeb7895b7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=691ecfc9a8f560c93865ff64f9d4e04f",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1656780
+          ],
+          "developers": [
+            "Benjamin \"ThingOnItsOwn\" Hauer/Goblinz Publishing"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 17.99,
+          "ratingPercent": 0.78,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "roguelords",
+          "title": "Rogue Lords",
+          "image": "https://hb.imgix.net/f4e7b39a168721b1f344104a888a8d571032faa8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=314a8f0895b7bda4f641792b20cb91b0",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            269190
+          ],
+          "developers": [
+            "Leikir Studio, Cyanide Studio/Nacon"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.73,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "demonturf",
+          "title": "Demon Turf",
+          "image": "https://hb.imgix.net/7ef65f3deeab56bf48ff174a3fbfb154326366d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fdf515a80f783d94d86f7a6a0ad34cc5",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1069690
+          ],
+          "developers": [
+            "Fabraz/Playtonic Friends"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.86,
+          "expiresAt": "2025-08-05T18:00:00",
+          "isExtra": false
+        },
+        {
+          "id": "goldenlight",
+          "title": "Golden Light",
+          "image": "https://hb.imgix.net/8c7acf10b8753d6de44e665bcc3c693c0193c9c6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e533a0cbd6f75774e64301f7cd52e0f1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1245430
+          ],
+          "developers": [
+            "Mr. Pink/HypeTrain Digital"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "monstercrown",
+          "title": "Monster Crown",
+          "image": "https://hb.imgix.net/840b7291c20e7e41cce7819abd1c9c2a815eabdc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=abbf6f0699636d80a2549011e051bac2",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            830370
+          ],
+          "developers": [
+            "Studio Aurum/SOEDESCO"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.77,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-02",
+      "slug": "February-2023",
+      "title": "February 2023",
+      "url": "https://www.humblebundle.com/membership/February-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:33.998Z",
+      "games": [
+        {
+          "id": "pathfinder_wrathoftherighteous",
+          "title": "Pathfinder: Wrath of the Righteous",
+          "image": "https://hb.imgix.net/e9207e40614b4c266598ff0a143f84b57c4f86ea.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0530185dccb20ee9ff350caa33800ae1",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1184370
+          ],
+          "developers": [
+            "Owlcat Games"
+          ],
+          "genres": [
+            "RPG"
+          ],
+          "msrpUsd": 49.99,
+          "ratingPercent": 0.84,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fallout76_fallout1",
+          "title": "Fallout 76 + Fallout 1",
+          "image": "https://hb.imgix.net/1ba49d8f9e28c48cfb5d68f4ae21b9f9aa1a6dc1.png?auto=compress,format&fit=clip&h=383&w=667&s=6f5bf175d200efb71f5d3eac3272fbf6",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Bethesda Game Studio"
+          ],
+          "genres": [
+            "Multiplayer",
+            "RPG"
+          ],
+          "msrpUsd": 49.98,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thronebreaker_thewitchertales",
+          "title": "Thronebreaker: The Witcher Tales",
+          "image": "https://hb.imgix.net/fb8f558710ae46d03d1aa274af18442284082f38.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e1a68e666dd2e27752028fa4d685d3c5",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            973760
+          ],
+          "developers": [
+            "CD PROJEKT RED"
+          ],
+          "genres": [
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "othercide",
+          "title": "Othercide",
+          "image": "https://hb.imgix.net/bb9f2f3c028b234db93ee7e435f36643ed12b160.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d9ad2ad35f2be9fea77547c7d8933b8b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            798490
+          ],
+          "developers": [
+            "Lightbulb Crew"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.84,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "shadypartofme",
+          "title": "Shady Part of Me",
+          "image": "https://hb.imgix.net/e3b3f55ffeb8679214a67feb8d05f6838c4349cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1896c33be495866283a81038c52189f0",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1116580
+          ],
+          "developers": [
+            "Douze Dixièmes"
+          ],
+          "genres": [
+            "Indie"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "scourgebringer",
+          "title": "Scourgebringer",
+          "image": "https://hb.imgix.net/a231019f349403598a2d5a0f33c415d59a96aca4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ddb5052bc96ae9f83a508e7c2d901268",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1037020
+          ],
+          "developers": [
+            "Flying Oak Games",
+            "E-Studio",
+            "Dear Villagers"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 16.99,
+          "ratingPercent": 0.9,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fobia-stdinfnahotel",
+          "title": "Fobia - St. Dinfna Hotel",
+          "image": "https://hb.imgix.net/f98f6e55c0660a139fd3b7734964799bc586033b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0363cffa8d80e5579bf95f9eab994519",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1298140
+          ],
+          "developers": [
+            "Pulsatrix Studios"
+          ],
+          "genres": [
+            "Indie"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.88,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fivedates",
+          "title": "Five Dates",
+          "image": "https://hb.imgix.net/c3efa8b53f709a95707d78693650e3e536ec3c96.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6ea378575bebd13623236436de3e2274",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1353270
+          ],
+          "developers": [
+            "Good Gate Media",
+            "Wales Interactive"
+          ],
+          "genres": [
+            "Adventure"
+          ],
+          "msrpUsd": 12.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2023-01",
+      "slug": "January-2023",
+      "title": "January 2023",
+      "url": "https://www.humblebundle.com/membership/January-2023",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:34.844Z",
+      "games": [
+        {
+          "id": "doom_eternal",
+          "title": "DOOM® Eternal",
+          "image": "https://hb.imgix.net/35834f1986080b44016f92ff14201a19ffcf508f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9df225e9295d4b1f8f23252759ff5f26",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            782330
+          ],
+          "developers": [
+            "id Software"
+          ],
+          "genres": [
+            "Action"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.97,
+          "expiresAt": "2024-01-31T08:00:00",
+          "isExtra": false
+        },
+        {
+          "id": "tribesofmidgard",
+          "title": "Tribes of Midgard",
+          "image": "https://hb.imgix.net/2521d7dcbabaf53210541b5498037c40bbf5d87c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a69db79ff9e0d6e4859516b570688184",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            858820
+          ],
+          "developers": [
+            "Norsfell"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.76,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "encased_asci-fipost-apocalypticrpg",
+          "title": "Encased: A Sci-Fi Post-Apocalyptic RPG",
+          "image": "https://hb.imgix.net/c6bfa59b8a66bfa6ec4593afc2abbd0b439cc79f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=71860fb9a3ddbb5a455483b85a09cabc",
+          "platforms": [
+            "linux",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            921800
+          ],
+          "developers": [
+            "Dark Crystal Games"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 29.99,
+          "ratingPercent": 0.79,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "olliolliworld_radedition",
+          "title": "OlliOlli World - Rad Edition",
+          "image": "https://hb.imgix.net/e2ad568b70ca71f427dac04c79cf8330dde65507.png?auto=compress,format&fit=clip&h=383&w=667&s=184c8a3936f599d03a198a95ef5460d5",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Roll7"
+          ],
+          "genres": [
+            "Action"
+          ],
+          "msrpUsd": 44.99,
+          "ratingPercent": 0.96,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "grow_songoftheevertree",
+          "title": "Grow: Song of the Evertree",
+          "image": "https://hb.imgix.net/eb879c73f2da690517193564dfaf459aaa469f87.jpg?auto=compress,format&fit=clip&h=383&w=667&s=062806150969c5f8b5ee094633cbae89",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1380420
+          ],
+          "developers": [
+            "Prideful Sloth"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.95,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "conan_chopchop",
+          "title": "Conan Chop Chop",
+          "image": "https://hb.imgix.net/f8c62d1a3482d7416fac6f0a3f1439344fbb733b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=60d896de509591280b1b3b260459d137",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1061880
+          ],
+          "developers": [
+            "Mighty Kingdom"
+          ],
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.72,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hokkolife",
+          "title": "Hokko Life",
+          "image": "https://hb.imgix.net/7b04f4003cee5b20c9792cec52ee38a3232f0572.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e47dcd6ad233705e853d928cc0412a85",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            824000
+          ],
+          "developers": [
+            "Wonderscope"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG",
+            "Simulation"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theserpentrogue",
+          "title": "The Serpent Rogue",
+          "image": "https://hb.imgix.net/49165794bd151bf060d657a2681fe7c903fe5095.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ececf66cce3935b2979c8d5ede35dbd4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1453790
+          ],
+          "developers": [
+            "Sengi Games"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.69,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2022-12",
+      "slug": "December-2022",
+      "title": "December 2022",
+      "url": "https://www.humblebundle.com/membership/December-2022",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:35.750Z",
+      "games": [
+        {
+          "id": "wasteland3",
+          "title": "Wasteland 3",
+          "image": "https://hb.imgix.net/12bab3bdba968cc3d69f4bfc54cc6a3e597010d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3c138045407960d94b1129169850cc68",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            719040
+          ],
+          "developers": [
+            "inXile Entertainment/Plaion"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.84,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "greedfall",
+          "title": "GreedFall",
+          "image": "https://hb.imgix.net/1f6d2b8f0d882cb5d9f5ec9448ad0ff7fbc9e29b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=697f88a8fbb81918997ca9b36a537152",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            606880
+          ],
+          "developers": [
+            "Spiders/Focus Entertainment"
+          ],
+          "genres": [
+            "RPG"
+          ],
+          "msrpUsd": 34.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "firstclasstrouble",
+          "title": "First Class Trouble",
+          "image": "https://hb.imgix.net/804d54e06b01bc31bc870230acefaa226a730de6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bbedc32b3d44dfd7c1490daafabf79d1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            953880
+          ],
+          "developers": [
+            "Versus Evil"
+          ],
+          "genres": [
+            "Indie"
+          ],
+          "msrpUsd": 14.99,
+          "ratingPercent": 0.78,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "backbone",
+          "title": "Backbone",
+          "image": "https://hb.imgix.net/c86a70535d5a21d343e6baab5bfc647608acd17d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9c320f5e89626a1c29bd2e95e2da9af",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            865610
+          ],
+          "developers": [
+            "Raw Fury"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.61,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "toem",
+          "title": "TOEM",
+          "image": "https://hb.imgix.net/aa0188520199b9f0df5023fce9ba594faa6ccf96.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae95afb66746896d9f3bed3a1bf9dce8",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            447120
+          ],
+          "developers": [
+            "Something We Made"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.99,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wherethewatertasteslikewine",
+          "title": "Where the Water Tastes Like Wine",
+          "image": "https://hb.imgix.net/4d229dd807d268a0aba56ac41e8e344a70f8e099.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3464d498b9ffdce7fbc66c0345ed2daf",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1367300
+          ],
+          "developers": [
+            "Good Shepard Entertainment"
+          ],
+          "genres": [
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.79,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "bladeassault",
+          "title": "Blade Assault",
+          "image": "https://hb.imgix.net/bab8bca00dfc2b6746a1047eca41ebbc5280fb89.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1fde0f5e222e2d280b6c548d46c1a3fb",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1307580
+          ],
+          "developers": [
+            "TeamSuneat/NEOWIZ"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 17.99,
+          "ratingPercent": 0.81,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "supermagbot",
+          "title": "Super Magbot",
+          "image": "https://hb.imgix.net/6f1b81976b5f532a73e975a870693c27eed161e8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f713564d90129c3169432c6ccd61b8e4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1205170
+          ],
+          "developers": [
+            "Astral Pixel/Team17"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 17.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2022-11",
+      "slug": "November-2022",
+      "title": "November 2022",
+      "url": "https://www.humblebundle.com/membership/November-2022",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-08-20T09:10:36.634Z",
+      "games": [
+        {
+          "id": "hellletloose",
+          "title": "Hell Let Loose",
+          "image": "https://hb.imgix.net/688fd387a8cabfe96e35105dd7a54e33d09e5835.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9d1d63661df11217f8d9d33517d16f0",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            686810
+          ],
+          "developers": [
+            "Black Matter Pty Ltd"
+          ],
+          "genres": [
+            "Action",
+            "FPS",
+            "Indie",
+            "Multiplayer",
+            "Simulation",
+            "Strategy"
+          ],
+          "msrpUsd": 39.99,
+          "ratingPercent": 0.87,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "kingdomsofamalur_re_reckoning_fatesedition",
+          "title": "Kingdoms of Amalur: Re-Reckoning - FATE Edition",
+          "image": "https://hb.imgix.net/413791f66ad94c898921d506c812936fae892b2a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=436cff74e597ac97e526b4b00c7c3bcf",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1041720
+          ],
+          "developers": [
+            "KAIKO",
+            "Big Huge Games",
+            "THQ Nordic"
+          ],
+          "genres": [
+            "Action",
+            "RPG"
+          ],
+          "msrpUsd": 54.99,
+          "ratingPercent": 0.74,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "shadowtactics_aikoschoice",
+          "title": "Shadow Tactics: Aiko's Choice",
+          "image": "https://hb.imgix.net/3e6b581c26e70643df75148b9d8cee68cf710467.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4f836b4858d09176833b3d5dce999883",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            418240
+          ],
+          "developers": [
+            "Mimimi Games"
+          ],
+          "genres": [
+            "Indie",
+            "Strategy"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.91,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "roboquest_regionlocked",
+          "title": "Roboquest",
+          "image": "https://hb.imgix.net/a7621529ec6c326068a74db169a10ea873bda20c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5112cf09a3b47bf1ec5c298470f75619",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            855127
+          ],
+          "developers": [
+            "RyseUp Studios"
+          ],
+          "genres": [
+            "Action",
+            "Indie"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "eldestsouls",
+          "title": "Eldest Souls",
+          "image": "https://hb.imgix.net/cabaca0050ff63f42986c02cb72edaf4bd2b73d6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=937cc980dabef568b4574210b1b8a5e6",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1108590
+          ],
+          "developers": [
+            "Fallen Flag Studio"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "unmetal",
+          "title": "UnMetal",
+          "image": "https://hb.imgix.net/b98359fc4344a0b56031235fb314c4733548b952.jpg?auto=compress,format&fit=clip&h=383&w=667&s=263b6fa661cde8626f4893b29c231e14",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "@unepic_fran"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ],
+          "msrpUsd": 19.99,
+          "ratingPercent": 0.94,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "rajianancientepic",
+          "title": "Raji: An Ancient Epic",
+          "image": "https://hb.imgix.net/7715a3e53afa13ca067ffdfab77568fcf6bfa618.png?auto=compress,format&fit=clip&h=383&w=667&s=e55646ec7bbc6624efe6fc9e7793966e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            730390
+          ],
+          "developers": [
+            "Nodding Heads Games"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Indie"
+          ],
+          "msrpUsd": 24.99,
+          "ratingPercent": 0.86,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "morbid_thesevenacolytes",
+          "title": "Morbid: The Seven Acolytes",
+          "image": "https://hb.imgix.net/fc8b3acd5b5a42101171aab07b8ea8df72dc3c74.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=6292cf7556da4260f8112acb3a0b43f4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [
+            "Still Running"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure",
+            "RPG"
+          ],
+          "msrpUsd": null,
+          "ratingPercent": 0.75,
+          "expiresAt": null,
           "isExtra": false
         }
       ]

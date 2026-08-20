@@ -1,0 +1,217 @@
+{
+  "id": "2023-04",
+  "slug": "April-2023",
+  "title": "April 2023",
+  "url": "https://www.humblebundle.com/membership/April-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:32.244Z",
+  "games": [
+    {
+      "id": "deathstrandingdirectorscut",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "image": "https://hb.imgix.net/4bc63ce61cb8daa252ae06667443f93b52aefc98.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7adbc6f1c1a51d10148d8b426c93c556",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Kojima Productions/505 Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.93,
+      "expiresAt": "2025-12-31T08:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "aliens_fireteamelite",
+      "title": "Aliens: Fireteam Elite",
+      "image": "https://hb.imgix.net/a5e3f581c0cb2e83c954607e8463bd61a48e17b8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4112f5abd0ec42d864bf0c936c5a3442",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Cold Iron Studios/Focus Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rollerdrome",
+      "title": "Rollerdrome",
+      "image": "https://hb.imgix.net/21aa660e3ae82f474c23754a025466ae51ef9a3a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e79be47b464be91ef9cb2f37ce679819",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1294420
+      ],
+      "developers": [
+        "Roll7/Private Division"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Sports"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lifeisstrange2",
+      "title": "Life is Strange 2: Complete Season",
+      "image": "https://hb.imgix.net/c7c481549f9262b09942a06ad567514357c4ffbb.png?auto=compress,format&fit=clip&h=383&w=667&s=22c3689942e31017551985d7e2349f0e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        532210
+      ],
+      "developers": [
+        "Feral Interactive/Square Enix"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 31.96,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thelifeandsufferingofsirbrante",
+      "title": "The Life and Suffering of Sir Brante",
+      "image": "https://hb.imgix.net/05ee2f3759c5276898cf3548635132f765cd9021.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1424f43243e5a54f9ce944d797737d2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1272160
+      ],
+      "developers": [
+        "Sever/101XP"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "monsterprom2_monstercamp",
+      "title": "Monster Prom 2: Monster Camp",
+      "image": "https://hb.imgix.net/630edbb28670abb9ea9e093f200ace00cfb785ed.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e4ba180acc41054fea4f808df6ba9b3c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1140270
+      ],
+      "developers": [
+        "Beautiful Glitch"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "revita",
+      "title": "Revita",
+      "image": "https://hb.imgix.net/69c6a3d7b4853938f4f33da4ed270491b0075f72.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6850b21dab88ae3eafb09a2c4fcaee49",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1175460
+      ],
+      "developers": [
+        "BenStar/Dear Villagers"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "foundersfortune",
+      "title": "Founders' Fortune",
+      "image": "https://hb.imgix.net/4908c95bc2da21c8ed0b9466670705d6d1aab29d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8d4df5eac7b7a15eae0d5bfd21fa56e6",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1104330
+      ],
+      "developers": [
+        "Dionic Software"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 21.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

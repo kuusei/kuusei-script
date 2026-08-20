@@ -1,0 +1,220 @@
+{
+  "id": "2023-05",
+  "slug": "May-2023",
+  "title": "May 2023",
+  "url": "https://www.humblebundle.com/membership/May-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:31.483Z",
+  "games": [
+    {
+      "id": "warhammer40000_chaosgate-daemonhunters",
+      "title": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+      "image": "https://hb.imgix.net/e92658eb68e93ee039f401b98450210db3578fc4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a22141486375487fd378ba1a0a155b9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1611910
+      ],
+      "developers": [
+        "Complex Games"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spiritfarer",
+      "title": "Spiritfarer: Farewell Edition",
+      "image": "https://hb.imgix.net/95285e01875b7edb3eda01c6e8c76e284d4ff441.jpg?auto=compress,format&fit=clip&h=383&w=667&s=46c45f08ebde04672f8e952d39177235",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        972660
+      ],
+      "developers": [
+        "Thunder Lotus Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bendyandthedarkrevival",
+      "title": "Bendy and the Dark Revival",
+      "image": "https://hb.imgix.net/7baa85a536d4e812f7b93cbf476d2b0d8ce0b1fc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=043ccd3dbdd22756b2548075d54e22dd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1063660
+      ],
+      "developers": [
+        "Joey Drew Studios"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "operation_tango",
+      "title": "Operation: Tango",
+      "image": "https://hb.imgix.net/68bcbec1f5d01d8b5c17306bb6d4e295a71b9d32.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4080afcfdaa6dc1823382c4d8841e17d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1335790
+      ],
+      "developers": [
+        "Clever Plays"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "windjammers2",
+      "title": "Windjammers 2",
+      "image": "https://hb.imgix.net/3b7fdc2ca37921f20700d0d3b272bdee51d610a7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b417ef7496ea8bfd768b07c14b30a24",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1114290
+      ],
+      "developers": [
+        "Dotemu"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Sports"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "buildersimulator",
+      "title": "Builder Simulator",
+      "image": "https://hb.imgix.net/66a87ee59173a5922ccde77b0736fcc3f8a74402.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a2528ceb791aa5b3e5bdc08ce47c9bcc",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1120320
+      ],
+      "developers": [
+        "Live Motion Games",
+        "Frozen Way"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "behindtheframe_thefinestscenery",
+      "title": "Behind the Frame: The Finest Scenery",
+      "image": "https://hb.imgix.net/092cef544f55225a00df5da3fbd2fc841b8b8b07.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f528f531b364c44c298c2aeacf08c9da",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1634150
+      ],
+      "developers": [
+        "Silver Lining Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theinvisiblehand",
+      "title": "The Invisible Hand",
+      "image": "https://hb.imgix.net/55f111f746dcc9c8e5be3f7a10bdf1c65afd8e7c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=76c5f168c31d397e1fae209215b4927c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        628200
+      ],
+      "developers": [
+        "Power Struggle Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

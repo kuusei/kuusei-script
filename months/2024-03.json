@@ -1,0 +1,216 @@
+{
+  "id": "2024-03",
+  "slug": "March-2024",
+  "title": "March 2024",
+  "url": "https://www.humblebundle.com/membership/March-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:22.683Z",
+  "games": [
+    {
+      "id": "warhammerageofsigmar_realmsofruin_ultimate",
+      "title": "Warhammer Age of Sigmar: Realms of Ruin – Ultimate Edition",
+      "image": "https://hb.imgix.net/3e67fa32981fdd3b3936bb9e177ea7651d450b8a.png?auto=compress,format&fit=clip&h=383&w=667&s=3dd91aa108474a0f7f84c7a5089dd764",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1844380
+      ],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 74.99,
+      "ratingPercent": 0.6,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nioh2thecompleteedition",
+      "title": "Nioh 2 - The Complete Edition",
+      "image": "https://hb.imgix.net/9880c8139c91c85797081ef3866b1bc5fcf41432.jpg?auto=compress,format&fit=clip&h=383&w=667&s=104323501487f1e4b7d3b0a90efdaaa4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1325200
+      ],
+      "developers": [
+        "KOEI TECMO GAMES CO., LTD."
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "saintsrow_2022",
+      "title": "Saints Row",
+      "image": "https://hb.imgix.net/b4436a49047597b345473c442c64bf16ad8d4664.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c61f0c68b6865a37f151524b73a8bc8e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Volition/Plaion"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.64,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "citizensleeper",
+      "title": "Citizen Sleeper",
+      "image": "https://hb.imgix.net/6a199bf255acc04480ee0f20423a406892c191a7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=40e92a1ee1321c2c576aa10193ee9bc5",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1578650
+      ],
+      "developers": [
+        "Jump Over The Age/Fellow Traveller"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blackskylands",
+      "title": "Black Skylands",
+      "image": "https://hb.imgix.net/2cca09865e26ad495c1142ce3c4741ee9cc6b4bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=804156303124b65b629075ccd8342aca",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1143810
+      ],
+      "developers": [
+        "Hungry Couch Games/tinyBuild"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "soulstice",
+      "title": "Soulstice",
+      "image": "https://hb.imgix.net/fa44c7329ce9a641f042b1000a2ff5289f40e6b1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6dcf46618d282938d26c1d2f3d9e52c3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1602080
+      ],
+      "developers": [
+        "Reply Game Studios /Maximum Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "afterimage",
+      "title": "Afterimage",
+      "image": "https://hb.imgix.net/24b7e8ceadc10a98470448e4f62d884fe004281a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f9e446f8934eb9e84f89460b220f5180",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1701520
+      ],
+      "developers": [
+        "Aurogon Shanghai/Maximum Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "destroyer_theu-boathunter",
+      "title": "Destroyer: The U-Boat Hunter",
+      "image": "https://hb.imgix.net/c51030cd53295febb54ec1b97abcc8cf75c86d6b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9b7b84fe40f538c95a397f17a5c6f70d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1272010
+      ],
+      "developers": [
+        "Iron Wolf Studio S.A/Daedalic Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

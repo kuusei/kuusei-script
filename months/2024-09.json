@@ -1,0 +1,238 @@
+{
+  "id": "2024-09",
+  "slug": "September-2024",
+  "title": "September 2024",
+  "url": "https://www.humblebundle.com/membership/September-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:15.511Z",
+  "games": [
+    {
+      "id": "marvelsguardiansofthegalaxy",
+      "title": "Marvel's Guardians of the Galaxy",
+      "image": "https://hb.imgix.net/f24310af654f99847c2bb0cfe0020fef1603d348.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5c9134e9f3fad964d37937dc86c9ed43",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1088850
+      ],
+      "developers": [
+        "Crystal Dynamics / Marvel"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stranded_aliendawn",
+      "title": "Stranded: Alien Dawn",
+      "image": "https://hb.imgix.net/5f7d387856d7aefeef2626a8a40a8b3e09f75c22.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4599567bdfdc2b63991fce42112d86c5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Haemimont Games/Frontier Foundry"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "coralisland",
+      "title": "Coral Island",
+      "image": "https://hb.imgix.net/c8bf240d4abdbc7eb3de6c4eceba77f4dde65efa.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6fece46663baf2392166a9d11f6de20b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1158160
+      ],
+      "developers": [
+        "Stairway Games/Humble Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spongebobsquarepants_thecosmicshake",
+      "title": "SpongeBob SquarePants: The Cosmic Shake",
+      "image": "https://hb.imgix.net/a99ae01918e914d5627a2c026efae75d498fba91.jpg?auto=compress,format&fit=clip&h=383&w=667&s=462141bbd0809e9e191f5e9a95350e3b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1282150
+      ],
+      "developers": [
+        "Purple Lamp/THQ Nordic"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "losteidolons",
+      "title": "Lost Eidolons",
+      "image": "https://hb.imgix.net/8ac73f4372888428a01ec3d5ae85075c0b376e97.jpg?auto=compress,format&fit=clip&h=383&w=667&s=198bdfe40cc70d0e2b589158ec57681a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1580520
+      ],
+      "developers": [
+        "Ocean Drive Studio, Inc."
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "astrea_six-sidedoracles",
+      "title": "Astrea: Six-Sided Oracles",
+      "image": "https://hb.imgix.net/ed4ebe5853ada8e777bef3c89754c7779a20cc6d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cc9e9206a830fcc44a4fcdd611447c55",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Little Leo Games/Akupara Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "infraspace",
+      "title": "InfraSpace",
+      "image": "https://hb.imgix.net/2d97bd67cda65fa32edab0b9e9867cd5be0a11e1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=30876c3a859c604b6aae906e19c7e06b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1511460
+      ],
+      "developers": [
+        "Dionic Software"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yousuckatparking",
+      "title": "You Suck at Parking - Complete Edition",
+      "image": "https://hb.imgix.net/b8421d7bbe89dcfff113c435a15affc388500614.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac03404e59bd2afd71a0dbc966337a60",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        837880
+      ],
+      "developers": [
+        "Happy Volcano/Curve Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "Sports"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ruevalley_alpha_playtest_september2024choice",
+      "title": "Rue Valley - Alpha Playtest",
+      "image": "https://hb.imgix.net/69a7d3046fa4c62193bfe40a49cb3b9ce2596f7b.png?auto=compress,format&fit=clip&h=383&w=667&s=571e05e1520d7fb04f45e56be034d1a5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Emotion Spark Studio/ Owlcat Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": "2024-10-01T06:59:00",
+      "isExtra": true
+    }
+  ]
+}

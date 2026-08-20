@@ -1,0 +1,219 @@
+{
+  "id": "2022-11",
+  "slug": "November-2022",
+  "title": "November 2022",
+  "url": "https://www.humblebundle.com/membership/November-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:36.634Z",
+  "games": [
+    {
+      "id": "hellletloose",
+      "title": "Hell Let Loose",
+      "image": "https://hb.imgix.net/688fd387a8cabfe96e35105dd7a54e33d09e5835.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9d1d63661df11217f8d9d33517d16f0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        686810
+      ],
+      "developers": [
+        "Black Matter Pty Ltd"
+      ],
+      "genres": [
+        "Action",
+        "FPS",
+        "Indie",
+        "Multiplayer",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kingdomsofamalur_re_reckoning_fatesedition",
+      "title": "Kingdoms of Amalur: Re-Reckoning - FATE Edition",
+      "image": "https://hb.imgix.net/413791f66ad94c898921d506c812936fae892b2a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=436cff74e597ac97e526b4b00c7c3bcf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1041720
+      ],
+      "developers": [
+        "KAIKO",
+        "Big Huge Games",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 54.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shadowtactics_aikoschoice",
+      "title": "Shadow Tactics: Aiko's Choice",
+      "image": "https://hb.imgix.net/3e6b581c26e70643df75148b9d8cee68cf710467.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4f836b4858d09176833b3d5dce999883",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        418240
+      ],
+      "developers": [
+        "Mimimi Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roboquest_regionlocked",
+      "title": "Roboquest",
+      "image": "https://hb.imgix.net/a7621529ec6c326068a74db169a10ea873bda20c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5112cf09a3b47bf1ec5c298470f75619",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        855127
+      ],
+      "developers": [
+        "RyseUp Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "eldestsouls",
+      "title": "Eldest Souls",
+      "image": "https://hb.imgix.net/cabaca0050ff63f42986c02cb72edaf4bd2b73d6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=937cc980dabef568b4574210b1b8a5e6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1108590
+      ],
+      "developers": [
+        "Fallen Flag Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "unmetal",
+      "title": "UnMetal",
+      "image": "https://hb.imgix.net/b98359fc4344a0b56031235fb314c4733548b952.jpg?auto=compress,format&fit=clip&h=383&w=667&s=263b6fa661cde8626f4893b29c231e14",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "@unepic_fran"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rajianancientepic",
+      "title": "Raji: An Ancient Epic",
+      "image": "https://hb.imgix.net/7715a3e53afa13ca067ffdfab77568fcf6bfa618.png?auto=compress,format&fit=clip&h=383&w=667&s=e55646ec7bbc6624efe6fc9e7793966e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        730390
+      ],
+      "developers": [
+        "Nodding Heads Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "morbid_thesevenacolytes",
+      "title": "Morbid: The Seven Acolytes",
+      "image": "https://hb.imgix.net/fc8b3acd5b5a42101171aab07b8ea8df72dc3c74.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=6292cf7556da4260f8112acb3a0b43f4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Still Running"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": null,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

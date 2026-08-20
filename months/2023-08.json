@@ -1,0 +1,219 @@
+{
+  "id": "2023-08",
+  "slug": "August-2023",
+  "title": "August 2023",
+  "url": "https://www.humblebundle.com/membership/August-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:29.005Z",
+  "games": [
+    {
+      "id": "discoelysium-thefinalcut",
+      "title": "Disco Elysium - The Final Cut",
+      "image": "https://hb.imgix.net/6b87bcf48b39c06d2315b052239321de55512e7c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d8bc2acf5f54f05bebbbaa2f1bc9e9c4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        632470
+      ],
+      "developers": [
+        "ZA/UM"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "chivalry2",
+      "title": "Chivalry 2 - Epic Edition",
+      "image": "https://hb.imgix.net/126aa8b6fb0bf0bc5ffb7fb4844e911a9eaa371c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5ce919ece9b5ef3e8f1565f1fd450b95",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1824220
+      ],
+      "developers": [
+        "Torn Banner Studios"
+      ],
+      "genres": [
+        "Action",
+        "MMO"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "road96",
+      "title": "Road 96",
+      "image": "https://hb.imgix.net/cdb70daf9aa8527babf2ae6ae20ee93b819adef3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=96ab2c014a17aadd475f07a69220f5f7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1466640
+      ],
+      "developers": [
+        "Plaion",
+        "Digixart"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.96,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "trektoyomi",
+      "title": "Trek to Yomi",
+      "image": "https://hb.imgix.net/bea5576bfcee34511b1cb237cb4bd2c8ba59fb5a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2f33c0941a66729dc54e49987b40d515",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1370050
+      ],
+      "developers": [
+        "Devolver Digital",
+        "Flying Wild Hog"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "arcadeparadise",
+      "title": "Arcade Paradise",
+      "image": "https://hb.imgix.net/03023b6b7424596bdb5f489b0c8631ac47f4df4a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=24f27e7105a0b6ab8b4969d1323c716f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Nosebleed Interactive"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "suchart_geniusartistsimulator",
+      "title": "SuchArt: Genius Artist Simulator",
+      "image": "https://hb.imgix.net/e6fb6821bfa0ef163948242392b38ce1d5976ee3.png?auto=compress,format&fit=clip&h=383&w=667&s=6d23d5580fa7be5d1e0dff0d4d437b2c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1293180
+      ],
+      "developers": [
+        "Hypetrain Digital",
+        "Goose Minded"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.98,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tincan",
+      "title": "Tin Can",
+      "image": "https://hb.imgix.net/f592a0bb5421f1f69dc4c59ba68e3b847ebc1d9e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8fcead49feefc4a2ac629fbfc5af9910",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1315980
+      ],
+      "developers": [
+        "Goblinz Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hotbrass",
+      "title": "Hot Brass",
+      "image": "https://hb.imgix.net/b8fc6bfb0dd88ef6c49e633a8ee5b95e95d54ab4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75eabf69db3dba2db0fcf934bc584dec",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        892860
+      ],
+      "developers": [
+        "Fellow Traveller",
+        "Walk the Kings"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

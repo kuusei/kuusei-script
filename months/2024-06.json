@@ -1,0 +1,211 @@
+{
+  "id": "2024-06",
+  "slug": "June-2024",
+  "title": "June 2024",
+  "url": "https://www.humblebundle.com/membership/June-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:18.212Z",
+  "games": [
+    {
+      "id": "riskofrain2",
+      "title": "Risk of Rain 2",
+      "image": "https://hb.imgix.net/36a382fc1e37a7f28cae5ccd40f175252bd46b38.png?auto=compress,format&fit=clip&h=383&w=667&s=a76c1aa54e06881e121e62668d01f87e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        632360
+      ],
+      "developers": [
+        "Hopoo Games/Geabox Publishing"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "knightsofhonorii_sovereign",
+      "title": "Knights of Honor II: Sovereign",
+      "image": "https://hb.imgix.net/1a8a03917b121c67410c9c2b2fb38889761c5400.jpg?auto=compress,format&fit=clip&h=383&w=667&s=18bc93e445ca43e3577cdda75e990db1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        736820
+      ],
+      "developers": [
+        "Black Sea Games/THQ Nordic"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "legodrive_awesomeedition",
+      "title": "LEGO® 2K Drive Awesome Edition",
+      "image": "https://hb.imgix.net/cbeacfbdb90d33a3bd4bf31985b2c299ffd27a6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a68b4e1a3bc744e32d1b5a628a5bde25",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1451810
+      ],
+      "developers": [
+        "Visual Concepts",
+        "Take-Two Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Racing"
+      ],
+      "msrpUsd": 69.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warhammer40000_battlesector",
+      "title": "Warhammer 40,000: Battlesector",
+      "image": "https://hb.imgix.net/09cd7b77b9c57035bbe7987ec2da5fe7b533da49.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ed7ff8ed16f36d69fc614530ae68a7a4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1295500
+      ],
+      "developers": [
+        "Black Lab Games/Slitherine Ltd.,"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "miasmachronicles",
+      "title": "Miasma Chronicles",
+      "image": "https://hb.imgix.net/5838c998567961cda93994a3af81d0cc2408224f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=329733121fced4c429c0012c83004125",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "The Bearded Ladies/ 505 Games"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "straygods_theroleplayingmusical",
+      "title": "Stray Gods: The Roleplaying Musical",
+      "image": "https://hb.imgix.net/c3159bceb2e1e7706b42312914e5dc0e0f3c9596.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0db4ecf5889dc7ad7089b1b978e0819d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1920780
+      ],
+      "developers": [
+        "Summerfall Studios/ Humble Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aguidebookofbabel",
+      "title": "A Guidebook of Babel",
+      "image": "https://hb.imgix.net/4010a1840e75f6db38e2f9e0708e2fdd9fe7d984.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6daa25899c15440d7f1c7bcdbed884ed",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1467920
+      ],
+      "developers": [
+        "StarryStarry/Thermite Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "empyrion-galacticsurvival",
+      "title": "Empyrion - Galactic Survival",
+      "image": "https://hb.imgix.net/1077c4e45e842194c8e94539d5742330c9d82d7d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4d98c60960cf51af8072e1b0aac78c09",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        383120
+      ],
+      "developers": [
+        "Eleon Game Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

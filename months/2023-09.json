@@ -1,0 +1,207 @@
+{
+  "id": "2023-09",
+  "slug": "September-2023",
+  "title": "September 2023",
+  "url": "https://www.humblebundle.com/membership/September-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:28.130Z",
+  "games": [
+    {
+      "id": "tinytinaswonderlands_chaoticgreatedition",
+      "title": "Tiny Tina's Wonderlands Chaotic Great Edition",
+      "image": "https://hb.imgix.net/e0d3c271ca8510984b54e56e6d9acfcbd5b22a6e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=90627b9e7d96e6a1901ef2187241e183",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1286680
+      ],
+      "developers": [
+        "Gearbox Software"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 79.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deceiveinc",
+      "title": "Deceive Inc.",
+      "image": "https://hb.imgix.net/692eba7e29cf0fd8d3f52dc30e53ac9b2ae6ec69.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae49ed9eaddd48d9edc77fda1085765e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Sweet Bandits Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theforgottencity",
+      "title": "The Forgotten City",
+      "image": "https://hb.imgix.net/bda31fe6d5d6fa44b10b28d22b3aa651da23791a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f772ca576f10318d8b50a819947c63cf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Modern Storyteller"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "acesadventures",
+      "title": "Aces & Adventures",
+      "image": "https://hb.imgix.net/ad0bdd936cb2a2b61e7e483c45d7466084048855.jpg?auto=compress,format&fit=clip&h=383&w=667&s=16e785dcdd97359bf3e77c5760889cef",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Triple.B.Titles"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "patchquest",
+      "title": "Patch Quest",
+      "image": "https://hb.imgix.net/3662905c398f8200323bf767431eed9d84fe88de.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11f8db2780918b778eb3eb503ec179fe",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Lychee Game Labs"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "foretales",
+      "title": "Foretales",
+      "image": "https://hb.imgix.net/879dc4c1fd962aa0b5b771e93a5354b9ad0ee287.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b95336bcee011cbb4b97f58cc04bcda2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Alkemi"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "whopressedmuteonunclemarcus",
+      "title": "Who Pressed Mute on Uncle Marcus",
+      "image": "https://hb.imgix.net/965073cc089ea2c5eeedf71dbd62172367cd6bc7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8c14e5719a2fdd0314a26ad548cd6d7e",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1628130
+      ],
+      "developers": [
+        "Wales Interactive",
+        "Good Gate Media"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.73,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "autonautsvspiratebots",
+      "title": "Autonauts vs PirateBots",
+      "image": "https://hb.imgix.net/fd2fb9a114eaa81256ed2aae9d19aa2e12ae1452.jpg?auto=compress,format&fit=clip&h=383&w=667&s=79bf674477ccd6ef255190bf8384e02a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1907720
+      ],
+      "developers": [
+        "Denki"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

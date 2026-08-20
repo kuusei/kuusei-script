@@ -1,0 +1,217 @@
+{
+  "id": "2022-12",
+  "slug": "December-2022",
+  "title": "December 2022",
+  "url": "https://www.humblebundle.com/membership/December-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:35.750Z",
+  "games": [
+    {
+      "id": "wasteland3",
+      "title": "Wasteland 3",
+      "image": "https://hb.imgix.net/12bab3bdba968cc3d69f4bfc54cc6a3e597010d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3c138045407960d94b1129169850cc68",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        719040
+      ],
+      "developers": [
+        "inXile Entertainment/Plaion"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "greedfall",
+      "title": "GreedFall",
+      "image": "https://hb.imgix.net/1f6d2b8f0d882cb5d9f5ec9448ad0ff7fbc9e29b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=697f88a8fbb81918997ca9b36a537152",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        606880
+      ],
+      "developers": [
+        "Spiders/Focus Entertainment"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "firstclasstrouble",
+      "title": "First Class Trouble",
+      "image": "https://hb.imgix.net/804d54e06b01bc31bc870230acefaa226a730de6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bbedc32b3d44dfd7c1490daafabf79d1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        953880
+      ],
+      "developers": [
+        "Versus Evil"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "backbone",
+      "title": "Backbone",
+      "image": "https://hb.imgix.net/c86a70535d5a21d343e6baab5bfc647608acd17d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9c320f5e89626a1c29bd2e95e2da9af",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        865610
+      ],
+      "developers": [
+        "Raw Fury"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.61,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "toem",
+      "title": "TOEM",
+      "image": "https://hb.imgix.net/aa0188520199b9f0df5023fce9ba594faa6ccf96.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae95afb66746896d9f3bed3a1bf9dce8",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        447120
+      ],
+      "developers": [
+        "Something We Made"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.99,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wherethewatertasteslikewine",
+      "title": "Where the Water Tastes Like Wine",
+      "image": "https://hb.imgix.net/4d229dd807d268a0aba56ac41e8e344a70f8e099.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3464d498b9ffdce7fbc66c0345ed2daf",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1367300
+      ],
+      "developers": [
+        "Good Shepard Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bladeassault",
+      "title": "Blade Assault",
+      "image": "https://hb.imgix.net/bab8bca00dfc2b6746a1047eca41ebbc5280fb89.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1fde0f5e222e2d280b6c548d46c1a3fb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1307580
+      ],
+      "developers": [
+        "TeamSuneat/NEOWIZ"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "supermagbot",
+      "title": "Super Magbot",
+      "image": "https://hb.imgix.net/6f1b81976b5f532a73e975a870693c27eed161e8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f713564d90129c3169432c6ccd61b8e4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1205170
+      ],
+      "developers": [
+        "Astral Pixel/Team17"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

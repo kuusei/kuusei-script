@@ -1,0 +1,245 @@
+{
+  "id": "2024-01",
+  "slug": "January-2024",
+  "title": "January 2024",
+  "url": "https://www.humblebundle.com/membership/January-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:24.411Z",
+  "games": [
+    {
+      "id": "marvelsmidnightsuns",
+      "title": "Marvel's Midnight Suns Digital+ Edition",
+      "image": "https://hb.imgix.net/8a617b55b388cd9e0d5dea7f67483d11cdd22d54.png?auto=compress,format&fit=clip&h=383&w=667&s=d0d8fe958f942a74f2d40a05eb8165e2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        368260
+      ],
+      "developers": [
+        "Firaxis Games",
+        "2K"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 79.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "doctorstrangedefendersskin",
+      "title": "Midnight Suns - Doctor Strange Defenders Skin",
+      "image": "https://hb.imgix.net/70d809acabc33ba75366ed003c2a201ca9f9b146.jpg?auto=compress,format&fit=clip&h=383&w=667&s=dd4f28c491def166d2b32723d73a2052",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1712442
+      ],
+      "developers": [
+        "Firaxis Games",
+        "2K"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 2.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "twopointcampus",
+      "title": "Two Point Campus",
+      "image": "https://hb.imgix.net/262cf09ef53e343ad11a11f894902c1c4570dda1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ffc08e85b25e1f4a22ef303c9f7d63cd",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "SEGA",
+        "Two Point Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aragami2",
+      "title": "Aragami 2",
+      "image": "https://hb.imgix.net/174491182396f1f713085e44e879bde1f7150948.jpg?auto=compress,format&fit=clip&h=383&w=667&s=31fe19c305b326e7645ec6746d7741f1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1158370
+      ],
+      "developers": [
+        "Lince Works"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "otxo",
+      "title": "OTXO",
+      "image": "https://hb.imgix.net/d912225eb9659b2322610594a2c5b426cd2a4bde.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee5b0462bc699a1cdea019757c7ca165",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1608640
+      ],
+      "developers": [
+        "Lateralis Heavy Industries",
+        "Super Rare Games"
+      ],
+      "genres": [
+        "Action",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roguebook",
+      "title": "Roguebook",
+      "image": "https://hb.imgix.net/5deff697f2b160c1c8bbaae73ba6e5b0f6a69251.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98925f47209f5d526458019f25a6c218",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1076200
+      ],
+      "developers": [
+        "Abrakam Entertainment SA",
+        "Nacon"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theredlantern",
+      "title": "The Red Lantern",
+      "image": "https://hb.imgix.net/2b8366264ce8c987b2961b9f13d98f4519e79ea4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4aeb90943cd42753d5c648b934aa311",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1053710
+      ],
+      "developers": [
+        "Timberline Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hellpie",
+      "title": "Hell Pie",
+      "image": "https://hb.imgix.net/edf3070b8119aa0b808b09d5220e75faccb8d068.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2aeb483812286139b5ee331ab4b7ade2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        889910
+      ],
+      "developers": [
+        "Sluggerfly",
+        "Headup Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "twinmirror",
+      "title": "Twin Mirror",
+      "image": "https://hb.imgix.net/38ebba214db6684814c8e89934f06c724b0fdeac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53752e4987e2cde14980a92773b76afa",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1552810
+      ],
+      "developers": [
+        "DON'T NOD"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "2023-11",
+  "slug": "November-2023",
+  "title": "November 2023",
+  "url": "https://www.humblebundle.com/membership/November-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:26.330Z",
+  "games": [
+    {
+      "id": "hardspace_shipbreaker",
+      "title": "Hardspace: Shipbreaker",
+      "image": "https://hb.imgix.net/bc7bc6cdf42f799296cb2b485708ab8bfd412105.jpg?auto=compress,format&fit=clip&h=383&w=667&s=102b108fc152ee8b5ae4fc74ae7e5ad6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1161580
+      ],
+      "developers": [
+        "Blackbird Interactive/Focus Entertainment"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wwe2k23",
+      "title": "WWE 2K23",
+      "image": "https://hb.imgix.net/8f4ebd43cd8218dda6535d0aee580735dddba9dd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=640e4b2576cd7c7e1909fe92739fd416",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1942660
+      ],
+      "developers": [
+        "2K"
+      ],
+      "genres": [
+        "Sports",
+        "Simulation"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "unpacking",
+      "title": "Unpacking",
+      "image": "https://hb.imgix.net/36119e35ef1792274ae5b08aa94f55db7f951760.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d65d464160e022953f6164c47e0ffd75",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1135690
+      ],
+      "developers": [
+        "Witch Beam/Humble Games"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "friendsvsfriends",
+      "title": "Friends vs Friends",
+      "image": "https://hb.imgix.net/f2db4a0b19a7d18b49f375150cc1adf24ae902e7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=12c42b36b2084ace3ac4a98ed12aee52",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1785150
+      ],
+      "developers": [
+        "Brainwash Gang/Raw Fury"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 12.76,
+      "ratingPercent": 0.81,
+      "expiresAt": "2024-12-04T07:59:00",
+      "isExtra": false
+    },
+    {
+      "id": "prodeus",
+      "title": "Prodeus",
+      "image": "https://hb.imgix.net/bd892663cca6ed23c1928d377766573390baa0e9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0679669339096861720e000b9dbae17d",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        964800
+      ],
+      "developers": [
+        "Bounding Box Software Inc./Humble Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thelegendoftianding",
+      "title": "The Legend of Tianding",
+      "image": "https://hb.imgix.net/21e4da07feaba79fe1f1c936940f67cd58ccde76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d2c33530cc7d03de8515bc6064ed9c27",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1406850
+      ],
+      "developers": [
+        "Neon Doctrine"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "scp_secretfiles",
+      "title": "SCP: Secret Files",
+      "image": "https://hb.imgix.net/aae78ae114a508bad98eb2fad0f1c7f72f426e31.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a4dad653b2fc323b2743fdff42c9b6ac",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1718130
+      ],
+      "developers": [
+        "GameZoo Studio/Pixmain"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "souldiers",
+      "title": "Souldiers",
+      "image": "https://hb.imgix.net/8250256f2f89a92178b8ebbe0c9f47394d970992.jpg?auto=compress,format&fit=clip&h=383&w=667&s=23ec7453a320fd96ff89354c8e0d9b5b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1374970
+      ],
+      "developers": [
+        "Retro Forge/Dear Villagers"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

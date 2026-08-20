@@ -1,0 +1,226 @@
+{
+  "id": "2023-07",
+  "slug": "July-2023",
+  "title": "July 2023",
+  "url": "https://www.humblebundle.com/membership/July-2023",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:29.870Z",
+  "games": [
+    {
+      "id": "theouterworlds_spacerschoice",
+      "title": "The Outer Worlds: Spacer's Choice Edition",
+      "image": "https://hb.imgix.net/f04ab675768fbb0882355af2d91154a7ffe4c1cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c58d1181673dd6141668728a4a1845ef",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1920490
+      ],
+      "developers": [
+        "Obsidian Entertainment/Private Division"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "temtem",
+      "title": "Temtem",
+      "image": "https://hb.imgix.net/1abcf2add2c1b2e80857ac9f50ee2966a4a975cb.png?auto=compress,format&fit=clip&h=383&w=667&s=e2f53fee99547cf3cf7907e7a69eddc1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        745920
+      ],
+      "developers": [
+        "Crema/Humble Games"
+      ],
+      "genres": [
+        "Indie",
+        "MMO",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yakuza_4remaster",
+      "title": "Yakuza 4 Remastered",
+      "image": "https://hb.imgix.net/7a68e738dfbb01cbde1d80d3a943774e5b603c2c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=481bdbf3406d84fee8a06fb939ba10f9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1105500
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roadwarden",
+      "title": "Roadwarden",
+      "image": "https://hb.imgix.net/85b553ed13c82d59422fd30e017ed6f0405d8e61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a37838b86fff166eb9de276186c1bdf9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1155970
+      ],
+      "developers": [
+        "Assemble Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 10.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "krakenacademy",
+      "title": "Kraken Academy!!",
+      "image": "https://hb.imgix.net/65ad335a0ed35e3634c2fd0fb1a5e6ab0d1a74ff.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3318a10a4663303db16ff55af815e47e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1158220
+      ],
+      "developers": [
+        "Happy Broccoli Games/Fellow Traveller"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "merchantoftheskies",
+      "title": "Merchant of the Skies",
+      "image": "https://hb.imgix.net/1ec7cbbd407c731229423718598b8f4e76d99f7f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=36266ba89217fb3e34d9d86a240ec5ee",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1040070
+      ],
+      "developers": [
+        "Coldwild Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ozymandias_bronzeageempiresim",
+      "title": "Ozymandias: Bronze Age Empire Sim",
+      "image": "https://hb.imgix.net/ca231d3229b6477579c54dd5df4041129c36cb87.jpg?auto=compress,format&fit=clip&h=383&w=667&s=675fdba6d194c9d5f3d5a2c852c70ad1",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1768280
+      ],
+      "developers": [
+        "The Secret Games Company/Goblinz Publishing"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shotgunking_thefinalcheckmate",
+      "title": "Shotgun King: The Final Checkmate",
+      "image": "https://hb.imgix.net/f21fbfe2607acfedbb0cabf3636c055a019e29f8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f52f9f941cd4c826988cf3551b15fc34",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1972440
+      ],
+      "developers": [
+        "PUNKCAKE Delicieux"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

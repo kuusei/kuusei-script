@@ -1,0 +1,213 @@
+{
+  "id": "2024-05",
+  "slug": "May-2024",
+  "title": "May 2024",
+  "url": "https://www.humblebundle.com/membership/May-2024",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-20T09:10:20.615Z",
+  "games": [
+    {
+      "id": "yakuza_likeadragon",
+      "title": "Yakuza: Like a Dragon",
+      "image": "https://hb.imgix.net/65fdef0507cc058480412b283b69eeac3c691cf8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d1348e21988c0ff965c92173c021356",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1235140
+      ],
+      "developers": [
+        "Ryu Ga Gotoku Studio / SEGA"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hi-firush",
+      "title": "Hi-Fi Rush",
+      "image": "https://hb.imgix.net/0c40227c35ce7bc2c0d9a27022a0681efde2127d.png?auto=compress,format&fit=clip&h=383&w=667&s=87335a9f5fb749b4b5e43be365f980f1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1817230
+      ],
+      "developers": [
+        "Tango Gameworks / Bethesda"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.97,
+      "expiresAt": "2025-06-03T17:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "steelrising",
+      "title": "Steelrising",
+      "image": "https://hb.imgix.net/3e2fd06711e2d47feda78d28c222cb4e46e16cf2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d06f051dbfe39621dd06e70d4670253",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1283400
+      ],
+      "developers": [
+        "Spiders / Nacon"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "loddlenaut",
+      "title": "Loddlenaut",
+      "image": "https://hb.imgix.net/f98781ebe979a298533e191ad8080f21a019ca33.jpg?auto=compress,format&fit=clip&h=383&w=667&s=374845315d1cc0d82909fb0e1d67b030",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1839880
+      ],
+      "developers": [
+        "Moon Lagoon / Secret Mode"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kingofthecastle",
+      "title": "King Of The Castle",
+      "image": "https://hb.imgix.net/60f3dd3229f79c653917d9b68b0697316cdec35b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=999b1493e069bd03bce25f5ff7c77b71",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1839880
+      ],
+      "developers": [
+        "Tributary Games / Team 17"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "braveryandgreed",
+      "title": "Bravery and Greed",
+      "image": "https://hb.imgix.net/3d0a083e2fbdc622949108fb983fa2ab048e5ffc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee5737b52836183ff6bc9184da5bd16a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        943370
+      ],
+      "developers": [
+        "Rekka Games / Team17"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "amandatheadventurer",
+      "title": "Amanda the Adventurer",
+      "image": "https://hb.imgix.net/9f1bba4c25570b30f81a0cc8a8d697620679f881.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7ea6e09216e79c6735dad9ca4bc0d423",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2166060
+      ],
+      "developers": [
+        "MANGLEDmaw Games / DreadXP"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 8.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mediterraneainferno",
+      "title": "Mediterranea Inferno",
+      "image": "https://hb.imgix.net/669375b698f805d17685032344035fdc5e657d67.jpg?auto=compress,format&fit=clip&h=383&w=667&s=963c00d19665b77f94bd4f4cab6705a3",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2103680
+      ],
+      "developers": [
+        "Eyeguys, Lorenzo Redaelli / Santa Ragione"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}
