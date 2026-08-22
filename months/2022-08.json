@@ -1,0 +1,219 @@
+{
+  "id": "2022-08",
+  "slug": "August-2022",
+  "title": "August 2022",
+  "url": "https://www.humblebundle.com/membership/August-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:43.318Z",
+  "games": [
+    {
+      "id": "theascent",
+      "title": "The Ascent",
+      "image": "https://hb.imgix.net/f9fcce5b3d2bc644d532f12d1bd7cf7087a165e3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bc2474cdb86dac6fadd0ebb581c08cf8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        979690
+      ],
+      "developers": [
+        "Neon Giant"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hotwheelsunleashed",
+      "title": "HOT WHEELS UNLEASHED ™",
+      "image": "https://hb.imgix.net/a1eaa78e6efce02b4790e9cb362be1520a7b12f1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=604a5bf78c5ab139270a9704e6ce120d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1271700
+      ],
+      "developers": [
+        "Milestone S.r.l."
+      ],
+      "genres": [
+        "Racing"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aplaguetale_innocence",
+      "title": "A Plague Tale: Innocence",
+      "image": "https://hb.imgix.net/2b22da5b29074bb317ee5c5cc40719709dddc36d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=42849f485bace7e24e9e54b35898f534",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        752590
+      ],
+      "developers": [
+        "Asobo Studio"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gasstationsimulator",
+      "title": "Gas Station Simulator",
+      "image": "https://hb.imgix.net/96b5a08700d1cbb5c2c7145a395d2a6d1b5f0b2f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7e3e269228ddc1bd928405b3be94ae9c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1149620
+      ],
+      "developers": [
+        "DRAGO entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "insoundmind",
+      "title": "In Sound Mind",
+      "image": "https://hb.imgix.net/ffded1b933493e4279ef7f80af76935e76ce807b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c642e26c81104758df62766bba0f7981",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1119980
+      ],
+      "developers": [
+        "We Create Stuff"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mindscanners",
+      "title": "Mind Scanners",
+      "image": "https://hb.imgix.net/c996cd77439ee43c1036e271336d0d37a90dd333.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e0a098dbb188bfa090d28a0958090ce6",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1389550
+      ],
+      "developers": [
+        "The Outer Zone"
+      ],
+      "genres": [
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "emilyisaway3",
+      "title": "Emily is Away <3",
+      "image": "https://hb.imgix.net/4717317996a3fb55f40462c6283e518c3c61dbc9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7099ab3673abff450759a999a3ab34a6",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1726520
+      ],
+      "developers": [
+        "Kyle Seeley"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "omno",
+      "title": "Omno",
+      "image": "https://hb.imgix.net/61a98ef2f059626e0646ade92822f823b8b5b302.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1340e2c2842edef0241654c30abd0514",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        969760
+      ],
+      "developers": [
+        "Jonas Manke"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 18.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

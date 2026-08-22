@@ -1,0 +1,214 @@
+{
+  "id": "2022-10",
+  "slug": "October-2022",
+  "title": "October 2022",
+  "url": "https://www.humblebundle.com/membership/October-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:41.682Z",
+  "games": [
+    {
+      "id": "deathloop",
+      "title": "DEATHLOOP",
+      "image": "https://hb.imgix.net/c5053d8239862b84a3830c437d145df0c3f60d46.jpg?auto=compress,format&fit=clip&h=383&w=667&s=76e6633d407c5fe470f20c60615572a3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1252330
+      ],
+      "developers": [
+        "Arkane Studios"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "monstertrainfirstclasscollectorsedition",
+      "title": "Monster Train (First Class - Collectors Edition)",
+      "image": "https://hb.imgix.net/9af72e9d367e984d8fea4126384214d4aae9c56c.png?auto=compress,format&fit=clip&h=383&w=667&s=d81796d40f1d88689f26f4c341bbdfdd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1102190,
+        1359320
+      ],
+      "developers": [
+        "Shiny Shoe"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 32.91,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thedarkpicturesanthology_littlehope",
+      "title": "The Dark Pictures Anthology: Little Hope",
+      "image": "https://hb.imgix.net/377f4170d72237b69fa61c969eaf96fc4672e183.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4c829a7392c537e49796809fbad5283f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1194630
+      ],
+      "developers": [
+        "Supermassive Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "disciples_liberation",
+      "title": "Disciples: Liberation",
+      "image": "https://hb.imgix.net/667d14284b697ffe2a4239e82600614a21607ddd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3f9c496c3845dc5cec8ddc248fb0740e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1287840
+      ],
+      "developers": [
+        "Frima Studio"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "maidofsker",
+      "title": "Maid of Sker",
+      "image": "https://hb.imgix.net/dac915952ff564a9bd2e80bcd2feee2f9ea8b268.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02d240edb6296b92189ef1ea3b531a89",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        826940
+      ],
+      "developers": [
+        "Wales Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "epicchef",
+      "title": "Epic Chef",
+      "image": "https://hb.imgix.net/7e4078c473d6db530c5a1b56fedb321b2af82cfe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d0a6ccd389d72a1ecb1ed22a8d0b7a10",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1312960
+      ],
+      "developers": [
+        "Infinigon Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "railroadcorporation",
+      "title": "Railroad Corporation",
+      "image": "https://hb.imgix.net/1544634e027456766d30aa77f1527fdd90be5804.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a6525bdac05770841d1b47e2f290084b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        797400
+      ],
+      "developers": [
+        "Corbie Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.74,
+      "expiresAt": "2024-12-22T20:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "golfgang",
+      "title": "Golf Gang",
+      "image": "https://hb.imgix.net/87fef74a66bb7f3563e120f0f878d4284020892c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=29ef1a4aceccc9871052c62cca826c36",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1151050
+      ],
+      "developers": [
+        "Lazy Monday Games"
+      ],
+      "genres": [
+        "Action",
+        "Racing",
+        "Sports"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

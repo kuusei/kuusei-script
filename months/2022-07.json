@@ -1,0 +1,224 @@
+{
+  "id": "2022-07",
+  "slug": "July-2022",
+  "title": "July 2022",
+  "url": "https://www.humblebundle.com/membership/July-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:44.033Z",
+  "games": [
+    {
+      "id": "deeprockgalactic",
+      "title": "Deep Rock Galactic + 65% off Ultimate Bundle coupon",
+      "image": "https://hb.imgix.net/21fc9e6c1fb247c5cf7381954adc61ea7011645d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f2348826df86b08169a340d194e6ea78",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        548430
+      ],
+      "developers": [
+        "Ghost Ship Games",
+        "Coffee Stain Publishing"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "necromunda_hiredgun",
+      "title": "Necromunda: Hired Gun",
+      "image": "https://hb.imgix.net/066277bcacdb125f80d51c29ab4e7097a3d7c151.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1bc674db19928fb1aa5d475045498d7d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1222370
+      ],
+      "developers": [
+        "Streum On Studio",
+        "Focus Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "legiontd2",
+      "title": "Legion TD 2 - Multiplayer Tower Defense.",
+      "image": "https://hb.imgix.net/6ec66e6a7996b438559887edd9384985c917ddd9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bfe46a408c507933700185b5273d91ca",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        469600
+      ],
+      "developers": [
+        "AutoAttack Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "legendofkeepers_careerofadungeonmaster",
+      "title": "Legend of Keepers",
+      "image": "https://hb.imgix.net/6249588c3894d1b2d65b703bd89d549ddc357d55.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=003b11520db653bbe561a870467efd3e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        978520
+      ],
+      "developers": [
+        "Goblinz Studio"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lawnmowingsimulator",
+      "title": "Lawn Mowing Simulator",
+      "image": "https://hb.imgix.net/9b800a0d073fbec0526323322cffdb5b5d8befe4.png?auto=compress,format&fit=clip&h=383&w=667&s=7b28e8efe7a8b33465ad2f35051e298c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1480560
+      ],
+      "developers": [
+        "Skyhook Games",
+        "Curve Games"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bannersofruin",
+      "title": "Banners of Ruin",
+      "image": "https://hb.imgix.net/176078dbcca156db67e139f52a70738ae2bd678a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f0d793a6400642e135e8e46864bd9030",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        978520
+      ],
+      "developers": [
+        "MonteBearo",
+        "Goblinz Publishing",
+        "Maple Whispering Limited"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yesyourgrace",
+      "title": "Yes, Your Grace",
+      "image": "https://hb.imgix.net/e1a1ebb2fe5dae58c03ef7995b541e30262e8a1d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9d6ce8b8fa6634619e3cb494ff70c99a",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1115690
+      ],
+      "developers": [
+        "Brave At Night",
+        "No More Robots"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "atomrpgtrudograd",
+      "title": "ATOM RPG Trudograd",
+      "image": "https://hb.imgix.net/8ab621577baa190f96fc5ff11ea41422b510ade4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9caa02b315ab680ac19437cd6814d3d7",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [
+        1139940
+      ],
+      "developers": [
+        "AtomTeam"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 10.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

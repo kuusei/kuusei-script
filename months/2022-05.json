@@ -1,0 +1,213 @@
+{
+  "id": "2022-05",
+  "slug": "May-2022",
+  "title": "May 2022",
+  "url": "https://www.humblebundle.com/membership/May-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:45.630Z",
+  "games": [
+    {
+      "id": "planetzoo",
+      "title": "Planet Zoo",
+      "image": "https://hb.imgix.net/d0fc9a6ee8c77ee1aeef9af2fdb0790218315779.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=83fa3943bf4fe041a564a07e51a6f198",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        703080
+      ],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spongebobsquarepants_battleforbikinibottom_rehydrated",
+      "title": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "image": "https://hb.imgix.net/817e630a4946c9de8e9f249cf2aad2851d2c8b17.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e59444e27fc3a002136de9b6c1a0b2dd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        969990
+      ],
+      "developers": [
+        "Purple Lamp Studios",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "commandconquerremasteredcollection",
+      "title": "Command & Conquer Remastered Collection",
+      "image": "https://hb.imgix.net/243b832f887a4c13971aefb74760f5cbfca717ac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=93d2eb7db8a31ffba3240a86de17f35f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "origin"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Petroglyph",
+        "Lemon Sky Studios"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": "2023-06-07T17:00:00",
+      "isExtra": true
+    },
+    {
+      "id": "spellcasteruniversity",
+      "title": "Spellcaster University",
+      "image": "https://hb.imgix.net/893b8bfc7f11b188549e23308f31f1a8a34b0914.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b3ddc2e9e8da509f0d4de8d74c5f3a5c",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        895620
+      ],
+      "developers": [
+        "Sneaky Yak Studio"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "survivingtheaftermath",
+      "title": "Surviving the Aftermath",
+      "image": "https://hb.imgix.net/fcaa745c0030241fb4cca44fea6d681650bad249.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01611b677fcd86ad6c7451894a696ce2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        684450
+      ],
+      "developers": [
+        "Iceflake Studios"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.73,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "iffound",
+      "title": "If Found...",
+      "image": "https://hb.imgix.net/9c8361bb75bc90b2410bbaa3018d466456403fdb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1135306399b169c0dfe7e3f085302ce0",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1041920
+      ],
+      "developers": [
+        "DREAMFEEL"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "genesisnoir",
+      "title": "Genesis Noir",
+      "image": "https://hb.imgix.net/cff415a59521012e5ddf3c681614be91cd2571e1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=26867cd618e1f908c0ed3e8919e84a75",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        735290
+      ],
+      "developers": [
+        "Feral Cat Den"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "embr",
+      "title": "Embr",
+      "image": "https://hb.imgix.net/ea4e955fb44f6393f7ef20d4a3ab2a50e2aa0051.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2129d37ee0fc4f299b6fbab24fbe20ab",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1062830
+      ],
+      "developers": [
+        "Muse Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

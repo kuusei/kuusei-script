@@ -1,0 +1,217 @@
+{
+  "id": "2022-06",
+  "slug": "June-2022",
+  "title": "June 2022",
+  "url": "https://www.humblebundle.com/membership/June-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:44.778Z",
+  "games": [
+    {
+      "id": "starwars_squadrons",
+      "title": "Star Wars Squadrons",
+      "image": "https://hb.imgix.net/84f1606f64357a0a8b67c51b70967043531ea0a3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bfeed855f774bac1fdc8d429114a803c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "origin"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "MOTIVE"
+      ],
+      "genres": [
+        "Action",
+        "Simulation"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": null,
+      "expiresAt": "2023-01-14T07:59:59",
+      "isExtra": true
+    },
+    {
+      "id": "phoenixpoint_yearoneedition",
+      "title": "Phoenix Point: Year One Edition",
+      "image": "https://hb.imgix.net/161cbc03e41f7adab01b603453025b0c7437b1ce.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c28127fc1fb60bc7c37b9f0424bab664",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        262090
+      ],
+      "developers": [
+        "Snapshot Games Inc."
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "callofthesea",
+      "title": "Call of the Sea",
+      "image": "https://hb.imgix.net/eb8a4373dc5a9a04472659ed7627397bb44598fa.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dacf0f624efad9819f0bbe218a9dea74",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1042490
+      ],
+      "developers": [
+        "Out of the Blue"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gamedec",
+      "title": "Gamedec - Definitive Edition",
+      "image": "https://hb.imgix.net/32708ce4d275dea5ad017b08276b26c1fe301b6d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98679ce6466238650470ae9f4424ffd2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        295047
+      ],
+      "developers": [
+        "Anshar Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pumpkinjack",
+      "title": "Pumpkin Jack",
+      "image": "https://hb.imgix.net/13aed83358902529c52337e5630a218f5bb84509.jpg?auto=compress,format&fit=clip&h=383&w=667&s=46c970b82a7b65ba795bc47888852e94",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        408200
+      ],
+      "developers": [
+        "Nicolas Meyssonnier"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "siegesurvival_gloriavictis",
+      "title": "Siege Survival: Gloria Victis",
+      "image": "https://hb.imgix.net/0f2d11e1ed3f1ce76d8ee298ca98eb3dd5325855.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1169200f1709f47cdf8e9903b7a44a9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1167140
+      ],
+      "developers": [
+        "Black Eye Games",
+        "FishTankStudio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "iamfish",
+      "title": "I am Fish",
+      "image": "https://hb.imgix.net/207e61580426dc41febdaae52c7a6b89b205ecf4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3e66a3c8d1929bce386a1d77157a95ae",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1472560
+      ],
+      "developers": [
+        "Bossa Studios"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "superhot_mindcontroldelete",
+      "title": "SUPERHOT: MIND CONTROL DELETE",
+      "image": "https://hb.imgix.net/dd10ece2b9c9a65b479c07409b082017a3c93d52.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5533ffc461721ad482b79a4ea9474e4c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "SUPERHOT Team"
+      ],
+      "genres": [
+        "Action",
+        "FPS",
+        "Indie",
+        "Puzzle"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

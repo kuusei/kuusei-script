@@ -1,0 +1,244 @@
+{
+  "id": "2022-02",
+  "slug": "February-2022",
+  "title": "February 2022",
+  "url": "https://www.humblebundle.com/membership/February-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:47.996Z",
+  "games": [
+    {
+      "id": "borderlands3_egs_steam_selection",
+      "title": "Borderlands 3",
+      "image": "https://hb.imgix.net/4e560698aafb1b5f364c4a2bf6e05418e277dbfa.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fffdab8cb91364a9c6bc687dc60f48d5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Gearbox Software"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "borderlands3_directorscut_steam_egs_selection",
+      "title": "Borderlands 3: Director's Cut",
+      "image": "https://hb.imgix.net/8d5629d9c36b46c97318eb10a25aef3e35a339b5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b6da78edc8d603d50579b929cbc03b2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic",
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Gearbox Software"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blackbook",
+      "title": "Black Book",
+      "image": "https://hb.imgix.net/b50b51c9c69410a397c9f6b467b59d81863f7774.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b345b4b65f97b700bd544c510791b113",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1138660
+      ],
+      "developers": [
+        "Morteshka"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "peraspera",
+      "title": "Per Aspera",
+      "image": "https://hb.imgix.net/7fc4c96e94bec4668409e0f6b647e4980160cccb.png?auto=compress,format&fit=clip&h=383&w=667&s=4c0bbf4c65813cf544a61073db9e249c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        803050
+      ],
+      "developers": [
+        "Tlön Industries"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "justdiealready",
+      "title": "Just Die Already",
+      "image": "https://hb.imgix.net/bf284d2376db3dd1176f23ae020ef23a84097404.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1612cbc0dc0cdd8b48ae20f6e4d4e2d0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        979070
+      ],
+      "developers": [
+        "DoubleMoose"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beforeweleave",
+      "title": "Before We Leave",
+      "image": "https://hb.imgix.net/50f19d6bf7fea5f3c7b8ebb50d656944c2f7f23d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3001c338cb12c718fe2cbb91e2bf9405",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1073910
+      ],
+      "developers": [
+        "Balancing Monkey Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "paradiselost",
+      "title": "Paradise Lost",
+      "image": "https://hb.imgix.net/aff8de700e59fea383cfb7a36498556c9c186428.jpg?auto=compress,format&fit=clip&h=383&w=667&s=360ef5265de436265073e37135560cb1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "PolyAmorous"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "everhood",
+      "title": "Everhood",
+      "image": "https://hb.imgix.net/55e6f6bd0d8cb7d4f546dff2ea09c85ce5c1ac16.jpg?auto=compress,format&fit=clip&h=383&w=667&s=147388ac98475e50a5ab1d9aa1c7ac27",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1229380
+      ],
+      "developers": [
+        "Chris Nordgren",
+        "Jordi Roca"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "calico",
+      "title": "Calico",
+      "image": "https://hb.imgix.net/afa4b7f4a9765fd6bbffb61e4a578efd6de1bfe1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=73de35882bd90a1aa5b659c430dbe253",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1112890
+      ],
+      "developers": [
+        "Peachy Keen Games"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

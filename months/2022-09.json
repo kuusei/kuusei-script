@@ -1,0 +1,229 @@
+{
+  "id": "2022-09",
+  "slug": "September-2022",
+  "title": "September 2022",
+  "url": "https://www.humblebundle.com/membership/September-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:42.488Z",
+  "games": [
+    {
+      "id": "crusaderkingsiii",
+      "title": "Crusader Kings III",
+      "image": "https://hb.imgix.net/1e59a0ecf2074624e9712855febc366eff69eead.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c1dc0cf802c91134289e5d7aacbd38af",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1158310
+      ],
+      "developers": [
+        "Paradox Development Studio"
+      ],
+      "genres": [
+        "Strategy",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "justcause4_complete",
+      "title": "Just Cause 4: Complete Edition",
+      "image": "https://hb.imgix.net/2e2235b3a4e622c857ed5013e53eb831512ce3ce.png?auto=compress,format&fit=clip&h=383&w=667&s=a2d94efac6a5164baec41710da40b928",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        517630
+      ],
+      "developers": [
+        "Avalanche Studios"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 69.99,
+      "ratingPercent": 0.63,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thedungeonofnaheulbeuk_theamuletofchaos",
+      "title": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos",
+      "image": "https://hb.imgix.net/e21a54cd79c23e362f6ac068b01cc144e24e1416.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c63202eeb1cceb6cb5507325f589f9b4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        970830
+      ],
+      "developers": [
+        "Artefacts Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "forgivemefather",
+      "title": "Forgive Me Father",
+      "image": "https://hb.imgix.net/4bbcd468e77b5caeaceab299b141f9c25459095a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7472ce30e942da75f0990cb2ae35e4c2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1590910
+      ],
+      "developers": [
+        "Byte Barrel"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "crowntrick",
+      "title": "Crown Trick",
+      "image": "https://hb.imgix.net/fa95db6b216c1e2246c4d39d58bfa66285520c7b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9f5cd6f65befce2fca8ad108d1f1d772",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1000010
+      ],
+      "developers": [
+        "NEXT Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "descenders",
+      "title": "Descenders",
+      "image": "https://hb.imgix.net/62dfdd02bd0081132260239db3f88a0f86619aa8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7c425e0c44272555605cbe9c56d735a2",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        681280
+      ],
+      "developers": [
+        "RageSquid"
+      ],
+      "genres": [
+        "Action",
+        "Racing",
+        "Simulation",
+        "Sports"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "industria",
+      "title": "INDUSTRIA",
+      "image": "https://hb.imgix.net/21691e65e798ba0382b4edb3ffc6415d80f8ed13.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f6bfe3ca85cbde78871d86e6c8da12b7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1172650
+      ],
+      "developers": [
+        "Bleakmill"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shapez",
+      "title": "Shapez + Puzzle DLC",
+      "image": "https://hb.imgix.net/2a85242a5676e7f0514f3e4902c63af9375f6ebb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=502801d4380e11f1ad0c1971a032b1d0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1318690,
+        1625400
+      ],
+      "developers": [
+        "Tobias Springer"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

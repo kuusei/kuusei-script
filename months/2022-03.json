@@ -1,0 +1,216 @@
+{
+  "id": "2022-03",
+  "slug": "March-2022",
+  "title": "March 2022",
+  "url": "https://www.humblebundle.com/membership/March-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:47.032Z",
+  "games": [
+    {
+      "id": "desperadosiii",
+      "title": "Desperados III",
+      "image": "https://hb.imgix.net/bb4fd5a63680cdfe92ecf6cb1bd4ab5741e13789.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b9926815e635624d0508614d480e833c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        610370
+      ],
+      "developers": [
+        "Mimimi Games",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "masseffectlegendaryedition",
+      "title": "Mass Effect Legendary Edition",
+      "image": "https://hb.imgix.net/504ddbeb5949ae88184250644b53fc58a26638d9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=21200bcb9d545650233aa98a26bcf2f2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "origin"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "BioWare"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "nickelodeonall_starbrawl",
+      "title": "Nickelodeon All-Star Brawl",
+      "image": "https://hb.imgix.net/a6c1e46ba60a8260e6011cade5a4376b5cc8bd1f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5c771310d1e8da47dfa338c86f5e3301",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1414850
+      ],
+      "developers": [
+        "Ludosity",
+        "Fair Play Labs"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thedarkpicturesanthology_manofmedan",
+      "title": "The Dark Pictures Anthology: Man of Medan",
+      "image": "https://hb.imgix.net/f7cb5b0c4bbe9d91bbf0e46284d457304f3fb577.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6eacae2276ed6b77ca9c0109f2d204a3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        939850
+      ],
+      "developers": [
+        "Supermassive Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "redsolstice2_survivors",
+      "title": "Red Solstice 2: Survivors",
+      "image": "https://hb.imgix.net/4c3321da6b0790e9e0b888b69da98d815eb91ec8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=83219e786ba29d9374c23745ba6df645",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        768520
+      ],
+      "developers": [
+        "Ironward"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nebuchadnezzar",
+      "title": "Nebuchadnezzar",
+      "image": "https://hb.imgix.net/e64d0c6829a258498e482aacd7a69f06604a1bee.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fad3c2f84dfe8cdb537e15da09e6a8f1",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1157220
+      ],
+      "developers": [
+        "Nepos Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "policestories",
+      "title": "Police Stories",
+      "image": "https://hb.imgix.net/4c150dbb38f1f09a45b2e19e99a5cdf6005a30f8.png?auto=compress,format&fit=clip&h=383&w=667&s=65339bc97f7a06fc48bb2c6be444f035",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        539470
+      ],
+      "developers": [
+        "Mighty Morgan",
+        "HypeTrain Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "evansremains",
+      "title": "Evan's Remains",
+      "image": "https://hb.imgix.net/e0dc211811562466fcdd7839d37e5a4f9814b40c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2504c733f93a52ccf30908c9cc4b6506",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1110050
+      ],
+      "developers": [
+        "maitan69 (Matías Schmied)"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 6.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

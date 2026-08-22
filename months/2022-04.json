@@ -1,0 +1,224 @@
+{
+  "id": "2022-04",
+  "slug": "April-2022",
+  "title": "April 2022",
+  "url": "https://www.humblebundle.com/membership/April-2022",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-08-22T07:49:46.381Z",
+  "games": [
+    {
+      "id": "ghostrunner",
+      "title": "Ghostrunner",
+      "image": "https://hb.imgix.net/c2dd4a2289431c391e5ab7ef0dcdea45db1b0e1e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6a155b66696c3a4dc5fb5035b8fe85da",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1139900
+      ],
+      "developers": [
+        "One More Level",
+        "3D Realms",
+        "Slipgate Ironworks™",
+        "All in! Games"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "destroyallhumans",
+      "title": "Destroy All Humans!",
+      "image": "https://hb.imgix.net/5519605fa0879cb2d9277f9d317c50223a436cc2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ccbc6edc447735643e2fc9a42e2afd94",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        803330
+      ],
+      "developers": [
+        "Black Forest Games",
+        "Pandemic Studios",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "monstersanctuary",
+      "title": "Monster Sanctuary",
+      "image": "https://hb.imgix.net/32229a3203ae21f96add656f7e1ff615a2b40213.jpg?auto=compress,format&fit=clip&h=383&w=667&s=db5868bf17545d0d056c93dd38b9e5a6",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        814370
+      ],
+      "developers": [
+        "Moi Rai Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "killsquad",
+      "title": "Killsquad",
+      "image": "https://hb.imgix.net/d20ef95969cb33d42b5d75136344112de55cf898.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7604127aa9ada33370e1a0faf1eb112d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        910490
+      ],
+      "developers": [
+        "Novarama"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rogueheroes_ruinsoftasos",
+      "title": "Rogue Heroes: Ruins of Tasos",
+      "image": "https://hb.imgix.net/39a62fadbeac6f8f4677fb07e441210bcd8e6066.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bee9b148372a025fd5bca06ac51940da",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        787810
+      ],
+      "developers": [
+        "Heliocentric Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "suzerain",
+      "title": "Suzerain",
+      "image": "https://hb.imgix.net/759059205d30c791f247b5235b95e5142845b79c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cbc02bf2cf87e0bcf00d5c409e6d0a31",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1207650
+      ],
+      "developers": [
+        "Torpor Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "chickenpolice",
+      "title": "Chicken Police",
+      "image": "https://hb.imgix.net/7660c18bd4c137d45c854626bc41b8d9519e5695.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=2ae36d1c1795ac3dc1a966ab8e561e10",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1084640
+      ],
+      "developers": [
+        "The Wild Gentlemen"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "narutotoboruto_shinobistriker",
+      "title": "NARUTO TO BORUTO: SHINOBI STRIKER",
+      "image": "https://hb.imgix.net/8400192862a2e516b9e2586d919300e1294cf275.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4d3c4ddfdd162fc648b489a4a1599ba",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        633230
+      ],
+      "developers": [
+        "Soleil Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}
