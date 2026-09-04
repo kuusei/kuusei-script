@@ -1,0 +1,197 @@
+{
+  "id": "2018-09",
+  "slug": "September-2018",
+  "title": "September 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/september_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:20.963Z",
+  "games": [
+    {
+      "id": "littlenightmares",
+      "title": "Little Nightmares",
+      "image": "https://hb.imgix.net/ddd23280ac109d842a9e69e6c4ed053d4bbc7e89.png?auto=compress,format&s=39dd8ac766a0dda86f1f9246eeabf227",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        424840
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "darksiders2_deathinitiveedition",
+      "title": "Darksiders II Deathinitive Edition",
+      "image": "https://hb.imgix.net/97b3914655141d744e00131a3b9d2d5577500715.png?auto=compress,format&s=44eb18dca9b586e5928758006ef637f1",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        388410
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sniperelite4",
+      "title": "Sniper Elite 4",
+      "image": "https://hb.imgix.net/cc8c4ec14328a3ffcc85656183f08e6d9de360b6.png?auto=compress,format&s=4090e4dc996a4dd470ddac9c39beddef",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        312660
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "talesofberseria",
+      "title": "Tales of Berseria(tm)",
+      "image": "https://hb.imgix.net/037b2c9fd349a81bfcf72eb398e574cb2300c8d2.png?auto=compress,format&s=e1c5e31629590e4e2110e5aee7cad034",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        429660
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "staxel",
+      "title": "Staxel",
+      "image": "https://hb.imgix.net/755185db1edb046c591fbd637c528a4bdb9656c2.png?auto=compress,format&s=9151fdadc6ff25b7b37a439f22efc3e0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        405710
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "battlechefbrigade",
+      "title": "Battle Chef Brigade",
+      "image": "https://hb.imgix.net/7dfddfb7b59c7171d1b6d36defce9d8da2a6ab9b.png?auto=compress,format&s=80c1dad79c906594b33aeb525cea6f56",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        5028170
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "zombienightterror",
+      "title": "Zombie Night Terror",
+      "image": "https://hb.imgix.net/d31fe254c6170a37ded65a7ee4bded18125dfd47.png?auto=compress,format&s=1815f7b065d94393fa976db54f67b966",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        416680
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "figment",
+      "title": "Figment",
+      "image": "https://hb.imgix.net/b2722861956c34fa6f6c1fce7a3e4d2191037215.png?auto=compress,format&s=c398f325ceec472041ac7bb6736d131f",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        493540
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ethereal",
+      "title": "ETHEREAL",
+      "image": "https://hb.imgix.net/409d8680b37228b53ef1eaf6ad0f354cda2f791f.png?auto=compress,format&s=91344a55ae848a68e9ae23618e7ef7dd",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

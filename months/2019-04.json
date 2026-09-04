@@ -1,0 +1,196 @@
+{
+  "id": "2019-04",
+  "slug": "April-2019",
+  "title": "April 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/april_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:57.990Z",
+  "games": [
+    {
+      "id": "mutantyearzero_roadtoeden",
+      "title": "Mutant Year Zero: Road to Eden",
+      "image": "https://hb.imgix.net/6b072d996bd7ccf67035feb3858cc7e4282c607b.png?auto=compress,format&s=a210e0c7bd3582a0781784fb5ca4fa94",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        760060
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "northgard",
+      "title": "Northgard",
+      "image": "https://hb.imgix.net/adbd764cf59724a94bdc5ac4fde1da75310efadb.png?auto=compress,format&s=972aa454254438a3b2f088b1f10f45fb",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        466560
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "absolver",
+      "title": "Absolver",
+      "image": "https://hb.imgix.net/86a2888824f76ec98d1ac60c4079162481389cb5.png?auto=compress,format&s=24c884a9b66a2dccd9841f70510d111e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        473690
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tannenberg",
+      "title": "Tannenberg",
+      "image": "https://hb.imgix.net/0c7252327517030b6a634230188cec3f6918a233.png?auto=compress,format&s=f956bc44e54f4b33577926fa52faa3a4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        633460
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "minit",
+      "title": "Minit",
+      "image": "https://hb.imgix.net/939cde24e7ae7c3df0075544f8b6430730fe7877.png?auto=compress,format&s=2f3cf37bf99a01f39d3751c8c28a0b46",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        609490
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sherememberedcaterpillars",
+      "title": "She Remembered Caterpillars",
+      "image": "https://hb.imgix.net/4daf7dae4fc8b9b357c356b765e22464f4337d47.png?auto=compress,format&s=201ca2549075a5997395df0d39bc997e",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        470780
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "steelrats",
+      "title": "Steel Rats",
+      "image": "https://hb.imgix.net/8de64eaf34d3515f0ccc2c67728d590861b9ac5b.png?auto=compress,format&s=7218650cd873cd0bb60462e213fba348",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        619700
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dandara",
+      "title": "Dandara: Trials of Fear Edition",
+      "image": "https://hb.imgix.net/85e6837659324810249c4a78317f1343392e9fd7.png?auto=compress,format&s=a3d93bae2ee2205590902dde82230745",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        612390
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ashorthike",
+      "title": "A Short Hike",
+      "image": "https://hb.imgix.net/58f8314d388b219351f268d24521132c1b846011.png?auto=compress,format&s=3951a27046a14243a12a98778947b02c",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

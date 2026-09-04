@@ -1,0 +1,285 @@
+{
+  "id": "2019-12",
+  "slug": "December-2019",
+  "title": "December 2019",
+  "url": "https://www.humblebundle.com/membership/December-2019",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:06:37.771Z",
+  "games": [
+    {
+      "id": "shadowofthetombraider",
+      "title": "Shadow of the Tomb Raider",
+      "image": "https://hb.imgix.net/4221fa767125ab6c6f892065579bb76121809d65.jpg?auto=compress,format&fit=clip&h=383&w=667&s=295aaee328a76c12c90feeec81630bd9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        750920
+      ],
+      "developers": [
+        "Eidos-Montréal",
+        "Feral Interactive (Mac & Linux)"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blasphemous",
+      "title": "Blasphemous",
+      "image": "https://hb.imgix.net/b3e8bfb4fb1f51256ee1e234859fef613e8cb131.png?auto=compress,format&fit=clip&h=383&w=667&s=f0d85a7f26cbf42b6563481df117ee29",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        774361
+      ],
+      "developers": [
+        "The Game Kitchen"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ancestorslegacy",
+      "title": "Ancestors Legacy",
+      "image": "https://hb.imgix.net/0582c61ce0d0eb59368994e2ecb007bfb93a0cab.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5baaca497a1cb8f29d3c21efe896de7e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        620590
+      ],
+      "developers": [
+        "Destructive Creations"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "phantomdoctrine",
+      "title": "Phantom Doctrine",
+      "image": "https://hb.imgix.net/9c0ec8114b10cc7401f36392d8718ad514847259.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=62ed1447955cf1200e15fa64375f6949",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        559100
+      ],
+      "developers": [
+        "CreativeForge Games"
+      ],
+      "genres": [
+        "Action",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deadinvinland",
+      "title": "Dead In Vinland",
+      "image": "https://hb.imgix.net/9558fabef93b1143019d09ba23ba2c7f66b7db2f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8322d1e71f139af980858b2ee66f7e27",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        573120
+      ],
+      "developers": [
+        "CCCP"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.63,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "horizonchaseturbo",
+      "title": "Horizon Chase Turbo",
+      "image": "https://hb.imgix.net/279f01bf9e6a2aa7893154c8fbbf4c256f849243.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9209b2e2526117d7789efc0816c5428b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        389140
+      ],
+      "developers": [
+        "Aquiris Game Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "Sports"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "darkfuture_bloodredstates",
+      "title": "Dark Future: Blood Red States",
+      "image": "https://hb.imgix.net/9160208c6fce799372653549046330926875061b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cf0a5774601e380ab6dd1004c5fa80e9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        370870
+      ],
+      "developers": [
+        "Auroch Digital"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "xmorph_defense",
+      "title": "X-Morph: Defense",
+      "image": "https://hb.imgix.net/b7f79b9e1a9ac60e1df1997b2ee85200c3afc7e2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=96973febb40082d61fc63eedb31f9be0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        408410
+      ],
+      "developers": [
+        "EXOR Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aegisdefenders",
+      "title": "Aegis Defenders",
+      "image": "https://hb.imgix.net/ef5a2a24348b562c15c056fec558be6a4cd39190.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dcafc4026902a3e3a807495dc9464a2b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        371140
+      ],
+      "developers": [
+        "GUTS Department"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "desertchild",
+      "title": "Desert Child",
+      "image": "https://hb.imgix.net/33da9d60983d25afbe1920dabfbe7d5ca4cd34ee.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5b2a0071003199012cfb3958994f6928",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        844050
+      ],
+      "developers": [
+        "Oscar Brittain"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

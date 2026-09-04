@@ -1,0 +1,227 @@
+{
+  "id": "2019-02",
+  "slug": "February-2019",
+  "title": "February 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/february_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:04.074Z",
+  "games": [
+    {
+      "id": "sniperelite3",
+      "title": "Sniper Elite 3",
+      "image": "https://hb.imgix.net/28c12f4b0d00a6fc4ac6cce66ff5b32616b5620b.png?auto=compress,format&s=878f38c7344d25643785575d45d1a2a1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        238090
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rockofages2_biggerandboulder",
+      "title": "Rock of Ages 2: Bigger & Boulder(tm)",
+      "image": "https://hb.imgix.net/52db2d002e6a820a7f6d350dc0f70f5b5818e893.png?auto=compress,format&s=ebfa0b8692003f93d53125dfb0568be5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        434460
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yakuza0",
+      "title": "Yakuza 0",
+      "image": "https://hb.imgix.net/b15f6fbc8d22c520e4b18038f8a2173243eafc2f.png?auto=compress,format&s=973bdd4d67b7ed7c5766083c95b67727",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tomclancys_thedivision",
+      "title": "Tom Clancy's The Division(tm)",
+      "image": "https://hb.imgix.net/097d9e08cd4c49076108c613bbce1fc4dd1a9173.png?auto=compress,format&s=f3b700975a30a1f7e3086e638e3fc35d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "uplay"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "tomclancys_thedivision_survival",
+      "title": "Tom Clancy's The Division(tm) - Survival",
+      "image": "https://hb.imgix.net/dbb59255e69e75f93c7be2bc3b2880d566fe96d4.png?auto=compress,format&s=6b5b56910b170b6b3729e873e839ca75",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "uplay"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "fullmetalfuries",
+      "title": "Full Metal Furies",
+      "image": "https://hb.imgix.net/b74a636fe1b58a9efd5ecb42da8d03dab0ec7cf2.png?auto=compress,format&s=68fc41000cd0c12bff1f98bb54dff501",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        416600
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aaero",
+      "title": "Aaero",
+      "image": "https://hb.imgix.net/eccfd725968e5b80469168dfbdadd7eddeab6484.png?auto=compress,format&s=b8dd94ae4dc658752660f5d3831c99fd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        499890
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bleed2",
+      "title": "Bleed 2",
+      "image": "https://hb.imgix.net/484c178711de924e449db6c91691baff403fec5d.png?auto=compress,format&s=40eacd72d06564fb1ef83404f9c78784",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        396350
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "superdaryldeluxe",
+      "title": "Super Daryl Deluxe",
+      "image": "https://hb.imgix.net/803dbdace4f2ee6450c6d62069223b3dcf8e18d1.png?auto=compress,format&s=20bd5348e931d6035464e8ce9d1d6b8d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        361230
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rapturerejects",
+      "title": "Rapture Rejects",
+      "image": "https://hb.imgix.net/e44f67f84525bb9d6d4b77a4c530f56f0ba2f65b.png?auto=compress,format&s=6d0a8299b657ed4519a72b08a39b548f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "afterhours",
+      "title": "after HOURS",
+      "image": "https://hb.imgix.net/a1703dd5b4d6e580722f38050c6d734482619ade.png?auto=compress,format&s=af0e3f8d785628ead1e75db1a949823b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

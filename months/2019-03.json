@@ -1,0 +1,195 @@
+{
+  "id": "2019-03",
+  "slug": "March-2019",
+  "title": "March 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/march_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:01.020Z",
+  "games": [
+    {
+      "id": "warhammer_vermintide2_collectorsedition",
+      "title": "Warhammer: Vermintide 2 - Collector's Edition",
+      "image": "https://hb.imgix.net/640ef8da5ac72f237e560f55fe76d0a0aa0a4bda.png?auto=compress,format&s=7777977adca1b10389fd2b2db53819cf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "edf_4_1_theshadowofnewdespair",
+      "title": "EARTH DEFENSE FORCE 4.1 The Shadow of New Despair + all DLC",
+      "image": "https://hb.imgix.net/b0ad7a00a954b5468b6bb7f8d446ed9351691168.png?auto=compress,format&s=bdf99223a656c8865950031245aee87b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cultistsimulator",
+      "title": "Cultist Simulator",
+      "image": "https://hb.imgix.net/f46b964da179781691e4260a11b5be4e1046ba73.png?auto=compress,format&s=f9ef71fef8559d14741b6843282ade9e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        718670
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "towerunite",
+      "title": "Tower Unite",
+      "image": "https://hb.imgix.net/d6f86fa19db360f327c79a18568484f518659733.png?auto=compress,format&s=eb0eb07e16be8c7146cf4ff95202bd70",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        394690
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lateshift",
+      "title": "Late Shift",
+      "image": "https://hb.imgix.net/86f553c0cf8a9d2526250b0df82508228571120b.png?auto=compress,format&s=8cc1585d80119419078377197bca3634",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        584980
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "paradigm",
+      "title": "Paradigm",
+      "image": "https://hb.imgix.net/94613c872983c8f975bc7e145af24b39dc871901.png?auto=compress,format&s=d116ae79c81f90c14058989d2e419175",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        600370
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fightnrage",
+      "title": "Fight'N Rage",
+      "image": "https://hb.imgix.net/56e0202e7f5b29e34cfce0537ffb316775451fbd.png?auto=compress,format&s=474fb8602545a5e34fac46b657d41e4d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        674520
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "slipstream",
+      "title": "Slipstream",
+      "image": "https://hb.imgix.net/3bac8e49240ee02205a8eaf262903120e77e6db5.png?auto=compress,format&s=82b6375472a0aa79e63077c833a56a8e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        732810
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "20minutemetropolis",
+      "title": "20 Minute Metropolis",
+      "image": "https://hb.imgix.net/1203a955273a22b3ba108640dce5a6e28babf1e4.png?auto=compress,format&s=da305906d51684eb5172996699dd587e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

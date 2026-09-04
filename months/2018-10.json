@@ -1,0 +1,201 @@
+{
+  "id": "2018-10",
+  "slug": "October-2018",
+  "title": "October 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/october_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:17.548Z",
+  "games": [
+    {
+      "id": "dungeons3",
+      "title": "Dungeons 3",
+      "image": "https://hb.imgix.net/8b898ec323ba37ab66d99fa4e0372c7163a450a5.png?auto=compress,format&s=8875459d4504def8f37ced3cce81c023",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        493900
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "americantrucksimulator",
+      "title": "American Truck Simulator",
+      "image": "https://hb.imgix.net/840c5a5e13fbe5a1065075cc5947b5ee588169d2.png?auto=compress,format&s=ca03ca74ef865a62b9b8b1733df88b05",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        270880
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "overwatch",
+      "title": "Overwatch",
+      "image": "https://hb.imgix.net/e9b95746ebe465736989a7facd7552fce82a6d52.png?auto=compress,format&s=a1b68d4e5057a267f879be21bcc5a842",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "blizzard"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "gremlins_inc",
+      "title": "Gremlins, Inc.",
+      "image": "https://hb.imgix.net/b9a329d95906d8d3d1ae470a8a9291e4da469435.png?auto=compress,format&s=546d6bf79f9566384aac668bc7e94718",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        369990
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hiddenfolks",
+      "title": "Hidden Folks",
+      "image": "https://hb.imgix.net/d9d60f2dad90aa1c8b445eb945bb73cc4484d6d3.png?auto=compress,format&s=6e992efc2d5299e5021dc0869a62d93a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        435400
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "oldmansjourney",
+      "title": "Old Man's Journey",
+      "image": "https://hb.imgix.net/ff94d6e6892bb2d40bfaac34c063533a5b98d480.png?auto=compress,format&s=5df11bf4345860bb95baa72128a4e3dc",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        581270
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wewereheretoo",
+      "title": "We Were Here Too",
+      "image": "https://hb.imgix.net/c441f5920824b0204c6d69fbca26f12d28bb2f9b.png?auto=compress,format&s=6ac9e0e35e2290bd3b688abd3b9c53e9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        677160
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wandersong",
+      "title": "Wandersong",
+      "image": "https://hb.imgix.net/921c58ceee24c1fb5d85e3b5575d2cc6a427a337.png?auto=compress,format&s=02b422ca0c74dac249c2720de9b7c4dd",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        530320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ollieandbolliesoutdoorestate",
+      "title": "Ollie & Bollie's Outdoor Estate",
+      "image": "https://hb.imgix.net/4e35210dc17d47ddfa6753bcb6b41891f4a20a29.png?auto=compress,format&s=d8f4300cdd3d69e05e38e77fbf8840b2",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

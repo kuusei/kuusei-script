@@ -1,0 +1,194 @@
+{
+  "id": "2018-08",
+  "slug": "August-2018",
+  "title": "August 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/august_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:24.774Z",
+  "games": [
+    {
+      "id": "thesurge",
+      "title": "The Surge",
+      "image": "https://hb.imgix.net/b4869588e6557d24c0a9d36e31c77c47bd3172c1.png?auto=compress,format&s=5508ad2dc0e2a032dbca502dce3328b8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        378540
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "suddenstrike4",
+      "title": "Sudden Strike 4",
+      "image": "https://hb.imgix.net/4130db34fbcfa1b708714c8d549e2d4b025a37d3.png?auto=compress,format&s=68510d55fd4868e2c4b009937533daa4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        373930
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ahatintime",
+      "title": "A Hat in Time",
+      "image": "https://hb.imgix.net/20d934a7cc779989f38726aa5a4cb845d68e7e33.png?auto=compress,format&s=6b71b3489aa9d057b3544f92a232102f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        253230
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theescapists2",
+      "title": "The Escapists 2",
+      "image": "https://hb.imgix.net/dc2f4cee82868f8d80544a167dfc0ce669887baf.png?auto=compress,format&s=12b7b123c092323cb73799d59782a075",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        641990
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "conanexiles",
+      "title": "Conan Exiles",
+      "image": "https://hb.imgix.net/08b846724c80a42e332d3f4ead43221fffceb03b.png?auto=compress,format&s=e3a4b740a0dbb487e64467ea104816e1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kona",
+      "title": "Kona",
+      "image": "https://hb.imgix.net/b1a2ec2d0480e25e9b2d57019bdc859c3e56e8d6.png?auto=compress,format&s=1d812a7cb471406ca6ce8828edb85ef4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        365160
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "forgedbattalion",
+      "title": "Forged Battalion",
+      "image": "https://hb.imgix.net/d8985e438346ce1ce2c57864a56e02702a791d39.png?auto=compress,format&s=1b833001850f0e09469d5829e2f237b8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        686260
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pathologic_classichd",
+      "title": "Pathologic Classic HD",
+      "image": "https://hb.imgix.net/03962fe32b04e214365ac716849ab59e46d69fe4.png?auto=compress,format&s=5fd3bf5a720c3682eb33308a916d8ca6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        384110
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "woten",
+      "title": "Woten",
+      "image": "https://hb.imgix.net/975eaf36e73519fcb6061f306838e208ed5bb185.png?auto=compress,format&s=8f193910202dedd3c478efd2ec0cbaeb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

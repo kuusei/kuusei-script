@@ -1,0 +1,174 @@
+{
+  "id": "2019-09",
+  "slug": "September-2019",
+  "title": "September 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/september_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:44.900Z",
+  "games": [
+    {
+      "id": "slaythespire",
+      "title": "Slay the Spire",
+      "image": "https://hb.imgix.net/d52f82898800f79af47a883a7cc2ed5e0fc1594a.png?auto=compress,format&s=560a52e4c226f3096006318a78bdc877",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        646570
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "squad",
+      "title": "Squad (Early Access)",
+      "image": "https://hb.imgix.net/d88c77aa50650242a5f54731d9659e60f80c5b5e.png?auto=compress,format&s=00367169aa6a222205a2a36f636a97c1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "distance",
+      "title": "Distance",
+      "image": "https://hb.imgix.net/e864c468d6ee7e1f40bd067ddfdb11aaee74c119.png?auto=compress,format&s=8d99b136cc096aca1f32c6978a9dc283",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        233610
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "guacamelee2",
+      "title": "Guacamelee! 2",
+      "image": "https://hb.imgix.net/dc307b9e21609eb726cdc72b0c82ef3007959eeb.png?auto=compress,format&s=58cba4186f295a90b86ab5896571e010",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        534550
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mothergunship",
+      "title": "MOTHERGUNSHIP",
+      "image": "https://hb.imgix.net/db160d09c19b93edda6d4cc95eec18abd71b4fc9.png?auto=compress,format&s=ec37b446485285a0416d2235c51ea81b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        574090
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stateofmind",
+      "title": "State of Mind",
+      "image": "https://hb.imgix.net/62c662bbd93dc8fa320874c5142b80f5ff8c19a4.png?auto=compress,format&s=d9017fc631bb714027553f37f3ec8059",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        437630
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "godstrigger",
+      "title": "God's Trigger",
+      "image": "https://hb.imgix.net/c46171f2492c30099489ebf2610879a2260a1efa.png?auto=compress,format&s=7099b03b23fd9049e9e5ea5c3d250b84",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        488730
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shadyknight",
+      "title": "Shady Knight",
+      "image": "https://hb.imgix.net/994e4207518db1f09aa6b0a18aa52b9858b9eafe.png?auto=compress,format&s=8d3d620e4b32613d53a058263230550f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

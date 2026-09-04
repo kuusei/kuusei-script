@@ -1,0 +1,331 @@
+{
+  "id": "2020-03",
+  "slug": "March-2020",
+  "title": "March 2020",
+  "url": "https://www.humblebundle.com/membership/March-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:06:33.795Z",
+  "games": [
+    {
+      "id": "myfriendpedro",
+      "title": "My Friend Pedro",
+      "image": "https://hb.imgix.net/46cd6f5cfd162b9366bf9affdc00af43a8cd8cdd.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d65098272db82415f2868424c3c25f9b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        557340
+      ],
+      "developers": [
+        "DeadToast Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "planetcoaster",
+      "title": "Planet Coaster + 1 DLC",
+      "image": "https://hb.imgix.net/b81ecd9d5ab390b1fd8d2c11d1513a70df93aca1.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=0192cca1bbefc321c0b94e59ec9e96e9",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        493340
+      ],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "f12019anniversaryedition",
+      "title": "F1 2019 Anniversary Edition",
+      "image": "https://hb.imgix.net/a9815e969e848e06e5324fad08951415395fe630.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=efa7abf5ff2a3a3de9ca23f2a590afbd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1071370
+      ],
+      "developers": [
+        "Codemasters"
+      ],
+      "genres": [
+        "Sports",
+        "Racing",
+        "Simulation"
+      ],
+      "msrpUsd": 64.98,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fellseal_arbitersmark",
+      "title": "Fell Seal: Arbiter's Mark",
+      "image": "https://hb.imgix.net/286bdd2512d8d85ea2ee79368eb7addd32b6f71d.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5cac13e51e9855dd4b6b81dc929f79fa",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        699170
+      ],
+      "developers": [
+        "6 Eyes Studio"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "battlechasers_nightwar",
+      "title": "Battle Chasers: Nightwar",
+      "image": "https://hb.imgix.net/5f7a90324fdf1576a63fc708965d7681be4b51e2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=27a39a7e2eb8554b054dd10b6e5f7f73",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        451020
+      ],
+      "developers": [
+        "Airship Syndicate",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "exapunks",
+      "title": "EXAPUNKS",
+      "image": "https://hb.imgix.net/c6573de167155582634b9fa8e2f7161fc31bd08e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9deafafd860e0e2853852a452be3f5a3",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        716490
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "turok",
+      "title": "Turok",
+      "image": "https://hb.imgix.net/1d98ec833574c9dd4c6bad9d58a6090f519b53d7.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dac78e0fc42777d4b90fc546af86d44c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        405820
+      ],
+      "developers": [
+        "Night Dive Studios"
+      ],
+      "genres": [
+        "FPS"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deathsgambit",
+      "title": "Death's Gambit",
+      "image": "https://hb.imgix.net/8af9bac91154b76dd800800d17927b7060079f7b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9fef6e76e30d9551fcd38e66316ae17d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        356650
+      ],
+      "developers": [
+        "White Rabbit"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "198x",
+      "title": "198X",
+      "image": "https://hb.imgix.net/f212d1b9bbd441ece7f2c74f4a645c5665891ae4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=117474dce5e342866c571d912a2fd0b1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1086010
+      ],
+      "developers": [
+        "Hi-Bit Studios"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "niffelheim",
+      "title": "Niffelheim",
+      "image": "https://hb.imgix.net/39caf3dde5569ca42d1b481d9e6af36b2de0e14e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7ad2807bc538edb1ff5e600a12f52767",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        351100
+      ],
+      "developers": [
+        "Ellada Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aiwar2",
+      "title": "AI War 2",
+      "image": "https://hb.imgix.net/a42c71faa1e2d0b65b0895f04617a2d886b8c8d4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a4c62ad048f53c63a84b6d2e988d57a3",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        573410
+      ],
+      "developers": [
+        "Arcen Games"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "etherborn",
+      "title": "Etherborn",
+      "image": "https://hb.imgix.net/780a6006d84aac2a758acb4b383fe8cd3be730e3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bc020e60d5f2620c8c20e7e37a6cfd2f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        812160
+      ],
+      "developers": [
+        "Altered Matter"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Puzzle"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

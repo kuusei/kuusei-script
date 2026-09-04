@@ -1,0 +1,172 @@
+{
+  "id": "2018-05",
+  "slug": "May-2018",
+  "title": "May 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/may_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:36.897Z",
+  "games": [
+    {
+      "id": "running_with_rifles",
+      "title": "Running with Rifles",
+      "image": "https://hb.imgix.net/6559fc5fe1ecc1571fc981f326cca73415892846.png?auto=compress,format&s=a28a95b56252eb5a33da1f94b5334ca9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        270150
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "moonhunters",
+      "title": "Moon Hunters",
+      "image": "https://hb.imgix.net/8eeae4ef5ee950a34c13861cd26ddb8fc4ebab5e.png?auto=compress,format&s=5ff9b88c1ccaf3d1aaff60ea31b85f5a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        320040
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kerbalspaceprogram",
+      "title": "Kerbal Space Program",
+      "image": "https://hb.imgix.net/4d2f95dfa5393e73e3cd1e6206eef7bfd46995df.png?auto=compress,format&s=bdcab527a13e61483ea8952a28a47627",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        220200
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deadrising4",
+      "title": "Dead Rising 4",
+      "image": "https://hb.imgix.net/c0d8a909acd6dc8c73aaf3b78e3c8f27ba6a05d2.png?auto=compress,format&s=ac934ba6fef2aaff50524b2bf8187774",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        543460
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ruiner",
+      "title": "RUINER",
+      "image": "https://hb.imgix.net/23b91870b98a885220b8e3e3cd17fea71c7d797e.png?auto=compress,format&s=e34e8f3b1d5ce32fc5044e9bd6f01c6e",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        464060
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "crazymachines3",
+      "title": "Crazy Machines 3",
+      "image": "https://hb.imgix.net/8db31d343fa1a30a7268c90ddabf6eee8348402f.png?auto=compress,format&s=98cb52fe2a3f700f50d887aa0074bbaf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        351920
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jalopy",
+      "title": "Jalopy",
+      "image": "https://hb.imgix.net/9ee9e8556bae05d49eddd242da602e22953acee7.png?auto=compress,format&s=d40671af8f4ee061e8d8e3cc8be26863",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        446020
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "knightclub",
+      "title": "Knight Club",
+      "image": "https://hb.imgix.net/4fca710a3b31fd83050ce8de5c2b69c20de982b4.png?auto=compress,format&s=09b8eca26b532ceadae6a8dfaf4924b8",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

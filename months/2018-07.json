@@ -1,0 +1,174 @@
+{
+  "id": "2018-07",
+  "slug": "July-2018",
+  "title": "July 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/july_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:28.534Z",
+  "games": [
+    {
+      "id": "forts",
+      "title": "Forts",
+      "image": "https://hb.imgix.net/ff4cc37a89f4a93b0513504d5775e6ca46fc4a84.png?auto=compress,format&s=628a49ed2498529e994219878fcb12df",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        410900
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "titanquest_anniversary",
+      "title": "Titan Quest: Anniversary Edition + Titan Quest: Ragnarok DLC",
+      "image": "https://hb.imgix.net/56882e3bc1c4f23e58469ceb338893b4040777f7.png?auto=compress,format&s=fe3a9fe57fe660ca96e4ecf3231aadb4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hearts_of_iron_iv",
+      "title": "Hearts of Iron IV",
+      "image": "https://hb.imgix.net/4aafa974cf76b0ad1c253e129721f3a2c8d48022.png?auto=compress,format&s=513f6b67fa2e99a610a9ff599eb9d052",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        394360
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blackwake",
+      "title": "Blackwake",
+      "image": "https://hb.imgix.net/88152fcc5f2425e94c1da7f47d36263352ea5b34.png?auto=compress,format&s=70edec815df503dcece15a8953dbef1a",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        420290
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shinessthelightnightkingdom",
+      "title": "Shiness: The Lightning Kingdom",
+      "image": "https://hb.imgix.net/6aaf5c3a1af27894bc5346bcaa88a8540b18eeb9.png?auto=compress,format&s=6c1cbc321d2fb6efd486f2fa5b56fbb6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        366640
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "interplanetary_enhancededition",
+      "title": "Interplanetary: Enhanced Edition",
+      "image": "https://hb.imgix.net/3bf7f639f662e6303fbb802eea19384482e98cdd.png?auto=compress,format&s=177d6314bd391f1d964edb30f29e7217",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        650220
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "serialcleaner",
+      "title": "Serial Cleaner",
+      "image": "https://hb.imgix.net/628c99599bb07e69db11270b09fbd8cfa3d80ba9.png?auto=compress,format&s=4b18a9d0bb660fbc6ec9699e633db9a9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        522210
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stumblehill",
+      "title": "Stumblehill",
+      "image": "https://hb.imgix.net/a3e607798771e1a7f958441c8ab7d7242f7d9226.png?auto=compress,format&s=b29ee0352bfa302d5a7cbdfb53c081fe",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

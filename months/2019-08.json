@@ -1,0 +1,177 @@
+{
+  "id": "2019-08",
+  "slug": "August-2019",
+  "title": "August 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/august_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:47.494Z",
+  "games": [
+    {
+      "id": "kingdomcome_deliverance",
+      "title": "Kingdom Come: Deliverance",
+      "image": "https://hb.imgix.net/47723f001bd04f8ac09c2407f6c76b38811d8592.png?auto=compress,format&s=20d27e170aaddaa01edc4f1ffd690724",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic",
+        "steam"
+      ],
+      "steamAppIds": [
+        379430
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "survivingmars",
+      "title": "Surviving Mars",
+      "image": "https://hb.imgix.net/953fc8d9d6c0b068a4552add6a22a84babc5d367.png?auto=compress,format&s=cf31b4d399fff9e8900f42b3e47cdefa",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3215050
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "risingstorm2_vietnam",
+      "title": "Rising Storm 2: Vietnam + 2 DLCs",
+      "image": "https://hb.imgix.net/e5df3c9c41600944fc738f18a82442eac49cc33e.png?auto=compress,format&s=8e6110936d375eba54ff23b34dcb80dd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yokusislandexpress",
+      "title": "Yoku's Island Express",
+      "image": "https://hb.imgix.net/42cd8a7c6dbaea7e1805ae174a04c9148b45def8.png?auto=compress,format&s=baff98c765ceac6c1e5f12764be6de36",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        334940
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theadventurepals",
+      "title": "The Adventure Pals",
+      "image": "https://hb.imgix.net/ea572cae5ce2729851c2e9ba7b9768cf967d0523.png?auto=compress,format&s=f3f7f02af1f2397a40f95bdabcb7c9ed",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        396710
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "almostthere_theplatformer",
+      "title": "Almost There: The Platformer",
+      "image": "https://hb.imgix.net/b404529ac2fbba25cea2b530e29ed075705d5564.png?auto=compress,format&s=7305559d80bb00133fa322cddd518278",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        951940
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "swordsandsoldiers2_shawarmageddon",
+      "title": "Swords and Soldiers 2 Shawarmageddon",
+      "image": "https://hb.imgix.net/9c9a8d75e54645e9c54a0585ee3379af4af8eb86.png?auto=compress,format&s=e624e214d2b0185c485a12c80ee0f3c7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        703880
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dontgiveup",
+      "title": "DON'T GIVE UP",
+      "image": "https://hb.imgix.net/d2a4fb89a612c0e1dc6b5905b794a614dd33db2f.png?auto=compress,format&s=81750fb83201f10cc1ae509f867d1179",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        960710
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

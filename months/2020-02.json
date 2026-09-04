@@ -1,0 +1,331 @@
+{
+  "id": "2020-02",
+  "slug": "February-2020",
+  "title": "February 2020",
+  "url": "https://www.humblebundle.com/membership/February-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:06:34.688Z",
+  "games": [
+    {
+      "id": "frostpunk",
+      "title": "Frostpunk + 1 DLC",
+      "image": "https://hb.imgix.net/2d376d1c79ef9d83bcd3bc93fa27a71205e4b5a4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=63e98e4f278e820b9be4864460885fac",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        323190
+      ],
+      "developers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 34.98,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pathfinder_kingmaker",
+      "title": "Pathfinder: Kingmaker - Enhanced Plus Edition",
+      "image": "https://hb.imgix.net/c30551add26120778ee3e61d6c542e166eb3b059.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4db1b1e54ab47af4eccc8a9d761e45d2",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        640820
+      ],
+      "developers": [
+        "Owlcat Games"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bookofdemons",
+      "title": "Book of Demons",
+      "image": "https://hb.imgix.net/d6309efd3966c0a9e0b1f9871faa91188d924c6f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=1cd133511ebe584ecb999d65a2058bf7",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        449960
+      ],
+      "developers": [
+        "Thing Trunk"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cryofall",
+      "title": "CryoFall",
+      "image": "https://hb.imgix.net/361d89152769905e9bdd043c13ebe9a81fdb9137.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eb7a404bebf11e4b8258046d2773962f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        829590
+      ],
+      "developers": [
+        "AtomicTorch Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "MMO",
+        "Adventure",
+        "RPG",
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "okami_hd",
+      "title": "Okami HD",
+      "image": "https://hb.imgix.net/810b9a7d61ca62992aebab8333e04c00c76fb8c1.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b975364e12c6d33a3214c5a43df44bd2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        587620
+      ],
+      "developers": [
+        "CAPCOM"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.98,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "eliza",
+      "title": "Eliza",
+      "image": "https://hb.imgix.net/2443dc8002ee23eb3d8e15e6875256bf05d60346.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4044de84fcf8426d608d9d0c7e5df35c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        716500
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shenzhen_io",
+      "title": "SHENZHEN I/O",
+      "image": "https://hb.imgix.net/af0123f9e18cdf194bb30e74335c7b1d4cff9fb7.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5f4ae359fc60cb72338c4944d55108b2",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        504210
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "projectwarlock",
+      "title": "Project Warlock",
+      "image": "https://hb.imgix.net/2dc8baedb7e20f8c2d07a3ed72c53e3726a953e0.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a93202443e7965a69c1745f2ef380dfc",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        893680
+      ],
+      "developers": [
+        "Buckshot Software"
+      ],
+      "genres": [
+        "FPS",
+        "Indie",
+        "Retro"
+      ],
+      "msrpUsd": 12,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thehex",
+      "title": "The Hex",
+      "image": "https://hb.imgix.net/747fe3766bb14fcf99e67458cac989e38930b879.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bc3d203d2c6a23bea5912e753ee34460",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        510420
+      ],
+      "developers": [
+        "Daniel Mullins Games"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warstonetd",
+      "title": "Warstone TD",
+      "image": "https://hb.imgix.net/a8eb4fadef1301464e026c8348d776482b21ec0f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0a2052fc969086da7862c9441da3d5a3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        562500
+      ],
+      "developers": [
+        "Battlecruiser Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.63,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "underhero",
+      "title": "Underhero",
+      "image": "https://hb.imgix.net/7c86e12409e1a07c2ebcbd30163f5f2a05583709.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=f94958e9c3ff3075057df7113e5c662d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        573320
+      ],
+      "developers": [
+        "Paper Castle Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nightcall",
+      "title": "Night Call",
+      "image": "https://hb.imgix.net/787d1ecdb99908fc8e3deb690772676b3c29b518.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=34304e099dc0b043822b0a7b01950f95",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        573320
+      ],
+      "developers": [
+        "Monkey Moon",
+        "BlackMuffin"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

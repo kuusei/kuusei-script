@@ -1,0 +1,215 @@
+{
+  "id": "2019-10",
+  "slug": "October-2019",
+  "title": "October 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/october_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:41.195Z",
+  "games": [
+    {
+      "id": "battletech",
+      "title": "BATTLETECH",
+      "image": "https://hb.imgix.net/867197828b6c2dda3d596e7de8b7c08d19c48d78.png?auto=compress,format&s=68497ceded91cd6616c5eeef0eee4f57",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        637090
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "battletech_flashpoint",
+      "title": "BATTLETECH - Flashpoint",
+      "image": "https://hb.imgix.net/083a182ca51af2e2d3d17437c99168f5b4bc407c.png?auto=compress,format&s=5c57c7429f41af2e151610d434b46038",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "battletech_shadowhawkpack",
+      "title": "BATTLETECH - Shadow Hawk Pack",
+      "image": "https://hb.imgix.net/071f4d0a305927b5d12080e531fe622463a5ff4d.png?auto=compress,format&s=ccba68f333274e2ae96517b427b7c2a5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sonic_mania",
+      "title": "Sonic Mania",
+      "image": "https://hb.imgix.net/01235ee10d2f96a9a379194d1ed590874b117660.png?auto=compress,format&s=a007fa243ad933ef4c572254fb637c81",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        584400
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thespiralscouts",
+      "title": "The Spiral Scouts",
+      "image": "https://hb.imgix.net/0f49738768528e4e172cca2c5cc148ada145b6a3.png?auto=compress,format&s=6f6489a788e37928ab6742dbf556c27b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        862480
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "planetalpha",
+      "title": "Planet Alpha",
+      "image": "https://hb.imgix.net/bf83554a60b929683e04be49dc86ccd25637ad7e.png?auto=compress,format&s=b29fd944d8ea18fce3e186aebbf29298",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        485030
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "override_mechcitybrawl",
+      "title": "Override: Mech City Brawl",
+      "image": "https://hb.imgix.net/738f24fda87ff6e971424bfcd769c49734ca434e.png?auto=compress,format&s=bb22c6663c8a1819f0e49777dc207da0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "puss",
+      "title": "Puss!",
+      "image": "https://hb.imgix.net/45e7177d696af4e777ad0d8d6173af81aa7c516c.png?auto=compress,format&s=2820ac74ee698685afa920b60616c717",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        719750
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "avernum3_ruinedworld",
+      "title": "Avernum 3: Ruined World",
+      "image": "https://hb.imgix.net/e7b592d9886bcdaacba85a50a4f912337d366484.png?auto=compress,format&s=c06c579d74a3b3c72310c5593d9f9376",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        691830
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "romansands",
+      "title": "Roman Sands",
+      "image": "https://hb.imgix.net/80d1a49f700e172a9a1a7d4fef62377c889198e4.png?auto=compress,format&s=a476cee8cebc16324286b8af4e9960ca",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

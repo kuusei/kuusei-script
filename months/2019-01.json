@@ -1,0 +1,176 @@
+{
+  "id": "2019-01",
+  "slug": "January-2019",
+  "title": "January 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/january_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:07.050Z",
+  "games": [
+    {
+      "id": "qube2",
+      "title": "Q.U.B.E. 2",
+      "image": "https://hb.imgix.net/93279541f7f42bd2be89a4833e7dde92e9b26535.png?auto=compress,format&s=cf47361631eb9ecf96e482a63752cdc6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        359100
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "observer",
+      "title": ">observer_",
+      "image": "https://hb.imgix.net/f7616ff899e37d3a18d4f12fb805093f7c15ceea.png?auto=compress,format&s=be101083a661839da52a686bf1ec99f5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        514900
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wizardoflegend",
+      "title": "Wizard of Legend",
+      "image": "https://hb.imgix.net/6c197905a04790e81e15a399b5491261e10de72c.png?auto=compress,format&s=a88d1d6e3001786f236d6ea1b7851b41",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        445980
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "justcause3_xxledition",
+      "title": "Just Cause 3 XXL Edition",
+      "image": "https://hb.imgix.net/a6e7dc75751fee7cc581425bacb6f8841dc4d848.png?auto=compress,format&s=5c48f0600c7f08de71f6918c244924fa",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "projectcars2",
+      "title": "Project CARS 2",
+      "image": "https://hb.imgix.net/795197625c0fe4887a384b6e6646b622da33e096.png?auto=compress,format&s=b6640a7c1dd74a7b184241117532b244",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "regionsofruin",
+      "title": "Regions of Ruin",
+      "image": "https://hb.imgix.net/ecc26ca2cd88444285866b053cb0fd7eb1c18740.png?auto=compress,format&s=0db1908500693651235be9c5f5a48de5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        680360
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thedarksidedetective",
+      "title": "Darkside Detective",
+      "image": "https://hb.imgix.net/f962a3e6225b44bd5c728960fe755ed49dd1a4f0.png?auto=compress,format&s=ac87437b6dd5ce64de01b0538653aa01",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roombo_firstblood",
+      "title": "Roombo: First Blood",
+      "image": "https://hb.imgix.net/27a84ceadd3ce8a139cb474f37164581c20b3648.png?auto=compress,format&s=d4df46ec69dc798bdf6513151aaf5e7d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        1004610
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

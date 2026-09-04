@@ -1,0 +1,177 @@
+{
+  "id": "2018-06",
+  "slug": "June-2018",
+  "title": "June 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/june_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:34.587Z",
+  "games": [
+    {
+      "id": "styx_shardsofdarkness",
+      "title": "Styx: Shards of Darkness",
+      "image": "https://hb.imgix.net/5d33740a60c2824fff3e0f1956acece31d33cd36.png?auto=compress,format&s=f753957b98ea92d493698d14d9d0c3c0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        355790
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yookalaylee",
+      "title": "Yooka-Laylee",
+      "image": "https://hb.imgix.net/bc30b0cfcce4c4280f35e121aaf79322192d0dfb.png?auto=compress,format&s=658068ed85864547a41484c0af5af988",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        360830
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "destiny2",
+      "title": "Destiny 2",
+      "image": "https://hb.imgix.net/d907ee8b310467084ff61ef926022199764f5cad.png?auto=compress,format&s=464aef72a1f25ff5a2e3a133838dc435",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "blizzard"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "cookservedelicious2",
+      "title": "Cook, Serve, Delicious! 2!!",
+      "image": "https://hb.imgix.net/1557149f9d22c174751bf310b25c5ac110d55c78.png?auto=compress,format&s=885cd78b3f9f061ce12ca36b16c7cb80",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        386620
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thepillarsoftheearth",
+      "title": "Ken Follett's The Pillars of the Earth",
+      "image": "https://hb.imgix.net/c2bdd87b6ab18a762eb2eb56d8f13adc7fbf29b7.png?auto=compress,format&s=76a6242fb510ffe4df4961e4eab9f9d9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        234270
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bearwithme_collectorsedition",
+      "title": "Bear With Me - Collector's Edition",
+      "image": "https://hb.imgix.net/22183087e1ec4c4842b4041ed2c9a068a62a2821.png?auto=compress,format&s=7db81aad11c5e33f9d8866661596e8d9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "accelerationofsuguri2",
+      "title": "Acceleration of SUGURI 2",
+      "image": "https://hb.imgix.net/0eab2862e0d42a01f155cdb7e594142480d8922a.png?auto=compress,format&s=d52395ffde43ed5082066cbfc24221c3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        390710
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "subserialnetwork",
+      "title": "Subserial Network",
+      "image": "https://hb.imgix.net/24f1ed1dd34aa98edf034231afe218fc5a9dd321.png?auto=compress,format&s=651ee18f5938aa83d1087535e3c1aec9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

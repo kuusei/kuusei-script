@@ -1,0 +1,152 @@
+{
+  "id": "2019-06",
+  "slug": "June-2019",
+  "title": "June 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/june_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:53.591Z",
+  "games": [
+    {
+      "id": "callofduty_blackops4",
+      "title": "Call of Duty: Black Ops 4 Standard Edition",
+      "image": "https://hb.imgix.net/938e2124920ae627d5aeb0fd69e565026fe589ec.png?auto=compress,format&s=0381d16039914594c42d1375cb135f62",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "blizzard"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "911operator",
+      "title": "911 Operator + Special Resources DLC",
+      "image": "https://hb.imgix.net/6828cd2da37dccd8e0818602be829d2003f37ef2.png?auto=compress,format&s=2c3ecb97f896dbdc7e0c74a91d27c315",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "redfaction_guerrilla_re_mars_tered",
+      "title": "Red Faction Guerrilla Re-Mars-tered",
+      "image": "https://hb.imgix.net/2c96830f0a02a0f6c4e5d6339d539238b9459da7.png?auto=compress,format&s=04b343f65bc719471636651b67c97329",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        667720
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "duskers",
+      "title": "Duskers",
+      "image": "https://hb.imgix.net/41191a64c632e60c8211322a5176ac5bb3d5c3dd.png?auto=compress,format&s=acbd47ff27bf0928cb71c88f2e30eefd",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        254320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "paratopic",
+      "title": "Paratopic",
+      "image": "https://hb.imgix.net/d6aed72550ae8fe630fe0abf8ab7404d1b571d7a.png?auto=compress,format&s=bcb521580e8e82d4bbcf53c484102832",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        897030
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "poolpanic",
+      "title": "Pool Panic",
+      "image": "https://hb.imgix.net/04490c994bfdabafca3ca15c8979260c0a5b029f.png?auto=compress,format&s=60629cb079020f90f3a5050ce5737ea4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        522240
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "macdows95",
+      "title": "Macdows 95",
+      "image": "https://hb.imgix.net/231ce9a91b7ccc59f250608ddc76e6197562e4c2.png?auto=compress,format&s=21e30280e3d9a39684a769c37c063049",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

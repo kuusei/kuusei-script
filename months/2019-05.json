@@ -1,0 +1,174 @@
+{
+  "id": "2019-05",
+  "slug": "May-2019",
+  "title": "May 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/may_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:55.607Z",
+  "games": [
+    {
+      "id": "assassinscreedorigins",
+      "title": "Assassin's Creed Origins",
+      "image": "https://hb.imgix.net/445e575694058035ab88640f9c9b5aee896239b6.png?auto=compress,format&s=66d331ae91a0240af716d9ab02d75e40",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "uplay"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "findingparadise",
+      "title": "Finding Paradise",
+      "image": "https://hb.imgix.net/935833fe47c43350089991e82a99a5de4c520a92.png?auto=compress,format&s=05c9320196bcdc390db385cf6e117107",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        337340
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "monsterprom",
+      "title": "Monster Prom",
+      "image": "https://hb.imgix.net/25fdafabf189ed31e2e0862242682ce56b1a5c92.png?auto=compress,format&s=ef06eb6f9139853de7f464e6e2eaa45b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        743450
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thejourneydown_chapterthree",
+      "title": "The Journey Down: Chapter Three",
+      "image": "https://hb.imgix.net/e35a36fefd29fe4321d6281fd10122d7863896ed.png?auto=compress,format&s=f20ed225375132fd634032d323878fc9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        579760
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wandersong",
+      "title": "Wandersong",
+      "image": "https://hb.imgix.net/921c58ceee24c1fb5d85e3b5575d2cc6a427a337.png?auto=compress,format&s=02b422ca0c74dac249c2720de9b7c4dd",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        530320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "donotfeedthemonkeys",
+      "title": "Do Not Feed the Monkeys",
+      "image": "https://hb.imgix.net/84cd26202db2bc1dcc45b012db8784d925993d37.png?auto=compress,format&s=df725fe647551606c704e8674d72d8ff",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        658850
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "imnotamonster",
+      "title": "I am not a Monster",
+      "image": "https://hb.imgix.net/7548159b0656f182e81e3839d250e8636e65e845.png?auto=compress,format&s=4fb64a0b149014fcfee988e9451a2066",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        826600
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "onceuponacrimeinthewest",
+      "title": "Once Upon A Crime In The West",
+      "image": "https://hb.imgix.net/af8f3c6bad3f703c8f74355e51aa13537c343e8c.png?auto=compress,format&s=772f2c77b97ee48e8aaab73143da07da",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

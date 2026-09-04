@@ -1,0 +1,207 @@
+{
+  "id": "2018-12",
+  "slug": "December-2018",
+  "title": "December 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/december_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:10.042Z",
+  "games": [
+    {
+      "id": "megaman_legacycollection",
+      "title": "Mega Man Legacy Collection",
+      "image": "https://hb.imgix.net/29a2f56c7d6816a0b2e05d7a55868e0b1c67b0ce.png?auto=compress,format&s=b55b3d84fbf64789cbcb173ea5bb9e69",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        363440
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "zombiearmytrilogy",
+      "title": "Zombie Army Trilogy",
+      "image": "https://hb.imgix.net/529c076851097f302650a15d474f27e431d0d388.png?auto=compress,format&s=82e572ce31363924414e1f730fee0b9f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        301640
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "metalgearsolid5_thedefinitiveexperience",
+      "title": "METAL GEAR SOLID V: The Definitive Experience",
+      "image": "https://hb.imgix.net/de144f66c2bf58762fe9ba36a8c1916911b00fe3.png?auto=compress,format&s=886e9352fc3e49f689605518265c50ff",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cities_skylines_and_afterdark_dlc",
+      "title": "Cities: Skylines + After Dark DLC",
+      "image": "https://hb.imgix.net/aaf5e77037eb98f17d1455eaf42c4ef2692eed47.png?auto=compress,format&s=3d52fb4f584410f4fccad410cd3c7def",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "immortalredneck",
+      "title": "Immortal Redneck",
+      "image": "https://hb.imgix.net/e87fc69bebb1e450c71cc3663e2d3e27e7142795.png?auto=compress,format&s=032a5811325713c17dff234ae268d8d7",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        595140
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "purrfectdate",
+      "title": "Purrfect Date - Visual Novel/Dating Simulator",
+      "image": "https://hb.imgix.net/c217bb921bd5175f74d93bd9af076f4877088564.png?auto=compress,format&s=0fae82a40a7a1be5f74c5258962dcdb5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "seven_thedayslonggone",
+      "title": "Seven: Enhanced Edition",
+      "image": "https://hb.imgix.net/48f77d8285072f7466edc71ce841941da4b2bb78.png?auto=compress,format&s=49d7f7d70f1ee3949b3ec1b1abcfccc2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        471010
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "neurovoider",
+      "title": "NeuroVoider",
+      "image": "https://hb.imgix.net/5c152eee9849d0b147e07afc132ceb1b3a4db8b5.png?auto=compress,format&s=b2a110121e6a130c8073ab8fb4227685",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        400450
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "forager_sneakpeek",
+      "title": "Forager Sneak Peek",
+      "image": "https://hb.imgix.net/0355a725e92ec5fd6584b7496f5f61b24f54f026.png?auto=compress,format&s=84041dfc63ef983ebe5cff3782d15fd4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cutandrun",
+      "title": "Cut & Run",
+      "image": "https://hb.imgix.net/b204edcc605ea06e76bee094aa6a2d825ca5eed5.png?auto=compress,format&s=b279e9a58eb1858de761e962e8220236",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

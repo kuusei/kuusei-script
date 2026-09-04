@@ -1,0 +1,326 @@
+{
+  "id": "2020-01",
+  "slug": "January-2020",
+  "title": "January 2020",
+  "url": "https://www.humblebundle.com/membership/January-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:06:35.623Z",
+  "games": [
+    {
+      "id": "middleearth_shadowofwar",
+      "title": "Middle-earth™: Shadow of War™",
+      "image": "https://hb.imgix.net/1a4b7356a2afa3856eb5e609eed25ba02046fff5.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b1a3abda8565f06209cc58f9bc535ac3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        356190
+      ],
+      "developers": [
+        "Monolith Productions, Inc."
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "graveyardkeeper",
+      "title": "Graveyard Keeper",
+      "image": "https://hb.imgix.net/376a7ecc2b91fde0d3b880576c4e49ed9da1ce44.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=59f4743b101992eaa488293cb0b6176e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        599140
+      ],
+      "developers": [
+        "Lazy Bear Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "twopointhospital",
+      "title": "Two Point Hospital",
+      "image": "https://hb.imgix.net/02a5ec0e9839182228885f3512a14c82ed10b72f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5e850f5050efacde9732f15c72498ecb",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        535930
+      ],
+      "developers": [
+        "Two Point Studios"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dirtrally2",
+      "title": "DiRT Rally 2.0 + 3 DLCs",
+      "image": "https://hb.imgix.net/18e6f095ba558781dbf3f394ceb6cfd7e1e98234.jpg?auto=compress,format&fit=clip&h=383&w=667&s=222d961b654fa583c06646111d9b0cad",
+      "platforms": [
+        "oculus-rift",
+        "vive",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Codemasters"
+      ],
+      "genres": [
+        "Racing",
+        "Simulation",
+        "Sports"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "streetfighter5",
+      "title": "Street Fighter V",
+      "image": "https://hb.imgix.net/ce29993ad8f2fd594cfb5dc8e27cae684546f7b2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=1e01357edaefb9eebc06d3a18f751067",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        310950
+      ],
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "badnorth_jotunnedition",
+      "title": "Bad North: Jotunn Edition",
+      "image": "https://hb.imgix.net/1163e880eacc5b17b0376f9b7de8d484c69e0c1b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7d0e55666c231359269c8d780697a036",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        688420
+      ],
+      "developers": [
+        "Plausible Concept"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "trailmakers",
+      "title": "Trailmakers",
+      "image": "https://hb.imgix.net/d566c1bb9b4f0bc4a4852ee2e0afa8c3da581651.png?auto=compress,format&fit=clip&h=383&w=667&s=0c4b476edcbd928bd1fad1d2e19b1092",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        585420
+      ],
+      "developers": [
+        "Flashbulb"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "unrailed",
+      "title": "Unrailed",
+      "image": "https://hb.imgix.net/15f292ce4fd42d9b4a3f94315e13e1b8d21bc8f9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8aee1f7c891d46c8d528cfa3124b1b9a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Indoor Astronaut"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "whispersofamachine",
+      "title": "Whispers of a Machine",
+      "image": "https://hb.imgix.net/a83e91c749c23abaafc06a3485d877a22ca784f6.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ab8e144e51902f787f7668f8551a77b2",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        631570
+      ],
+      "developers": [
+        "Clifftop Games",
+        "Faravid Interactive"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "themsfightinherds",
+      "title": "Them's Fightin' Herds",
+      "image": "https://hb.imgix.net/eb8eeb229439250ed4b9c3d9eee70796a5cbc808.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=0e85d2478376bf1677c0f9d54c7c8a74",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        574980
+      ],
+      "developers": [
+        "Mane6, Inc."
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "magesofmystralia",
+      "title": "Mages of Mystralia",
+      "image": "https://hb.imgix.net/df3f4271273b2e4e0103c61f31b4f899db1f96d1.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b19ed345e4dcbeb299217e064b5323ce",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        127382
+      ],
+      "developers": [
+        "Borealys Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "grip",
+      "title": "GRIP + 1 DLC",
+      "image": "https://hb.imgix.net/f1e9b76e0fdc8561d37d301141c0f200f1b02293.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d79974313686e340ac00638c06cb1dc0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        323783
+      ],
+      "developers": [
+        "Caged Element Inc."
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Racing"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

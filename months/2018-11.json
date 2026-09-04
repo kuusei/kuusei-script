@@ -1,0 +1,215 @@
+{
+  "id": "2018-11",
+  "slug": "November-2018",
+  "title": "November 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/november_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:07:13.487Z",
+  "games": [
+    {
+      "id": "residentevil_revelations",
+      "title": "Resident Evil Revelations",
+      "image": "https://hb.imgix.net/63f8a541098c5f4c61b02c83673fae368d41215f.png?auto=compress,format&s=686edccacc90bae494dc98d7261296ee",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        222480
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dead_island_definitive_edition",
+      "title": "Dead Island Definitive Edition",
+      "image": "https://hb.imgix.net/a85b15bffb8f9a502dd72851dba568019e3baec4.png?auto=compress,format&s=4c44e88f155cd7055282537cca6f44e4",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        383150
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sniperelite",
+      "title": "Sniper Elite",
+      "image": "https://hb.imgix.net/40d39b50d916383a6a9838fa6a545e7d257a1c4e.png?auto=compress,format&s=fd1de3f6704c09070e24381834333d48",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3700
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sniperelitev2",
+      "title": "Sniper Elite V2",
+      "image": "https://hb.imgix.net/c8a4fd1df6a794e1d650dd71d55ef7ae1db96e62.png?auto=compress,format&s=22fcb98db790f372e71d56a3ac61fe3d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        63380
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hitman",
+      "title": "HITMAN™: The Complete First Season",
+      "image": "https://hb.imgix.net/58a0437714bfb1cad393d5d085b01cebad92acd4.png?auto=compress,format&s=f76396f425041e150703c5bbe472cdbc",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hollowknight",
+      "title": "Hollow Knight",
+      "image": "https://hb.imgix.net/2a50a14b3291d001b9a2246b9b4cc1c9b5f7d0bf.png?auto=compress,format&s=f20a18ec010bf38961abc7ad2be7dd3e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "7daystodie",
+      "title": "7 Days to Die",
+      "image": "https://hb.imgix.net/17b12230d13ea669ad9f6b59109ad88c89264425.png?auto=compress,format&s=0f1ec70d0bdb2a464db6c3d855c68304",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        251570
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thedwarves",
+      "title": "The Dwarves",
+      "image": "https://hb.imgix.net/d2483f9a38ecaa64c7a6819202b9c35c023dddbe.png?auto=compress,format&s=815eeaa80e93e5a157730b30d2f088b2",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        403970
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hardreset_redux",
+      "title": "Hard Reset Redux",
+      "image": "https://hb.imgix.net/edacf5d593c6d8597bb1c9cf66db5cb5d1ccb581.png?auto=compress,format&s=93ba09a5ec56d5750413109cf0cf6e82",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        407810
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "vapeescape",
+      "title": "vApe Escape",
+      "image": "https://hb.imgix.net/9af2b4e88417514b1e518732858939bf32459d3a.png?auto=compress,format&s=835fcfc7b186ed2d59b23938d81bcdbf",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

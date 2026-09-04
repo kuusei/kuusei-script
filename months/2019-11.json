@@ -1,0 +1,167 @@
+{
+  "id": "2019-11",
+  "slug": "November-2019",
+  "title": "November 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/november_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:38.480Z",
+  "games": [
+    {
+      "id": "callofduty_ww2",
+      "title": "Call of Duty(r): WWII",
+      "image": "https://hb.imgix.net/bf255b6bb283852d5f501c34cc63f4a4e9a9a09a.png?auto=compress,format&s=af0deb261729bcded0e66a3434bd561e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        476600
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "crashbandicootnsanetrilogy",
+      "title": "Crash Bandicoot™ N. Sane Trilogy",
+      "image": "https://hb.imgix.net/7bc235f200f306c23507eb1652cf6a961ff983c9.png?auto=compress,format&s=a65846c19b52fdb9dfd5d4df2e9c863d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        731490
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spyroreignitedtrilogy",
+      "title": "Spyro™ Reignited Trilogy",
+      "image": "https://hb.imgix.net/231774924c9f21589ecc78d1147fe44fd99ca4e0.png?auto=compress,format&s=95a69a21608f05bf15f68950b95dcee3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        996580
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shenmue1and2",
+      "title": "Shenmue I & II",
+      "image": "https://hb.imgix.net/b3a19219037f015f85e2b04ac7368425d810fbd3.png?auto=compress,format&s=12c7b9e0118a9c50f74646a07e3df34e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        758330
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "11_11memoriesretold",
+      "title": "11-11 Memories Retold",
+      "image": "https://hb.imgix.net/c9ea22702987f785eb9e3eacdc77408f69d574ae.png?auto=compress,format&s=526edbb623a6f550acaf87a7645e2e3d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        735580
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "synthetik_legionrising",
+      "title": "SYNTHETIK: Legion Rising",
+      "image": "https://hb.imgix.net/3afbb8ce8bcf5904f0052f9dd264255ab23d7ab9.png?auto=compress,format&s=7ac39906ed19c69b974872ce14e26026",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        528230
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "evergarden",
+      "title": "Evergarden",
+      "image": "https://hb.imgix.net/3f821e1a52c11972a787a3325d4d78593e54113a.png?auto=compress,format&s=41cf38531cf4638a50ce4d97cab62888",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        576500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "operator",
+      "title": "Operator",
+      "image": "https://hb.imgix.net/9e868fb557bd317388316e9ecc4f78ae1ee037f8.png?auto=compress,format&s=e49e824c57ee2544c05ef0df6e5ccd8f",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

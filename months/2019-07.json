@@ -1,0 +1,155 @@
+{
+  "id": "2019-07",
+  "slug": "July-2019",
+  "title": "July 2019 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/july_2019_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:06:50.504Z",
+  "games": [
+    {
+      "id": "hellblade_senuassacrifice",
+      "title": "Hellblade: Senua's Sacrifice",
+      "image": "https://hb.imgix.net/118d5c54b68b26fabaad4168ba1fc8d6c7adc827.png?auto=compress,format&s=833a0840cd3732d39ef0529033e785f3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        414340
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roadredemption",
+      "title": "Road Redemption",
+      "image": "https://hb.imgix.net/c1411603dec000b43cec154c8549a90d37d68259.png?auto=compress,format&s=eeb6e0ac7bc48bb756acee3bfe0a2942",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        300380
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warhammer40k_mechanicus",
+      "title": "Warhammer 40,000: Mechanicus",
+      "image": "https://hb.imgix.net/89b16724680fcdd62baf906dab91b6be87406af9.png?auto=compress,format&s=bd70643fb82e60a544f28938dc29461a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        673880
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "loveisdead",
+      "title": "Love is Dead",
+      "image": "https://hb.imgix.net/70115b6f55ff3c19f88d3beb15b2839e61c92b1b.png?auto=compress,format&s=e4c9adddd769d9dc1794e60052d9c6aa",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        453910
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "60parsecs",
+      "title": "60 Parsecs",
+      "image": "https://hb.imgix.net/3724c8021932777303d544df7dfbda79d3695523.png?auto=compress,format&s=2c85681eeae55e4d7e0346f6bc015888",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nairi_towerofshirin",
+      "title": "NAIRI: Tower of Shirin",
+      "image": "https://hb.imgix.net/b201f1db8faef5f6991bf9791a2610769b9a7f79.png?auto=compress,format&s=d0d6cf5d030792d12ab6c77888440371",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        802450
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kindwords",
+      "title": "Kind Words",
+      "image": "https://hb.imgix.net/54635be59b2347b293a1da868db2c2cadcde25d5.png?auto=compress,format&s=2fe8432f4436df76d9f73c9d43337c12",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}
