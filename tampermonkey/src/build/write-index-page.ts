@@ -72,7 +72,10 @@ export async function writeIndexPage(
       const updatedAt = escapeHtml(formatUpdatedAt(script.meta.updatedAt));
       const installHref = `./${script.name}.user.js`;
       const metaHref = `./${script.name}.meta.js`;
-      const logo = renderLogo(script.meta.name, script.meta.icon);
+      const logo = renderLogo(
+        script.meta.name,
+        script.listingIcon ? `./${script.listingIcon}` : script.meta.icon,
+      );
 
       return `
         <article class="script-card" id="${script.name}">

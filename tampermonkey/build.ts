@@ -34,25 +34,42 @@ async function loadScripts(): Promise<ScriptEntry[]> {
       const name = entry.name;
       const baseDir = path.join(scriptsDir, name);
 
+      const meta = await readJson<UserscriptMeta>(path.join(baseDir, "meta.json"));
+      const iconPath = path.join(baseDir, "icon.png");
+      let listingIcon: string | undefined;
+      try {
+        const icon = await readFile(iconPath);
+        listingIcon = `${name}.icon.png`;
+        await writeFile(path.join(distDir, listingIcon), icon);
+      } catch {
+        // Scripts without a local listing mark keep meta.icon.
+      }
+
       return {
         name,
         entry: path.join(baseDir, "index.ts"),
-        meta: await readJson<UserscriptMeta>(path.join(baseDir, "meta.json")),
+        meta,
         readme: await readOptionalText(path.join(baseDir, "README.md")),
+        listingIcon,
       };
     }),
   );
 }
 
 function resolveMeta(script: ScriptEntry) {
-  return pagesBaseUrl
-    ? {
-        ...script.meta,
-        homepageURL: `${pagesBaseUrl}`,
-        downloadURL: `${pagesBaseUrl}/${script.name}.user.js`,
-        updateURL: `${pagesBaseUrl}/${script.name}.meta.js`,
-      }
-    : script.meta;
+  return {
+    ...script.meta,
+    ...(script.listingIcon && pagesBaseUrl
+      ? { icon: `${pagesBaseUrl}/${script.listingIcon}` }
+      : {}),
+    ...(pagesBaseUrl
+      ? {
+          homepageURL: `${pagesBaseUrl}`,
+          downloadURL: `${pagesBaseUrl}/${script.name}.user.js`,
+          updateURL: `${pagesBaseUrl}/${script.name}.meta.js`,
+        }
+      : {}),
+  };
 }
 
 function userscriptBanner(meta: UserscriptMeta) {

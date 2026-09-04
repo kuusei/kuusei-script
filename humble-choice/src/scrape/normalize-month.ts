@@ -1,9 +1,10 @@
 import {
+  membershipUrlFromSlug,
   monthIdFromSlug,
   type MonthSlug,
 } from "../calendar/choice-month";
+import type { ParsedGame, ParsedMonth } from "../parsers/types";
 import type { ChoiceGame, ChoiceMonth } from "../types/catalog";
-import type { HumbleGameData, HumbleMonthlyPayload } from "./fetch-choice-month";
 
 const uniqueNumbers = (values: Array<number | null | undefined>) =>
   [...new Set(values.filter((value): value is number => Number.isFinite(value)))]
@@ -12,21 +13,14 @@ const uniqueNumbers = (values: Array<number | null | undefined>) =>
 const uniqueStrings = (values: Array<string | undefined>) =>
   [...new Set(values.map((value) => value?.trim()).filter(Boolean))] as string[];
 
-const isExtraGame = (id: string, game: HumbleGameData, steamAppIds: number[]) => {
-  const title = game.title ?? "";
-  if (/ign\s*plus/i.test(title) || /coupon/i.test(id)) {
+const isExtraGame = (game: ParsedGame, steamAppIds: number[]) => {
+  if (/ign\s*plus/i.test(game.title) || /coupon/i.test(game.id)) {
     return true;
   }
-  const methods = game.delivery_methods ?? [];
-  return steamAppIds.length === 0 && !methods.includes("steam");
+  return steamAppIds.length === 0 && !(game.delivery_methods ?? []).includes("steam");
 };
 
-const normalizeGame = (id: string, game: HumbleGameData): ChoiceGame | null => {
-  const title = game.title?.trim();
-  if (!title) {
-    return null;
-  }
-
+const normalizeGame = (game: ParsedGame): ChoiceGame => {
   const steamAppIds = uniqueNumbers(
     (game.tpkds ?? []).map((item) => item.steam_app_id),
   );
@@ -36,8 +30,8 @@ const normalizeGame = (id: string, game: HumbleGameData): ChoiceGame | null => {
     ] ?? null;
 
   return {
-    id,
-    title,
+    id: game.id,
+    title: game.title,
     image: game.image?.trim() || null,
     platforms: uniqueStrings(game.platforms ?? []),
     deliveryMethods: uniqueStrings(game.delivery_methods ?? []),
@@ -47,37 +41,26 @@ const normalizeGame = (id: string, game: HumbleGameData): ChoiceGame | null => {
     msrpUsd: game["msrp|money"]?.amount ?? null,
     ratingPercent: game.user_rating?.["steam_percent|decimal"] ?? null,
     expiresAt,
-    isExtra: isExtraGame(id, game, steamAppIds),
+    isExtra: isExtraGame(game, steamAppIds),
   };
 };
 
-export const normalizeChoiceMonth = (
+export const normalizeMonth = (
   slug: MonthSlug,
-  payload: HumbleMonthlyPayload,
+  page: ParsedMonth,
   scrapedAt = new Date().toISOString(),
 ): ChoiceMonth | null => {
-  const options = payload.contentChoiceOptions;
-  const gameData = options?.contentChoiceData?.game_data;
-  if (!options || !gameData) {
-    return null;
-  }
-
-  const order = options.contentChoiceData?.display_order ?? Object.keys(gameData);
-  const games = order
-    .map((id) => (gameData[id] ? normalizeGame(id, gameData[id]) : null))
-    .filter((game): game is ChoiceGame => game !== null);
-
+  const games = page.games.map(normalizeGame);
   if (games.length === 0) {
     return null;
   }
-
   return {
     id: monthIdFromSlug(slug),
     slug,
-    title: options.title?.trim() || slug.replace("-", " "),
-    url: `https://www.humblebundle.com/membership/${slug}`,
-    isActive: Boolean(options.isActiveContent),
-    usesChoices: Boolean(options.usesChoices),
+    title: page.title || slug.replace("-", " "),
+    url: page.sourceUrl || membershipUrlFromSlug(slug),
+    isActive: page.isActive,
+    usesChoices: page.usesChoices,
     scrapedAt,
     games,
   };

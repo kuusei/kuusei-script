@@ -1,0 +1,24 @@
+{
+  "name": "Steam 高亮 Humble Choice",
+  "namespace": "http://tampermonkey.net/",
+  "version": "2026.08.20.8",
+  "updatedAt": "2026-08-20T18:10:00+08:00",
+  "description": "在 Steam 商店以角标和信息条显示 Humble Choice 收录",
+  "author": "kuusei",
+  "icon": "https://cdn.humblebundle.com/static/hashed/49bccd0f2050e5fcfc3c442b269d4ff47b038ed9.png",
+  "license": "MIT",
+  "match": [
+    "https://store.steampowered.com/*"
+  ],
+  "grant": [
+    "GM_xmlhttpRequest",
+    "GM_getValue",
+    "GM_setValue",
+    "GM_registerMenuCommand"
+  ],
+  "connect": [
+    "cdn.jsdelivr.net",
+    "raw.githubusercontent.com"
+  ],
+  "runAt": "document-end"
+}

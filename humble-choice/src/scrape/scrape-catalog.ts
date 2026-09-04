@@ -10,8 +10,9 @@ import {
 } from "../calendar/choice-month";
 import { emptyCatalog, mergeCatalogs } from "../archive/catalog-archive";
 import type { ChoiceCatalog, ChoiceMonth } from "../types/catalog";
-import { fetchChoiceMonth } from "./fetch-choice-month";
-import { normalizeChoiceMonth } from "./normalize-choice-month";
+import { fetchMonth } from "./fetch-month";
+import { normalizeMonth } from "./normalize-month";
+import { fillSteamAppIds } from "./steam-app-lookup";
 
 export type ScrapeOptions = {
   now?: Date;
@@ -72,16 +73,17 @@ export const scrapeChoiceCatalog = async (
       await sleep(options.delayMs ?? 400);
     }
     fetched += 1;
-    const result = await fetchChoiceMonth(slug);
+    const result = await fetchMonth(slug);
     if (!result.ok) {
       console.warn(`[scrape] skip ${slug}: ${result.reason}`);
       return result.status === 404 ? "miss" : "error";
     }
-    const month = normalizeChoiceMonth(slug, result.payload);
-    if (!month) {
+    const parsed = normalizeMonth(slug, result.page);
+    if (!parsed) {
       console.warn(`[scrape] skip ${slug}: empty month`);
       return "miss" as const;
     }
+    const month = await fillSteamAppIds(parsed);
     console.log(`[scrape] ${slug} -> ${month.games.length} items`);
     incoming.push(month);
     known.add(month.slug);
@@ -99,8 +101,13 @@ export const scrapeChoiceCatalog = async (
   const reachedEarliest = (slug: MonthSlug) =>
     compareMonthSlugs(slug, EARLIEST_CHOICE_MONTH) <= 0;
 
-  let exhausted = Boolean(archive.backfillExhausted);
-  if (!exhausted && archive.months.length && reachedEarliest(oldestSlug(archive, current))) {
+  const oldest = archive.months.length
+    ? oldestSlug(archive, current)
+    : null;
+  let exhausted =
+    Boolean(archive.backfillExhausted) &&
+    Boolean(oldest && reachedEarliest(oldest));
+  if (!exhausted && oldest && reachedEarliest(oldest)) {
     exhausted = true;
     console.log(`[scrape] history complete at ${EARLIEST_CHOICE_MONTH}`);
   }

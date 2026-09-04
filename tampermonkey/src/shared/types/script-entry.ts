@@ -5,4 +5,5 @@ export type ScriptEntry = {
   entry: string;
   meta: UserscriptMeta;
   readme: string;
+  listingIcon?: string;
 };

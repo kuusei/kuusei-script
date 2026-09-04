@@ -15,8 +15,11 @@ const MONTH_NAMES = [
 
 export type MonthSlug = `${(typeof MONTH_NAMES)[number]}-${number}`;
 
-/** Humble Choice pages older than this no longer include monthly product data. */
-export const EARLIEST_CHOICE_MONTH: MonthSlug = "February-2022";
+/** Humble Choice membership pages start here; earlier months live on Monthly URLs. */
+export const EARLIEST_MEMBERSHIP_MONTH: MonthSlug = "December-2019";
+
+/** Humble Monthly product pages start here; October 2015 and earlier 404. */
+export const EARLIEST_CHOICE_MONTH: MonthSlug = "November-2015";
 
 const slugPattern = new RegExp(
   `^(${MONTH_NAMES.join("|")})-(\\d{4})$`,
@@ -79,6 +82,17 @@ export const monthIdFromSlug = (slug: MonthSlug) => {
     throw new Error(`Invalid Humble Choice slug: ${slug}`);
   }
   return `${parsed.year}-${String(parsed.monthIndex + 1).padStart(2, "0")}`;
+};
+
+export const membershipUrlFromSlug = (slug: string) =>
+  `https://www.humblebundle.com/membership/${slug}`;
+
+export const monthlyUrlFromSlug = (slug: string) => {
+  const parsed = parseMonthSlug(slug);
+  if (!parsed) {
+    throw new Error(`Invalid Humble Choice slug: ${slug}`);
+  }
+  return `https://www.humblebundle.com/monthly/p/${parsed.monthName.toLowerCase()}_${parsed.year}_monthly`;
 };
 
 export const nearbyMonthSlugs = (now = new Date()) => {
