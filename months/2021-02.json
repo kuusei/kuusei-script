@@ -1,0 +1,322 @@
+{
+  "id": "2021-02",
+  "slug": "February-2021",
+  "title": "February 2021",
+  "url": "https://www.humblebundle.com/membership/February-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:30.010Z",
+  "games": [
+    {
+      "id": "outwardtheadventurerbundle",
+      "title": "Outward + The Soroboreans and Outward Soundtrack",
+      "image": "https://hb.imgix.net/1c588478a8848f719f9f375408de1f9de357197b.png?auto=compress,format&fit=clip&h=383&w=667&s=a1521c4446c6dff765e08ac906a57327",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        15369,
+        1194010,
+        1244560
+      ],
+      "developers": [
+        "Nine Dots Studio"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 62.97,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "valkyriachronicles4",
+      "title": "Valkyria Chronicles 4 Complete Edition",
+      "image": "https://hb.imgix.net/ffa8a90c8b833a2ffdefb15cdf6bc1b6bf0e7367.jpg?auto=compress,format&fit=clip&h=383&w=667&s=87acdf9fcbf599b1f5a4ca4c68f9e1f5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        790820
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Action",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "endlessspace2_digitaldeluxe",
+      "title": "Endless Space® 2 - Digital Deluxe Edition",
+      "image": "https://hb.imgix.net/9c4235fcebd5df425c60fcccb8a42a1689eebfd5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8fc2c83109458c396ae1a84d2c8669a4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        392110
+      ],
+      "developers": [
+        "AMPLITUDE Studios"
+      ],
+      "genres": [],
+      "msrpUsd": 39.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "movingout",
+      "title": "Moving Out",
+      "image": "https://hb.imgix.net/70449db7200ff6a3878d2bdc6ac09cb886a50075.jpg?auto=compress,format&fit=clip&h=383&w=667&s=af02b30bcb3adf2697cdd3f3aacb6b28",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        996770
+      ],
+      "developers": [
+        "SMG Studio",
+        "Devm Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "trine4_thenightmareprince",
+      "title": "Trine 4: The Nightmare Prince",
+      "image": "https://hb.imgix.net/439e4e589b6cfdcdb95fdee47bb05b706e634498.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e363a6b4c18a8808aceaa55405ffaefd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        690640
+      ],
+      "developers": [
+        "Frozenbyte"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thewildeight",
+      "title": "The Wild Eight",
+      "image": "https://hb.imgix.net/1e7d60e68c30d5ad9fa97f3a0f63e7db1add8a6f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e1e5b1646a76ec7e0d0be08716ec9ccc",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        526160
+      ],
+      "developers": [
+        "HypeTrain Digital"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.68,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "trainstationrenovation",
+      "title": "Train Station Renovation",
+      "image": "https://hb.imgix.net/ea69c4b0839c0f0df15c0b46da61b71bfd1b5a90.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=fb08876c74650439eb87985a5156d57e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        914010
+      ],
+      "developers": [
+        "Live Motion Games"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 18.99,
+      "ratingPercent": 0.69,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "valfaris",
+      "title": "Valfaris",
+      "image": "https://hb.imgix.net/93746c3f654e01b24b8dfab79ed0dca9559e0c60.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=95ce27a61f54b99f9d6527a0bdd88472",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        600130
+      ],
+      "developers": [
+        "Steel Mantis"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "werewolf_theapocalypseheartoftheforest",
+      "title": "Werewolf: The Apocalypse  Heart of the Forest",
+      "image": "https://hb.imgix.net/5d02057699981fb74a48505774ba0eb69090e81b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cfa580404be69e21d7eaa087f3ca802c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1342620
+      ],
+      "developers": [
+        "Different Tales"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lovecraftsuntoldstories",
+      "title": "Lovecraft's Untold Stories",
+      "image": "https://hb.imgix.net/553a3ef8ecdbc05da7b56ac8124e34ff6ee05e1e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4bf87f2f3de791013208d29ac49df294",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "LLC Blini Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "irisandthegiant",
+      "title": "Iris and the Giant",
+      "image": "https://hb.imgix.net/b168216d0d2c43d0a4ee87178e058a6a00382a03.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ec4d9656effd5ffd6a5332ee310534ee",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1127610
+      ],
+      "developers": [
+        "Louis Rigaud"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "boomerangfu",
+      "title": "Boomerang Fu",
+      "image": "https://hb.imgix.net/34dd60f3fccba28f4d992ff04e6ba871c19d4d00.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ca9f2a50bde7b9b7d6ccadacd551265e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        965680
+      ],
+      "developers": [
+        "Cranky Watermelon"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

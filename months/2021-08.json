@@ -1,0 +1,330 @@
+{
+  "id": "2021-08",
+  "slug": "August-2021",
+  "title": "August 2021",
+  "url": "https://www.humblebundle.com/membership/August-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:24.518Z",
+  "games": [
+    {
+      "id": "bloodstained_ritualofthenight",
+      "title": "Bloodstained: Ritual of the Night",
+      "image": "https://hb.imgix.net/786f86e5dab7f4b8becebe726cf28550ef9e3539.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a6e6454db1adac817bf2f3ff94852610",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "ArtPlay"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "lastoasis",
+      "title": "Last Oasis",
+      "image": "https://hb.imgix.net/29b2e2e41fdab67b3af0b0d04f99ce933de67781.png?auto=compress,format&fit=clip&h=383&w=667&s=50725397360b26e7b0fd9cf850c624cf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1278610
+      ],
+      "developers": [
+        "Donkey Crew"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "MMO",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.66,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "superliminal",
+      "title": "Superliminal",
+      "image": "https://hb.imgix.net/d26a8a221603f5aaed1e7c23abaa40aa102bd203.jpg?auto=compress,format&fit=clip&h=383&w=667&s=76290e93662ec127f58be6d28efefd57",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1049410
+      ],
+      "developers": [
+        "Pillow Castle"
+      ],
+      "genres": [
+        "Puzzle"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "outofspace",
+      "title": "Out of Space",
+      "image": "https://hb.imgix.net/257f4a7790ece2cc9c99ffe87823d17929e1ba69.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7c1d37d3ef7c890260f1d7654dea0758",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        400080
+      ],
+      "developers": [
+        "Behold Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.65,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "weneedtogodeeper",
+      "title": "We Need to Go Deeper",
+      "image": "https://hb.imgix.net/9f608efd53af21379108f07a1b21e2814afce3e8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6dbc846c56dc445a9e28099f86a34d89",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        307110
+      ],
+      "developers": [
+        "Deli Interactive LLC"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 15.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "carto",
+      "title": "Carto",
+      "image": "https://hb.imgix.net/137d4c371dbad3a132f2e041e1e875e8b63b1a29.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9cdbb6e39002d6445a3338a51269e5e3",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1172450
+      ],
+      "developers": [
+        "Sunhead Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.99,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "asfarastheeye",
+      "title": "As Far As The Eye",
+      "image": "https://hb.imgix.net/0c3892f2fbded01506e8edf26cd2b529e08d1712.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=df4c6fddd734dac826a3733f83bcf25b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1119700
+      ],
+      "developers": [
+        "Unexpected"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cepheusprotocol",
+      "title": "Cepheus Protocol",
+      "image": "https://hb.imgix.net/090c83060124aba6f353f039648e9fb6a5685943.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9948d46be2446b428e92a700f1dfbb37",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        979640
+      ],
+      "developers": [
+        "Halcyon Winds"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.69,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "drakehollow",
+      "title": "Drake Hollow",
+      "image": "https://hb.imgix.net/40df32f2e22046a37c4189ca53be8b81e9c3043d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cd6bc03835149bbd4df404ce05a16bf9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        739650
+      ],
+      "developers": [
+        "The Molasses Flood"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nowhereprophet",
+      "title": "Nowhere Prophet",
+      "image": "https://hb.imgix.net/873d9a371daf12d99a4efc3b4893092f7150eb1c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3a188893c8131385ecf49238fe9fb345",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        681730
+      ],
+      "developers": [
+        "Sharkbomb Studios"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bluefire",
+      "title": "Blue Fire",
+      "image": "https://hb.imgix.net/deb2ec12413967b03b07f43229551bc165820461.jpg?auto=compress,format&fit=clip&h=383&w=667&s=155669618b0ba978b6bb9c913e361fd3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1220150
+      ],
+      "developers": [
+        "ROBI Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "encodya",
+      "title": "ENCODYA",
+      "image": "https://hb.imgix.net/735fefd2ac36bbe82baaee1a08f660a780b1b1b2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fdeb35607a9352002bd545f02d65c7ee",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Chaosmonger Studio"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

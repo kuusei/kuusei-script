@@ -1,0 +1,277 @@
+{
+  "id": "2022-01",
+  "slug": "January-2022",
+  "title": "January 2022",
+  "url": "https://www.humblebundle.com/membership/January-2022",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:20.106Z",
+  "games": [
+    {
+      "id": "mafia_definitive",
+      "title": "Mafia: Definitive Edition",
+      "image": "https://hb.imgix.net/e533a7bd6e747f9454e772cf6ad3ed48f81c22a6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0ef2dd3b69e2f3131a38f1035aebc09b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1030840
+      ],
+      "developers": [
+        "Hangar 13"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ironharvest",
+      "title": "Iron Harvest",
+      "image": "https://hb.imgix.net/4385301956fcc970c858c15602049d9c5a3675b9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=86282dce5ce320a234ac8c19cfa061f1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        826630
+      ],
+      "developers": [
+        "KING Art"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "projectwinter",
+      "title": "Project Winter",
+      "image": "https://hb.imgix.net/fd079d029e93a74f806aab81aeadcf4b0184b586.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f77a7ca469c37d228d12b8214918818b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        774861
+      ],
+      "developers": [
+        "Other Ocean Interactive"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rebelcops",
+      "title": "Rebel Cops",
+      "image": "https://hb.imgix.net/d97b706b590a6c20020a0e37108b26a123a4b7d3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=58c2e02390d465b22c377849d8f5d4f2",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        970960
+      ],
+      "developers": [
+        "Weappy Studio"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rustler",
+      "title": "Rustler",
+      "image": "https://hb.imgix.net/074ef4ab2025988f43551efd08ecb859aaf1878f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01ddcd12bc6d6ae52429072f98371859",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        844260
+      ],
+      "developers": [
+        "Jutsu Games"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Racing",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thehenrystickmincollection",
+      "title": "The Henry Stickmin Collection",
+      "image": "https://hb.imgix.net/15b6ed5b03d20c45ae7a53f8070893db48084378.png?auto=compress,format&fit=clip&h=383&w=667&s=b79a3eaa778361075ee0ded58c3297b3",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1089980
+      ],
+      "developers": [
+        "PuffballsUnited"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.98,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "farmersdynasty",
+      "title": "Farmer's Dynasty",
+      "image": "https://hb.imgix.net/260f839e1b74bb9852ef5afb8bedf52353684f10.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4c1e7766a775cd222a6c44f5638abb28",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        678900
+      ],
+      "developers": [
+        "UMEO Studios"
+      ],
+      "genres": [
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "betweenthestars",
+      "title": "Between the Stars",
+      "image": "https://hb.imgix.net/ec52df525c85893b61329da5701de5f45823eb70.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ade6f9526fcd8c5e61f18f83ed5bdef3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        727130
+      ],
+      "developers": [
+        "Isolated Games"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Adventure",
+        "RPG",
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "retrowave",
+      "title": "Retrowave",
+      "image": "https://hb.imgix.net/a60d01c64131e0628cb462a40ea905da5fac9881.jpg?auto=compress,format&fit=clip&h=383&w=667&s=dbc4cf52ee0b6aac998aed057530d402",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1239690
+      ],
+      "developers": [
+        "RewindApp"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Racing",
+        "Simulation"
+      ],
+      "msrpUsd": 2.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "midnightprotocol",
+      "title": "Midnight Protocol",
+      "image": "https://hb.imgix.net/638adbd0c836d50017dbe7eca2ab619ddceed7eb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d86665d5be2f91808bc4662ff76188ef",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1162700
+      ],
+      "developers": [
+        "LuGus Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

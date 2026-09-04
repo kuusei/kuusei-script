@@ -1,0 +1,276 @@
+{
+  "id": "2021-11",
+  "slug": "November-2021",
+  "title": "November 2021",
+  "url": "https://www.humblebundle.com/membership/November-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:22.096Z",
+  "games": [
+    {
+      "id": "dueprocess",
+      "title": "Due Process",
+      "image": "https://hb.imgix.net/6022f5a4b1e0dd3a9bde9bb65910bc36ee88ec48.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c01416eb18bcb1ece192a24fb0a6dddd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        753650
+      ],
+      "developers": [
+        "Giant Enemy Crab"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "houseflipper",
+      "title": "House Flipper",
+      "image": "https://hb.imgix.net/dba1c4ea74d7b4a46d8fc77e53ee8e5d7b4c44cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6b0411a67f50f03149abef09243c268f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        613100
+      ],
+      "developers": [
+        "Empyrean"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "projectwingman",
+      "title": "Project Wingman",
+      "image": "https://hb.imgix.net/33df6d41fcecba8e5d026936448b6ab724b11342.png?auto=compress,format&fit=clip&h=383&w=667&s=7414401e5db83e1a114d0c3ca7134fbe",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        895870
+      ],
+      "developers": [
+        "Sector D2"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wingspan",
+      "title": "Wingspan",
+      "image": "https://hb.imgix.net/006668ae95d15575ac829eaa1c94bb2e381e05f9.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=859843320fd8195f62be92516546b11a",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1054490
+      ],
+      "developers": [
+        "Monster Couch"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "bpm_bulletsperminute",
+      "title": "BPM: BULLETS PER MINUTE",
+      "image": "https://hb.imgix.net/4410a5dd5bc770c24fe1155be3f03c9510a0bd18.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5e38d7959c5b352db3c7d845de5d9454",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1286350
+      ],
+      "developers": [
+        "Awe Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "turnipboycommitstaxevasion",
+      "title": "Turnip Boy Commits Tax Evasion",
+      "image": "https://hb.imgix.net/8774a541ccfeae8de21556e39be98bc158a59259.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1909e8c761ffed7d0a730102ef3ab46b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1205450
+      ],
+      "developers": [
+        "Snoozy Kazoo"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "simplerockets2",
+      "title": "Juno: New Origins",
+      "image": "https://hb.imgix.net/6931beb75a57efb68fc5fbd691f8958da2d26899.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1886d57a549ddccfe845617d770c8361",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        870200
+      ],
+      "developers": [
+        "Jundroo, LLC"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "timelie",
+      "title": "Timelie",
+      "image": "https://hb.imgix.net/1e067dbb67eeb1189b70492ca8cd6440e0b91e95.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a1d2012a44ebc94905b3a4f6fd760a99",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1150950
+      ],
+      "developers": [
+        "Urnique Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wrath_aeonofruin",
+      "title": "WRATH: Aeon of Ruin",
+      "image": "https://hb.imgix.net/efe2bc15d8941015f29e98be6cd26464149a3059.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=699ef8315b3b3f2f0149adcbab7b1423",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1000410
+      ],
+      "developers": [
+        "Slipgate Ironworks",
+        "KillPixel"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mbiusfront83",
+      "title": "Mbius Front '83",
+      "image": "https://hb.imgix.net/7211ead099d0f532c6bfb9fdfb43388f5600a2c1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ab21d3e6a7d110d2a7df951b86b22dc3",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        971160
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

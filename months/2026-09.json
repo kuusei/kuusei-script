@@ -1,0 +1,235 @@
+{
+  "id": "2026-09",
+  "slug": "September-2026",
+  "title": "September 2026",
+  "url": "https://www.humblebundle.com/membership/September-2026",
+  "isActive": true,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T10:04:18.137Z",
+  "games": [
+    {
+      "id": "frostpunk2",
+      "title": "Frostpunk 2",
+      "image": "https://hb.imgix.net/95ac3b6b5125d5515605fb7a3c8bfe32c627c3a9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9ea58455a4cbc359324839b9bf70e7ee",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1601580
+      ],
+      "developers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.78,
+      "expiresAt": "2027-04-06T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "sonicxshadowgenerations",
+      "title": "SONIC X SHADOW GENERATIONS",
+      "image": "https://hb.imgix.net/311c5762170d882127251f3f6e018e4ad262d269.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae12ee3b33de25f40ac14b762bcf16bb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2513280
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.96,
+      "expiresAt": "2027-04-06T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "voidtrain",
+      "title": "Voidtrain",
+      "image": "https://hb.imgix.net/9ca7447552d33162d7df6100c41bb5cee91db6ce.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7c503f2a1fbfc20f4301d319c8cbf273",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1159690
+      ],
+      "developers": [
+        "HypeTrain Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.72,
+      "expiresAt": "2027-04-06T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "ballionaire",
+      "title": "Ballionaire",
+      "image": "https://hb.imgix.net/15e2010493b354e06e0354d76fdcee516403c73a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=30ca428d6d26bc7bbdaf7f6150a0cc63",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2667120
+      ],
+      "developers": [
+        "Raw Fury"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 12.34,
+      "ratingPercent": 0.85,
+      "expiresAt": "2027-04-06T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "guntouchables",
+      "title": "GUNTOUCHABLES",
+      "image": "https://hb.imgix.net/3002a4c3bd8e8d709cbe667cf3afbc0648152c50.png?auto=compress,format&fit=clip&h=383&w=667&s=d4f052360dd7affaf7e4a997c86614f7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2543510
+      ],
+      "developers": [
+        "Ghost Ship Publishing"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 4.99,
+      "ratingPercent": 0.75,
+      "expiresAt": "2027-04-06T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "urbanjungle",
+      "title": "Urban Jungle",
+      "image": "https://hb.imgix.net/387acb595474046e8d1b3c869080c2cfc8873518.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0213ccc1b9c3cf95d52c20220f2dddc5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2744010
+      ],
+      "developers": [
+        "Assemble Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.91,
+      "expiresAt": "2027-04-06T07:00:00",
+      "isExtra": false
+    },
+    {
+      "id": "pocketmirrorgoldenertraum",
+      "title": "Pocket Mirror ~ GoldenerTraum",
+      "image": "https://hb.imgix.net/4f49639c11d51c737729beabeec9b17d0cd7f847.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8a66e2c424a83cd113247a0470d7629",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1899060
+      ],
+      "developers": [
+        "Komodo"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "keylockerturnbasedcyberpunkaction",
+      "title": "Keylocker | Turn Based Cyberpunk Action",
+      "image": "https://hb.imgix.net/6931ade27371af6e3ff61bba2b05b58a75e0a0cf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=baf64d9096b9063041248b4ed2dad0cf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1325040
+      ],
+      "developers": [
+        "Serenity Forge"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-10-06T16:59:59",
+      "isExtra": true
+    }
+  ]
+}

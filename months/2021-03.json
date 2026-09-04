@@ -1,0 +1,320 @@
+{
+  "id": "2021-03",
+  "slug": "March-2021",
+  "title": "March 2021",
+  "url": "https://www.humblebundle.com/membership/March-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:28.842Z",
+  "games": [
+    {
+      "id": "control",
+      "title": "Control Standard Edition",
+      "image": "https://hb.imgix.net/7a40509a5ef20c8e298e3f1d4b1f704bcb3b8813.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1cdd9c1cbbc47c8ff155d0154341db28",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic",
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Remedy Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "xcom_chimerasquad",
+      "title": "XCOM: Chimera Squad",
+      "image": "https://hb.imgix.net/a74e8991956c26ddb74b97f659c156d9178b7446.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=404fc3093f317e95b5b1e5ee08da62c3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        882100
+      ],
+      "developers": [
+        "Firaxis Games"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.64,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "elex",
+      "title": "ELEX",
+      "image": "https://hb.imgix.net/fef7df13bef3261aced50e8f30fcc9cf7403d765.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4a9e291cbd6a10f199dd9bdfda279443",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        411300
+      ],
+      "developers": [
+        "Piranha Bytes",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kingdom_twocrowns",
+      "title": "Kingdom Two Crowns",
+      "image": "https://hb.imgix.net/c1ce8b6928ef2d7ca5c440822ea0a6d0a6ea3761.jpg?auto=compress,format&fit=clip&h=383&w=667&s=285d8c9b43507594e70488f28903cd90",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        701160
+      ],
+      "developers": [
+        "Stumpy Squid",
+        "Fury Studios",
+        "Coatsink"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wwe2k_battlegrounds",
+      "title": "WWE 2K BATTLEGROUNDS",
+      "image": "https://hb.imgix.net/dcc542afbac13ea440597d439bba496f6aeee742.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=1a5b9c5f69cb06ce30ec45ee579b836c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1142100
+      ],
+      "developers": [
+        "Saber Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Sports"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.67,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hotshotracing",
+      "title": "Hotshot Racing",
+      "image": "https://hb.imgix.net/cdb0aa6f3d2fd22368916cddec28cf66f6beadf0.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=18500012298713641ef651ab1e3bfd4a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        609920
+      ],
+      "developers": [
+        "Lucky Mountain Games",
+        "Sumo Digital Ltd"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "peakyblinders_mastermind",
+      "title": "Peaky Blinders: Mastermind",
+      "image": "https://hb.imgix.net/4b1be459dee6df8442eca8c8dc0bf812132fe943.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=0b8b062ae68b5bf40ec87e4a4f5dfe22",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1013310
+      ],
+      "developers": [
+        "FuturLab"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cyberhook",
+      "title": "Cyber Hook",
+      "image": "https://hb.imgix.net/31fa3396e495d634932799283a76c7656103fdd8.png?auto=compress,format&fit=clip&h=383&w=667&s=82f2369c984b55a3c861a6228d13c93d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1130410
+      ],
+      "developers": [
+        "Blazing Stick"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pesterquest",
+      "title": "Pesterquest",
+      "image": "https://hb.imgix.net/475718a6bd88993d950b00b95cca5cd2f0d94472.jpg?auto=compress,format&fit=clip&h=383&w=667&s=34ec36a58728cd7ec6405acb3b111321",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1144030
+      ],
+      "developers": [
+        "What Pumpkin Games, Inc."
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wildfire",
+      "title": "Wildfire",
+      "image": "https://hb.imgix.net/2dbf82e75c8ba93aeacc0bb86740dcae0484c9e5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0eee841ab656e20c4ea1e9ccfe933c9c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        431940
+      ],
+      "developers": [
+        "Sneaky Bastards"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "borealblade",
+      "title": "Boreal Blade",
+      "image": "https://hb.imgix.net/dd822df03953439eaa656737a9d163b547a012c0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9da3243a915a4ffff12c5680a93f81ba",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        598780
+      ],
+      "developers": [
+        "Frozenbyte"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 3.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ageless",
+      "title": "Ageless",
+      "image": "https://hb.imgix.net/c21dfabc68bd8d276e16aebffde80577c50bf858.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5118a803e507f62864d4e59084eefd43",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1210150
+      ],
+      "developers": [
+        "One More Dream Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

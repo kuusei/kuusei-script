@@ -1,0 +1,327 @@
+{
+  "id": "2020-09",
+  "slug": "September-2020",
+  "title": "September 2020",
+  "url": "https://www.humblebundle.com/membership/September-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:34.276Z",
+  "games": [
+    {
+      "id": "golfwithyourfriends",
+      "title": "Golf With Your Friends + Caddypack DLC + OST",
+      "image": "https://hb.imgix.net/10c6ab75caf4b80bf87548a6c32b85e20587c8de.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c2f66ee2370d6dfd87de11da76694e60",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        431240
+      ],
+      "developers": [
+        "Blacklight Interactive",
+        "Team17"
+      ],
+      "genres": [
+        "Indie",
+        "Sports"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "generationzero",
+      "title": "Generation Zero",
+      "image": "https://hb.imgix.net/149b844afc85d2f3b7164ff3410b415823125c90.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3e49ad06ecb18abc9bad60710b800293",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        704270
+      ],
+      "developers": [
+        "Systemic Reaction™"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "forager",
+      "title": "Forager",
+      "image": "https://hb.imgix.net/523b868fb7a6f2df32aff5a759125b0277e84c3b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=16ae38a08e2aa23e5a50ce2fcd0f6450",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        751780
+      ],
+      "developers": [
+        "HopFrog"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "vampire_themasquerade_coteriesofnewyork",
+      "title": "Vampire: The Masquerade - Coteries of New York",
+      "image": "https://hb.imgix.net/4460312c4c464d01835fa6e5c7e457282187c686.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=824e9b723bd05b2150310f547ee0b305",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1096410
+      ],
+      "developers": [
+        "Draw Distance"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "funwithragdolls_thegame",
+      "title": "Fun with Ragdolls: The Game",
+      "image": "https://hb.imgix.net/4b0dedb4a5d4d2523fd790e3c40b091f18342cdf.png?auto=compress,format&fit=clip&h=383&w=667&s=2772a17d5904a94e64312d967c01deac",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1142500
+      ],
+      "developers": [
+        "Jadon Barnes"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lethalleagueblaze",
+      "title": "Lethal League Blaze",
+      "image": "https://hb.imgix.net/f1f39e6d1213129a9943f46ddb58df99808773b0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a03b53cfa49042a1c4a639ec7071c120",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        553310
+      ],
+      "developers": [
+        "Team Reptile B.V."
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Sports"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "strangebrigade",
+      "title": "Strange Brigade",
+      "image": "https://hb.imgix.net/e5599b72d9de50099e5e27055a19777ab6f0bdde.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=297d54f83c7f42c68c360ad742ac8730",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        312670
+      ],
+      "developers": [
+        "Rebellion"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "evolandlegendaryedition",
+      "title": "Evoland Legendary Edition",
+      "image": "https://hb.imgix.net/283097454bdf20860a87cc653586eeb39cc4034d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e9e879d64e5e4a51ee1613c78b92573e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1020470
+      ],
+      "developers": [
+        "Shiro Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yooka_layleeandtheimpossiblelair",
+      "title": "Yooka-Laylee and the Impossible Lair",
+      "image": "https://hb.imgix.net/adfd3f620f7419ef63b748c2d96334928a412e95.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a162dc6d302cab25b3da55b3a9777f4e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        846870
+      ],
+      "developers": [
+        "Playtonic Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "catherine_classic",
+      "title": "Catherine Classic",
+      "image": "https://hb.imgix.net/21b800742a89b7d93166aa5b4b3bdfc2ce6138fc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9b1764dd93bc17402db25c58b0bd57c5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        893180
+      ],
+      "developers": [
+        "ATLUS"
+      ],
+      "genres": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theoccupation",
+      "title": "The Occupation",
+      "image": "https://hb.imgix.net/105ad3217a2f29506704d058bf72cee3c84964c4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=99718f02aa0a6708035130fcaf987a42",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        765880
+      ],
+      "developers": [
+        "White Paper Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theshapeshiftingdetective",
+      "title": "The Shapeshifting Detective",
+      "image": "https://hb.imgix.net/4c89cccf3fc26d31852146e6e6cf793dcca59e7f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9d06686837c0c7f761f9eb9e3b65d1cf",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        898650
+      ],
+      "developers": [
+        "D'Avekki Studios Ltd",
+        "Wales Interactive"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

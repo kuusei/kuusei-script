@@ -1,0 +1,319 @@
+{
+  "id": "2021-04",
+  "slug": "April-2021",
+  "title": "April 2021",
+  "url": "https://www.humblebundle.com/membership/April-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:27.927Z",
+  "games": [
+    {
+      "id": "sniper_ghostwarrior_contracts",
+      "title": "Sniper Ghost Warrior Contracts",
+      "image": "https://hb.imgix.net/b9b64ef18947e392af3f23d9f20cb3665f76572d.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5907968449ff25b1b52c8b571f029288",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        973580
+      ],
+      "developers": [
+        "CI Games"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.73,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "f12020",
+      "title": "F1® 2020",
+      "image": "https://hb.imgix.net/fba47faa99dead100a00a0acf5595384c67b3ad8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=567810032f72f0f3e892cea4cef03f82",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1080110
+      ],
+      "developers": [
+        "Codemasters"
+      ],
+      "genres": [
+        "Sports",
+        "Racing",
+        "Simulation"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shenmue3",
+      "title": "Shenmue III",
+      "image": "https://hb.imgix.net/2ac922ad194bf9bdf6240abb6a8484f24cf4468e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=28f58ecaeaaa8f816469cc151bc1cf72",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic",
+        "steam"
+      ],
+      "steamAppIds": [
+        878670
+      ],
+      "developers": [
+        "YS Net"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mainassembly",
+      "title": "Main Assembly",
+      "image": "https://hb.imgix.net/89a1bfdb2b3c04e24483160b891925ed4a46dd56.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b9ce56b480c20886cf37a2cd2d8b66ec",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1078920
+      ],
+      "developers": [
+        "Bad Yolk Games"
+      ],
+      "genres": [
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rockofages3_makeandbreak",
+      "title": "Rock of Ages 3: Make & Break",
+      "image": "https://hb.imgix.net/6bd8dbf4ad506211570717cae86b601baae1adbe.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=c8ffb8dd27a35d5ce7793cc09a21c23e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1101360
+      ],
+      "developers": [
+        "ACE Team",
+        "Giant Monkey Robot"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "remothered_brokenporcelain",
+      "title": "Remothered: Broken Porcelain",
+      "image": "https://hb.imgix.net/44b5426ea4a93c73831aabe05189c95566a7ee22.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b3aad15883e274f39b8fc0e64a3e47dd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1427750
+      ],
+      "developers": [
+        "Stormind Games"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.58,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "inotherwaters",
+      "title": "In Other Waters",
+      "image": "https://hb.imgix.net/50efae56ae39e38c0a3b09722a801263fbfaf564.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5a376f6780ee2768c9085c462c53b22b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        890720
+      ],
+      "developers": [
+        "Jump Over The Age"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "avencolony",
+      "title": "Aven Colony",
+      "image": "https://hb.imgix.net/09a101713779723f858120a3965542f113fefa06.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=c1143d27fda2c8717914cdacd28c0a02",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        484900
+      ],
+      "developers": [
+        "Mothership Entertainment LLC"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.66,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "simulacra1and2",
+      "title": "SIMULACRA + SIMULACRA 2",
+      "image": "https://hb.imgix.net/3756f19dc746cfd401702099f3ec952425abf217.png?auto=compress,format&fit=clip&h=383&w=667&s=9d60704d2bd26ba332e0584618398ce4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        712730,
+        1011190
+      ],
+      "developers": [
+        "Kaigan Games"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 12.98,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "coltcanyon",
+      "title": "Colt Canyon",
+      "image": "https://hb.imgix.net/41387791c0caa0752b29853463d7e00ae5a5ce4e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7e07e01d365b5f3846b7a55e63661e7f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        940710
+      ],
+      "developers": [
+        "Retrific"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "skully",
+      "title": "Skully",
+      "image": "https://hb.imgix.net/4288b7861a6c3167de2115bb688fbaad49ff79ea.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=2fb616d7363566b9e2df933779d9cd53",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1249110
+      ],
+      "developers": [
+        "Finish Line Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "popupdungeon",
+      "title": "Popup Dungeon",
+      "image": "https://hb.imgix.net/175b922538460aa75c14f79dbfc782f3df1dd89c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ca3e968a5150f708ffbb6eba8b84c6c5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        349730
+      ],
+      "developers": [
+        "Triple.B.Titles"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

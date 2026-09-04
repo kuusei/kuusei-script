@@ -1,0 +1,326 @@
+{
+  "id": "2020-08",
+  "slug": "August-2020",
+  "title": "August 2020",
+  "url": "https://www.humblebundle.com/membership/August-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:35.206Z",
+  "games": [
+    {
+      "id": "vampyr",
+      "title": "Vampyr",
+      "image": "https://hb.imgix.net/f47c80269dc4d277af3fe9aafe849edd16a7aa9a.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=aa7ff163c485d2495954a0539d4dc4c8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        427290
+      ],
+      "developers": [
+        "DONTNOD Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 49.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "helloneighbor_and_hideandseek_aug2020_choice",
+      "title": "Hello Neighbor + Hello Neighbor Hide and Seek Collection",
+      "image": "https://hb.imgix.net/ced98536bd5f5e48d065379f04f36670b4e31be3.png?auto=compress,format&fit=clip&h=383&w=667&s=2ef8b53bc649197b6637b9e27d85a578",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        521890
+      ],
+      "developers": [
+        "Dynamic Pixels"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 59.98,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wargroove",
+      "title": "Wargroove",
+      "image": "https://hb.imgix.net/a526f410fd1bced990057b8be684516b08a940bf.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=64b8ffd1781915647c0022de66941a17",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        607050
+      ],
+      "developers": [
+        "Chucklefish"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.68,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "callofcthulhu",
+      "title": "Call of Cthulhu",
+      "image": "https://hb.imgix.net/47c1ce92581d9339132e0e18d27f747a8b88ec2c.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ca45ce0b21ad23f44a6b29e2fecac17c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        399810
+      ],
+      "developers": [
+        "Cyanide Studio"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "littlebigworkshop",
+      "title": "Little Big Workshop",
+      "image": "https://hb.imgix.net/ff248ba55676be7a3dbd8aa38c6c04112d6afe3b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=781d05e0e7545380aa2269d141559e53",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        574720
+      ],
+      "developers": [
+        "Mirage Game Studios"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "genesisalphaone_deluxeedition",
+      "title": "Genesis Alpha One Deluxe Edition",
+      "image": "https://hb.imgix.net/be500609585e24145e9d3a0a04811d2104e5568b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4b5bf758a68419ed96ec2199f1f3f30e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        712190
+      ],
+      "developers": [
+        "Radiation Blue"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.57,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "automachef",
+      "title": "Automachef",
+      "image": "https://hb.imgix.net/3403c81c08eb80f0ad857d1266e02e583bac2f4b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=67164f7ee527fd261481ceaebf602fae",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        984800
+      ],
+      "developers": [
+        "Hermes Interactive"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "throughthedarkestoftimes",
+      "title": "Through the Darkest of Times",
+      "image": "https://hb.imgix.net/ea4488fffe0855e946f20ca092add602acd01dde.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e8c0466f112b434a4e7a86125b7de28f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1003090
+      ],
+      "developers": [
+        "Paintbucket Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "americanfugitive",
+      "title": "American Fugitive",
+      "image": "https://hb.imgix.net/aefbaaa813e256876e8ae49235f9fe21cf840d5a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a4e4a36d16801e879da25728e436be74",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        934780
+      ],
+      "developers": [
+        "Fallen Tree Games Ltd"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thecoma2_vicioussisters",
+      "title": "The Coma 2: Vicious Sisters",
+      "image": "https://hb.imgix.net/ac82a559fb67b9b3a76d0f11f78ab93ab200b94f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=33fd7df9b94a708440cd3dad33f56ca1",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1045720
+      ],
+      "developers": [
+        "Devespresso Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wewereheretogether",
+      "title": "We Were Here Together",
+      "image": "https://hb.imgix.net/a0474f38b86a9dd687856a3c71b5d8cb403b7338.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=6a8ed0fcecceaa1851ee9be3f7644eb0",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        865360
+      ],
+      "developers": [
+        "Total Mayhem Games"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Puzzle"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "acaseofdistrust",
+      "title": "A Case of Distrust",
+      "image": "https://hb.imgix.net/ee5b6f7f82158f7ac0559e0bfa5b0143d4c5d8ac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b2415fb30c30dc34e063b847883910c2",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        717610
+      ],
+      "developers": [
+        "The Wandering Ben"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

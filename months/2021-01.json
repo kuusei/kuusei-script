@@ -1,0 +1,324 @@
+{
+  "id": "2021-01",
+  "slug": "January-2021",
+  "title": "January 2021",
+  "url": "https://www.humblebundle.com/membership/January-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:30.828Z",
+  "games": [
+    {
+      "id": "pcbuildingsimulator",
+      "title": "PC Building Simulator",
+      "image": "https://hb.imgix.net/21c3be60887fe422c543b9844bc5e2982b649c31.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=88acf7d54fa4d6a3789c3698bf7107bd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        621060
+      ],
+      "developers": [
+        "Claudiu Kiss"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ancestors_thehumankindodyssey",
+      "title": "Ancestors: The Humankind Odyssey",
+      "image": "https://hb.imgix.net/e025c9cd52cf09b92e0faf7d9594f652e80569e1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6fe6c482a24d8187cc535eb244e238d8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        536270
+      ],
+      "developers": [
+        "Panache Digital Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pathologic2",
+      "title": "Pathologic 2",
+      "image": "https://hb.imgix.net/d9ef9f4afdbf562ed68472dd2aed7fb713eecdab.jpg?auto=compress,format&fit=clip&h=383&w=667&s=625f87398646e8339de8feb1ba8dfd6d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        505230
+      ],
+      "developers": [
+        "Ice-Pick Lodge"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warhammer_chaosbane",
+      "title": "Warhammer: Chaosbane",
+      "image": "https://hb.imgix.net/d8b688042b7060f776da127051407c5c44801c14.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=99af0534dac05ceac51af613c0b3923a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        774241
+      ],
+      "developers": [
+        "Eko Software"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "totaltanksimulator",
+      "title": "Total Tank Simulator",
+      "image": "https://hb.imgix.net/f74db61abf85cad9df31a240df81f8ca33bceafe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fd0efb7aaf08a693b3bb08c7c0d6944f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        674500
+      ],
+      "developers": [
+        "Noobz from Poland"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "songofhorrorcompleteedition",
+      "title": "SONG OF HORROR COMPLETE EDITION",
+      "image": "https://hb.imgix.net/0f85bd186485ae1fc41ad0a8a948c1009ed2febc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4140cc8426b0048f8808a5527b4b1759",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1096570
+      ],
+      "developers": [
+        "Protocol Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nottonight",
+      "title": "Not Tonight",
+      "image": "https://hb.imgix.net/fc606cad975a26cb28a4320c30564564e0007bf4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7d0382696105d4395747ddcd633f6b84",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        733790
+      ],
+      "developers": [
+        "PanicBarn"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "vampire_themasquerade_shadowsofnewyork",
+      "title": "Vampire: The Masquerade - Shadows of New York",
+      "image": "https://hb.imgix.net/0031741f1fec4a4cfa7605f88efae6b9a1960ff6.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e3b3bab43e200c458d0e631b789bade0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1279630
+      ],
+      "developers": [
+        "Draw Distance"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "talesoftheneonsea",
+      "title": "Tales of the Neon Sea",
+      "image": "https://hb.imgix.net/339e3dbd82d1ffb11eb498b7f2cd11b80fd7d76a.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=aa6d7567b388bda9e01f6a491ba34ea7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        828740
+      ],
+      "developers": [
+        "Palm Pioneer"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "minoria",
+      "title": "Minoria",
+      "image": "https://hb.imgix.net/bfee24f3f4cb1f6072c05b7625e17d72a6674268.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=c3a6a38b8919bfe8c9869250ff2e016c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        940910
+      ],
+      "developers": [
+        "Bombservice"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deleveled",
+      "title": "Deleveled",
+      "image": "https://hb.imgix.net/28a0c02f7f774a0e59e5c065604357d274b2fbb2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=646b5a811c66a3fafe05c3f254f5f896",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1045580
+      ],
+      "developers": [
+        "ToasterFuel"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theambassador_fracturedtimeslines",
+      "title": "The Ambassador: Fractured Timelines",
+      "image": "https://hb.imgix.net/d81b80c63ea78a6befffaff39560f98398b2d8c2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9db8fea8024fa23e0db7957b3ef2cf92",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1171660
+      ],
+      "developers": [
+        "tinyDino Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

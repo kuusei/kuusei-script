@@ -1,0 +1,331 @@
+{
+  "id": "2020-04",
+  "slug": "April-2020",
+  "title": "April 2020",
+  "url": "https://www.humblebundle.com/membership/April-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:38.969Z",
+  "games": [
+    {
+      "id": "hitman2",
+      "title": "HITMAN 2",
+      "image": "https://hb.imgix.net/e6fcc9ee2825d22a48b54a22a7beb7f52bbf4af5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ff691c53aaa5b1c9e9cf421471ee60fa",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        863550
+      ],
+      "developers": [
+        "IO Interactive A/S"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gris",
+      "title": "GRIS",
+      "image": "https://hb.imgix.net/e4dea3f70f63ed1d1e36552abc957094cdb81bbb.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a167618214814ad3bebe25320bde9271",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        683320
+      ],
+      "developers": [
+        "Nomada Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 16.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thisisthepolice2",
+      "title": "This Is the Police 2",
+      "image": "https://hb.imgix.net/f53f03546e5c4223632094ff0bca14b707dc29d9.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4f065d6d6f8c12938275f11eb0367db3",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        785740
+      ],
+      "developers": [
+        "THQ Nordic",
+        "Weappy Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "opusmagnum",
+      "title": "Opus Magnum",
+      "image": "https://hb.imgix.net/aaf71284dd02f77fc21ee61daa8efd178964b0ea.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b86f96c310a32faf100ed503e44d138e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        558990
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "molek_syntez",
+      "title": "MOLEK-SYNTEZ",
+      "image": "https://hb.imgix.net/6349389fa9e4dbbeb8007b544ce4aa442b0c1adc.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dd9748759193d726026f976f5f920993",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        1168880
+      ],
+      "developers": [
+        "Zachtronics"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "raiden5_directorscut",
+      "title": "Raiden V: Director's Cut | 雷電 V Director's Cut | 雷電V:導演剪輯版",
+      "image": "https://hb.imgix.net/873767eec591abea7a91dbcd516e8349a985e42b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e2e3d6bb8e0134c9ed946d037bccecbc",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        570050
+      ],
+      "developers": [
+        "Moss Co., Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.65,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "driftland_themagicrevival",
+      "title": "Driftland: The Magic Revival",
+      "image": "https://hb.imgix.net/d7b0a4855653e15dd60376ed4727f859c479146b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a160c41fcd4c275e2acd23a4f91a1ec",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        718650
+      ],
+      "developers": [
+        "Star Drifters"
+      ],
+      "genres": [
+        "Indie",
+        "Multiplayer",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "turok2seedsofevil",
+      "title": "Turok 2: Seeds of Evil",
+      "image": "https://hb.imgix.net/a9ad860e6197ebdb18926b4303bcba2fcab57c26.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9772a2b3cf0df7ce52099232edc060ea",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        405830
+      ],
+      "developers": [
+        "Iguana Entertainment",
+        "Nightdive Studios"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "truberbrook",
+      "title": "Truberbrook / Trüberbrook",
+      "image": "https://hb.imgix.net/c10f6d65323678e718fb3271c2f999774303a775.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5e76d7ced851b4fa4a1ae29740eababd",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        757300
+      ],
+      "developers": [
+        "btf"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thebardstaleiv_directorscut",
+      "title": "The Bard's Tale IV: Director's Cut",
+      "image": "https://hb.imgix.net/8a98457d2d899a8a0ec2a392c5f9539aeb3a9c7c.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ee9224121a0bb235cb9e8402587e8005",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1091980
+      ],
+      "developers": [
+        "inXile Entertainment"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shoppekeep2",
+      "title": "Shoppe Keep 2",
+      "image": "https://hb.imgix.net/6fc3a2ae24c5ae38e089515668d8bada2f72f580.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=f36606473d0f76b5c3cc8d22fa394603",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        684580
+      ],
+      "developers": [
+        "Strange Fire"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.6,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "capitalism2",
+      "title": "Capitalism 2",
+      "image": "https://hb.imgix.net/a4050627f963c337bb873f1c47c1dbf7bff6a367.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c4871adc756baf6dae14dd8f478ab5b5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        638200
+      ],
+      "developers": [
+        "Enlight Software Limited"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

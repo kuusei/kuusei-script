@@ -1,0 +1,324 @@
+{
+  "id": "2020-11",
+  "slug": "November-2020",
+  "title": "November 2020",
+  "url": "https://www.humblebundle.com/membership/November-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:32.522Z",
+  "games": [
+    {
+      "id": "darksidersiii",
+      "title": "Darksiders III",
+      "image": "https://hb.imgix.net/4b4642b9de5811590ac5137b079cc8d845b3d6d5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=133c108e16cc48c00624d8af9a5ecdaf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        606280
+      ],
+      "developers": [
+        "Gunfire Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yakuza_kiwami2",
+      "title": "Yakuza Kiwami 2",
+      "image": "https://hb.imgix.net/951afbe71e83752bbd2962921d480408bf3d4bce.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1bd4ef61f546de2bb4ab96fd9b2d765",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        927380
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "imperator_rome_deluxe",
+      "title": "Imperator: Rome Deluxe Edition",
+      "image": "https://hb.imgix.net/2cadd3b6fca4e6d658f0c5d252bdf611edae219d.png?auto=compress,format&fit=clip&h=383&w=667&s=bf743920e2b4f015efcfa9ad441e6855",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        859580
+      ],
+      "developers": [
+        "Paradox Development Studio"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 54.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cryingsuns",
+      "title": "Crying Suns",
+      "image": "https://hb.imgix.net/a9667af773f6be2052c0bbd07730d7642ef8f330.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4592dffecaa1d0b5404fecd6cf073bbb",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        873940
+      ],
+      "developers": [
+        "Alt Shift"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "darksburg",
+      "title": "Darksburg",
+      "image": "https://hb.imgix.net/1088ff75be5beca2b9cf603aba521b6c3659d70e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=adc9fca61996437ad6f042b6b95553c5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        939100
+      ],
+      "developers": [
+        "Shiro Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "littlemisfortune",
+      "title": "Little Misfortune",
+      "image": "https://hb.imgix.net/924ddb86d8d9389c9e1e48dcb4242272bf6e7fb0.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dfe6077f3a10982b0b6c8b6a3f36fa02",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        714120
+      ],
+      "developers": [
+        "Killmonday Games AB"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "smileforme",
+      "title": "Smile For Me",
+      "image": "https://hb.imgix.net/6a88009e69fd146c031b7cddcbd7ad3dbfd2f671.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b7d314b4411c2f22d1c13d6d5f727503",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1018850
+      ],
+      "developers": [
+        "LimboLane"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "darkwood",
+      "title": "Darkwood",
+      "image": "https://hb.imgix.net/f1ea324b4c2697722362c07a9cc3c7d8a4b71c24.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=c6c3f68e5cc115f180af857950400459",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        274520
+      ],
+      "developers": [
+        "Acid Wizard Studio"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tsioque",
+      "title": "TSIOQUE",
+      "image": "https://hb.imgix.net/d848e0afd93281197b4b830102184d48695ba5f7.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=384c6845c52f5d70dee11df4d2dd7ca7",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        393190
+      ],
+      "developers": [
+        "OhNoo Studio",
+        "Smile"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 13.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rovermechanicsimulator",
+      "title": "Rover Mechanic Simulator",
+      "image": "https://hb.imgix.net/34af4961c1ae640f5260094afe7972d00eca17cf.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a15c8b0d82823f12441de2663fcd0785",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        864680
+      ],
+      "developers": [
+        "Pyramid Games"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "youropa",
+      "title": "Youropa",
+      "image": "https://hb.imgix.net/aa7af400fe7f7b7a2911ec01c3eb63413f36a6da.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=31e69d182a5eca41f6fe2a05ec4f8454",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        640120
+      ],
+      "developers": [
+        "frecle ApS"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Puzzle"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "townsmen_akingdomrebuilt",
+      "title": "Townsmen - A Kingdom Rebuilt",
+      "image": "https://hb.imgix.net/45d5271dcffed3ac47ffda053a92b5471380a95a.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9932a4e4de6e0a2b5afd5b77c888fb18",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        938380
+      ],
+      "developers": [
+        "HandyGames"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "2021-09",
+  "slug": "September-2021",
+  "title": "September 2021",
+  "url": "https://www.humblebundle.com/membership/September-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:23.727Z",
+  "games": [
+    {
+      "id": "pgatour2k21",
+      "title": "PGA TOUR 2K21",
+      "image": "https://hb.imgix.net/2b279e2578b3cd0f1428ef762eb311f83b0c1fe1.png?auto=compress,format&fit=clip&h=383&w=667&s=1ce8d5d84402f88fc9f509f5451880c8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1016120
+      ],
+      "developers": [
+        "HB Studios Multimedia Ltd."
+      ],
+      "genres": [
+        "Sports",
+        "Simulation"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.83,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "neonabyss",
+      "title": "Neon Abyss",
+      "image": "https://hb.imgix.net/89ef874e51496fdabea25db2a9c796a78d55f8cb.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=55417d47d192ea1bd139f90e3c193cf3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        788100
+      ],
+      "developers": [
+        "Veewo Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "notforbroadcast",
+      "title": "Not For Broadcast",
+      "image": "https://hb.imgix.net/d149887244aa203ff2b0669b51df6e6ebcfb3b89.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=584f3601378f39e6340f8b886708c0a3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1147550
+      ],
+      "developers": [
+        "NotGames"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "roki",
+      "title": "Röki",
+      "image": "https://hb.imgix.net/82e5fc172abd86e6a8e6f90ff3a610ee01e0f010.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=33eb93373c737297d324c7ac3f1f3858",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1067540
+      ],
+      "developers": [
+        "Polygon Treehouse"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "naritaboy",
+      "title": "Narita Boy",
+      "image": "https://hb.imgix.net/874748a0b274207396e138e74448b9902713fbdd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=52a78681f5b36e1f81c71b8496891660",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1069530
+      ],
+      "developers": [
+        "Studio Koba"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "westofdead",
+      "title": "West of Dead",
+      "image": "https://hb.imgix.net/bd7fa598f38908a39f9e0a8d02f2e98d0932f7e3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=3c9086d4699cf5852d8b8bd6a905fe54",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1016790
+      ],
+      "developers": [
+        "Upstream Arcade"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "atomicrops",
+      "title": "Atomicrops",
+      "image": "https://hb.imgix.net/4de2bb60b6af8d48df38ef6f8ab94ba1cefb652b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=000765aec1f3ce4ae1df1c8ae8f77b97",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        757320
+      ],
+      "developers": [
+        "Bird Bath Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "heavensvault",
+      "title": "Heaven's Vault",
+      "image": "https://hb.imgix.net/0f34d00ab994c29f55d089610e8019f6ab761e2a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=84438b0f22e81752169bf63c97595755",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        774201
+      ],
+      "developers": [],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "swagandsorcery",
+      "title": "Swag and Sorcery",
+      "image": "https://hb.imgix.net/a0a1c71218a11a58f73c50219be24d1b6182c7c6.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b14909b4900d6309775c289e9a44b56e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        929010
+      ],
+      "developers": [
+        "Lazy Bear Games",
+        "Uroboros Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.53,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "forttriumph",
+      "title": "Fort Triumph",
+      "image": "https://hb.imgix.net/94f95d24e902a2fb95bd49cc8b7eb5577cdde3be.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3ca189ec33ce8af0b8aa15b8329b0045",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        612570
+      ],
+      "developers": [
+        "CookieByte Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "orwell_ignoranceisstrength",
+      "title": "Orwell: Ignorance is Strength",
+      "image": "https://hb.imgix.net/6930b96d97333510c7f6f6890608b196f4a5b82d.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=07b49bacf18b0b93c0a25db5fe6deaeb",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1004490
+      ],
+      "developers": [
+        "Daedalic Entertainment"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "framedcollection",
+      "title": "FRAMED Collection",
+      "image": "https://hb.imgix.net/f2a409e45fce3bd3d6d6be22eed62b238dc74db5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=67d82eddfdeb98b346ae0fcbd76e9428",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        322450
+      ],
+      "developers": [
+        "Loveshack Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

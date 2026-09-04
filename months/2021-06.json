@@ -1,0 +1,318 @@
+{
+  "id": "2021-06",
+  "slug": "June-2021",
+  "title": "June 2021",
+  "url": "https://www.humblebundle.com/membership/June-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:26.216Z",
+  "games": [
+    {
+      "id": "civilization6_platinum",
+      "title": "Sid Meier’s Civilization® VI Platinum Edition",
+      "image": "https://hb.imgix.net/be5dd46a0ebbef81c6c2b522c696e5f4ed4633b0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c59994cb91d774545508ec96d3670adc",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        289070
+      ],
+      "developers": [
+        "Firaxis"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 119.19,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "secretneighbor",
+      "title": "Secret Neighbor",
+      "image": "https://hb.imgix.net/416b0bea985da8389e0032fd0ac739cb84e15041.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=480b0c954aa4ee6cd21f5ee3573d7c0a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        859570
+      ],
+      "developers": [
+        "tinyBuild"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stubbsthezombieinrebelwithoutapulse",
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "image": "https://hb.imgix.net/8d6afafd53cfe6f28229616465176591e0dd612a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ef0cbf929f2eea1ffb97262f49219024",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        7800
+      ],
+      "developers": [
+        "Aspyr"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wormsrumblepluslegendspackdlc",
+      "title": "Worms Rumble + Legends Pack DLC",
+      "image": "https://hb.imgix.net/921491cb04b19a404cd062e0f6a36302c65f318b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ede2499b488249ae7ccbf8cd1ad96ef0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1186040,
+        1440191
+      ],
+      "developers": [
+        "Team17 Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.6,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "goingunder",
+      "title": "Going Under",
+      "image": "https://hb.imgix.net/5a7308a2c42fac7c6925aa9893e7831eb3a54db0.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bb3c5b144f2615567b7688d02ed41488",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1154810
+      ],
+      "developers": [
+        "Team17 Digital"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "panzerpaladin",
+      "title": "Panzer Paladin",
+      "image": "https://hb.imgix.net/8b6ab87e9116f25406cd97b2bb6037566a5a02fb.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=584dffaca5564921a945bfec8af0207e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        975510
+      ],
+      "developers": [
+        "Tribute Games Inc."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "milkywayprincethevampirestar",
+      "title": "Milky Way Prince - The Vampire Star",
+      "image": "https://hb.imgix.net/04e66bd154f0f12b59af1e5457c78676305cd2b2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a549e8a697600ef7066f56c260155f0d",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1302050
+      ],
+      "developers": [
+        "Santa Ragione"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "desolate",
+      "title": "DESOLATE",
+      "image": "https://hb.imgix.net/936d009efdffb3616f7d1f2bcc72a1d2b6167871.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eba6cb7ce6243de112cc45d24dee6f3c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        671510
+      ],
+      "developers": [
+        "Nearga"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.64,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ikenfell",
+      "title": "Ikenfell",
+      "image": "https://hb.imgix.net/237359d394cf541e5e0b7ff5ba8f322d4de11439.png?auto=compress,format&fit=clip&h=383&w=667&s=27685cd0be7e6d08e9c571c02b0cb71a",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        854940
+      ],
+      "developers": [
+        "Happy Ray Games",
+        "Balor Games"
+      ],
+      "genres": [
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pawpawpaw",
+      "title": "Paw Paw Paw",
+      "image": "https://hb.imgix.net/43d58f0d777047034c893c14e266d061fadb0610.jpg?auto=compress,format&fit=clip&h=383&w=667&s=040532a984cfe50bf007198ef2064e35",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1037910
+      ],
+      "developers": [
+        "Simpleton"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "effie",
+      "title": "Effie",
+      "image": "https://hb.imgix.net/884b6bac1f8398f03da692f82142e8038aadf6e2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9a143c0c23b2e9feed173f359aed00c9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        975950
+      ],
+      "developers": [
+        "Inverge Studios"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "disjunction",
+      "title": "Disjunction",
+      "image": "https://hb.imgix.net/f5fe0b4a0e4750803f9bdacd7711d0f5939d6794.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5b561fa8df86a4808fd9b99838985fd8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "gog"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "Ape Tribe Games",
+        "Sold Out"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 15.99,
+      "ratingPercent": 0.85,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "2020-06",
+  "slug": "June-2020",
+  "title": "June 2020",
+  "url": "https://www.humblebundle.com/membership/June-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:36.907Z",
+  "games": [
+    {
+      "id": "supraland",
+      "title": "Supraland",
+      "image": "https://hb.imgix.net/05699c52c83dc3b2b80845f2092dcc78b8dbb668.png?auto=compress,format&fit=clip&h=383&w=667&s=09bf4ce3af56cda7236d98f5bd420f7a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        813630
+      ],
+      "developers": [
+        "Supra Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "grid_2019_ultimate",
+      "title": "GRID™ - Ultimate Edition",
+      "image": "https://hb.imgix.net/cb0f6e2357d058df69f20f72749467d56c78fced.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ce41d1dd97166ae3bcc1b21f97bfb6a9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1146320
+      ],
+      "developers": [
+        "Codemasters"
+      ],
+      "genres": [
+        "Action",
+        "Sports",
+        "Racing",
+        "Simulation"
+      ],
+      "msrpUsd": 64.98,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hellblade_senuassacrifice",
+      "title": "Hellblade: Senua's Sacrifice",
+      "image": "https://hb.imgix.net/8a8221490d7a17310e5d807d7257b452430730f5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0e34889340b36b2880a2a29cf9fac160",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        414340
+      ],
+      "developers": [
+        "Ninja Theory"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "themessenger",
+      "title": "The Messenger",
+      "image": "https://hb.imgix.net/53cd87caa2406fd35d36b070f1c6af9e7fc0857b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=eab86868092a8d063db15874348c4ccb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        764790
+      ],
+      "developers": [
+        "Sabotage"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "barotrauma",
+      "title": "Barotrauma",
+      "image": "https://hb.imgix.net/e04a97b89dfd7545893123cd20aea45556843f16.jpg?auto=compress,format&fit=clip&h=383&w=667&s=89eb7a069f602a51a707d9affb302997",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        602960
+      ],
+      "developers": [
+        "FakeFish",
+        "Undertow Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "felixthereaper",
+      "title": "Felix The Reaper",
+      "image": "https://hb.imgix.net/30d6d28ced55a96aa2aa7dcc7617464dc1fe856c.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d0b2db173ec78cab4c6b0dd222eef6a4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1188640
+      ],
+      "developers": [
+        "Kong Orange"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "menofwar_assaultsquad2",
+      "title": "Men of War: Assault Squad 2 - Warchest Edition",
+      "image": "https://hb.imgix.net/bb22e5bc0ec9e4711c7ff2478789ab330187fd85.png?auto=compress,format&fit=clip&h=383&w=667&s=3bf4a2c131ded359d1d7fa551ab2d746",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        244450
+      ],
+      "developers": [
+        "Digitalmindsoft"
+      ],
+      "genres": [
+        "Action",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 76.94,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stygian_reignoftheoldones",
+      "title": "Stygian: Reign of the Old Ones",
+      "image": "https://hb.imgix.net/5eb7290f530ffa0642228d36c6d1c6902ef5d6ca.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=2a87f79dc81206e8b8b669838b88343b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        779290
+      ],
+      "developers": [
+        "Cultic Games"
+      ],
+      "genres": [
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.67,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "remnantsofnaezith",
+      "title": "Remnants of Naezith",
+      "image": "https://hb.imgix.net/b63e75b5a052b165347e18e9ccdee9da69ea26ff.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=52ed61f5e4934b0110ec99272ab20cff",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        590590
+      ],
+      "developers": [
+        "Tolga Ay"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "overload",
+      "title": "Overload",
+      "image": "https://hb.imgix.net/3818ac3fb9a14e57ab0e9657cab37a3ed98b0872.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=82ab6d71c9a475dc1983b9f2f840b3ce",
+      "platforms": [
+        "linux",
+        "mac",
+        "oculus-rift",
+        "vive",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        448850
+      ],
+      "developers": [
+        "Revival Productions, LLC"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thestillnessofthewind",
+      "title": "The Stillness of the Wind",
+      "image": "https://hb.imgix.net/d16537692c860891f3ab279354d8276e1c8edd5f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9dccc38b0735e4c5437a8531bec850ca",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        828900
+      ],
+      "developers": [
+        "Memory of God",
+        "Lambic Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thekingsbird",
+      "title": "The King's Bird",
+      "image": "https://hb.imgix.net/af08744a614b9e0715f15f3a81daf84c97159dc2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=218cf09c8c45609b1a3ce3f98d948db3",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        812550
+      ],
+      "developers": [
+        "Serenity Forge"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

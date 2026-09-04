@@ -1,0 +1,325 @@
+{
+  "id": "2021-12",
+  "slug": "December-2021",
+  "title": "December 2021",
+  "url": "https://www.humblebundle.com/membership/December-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:21.189Z",
+  "games": [
+    {
+      "id": "maneater",
+      "title": "Maneater",
+      "image": "https://hb.imgix.net/c4bf256f819a43d16824ee0fb24f7266bf5b07be.jpg?auto=compress,format&fit=clip&h=383&w=667&s=29958eb63aea1ac9181c7b2ed1ca4937",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        629820
+      ],
+      "developers": [
+        "Tripwire Interactive"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mordhau",
+      "title": "MORDHAU",
+      "image": "https://hb.imgix.net/dde9a57c92b3a90dac56feba4262d5e2f3c56b87.jpg?auto=compress,format&fit=clip&h=383&w=667&s=03fabc489d62597fa146bb71ea7e9dd9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        629760
+      ],
+      "developers": [
+        "Triternion"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "endzone_aworldapart",
+      "title": "Endzone - A World Apart",
+      "image": "https://hb.imgix.net/bdd21657d8623ff68d9b21923dd06c7a485778d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8beb081bd9071e76b4e46cd87d77c940",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        933820
+      ],
+      "developers": [
+        "Gentlymad Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 41.58,
+      "ratingPercent": 0.72,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beyondthewire",
+      "title": "Beyond The Wire",
+      "image": "https://hb.imgix.net/f6a3cf24bb115bcec24fe557b3a281a26cc29629.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c52be0443297d14414ccc961c541018a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1058650
+      ],
+      "developers": [
+        "Redstone Interactive"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "MMO",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "partisans1941",
+      "title": "Partisans 1941",
+      "image": "https://hb.imgix.net/d6bc4283465831ef5da6e95505e5fb1c6a1dfdcf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d900d95cecf61ea549061db75edad862",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1227530
+      ],
+      "developers": [
+        "Daedalic Entertainment"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.84,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thesurvivalists",
+      "title": "The Survivalists",
+      "image": "https://hb.imgix.net/9cc1b5d0d723b71e85daae1a64f4eaaf114ee7f4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d968170c29ce9e6032132669b593a5f7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        897450
+      ],
+      "developers": [
+        "Team17 Digital Ltd"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lacunaasci_finoiradventure",
+      "title": "Lacuna - A Sci-Fi Noir Adventure",
+      "image": "https://hb.imgix.net/4e70b852623ab0c20ba77571fb16dcb9315c0f9f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a159f638180d1b1a1e17c24441587a97",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1364100
+      ],
+      "developers": [
+        "DigiTales Interactive"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 15.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "8doors_arumsafterlifeadventure",
+      "title": "8 Doors",
+      "image": "https://hb.imgix.net/3f29381764fd6cc4ebcc7a08ed14db4d45692e2f.png?auto=compress,format&fit=clip&h=383&w=667&s=6f09b87490b0460c89a57509dff79455",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        668550
+      ],
+      "developers": [
+        "Rootless Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.79,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "greak_memoriesofazur",
+      "title": "Greak: Memories of Azur",
+      "image": "https://hb.imgix.net/a230a8b393fe53801ce5f55db06c311124197bf8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f5570eccf60018d051bf9f0751c08c2f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1311070
+      ],
+      "developers": [
+        "Navegante Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "flingtothefinish",
+      "title": "Fling to the Finish",
+      "image": "https://hb.imgix.net/25e6e9ca0aa65370fc456714f9403b395bafb190.jpg?auto=compress,format&fit=clip&h=383&w=667&s=49d38d6ec7e16ab45d59fe2a10e7372d",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1054430
+      ],
+      "developers": [
+        "SplitSide Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tohu",
+      "title": "TOHU",
+      "image": "https://hb.imgix.net/f6373dce81a8b41624911da78949a39a393a7be9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=54c68a49b5a76d185acd0c62ac160cab",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1075200
+      ],
+      "developers": [
+        "Fireart Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "voidigo",
+      "title": "Voidigo",
+      "image": "https://hb.imgix.net/edde069733e7f3011da95194a60646c7577a3e4a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8edd2ccfe942369a943efc826ccb6a9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1304680
+      ],
+      "developers": [
+        "semiwork"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 18.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "id": "2020-05",
+  "slug": "May-2020",
+  "title": "May 2020",
+  "url": "https://www.humblebundle.com/membership/May-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:38.055Z",
+  "games": [
+    {
+      "id": "jurassicworldevolution",
+      "title": "Jurassic World Evolution + 1 DLC",
+      "image": "https://hb.imgix.net/e9b23340ff001e51303514f9028c03aa836bc871.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7ec72c0006038b0832e5cd21bc8bdfac",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        648350
+      ],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 44.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "xcom2",
+      "title": "XCOM® 2 + 2 DLC",
+      "image": "https://hb.imgix.net/dce6e70232ad141e08d88f47b835bc7cba5346f0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fa98bd11783841cfe0a432020462878e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        268500
+      ],
+      "developers": [
+        "Firaxis Games",
+        "Feral Interactive (Mac and Linux)"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "riseofindustry",
+      "title": "Rise of Industry",
+      "image": "https://hb.imgix.net/bdf21bfb3b86790d11d59df3c17e579179b8cac4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7acf976f32b3bb5f46d80d361833c871",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        619780
+      ],
+      "developers": [
+        "Dapper Penguin Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.67,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "niche_ageneticssurvivalgame",
+      "title": "Niche - a genetics survival game",
+      "image": "https://hb.imgix.net/34c75c6ab09c02d35a12f2815b19eefc07097478.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=cfcea9b27ccdd57296e3493a76c6210d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1104660
+      ],
+      "developers": [
+        "Stray Fawn Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warhammer40000_gladius_relicsofwar",
+      "title": "Warhammer 40,000: Gladius - Relics of War",
+      "image": "https://hb.imgix.net/a3b91ac9ea7cd714d6ddfb2b046d90ba49756e61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1320736b03d220b99a45f9287963f899",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        994220
+      ],
+      "developers": [
+        "Proxy Studios"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theswordsofditto",
+      "title": "The Swords of Ditto: Mormo's Curse",
+      "image": "https://hb.imgix.net/6bf18654ff5f01e224e18cfe39b3b845071e2fe9.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7a4d99a6452be87830684199ea019b5b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        518060
+      ],
+      "developers": [
+        "onebitbeyond"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.64,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warsaw",
+      "title": "WARSAW",
+      "image": "https://hb.imgix.net/72c6a5acf3af8c97f813ccac84551e0d3b33d0a3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b190253181833dd85057dcedd19c1c1f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        629090
+      ],
+      "developers": [
+        "Pixelated Milk"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 23.99,
+      "ratingPercent": 0.58,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "heaveho",
+      "title": "Heave Ho",
+      "image": "https://hb.imgix.net/db58c21ede6273c2f3e858bc9153c34f33f9fbb3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=c7895e065179e5f1a22f3f9ed975e7f1",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        905340
+      ],
+      "developers": [
+        "Le Cartel Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.95,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mo_astray",
+      "title": "MO:Astray",
+      "image": "https://hb.imgix.net/cb628ea1080637110caaec7316e590cc924c576e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=fea818ce5b534cfc7217095d90062283",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1104660
+      ],
+      "developers": [
+        "Archpray Inc."
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "neoverse",
+      "title": "NEOVERSE",
+      "image": "https://hb.imgix.net/f1f17759c3c9339bdf1fc7736ab8681f97b6dcf3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b0cf14c738396cb4eedb641185627696",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        994220
+      ],
+      "developers": [
+        "Tinogames Inc."
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "chessultra",
+      "title": "Chess Ultra",
+      "image": "https://hb.imgix.net/3110976b55beb2ae7fb722608e9b247650014e95.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=3cbe22c4fa54924f0692b1407d711e1e",
+      "platforms": [
+        "oculus-rift",
+        "vive",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        518060
+      ],
+      "developers": [
+        "Ripstone"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Sports",
+        "Simulation",
+        "Virtual Reality"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "horace",
+      "title": "Horace",
+      "image": "https://hb.imgix.net/847a1ee8354d9a271c25c9c08d034f4f7c145433.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=16fe08a1f3fa30bf3823b5bc541fb41b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        629090
+      ],
+      "developers": [
+        "Paul Helman",
+        "Sean Scaplehorn"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

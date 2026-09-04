@@ -1,0 +1,333 @@
+{
+  "id": "2021-07",
+  "slug": "July-2021",
+  "title": "July 2021",
+  "url": "https://www.humblebundle.com/membership/July-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:25.298Z",
+  "games": [
+    {
+      "id": "yakuza_3remaster",
+      "title": "Yakuza 3 Remastered",
+      "image": "https://hb.imgix.net/dfe07e039fe6d6dc9543bdb763df5a251030ab18.png?auto=compress,format&fit=clip&h=383&w=667&s=4b80e7ae090502c160fff21542d37ca5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1088710
+      ],
+      "developers": [
+        "Ryu Ga Gotoku Studio"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thesurge2",
+      "title": "The Surge 2",
+      "image": "https://hb.imgix.net/1c99b1f8ecd9e4cad685f63584352c19af5cf454.jpg?auto=compress,format&fit=clip&h=383&w=667&s=10f025b76431fae737b564dd8a56ba7a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        644830
+      ],
+      "developers": [
+        "Deck13"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dirt5",
+      "title": "DIRT 5",
+      "image": "https://hb.imgix.net/86f5ab0cdbb63eb72e881bbea30f3ad85863c42b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=6c88fc0d00f8cf6ca31ff82977ce2c58",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1038250
+      ],
+      "developers": [
+        "Codemasters"
+      ],
+      "genres": [
+        "Strategy",
+        "Sports",
+        "Racing",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.64,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hammerting",
+      "title": "Hammerting",
+      "image": "https://hb.imgix.net/88a05e1f79d053d91c558cc0b395c8bcc2c21a56.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8b33260f3ae94b149928c988477bcb30",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        760650
+      ],
+      "developers": [
+        "Warpzone Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.59,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nimbatus_thespacedroneconstructor",
+      "title": "Nimbatus - The Space Drone Constructor",
+      "image": "https://hb.imgix.net/91dc655802e56369da8ece5cd09fbfee709bfc8a.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b6c65a0a85e64a8b4bb072928ff28359",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        383840
+      ],
+      "developers": [
+        "Stray Fawn Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.71,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "paradisekiller",
+      "title": "Paradise Killer",
+      "image": "https://hb.imgix.net/a8c8e101ba940c8367e6559148ca61d780b05875.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0ca7c4f133486a91cbe9802f65bb6f99",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1160220
+      ],
+      "developers": [
+        "Kaizen Game Works"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "killitwithfire",
+      "title": "Kill It With Fire",
+      "image": "https://hb.imgix.net/ebabd666731c8bb4213d08fb5b912ab827e8a7ac.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=c2f22f521286ab08274369d0908a2198",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1179210
+      ],
+      "developers": [
+        "Casey Donnellan Games LLC"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beesimulator",
+      "title": "Bee Simulator",
+      "image": "https://hb.imgix.net/7a3c3f0020879008c619e51c3656776fbf2f7e10.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=8a30b245bad1c536e554f1b307010052",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        914750
+      ],
+      "developers": [
+        "Varsav Game Studios"
+      ],
+      "genres": [
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "elderborn",
+      "title": "ELDERBORN",
+      "image": "https://hb.imgix.net/a587f8bbb056e47c3f50e638040dce91a3694091.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d4ad1705795b01f190ccb71e65d9967f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        727850
+      ],
+      "developers": [
+        "Hyperstrange"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "swine_hdremaster",
+      "title": "S.W.I.N.E. HD Remaster",
+      "image": "https://hb.imgix.net/7674f00989f8227813fb676cbe27c5571dcc4511.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=8df11c6c7f3985c21aa607f1eed1c6cb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        944010
+      ],
+      "developers": [
+        "Kite Games"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deadlydays",
+      "title": "Deadly Days",
+      "image": "https://hb.imgix.net/32abba1ae420f5de167cb987cf69925fcb1ac1c1.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ebb11456a8887b67bfc36a38950e8638",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        740080
+      ],
+      "developers": [
+        "Pixelsplit"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 11.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "adomancientdomainsofmystery",
+      "title": "ADOM (Ancient Domains Of Mystery",
+      "image": "https://hb.imgix.net/19428d69171833bfb8ae5fadd5ab62e9ea4b68af.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4934bd07b6b2a64d519eacf93d030642",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        333300
+      ],
+      "developers": [
+        "Thomas Biskup",
+        "Jochen Terstiege",
+        "Zeno Rogue",
+        "Krzysztof Dycha",
+        "Lucas Dieguez"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

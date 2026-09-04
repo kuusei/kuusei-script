@@ -1,0 +1,390 @@
+{
+  "id": "2020-12",
+  "slug": "December-2020",
+  "title": "December 2020",
+  "url": "https://www.humblebundle.com/membership/December-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:31.607Z",
+  "games": [
+    {
+      "id": "overcooked2_plusdlc",
+      "title": "Overcooked! 2 + Too Many Cooks + Surf 'n' Turf Pack",
+      "image": "https://hb.imgix.net/078afdf9d6a720cffb2494db9c62670990f0e716.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9797c922d0ab9280689d46a493040fe0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        728880,
+        858240,
+        909720
+      ],
+      "developers": [
+        "Ghost Town Games Ltd.",
+        "Team17 Digital Ltd"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 33.97,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "childrenofmorta",
+      "title": "Children of Morta",
+      "image": "https://hb.imgix.net/512a7809e8b8b8e91809133583e8021d9e1ece3a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ea0208c7e5213a8b93b281359ff96dc5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        330020
+      ],
+      "developers": [
+        "Dead Mage"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 21.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "onestepfromeden",
+      "title": "One Step From Eden",
+      "image": "https://hb.imgix.net/8da5e6ed1946797034d4aea080bec892e4f48f53.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=741af36fbee40cb802b753a89bf18b50",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        960690
+      ],
+      "developers": [
+        "Thomas Moon Kang"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thebeastinside",
+      "title": "The Beast Inside",
+      "image": "https://hb.imgix.net/5dba356a62323c61a183b46b52afef6133cae9fe.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=29f6eba130fc4e29de211bd9e318fe0f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        792300
+      ],
+      "developers": [
+        "Illusion Ray Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "indivisible",
+      "title": "Indivisible",
+      "image": "https://hb.imgix.net/850648b95dc85c0fe46c0058d55e2630fc1a4097.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01f2d9e2abe131f7584a0758f9294549",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        421170
+      ],
+      "developers": [
+        "Lab Zero Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shiningresonancerefrain",
+      "title": "Shining Resonance Refrain",
+      "image": "https://hb.imgix.net/4f63b37e414ee389a9d8dea51eab86b5f2799491.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=52cde71e9c03cdab643f7d1570befc56",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        809890
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "zwei_theargesadventure",
+      "title": "Zwei: The Arges Adventure",
+      "image": "https://hb.imgix.net/bd8167af254af721ff21456b257522eacbd47965.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae786bcb74c14f0e655520d563313062",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        427680
+      ],
+      "developers": [
+        "Nihon Falcom"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "zweitheilvardinsurrection",
+      "title": "Zwei: The Ilvard Insurrection",
+      "image": "https://hb.imgix.net/ca970eca3684c527c33d3e6a26d74e1c43c3e473.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=71c1d6487b65217a9799cb3da61beac2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        427700
+      ],
+      "developers": [
+        "Nihon Falcom"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.96,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tabletopplayground",
+      "title": "Tabletop Playground",
+      "image": "https://hb.imgix.net/17cf312785788a0b459a9d40e5da701e2c86fb61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e36f08c21bc78b560b44ca0bbe25a9c7",
+      "platforms": [
+        "linux",
+        "mac",
+        "oculus-rift",
+        "vive",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        838410
+      ],
+      "developers": [
+        "Plasticity Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "frogdetective1_thehauntedisland",
+      "title": "The Haunted Island, a Frog Detective Game",
+      "image": "https://hb.imgix.net/66b5fd1f4eb0e10690c19d41b0b69559820024f1.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=134f7ac92b9fbca57f7792db4f3c5e04",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        963000
+      ],
+      "developers": [
+        "Grace Bruxner",
+        "Thomas Bowker"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 4.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "frogdetective2_thecaseoftheinvisiblewizard",
+      "title": "Frog Detective 2: The Case of the Invisible Wizard",
+      "image": "https://hb.imgix.net/37d10680bdb0351d31df0e56877150b25e977df9.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7538f83b252dc72172eae040312111ce",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1047220
+      ],
+      "developers": [
+        "Grace Bruxner",
+        "Thomas Bowker"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stillthere",
+      "title": "Still There",
+      "image": "https://hb.imgix.net/cf614d8307c5f2e96b6344dcb70c011b29449f50.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=f205fcbeaf8c1059cbff0add79744473",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1189060
+      ],
+      "developers": [
+        "GhostShark"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.89,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "struggling",
+      "title": "Struggling",
+      "image": "https://hb.imgix.net/254096b6b76f9398018bf69ffcc598ee03aefce1.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=26d1c74516b480bb61cea0e77ad21889",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1035560
+      ],
+      "developers": [
+        "Chasing Rats Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pathofgiants",
+      "title": "Path of Giants",
+      "image": "https://hb.imgix.net/58a69e6c4b93924d4f43807bd3cb074c34954b7f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a29165fe3a082fd0e5499e3a64c11a65",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1181400
+      ],
+      "developers": [
+        "Journey Bound Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 8.99,
+      "ratingPercent": 0.99,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

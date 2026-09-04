@@ -1,0 +1,330 @@
+{
+  "id": "2020-07",
+  "slug": "July-2020",
+  "title": "July 2020",
+  "url": "https://www.humblebundle.com/membership/July-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:36.166Z",
+  "games": [
+    {
+      "id": "ageofwonders_planetfall_deluxe",
+      "title": "Age of Wonders: Planetfall - Deluxe Edition",
+      "image": "https://hb.imgix.net/cee37af8395bc27b701511bec3290df5b20071b0.png?auto=compress,format&fit=clip&h=383&w=667&s=9b6f31520925769507fb5ce06351a588",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1078840
+      ],
+      "developers": [
+        "Triumph Studios"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "voidbastards",
+      "title": "Void Bastards",
+      "image": "https://hb.imgix.net/58334efb2003504a2a06b1a488a800b2733b19db.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1c4b4b58f4a902a7f1e027f27d797a2d",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        857980
+      ],
+      "developers": [
+        "Blue Manchu"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "railwayempire",
+      "title": "Railway Empire",
+      "image": "https://hb.imgix.net/cf4f5ecf75612e880537f51b8870f32aa734635f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=43b3dbb07bb97e443968e4e7d4ded282",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        503940
+      ],
+      "developers": [
+        "Gaming Minds Studios"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "battlestargalactica_deadlock",
+      "title": "Battlestar Galactica Deadlock",
+      "image": "https://hb.imgix.net/e303dd5d7dadc26c72594b5075596fbdd101232c.png?auto=compress,format&fit=clip&h=383&w=667&s=b1b60bfc2bb1f74e24147311d339acb5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        544610
+      ],
+      "developers": [
+        "Black Lab Games"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.9,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yuppiepsycho",
+      "title": "Yuppie Psycho",
+      "image": "https://hb.imgix.net/30c6f39f5f9167f1409f2adeb31d472bf05b813d.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=23acb513d3b9de150748c64e7b273153",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        597760
+      ],
+      "developers": [
+        "Baroque Decay"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 16.66,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beathazard2",
+      "title": "Beat Hazard 2",
+      "image": "https://hb.imgix.net/4879e482af6714c9ef81a7bf102108a114c7cb0e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bc506dda7da1d29be8024819174e718a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        618740
+      ],
+      "developers": [
+        "Cold Beam Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Retro"
+      ],
+      "msrpUsd": 18.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sigmatheory_globalcoldwar",
+      "title": "Sigma Theory: Global Cold War",
+      "image": "https://hb.imgix.net/b12041afb415de21c68de1d5b9fe45f96d7ed3b7.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=157e3319a82d5585e909927ae5c11f46",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        716640
+      ],
+      "developers": [
+        "Goblinz Studio",
+        "Mi-Clos Studio"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "metalunit",
+      "title": "Metal Unit",
+      "image": "https://hb.imgix.net/a1100414e5d34d98c8ee4324762267b691da59e9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=750729f85e596b12cf5c49981dcb0edd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1173200
+      ],
+      "developers": [
+        "JellySnow Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.66,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dontescape_4daysinawasteland",
+      "title": "Don't Escape: 4 Days to Survive",
+      "image": "https://hb.imgix.net/dc0720111c044b3d412e2c62acaf2d5a38c68c09.png?auto=compress,format&fit=clip&h=383&w=667&s=b487748b1d83846029d8774c77cb4455",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        611760
+      ],
+      "developers": [
+        "scriptwelder"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "verletswing",
+      "title": "Verlet Swing",
+      "image": "https://hb.imgix.net/60b028cb32ca5c88ebc23d97b8d65ebab3ec8cbd.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dc62745c697c983721b51ace1a36291e",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        811870
+      ],
+      "developers": [
+        "Flamebait Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "basingstoke",
+      "title": "Basingstoke",
+      "image": "https://hb.imgix.net/90da23a25b1d2b47308327a32d7fe1731fab7b9e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b3876b8fbc74c55a09a0eebf409083b9",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        336940
+      ],
+      "developers": [
+        "Puppygames"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "earthlock",
+      "title": "EARTHLOCK",
+      "image": "https://hb.imgix.net/0d6b215d992313db8b4833d3c863354802216f34.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2948465470acfaa101031fabd6268b69",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        761030
+      ],
+      "developers": [
+        "Snowcastle Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

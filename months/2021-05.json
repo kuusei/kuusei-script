@@ -1,0 +1,335 @@
+{
+  "id": "2021-05",
+  "slug": "May-2021",
+  "title": "May 2021",
+  "url": "https://www.humblebundle.com/membership/May-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:27.093Z",
+  "games": [
+    {
+      "id": "metro_exodus",
+      "title": "Metro Exodus",
+      "image": "https://hb.imgix.net/12dd653503fccce3d34136084943176e825d6824.png?auto=compress,format&fit=clip&h=383&w=667&s=4369067ccc6915052719f1541cc24243",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "epic",
+        "steam"
+      ],
+      "steamAppIds": [
+        412020
+      ],
+      "developers": [
+        "4A Games"
+      ],
+      "genres": [
+        "Action",
+        "FPS"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.88,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "darksiders_genesis",
+      "title": "Darksiders Genesis",
+      "image": "https://hb.imgix.net/97b5cafc50d502a76b2bc0d4a1a4094d2274090e.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=52b28265e70b2144addad5373a3d2c25",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        710920
+      ],
+      "developers": [
+        "Airship Syndicate",
+        "THQ Nordic"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hellpoint",
+      "title": "Hellpoint",
+      "image": "https://hb.imgix.net/f0c5207e25f9165c3946aca7d772c803b2a2fc63.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c5429b513d677bf26da9494d06f6d279",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        628670
+      ],
+      "developers": [
+        "Cradle Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.66,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cookservedelicious3",
+      "title": "Cook, Serve, Delicious! 3",
+      "image": "https://hb.imgix.net/fd8b51b34e79b3b20052fe45bf65053eba05f6da.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9a7a08a2d164fa8af202a31f23f8a1ef",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1000030
+      ],
+      "developers": [
+        "Vertigo Gaming Inc."
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "levelhead",
+      "title": "Levelhead",
+      "image": "https://hb.imgix.net/49516f9a383d5bcb0e83725c1178529fa1a661ef.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3f1aecfddc0e9b1f0ae7bcb31c87c3e8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        792710
+      ],
+      "developers": [
+        "Butterscotch Shenanigans"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.97,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "furyunleashed",
+      "title": "Fury Unleashed",
+      "image": "https://hb.imgix.net/828c9e375219e6478b307bf8b1a77f8738ada818.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cc8935c57cab563cf884eb31ca7d0511",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        465200
+      ],
+      "developers": [
+        "Awesome Games Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.8,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sizematters",
+      "title": "Size Matters",
+      "image": "https://hb.imgix.net/dc7c5c6f11811378f70217d01b156ef057b46b27.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b0665242a4b7d23ad5aad2640f163f37",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        976700
+      ],
+      "developers": [
+        "Mazen Games",
+        "GrabTheGames"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Racing",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.92,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "morkredd",
+      "title": "Morkredd",
+      "image": "https://hb.imgix.net/8b0165fb59de618d6b7e49a3540f0977e0e44c8e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=58bb3825547262fffddbaafbf5ef0170",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1331910
+      ],
+      "developers": [
+        "Hyper Games"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "relicta",
+      "title": "Relicta",
+      "image": "https://hb.imgix.net/66cdd5aeacc8c09e4d08554c320bbe0418148967.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d6da01e709afc116a7392cdb2da4e7c5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        941570
+      ],
+      "developers": [
+        "Mighty Polygon"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "retimed",
+      "title": "Retimed",
+      "image": "https://hb.imgix.net/3138632a86745ef05293a26fae4179a60679887b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a26f31ecf8906cbbeaf803bcf38cc1c0",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        760810
+      ],
+      "developers": [
+        "Team Maniax",
+        "Stray Fawn Studio"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.91,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "familyman",
+      "title": "Family Man",
+      "image": "https://hb.imgix.net/79d270850a37371d4628cf42d2f368e4b606538c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ff71d6a2e7d4ed1bb94a5f3cf5791763",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        904360
+      ],
+      "developers": [
+        "Broken Bear Games"
+      ],
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.82,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "vane",
+      "title": "Vane",
+      "image": "https://hb.imgix.net/111167ecfafeaccf2f7d461582f0a38093166296.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4d18d5eb04849ae26fc7c50837397487",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1063310
+      ],
+      "developers": [
+        "Friend & Foe Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.7,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

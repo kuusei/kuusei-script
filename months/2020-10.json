@@ -1,0 +1,319 @@
+{
+  "id": "2020-10",
+  "slug": "October-2020",
+  "title": "October 2020",
+  "url": "https://www.humblebundle.com/membership/October-2020",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:33.323Z",
+  "games": [
+    {
+      "id": "tropico6_elprezedition",
+      "title": "Tropico 6 - El Prez Edition",
+      "image": "https://hb.imgix.net/003509ab3072df45c4efb41c3576425b2725dbc5.png?auto=compress,format&fit=clip&h=383&w=667&s=5526cf59376ed0671530481bf65277f0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        881960
+      ],
+      "developers": [
+        "Limbic Entertainment"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "msrpUsd": 54.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "faetactics",
+      "title": "Fae Tactics",
+      "image": "https://hb.imgix.net/c71e9552288f6abd4b460c434e47b261090a9833.jpg?auto=compress,format&fit=clip&h=383&w=667&s=718f51958aa6470b8fad9e916dd834bd",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        995980
+      ],
+      "developers": [
+        "Endlessfluff Games"
+      ],
+      "genres": [
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sunlessskies",
+      "title": "Sunless Bundle (Sunless Skies + Sunless Sea)",
+      "image": "https://hb.imgix.net/e1af20561fd38b7fba80f2fd25e164dc0b1f430c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b1600ca39ca046c5f83dde5d04c6b2f3",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        596970
+      ],
+      "developers": [
+        "Failbetter Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 43.98,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "irondanger",
+      "title": "Iron Danger",
+      "image": "https://hb.imgix.net/293b9125f8beab27781f99c268f0959a7519a063.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7770f942f999a18cbe6329c6326f1f79",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        899310
+      ],
+      "developers": [
+        "Action Squad Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 34.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "autonauts",
+      "title": "Autonauts",
+      "image": "https://hb.imgix.net/cc37c6ccaf45b897713b1fac69bba4f462d0d2ee.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4d240be4e410499d386071964e33a0d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        979120
+      ],
+      "developers": [
+        "Denki"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.94,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shadows_awakening",
+      "title": "Shadows: Awakening",
+      "image": "https://hb.imgix.net/5de70d183d7b53d0567250c913302a09c651a2ba.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7c0ed807fb49d8e151b89a685d480eca",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        585450
+      ],
+      "developers": [
+        "Games Farm s.r.o."
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.76,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fantasyblacksmith",
+      "title": "Fantasy Blacksmith",
+      "image": "https://hb.imgix.net/6948e2ef4aca7dd83405c94ea90092c1d2aa5d50.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=31997cf31b37ab438a536bd51b98adc5",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        959520
+      ],
+      "developers": [
+        "Heaven Brotherhood"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.23,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thesuicideofrachelfoster",
+      "title": "The Suicide of Rachel Foster",
+      "image": "https://hb.imgix.net/ca0659c5757224aa2c88aab87cc6300414a125c9.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=201f232fb05ca71c685bd9b18fed7c0d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1057750
+      ],
+      "developers": [
+        "ONE-O-ONE GAMES"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 17.99,
+      "ratingPercent": 0.73,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "goatofduty",
+      "title": "GOAT OF DUTY",
+      "image": "https://hb.imgix.net/a224581f945e4a85876050d704ab4064e915c45b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d8858bf85583b26adf6e8e5f9a2b2696",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        555000
+      ],
+      "developers": [
+        "34BigThings srl"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theuncertain_lastquietday",
+      "title": "The Uncertain: Last Quiet Day",
+      "image": "https://hb.imgix.net/43ea75fc00a9dd0d74dcd5391f2bdd2b85454756.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=57b5940d696fbb933625c82d8ffd042f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        406970
+      ],
+      "developers": [
+        "New Game Order"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "basement",
+      "title": "Basement",
+      "image": "https://hb.imgix.net/db38f39cabea8a51a676051ab0058259ca277198.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5c103d8450e0aeace0fd70b5e178c3f5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        340150
+      ],
+      "developers": [
+        "Halfbus"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lightmatter",
+      "title": "Lightmatter",
+      "image": "https://hb.imgix.net/f3ce992fa19cabd691c813bfadeec361cbd0cb78.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=09db140775e460a0478aee223f179bb8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        994140
+      ],
+      "developers": [
+        "Tunnel Vision Games"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.86,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

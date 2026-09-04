@@ -1,0 +1,330 @@
+{
+  "id": "2021-10",
+  "slug": "October-2021",
+  "title": "October 2021",
+  "url": "https://www.humblebundle.com/membership/October-2021",
+  "isActive": false,
+  "usesChoices": true,
+  "scrapedAt": "2026-09-04T10:04:22.941Z",
+  "games": [
+    {
+      "id": "katanazero",
+      "title": "Katana ZERO",
+      "image": "https://hb.imgix.net/8c5a6090f12bb722fdd7a8185e3ec6b5b878a450.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4d739ea87d7daa665ad88f533238ad09",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        460950
+      ],
+      "developers": [
+        "Askiisoft"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.99,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "amnesia_rebirth",
+      "title": "Amnesia: Rebirth",
+      "image": "https://hb.imgix.net/e1e385ff6e4a9235b477a59a8cdbab62b0d608b4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3921ecd30c8714dd0bc289b45b6766f3",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        999220
+      ],
+      "developers": [
+        "Frictional Games"
+      ],
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.77,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "johnwick_hex",
+      "title": "John Wick Hex",
+      "image": "https://hb.imgix.net/8d771e8ee8486e45c909a3e3468e81b41ead8177.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b2394808af78abae80c7d7dd8b82fa3",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1405790
+      ],
+      "developers": [
+        "Bithell Games"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.69,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "112operator",
+      "title": "112 Operator",
+      "image": "https://hb.imgix.net/c010e0555df4aec2d9b3789e8e6a8e8192a43e3a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=04788acf8e60431e125543cdcdd8a95e",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        793460
+      ],
+      "developers": [
+        "Jutsu Games"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 24.99,
+      "ratingPercent": 0.87,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gutsandglory",
+      "title": "Guts and Glory",
+      "image": "https://hb.imgix.net/3ce3db06803e219cbea63a1f1515e56b13f6c8d9.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=3e9115c3c597b572e29d40805e035707",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        537340
+      ],
+      "developers": [
+        "HakJak Productions"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.81,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ringofpain",
+      "title": "Ring of Pain",
+      "image": "https://hb.imgix.net/6145445f0d86d32ec8f1a0748cbf338bc3d9fa47.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=5db6dfd6aa8ef8de4229b19f1862e249",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        998740
+      ],
+      "developers": [
+        "Simon Boxer",
+        "Twice Different"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 1,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "garage_badtrip",
+      "title": "GARAGE: Bad Trip",
+      "image": "https://hb.imgix.net/e65a3611ab8d71917d0b5c031ab4546ccb70e5b2.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=3de687da06080823320221a67208e6ee",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        878580
+      ],
+      "developers": [
+        "Zombie Dynamics"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.74,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thetextorcist_thestoryofraybibbia",
+      "title": "The Textorcist: The Story of Ray Bibbia",
+      "image": "https://hb.imgix.net/213aa43df28c55394098e25bec9b1c098d5cc04c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98a07121f806b8cf2bb2dfe98037d019",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        940680
+      ],
+      "developers": [
+        "Morbidware"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.66,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "toolsup",
+      "title": "Tools Up",
+      "image": "https://hb.imgix.net/38c393cd600a17d1c20b25f1d15300fa93ac0473.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2957d1057664b8cdbe3e6e9830569876",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1004490
+      ],
+      "developers": [
+        "The Knights of Unity"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "Simulation"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.78,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hiveswapfriendsim",
+      "title": "Hiveswap Friendsim",
+      "image": "https://hb.imgix.net/eea09b3471e600483b6844b6b7ae173392971697.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7446fbc8aa71ab739c802278b2729c4e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        833040
+      ],
+      "developers": [
+        "What Pumpkin Games, Inc."
+      ],
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.93,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blackfuture88",
+      "title": "Black Future '88",
+      "image": "https://hb.imgix.net/6b3f483fad3e9f276bb74a417d8b927cdb74f984.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=4251df7033b22ddf80bdf929d75dce2e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        751820
+      ],
+      "developers": [
+        "SUPERSCARYSNAKES"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "msrpUsd": 19.99,
+      "ratingPercent": 0.75,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "syberia3",
+      "title": "Syberia 3",
+      "image": "https://hb.imgix.net/70c659bd1a53425fe9e282c6937e82ef260834ec.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=52010e710ffb3888b8029b847cac4555",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        464340
+      ],
+      "developers": [
+        "Microids"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "msrpUsd": 39.99,
+      "ratingPercent": 0.51,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}
