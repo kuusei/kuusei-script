@@ -1,0 +1,178 @@
+{
+  "id": "2018-02",
+  "slug": "February-2018",
+  "title": "February 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/february_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:28.016Z",
+  "games": [
+    {
+      "id": "lifeisstrange_complete",
+      "title": "Life is Strange Complete Season (Episodes 1-5)",
+      "image": "https://hb.imgix.net/d7344946167486042e1716efdb675cee58bad7e1.png?auto=compress,format&s=2b5d089b69b755677941babae85593c3",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tacoma",
+      "title": "Tacoma",
+      "image": "https://hb.imgix.net/127a9e0e310ec2dc47edc60f1d85d72d88498852.png?auto=compress,format&s=27fbfd02fca5d60e48f8fe3fb177945e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        343860
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "civilization6",
+      "title": "Sid Meier’s Civilization® VI",
+      "image": "https://hb.imgix.net/422335c1fd7b071811941d568f08c4ac87b41279.png?auto=compress,format&s=4c86e20505a79435b2fa5545a8f49b0f",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        289070
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "owlboy",
+      "title": "Owlboy",
+      "image": "https://hb.imgix.net/6702080a00d9f77331c8337dc1b68e1633cf8d22.png?auto=compress,format&s=e939071b7edab2b83858a1a76e63939c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        115800
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blackthefall",
+      "title": "Black the Fall",
+      "image": "https://hb.imgix.net/3998b25091e3bea95294fb8ddab5f1df533facb5.png?auto=compress,format&s=6a2ed9c2346a151e9944889d4ae4a70e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        308060
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "snakepass",
+      "title": "Snake Pass",
+      "image": "https://hb.imgix.net/06f8c4f49ff901d37be7bc87f6c65e505178bd76.png?auto=compress,format&s=a8b486148b5306048821311fab38919e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        544330
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thenorwoodsuite",
+      "title": "The Norwood Suite",
+      "image": "https://hb.imgix.net/f884cabb5d22ad239e3361aef2ac1ce960fd8ccb.png?auto=compress,format&s=c8fd508bdc60f6bd71f0c8f2b7d34fda",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        696480
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fortune499",
+      "title": "Fortune-499",
+      "image": "https://hb.imgix.net/1651a9d0713e8520e4a83576b5e08278598e1453.png?auto=compress,format&s=96a8f4f275310d0164fe6cfc476b0992",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

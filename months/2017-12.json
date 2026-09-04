@@ -1,0 +1,205 @@
+{
+  "id": "2017-12",
+  "slug": "December-2017",
+  "title": "December 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/december_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:35.494Z",
+  "games": [
+    {
+      "id": "rivalsofaether",
+      "title": "Rivals of Aether",
+      "image": "https://hb.imgix.net/f6ab0ca54275132ecf3df6d330a9bbdc02715f33.png?auto=compress,format&s=762132c27ed1d874ca726c4a84e952ee",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        383980
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "h1z1",
+      "title": "H1Z1 + 2 in-game crates",
+      "image": "https://hb.imgix.net/41de890ca83231eed6eb22973dbc1da1a41aa4a1.png?auto=compress,format&s=f196deb0dae8ddfd8b53f0c17a5dfcb2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blazblue_chronophantasmaextend",
+      "title": "BlazBlue: Chronophantasma Extend",
+      "image": "https://hb.imgix.net/da84ecd17a08385af7571b21df3cbfa0faed1cf7.png?auto=compress,format&s=fa6a5ef81d3195c875bd3ff70af3bc56",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        388750
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nexmachina",
+      "title": "Nex Machina",
+      "image": "https://hb.imgix.net/3c93aac084f0324bc64d3a8d8f74a46dc0691ffd.png?auto=compress,format&s=5ebefbe807a33d44fe15bb80a2a3ac89",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        404540
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thesexybrutale",
+      "title": "The Sexy Brutale",
+      "image": "https://hb.imgix.net/fce65f901cfd1a9194e619d3b6f2f16ba55aff8b.png?auto=compress,format&s=a807ad38bee309bb888bcc71006f31ec",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        552590
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "strafe",
+      "title": "STRAFE: Millennium Edition",
+      "image": "https://hb.imgix.net/2177eddf2f52977f10f187485c7c9841d9620e0d.png?auto=compress,format&s=4cffb64a123ff137c0ac9de57dfc7290",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "passpartout_thestarvingartist",
+      "title": "Passpartout: The Starving Artist",
+      "image": "https://hb.imgix.net/67bb073e9d46a43b7078aa523dd494c23cf68ae5.png?auto=compress,format&s=bc73ccfe8ad37b27e38dd3fa60f1c527",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        582550
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wayofthepassivefist",
+      "title": "Way of the Passive Fist",
+      "image": "https://hb.imgix.net/b41557292591a1b4ff64fd4b52728f78c8de892c.png?auto=compress,format&s=ed09882a5bf7eb2b4bd7512b9fb6e3bb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "thorn",
+      "title": "THOR.N",
+      "image": "https://hb.imgix.net/6619d3a1852bd3ae90d8572da611d0677f5b331b.png?auto=compress,format&s=51b7129dce573e2acca46b86ae136ff7",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "crescentbay",
+      "title": "Crescent Bay",
+      "image": "https://hb.imgix.net/b4e3e87273cc86dcd9ea32d7459a769b0bcbe69d.png?auto=compress,format&s=bc8b1ea677ead464b6809029c28b6458",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

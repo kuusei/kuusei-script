@@ -1,0 +1,188 @@
+{
+  "id": "2017-07",
+  "slug": "July-2017",
+  "title": "July 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/july_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:54.168Z",
+  "games": [
+    {
+      "id": "galacticcivilizations3",
+      "title": "Galactic Civilizations® III - Core Edition",
+      "image": "https://hb.imgix.net/d84f145ccfafc1334614c6ef28a2264113423622.png?auto=compress,format&s=7989e2b640df0ba16858622d1744488a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hyperlightdrifter",
+      "title": "Hyper Light Drifter",
+      "image": "https://hb.imgix.net/b9303fb77734e9411e4563eec95f192b16a8c566.png?auto=compress,format&s=c9e337c5c25ee2523c0cd0f8b003a59c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        257850
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stellaris",
+      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "image": "https://hb.imgix.net/e6d5cb8995137e2cea51afc6c4b8d412505f1a47.png?auto=compress,format&s=1e2db033f237a3740ebfd5038060bf82",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        335300
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "armello",
+      "title": "Armello",
+      "image": "https://hb.imgix.net/7c43d56c21d02dc53d265696ad22e33b06ecc6b6.png?auto=compress,format&s=1165dd1fd847ba69cba52b7cb4fa0afa",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        290340
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "simpleplanes",
+      "title": "SimplePlanes",
+      "image": "https://hb.imgix.net/db819574f9917a3facb09173bc26f0514cca8be6.png?auto=compress,format&s=4f4b389800c0c612f5d2bc8017bfb1f7",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        397340
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sherlockholmes_devilsdaughter",
+      "title": "Sherlock Holmes: The Devil's Daughter",
+      "image": "https://hb.imgix.net/d4f7fdc58f37b1b9758c019a2cc402cf027d8f93.png?auto=compress,format&s=cd402d8ee28530ee4010f8a2742d0814",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        350640
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "keroblaster",
+      "title": "Kero Blaster",
+      "image": "https://hb.imgix.net/c254dfd5eaf07d1e58bc417e6c1b23094dc31ee3.png?auto=compress,format&s=285bc56b9f97d48fa84bb972a69ac775",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        292500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "underwhere_issues1-3",
+      "title": "Kevin Eastman's Underwhere Issues 1-3",
+      "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "twothousandoneaspacefelony",
+      "title": "2000:1: A Space Felony",
+      "image": "https://hb.imgix.net/431a1eabf61467f9f6e44395ff9a81fa12a987b5.png?auto=compress,format&s=dfc603cdc9f099afa3be695d09fb050e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

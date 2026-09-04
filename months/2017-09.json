@@ -1,0 +1,169 @@
+{
+  "id": "2017-09",
+  "slug": "September-2017",
+  "title": "September 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/september_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:46.530Z",
+  "games": [
+    {
+      "id": "the_banner_saga_2",
+      "title": "Banner Saga 2",
+      "image": "https://hb.imgix.net/8e00eca3b9f3c8195466aa59ce9ec23cab872a83.png?auto=compress,format&s=d7f88d1768ae321cab8f918be25dabb7",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "momodora_reverie_under_the_moonlight",
+      "title": "Momodora: Reverie Under the Moonlight",
+      "image": "https://hb.imgix.net/c0c1a1309e13ac2c8619686342fd7fa00f9e5f6d.png?auto=compress,format&s=bea03b75bbdfa031cf30101d034b600f",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        428550
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "killingfloor2",
+      "title": "Killing Floor 2",
+      "image": "https://hb.imgix.net/f09b948a1db671833a26194eedb8505a9ddfeaaf.png?auto=compress,format&s=a76adb9dff15111037686db12609fb3a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        232090
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "worms_wmd",
+      "title": "Worms W.M.D",
+      "image": "https://hb.imgix.net/7c30d00ba08a5b4e3a808a74fc55761dcc43f60c.png?auto=compress,format&s=56e0e77fc755037cfc7c4862a9ff35cd",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        327030
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "storiesuntold",
+      "title": "Stories Untold",
+      "image": "https://hb.imgix.net/46e943d90ab16b23fce515506575e058e616082a.png?auto=compress,format&s=99ac864423f57d92b0fd63a7c133bc19",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        558420
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hackyzack",
+      "title": "HackyZack",
+      "image": "https://hb.imgix.net/1b93a47a44862dd5eda6ba9ededfb6ad8c151701.png?auto=compress,format&s=ab4a4a6584dd43999d4d113892c17046",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        508530
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "eterium",
+      "title": "Eterium",
+      "image": "https://hb.imgix.net/6434ce21bf47a8dae8b71e5a98d0d28b0bb9248d.png?auto=compress,format&s=c5a97189a134b4d922a7c57d466b57d2",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "volantia",
+      "title": "Volantia: Kingdom in the Sky",
+      "image": "https://hb.imgix.net/37c1ac84044bbdc17a4845662447576c732ff85b.png?auto=compress,format&s=1882c6589d9cd5356b4c89b6ab008df8",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "2018-01",
+  "slug": "January-2018",
+  "title": "January 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/january_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:31.700Z",
+  "games": [
+    {
+      "id": "tombraider2013",
+      "title": "Tomb Raider",
+      "image": "https://hb.imgix.net/37c7669a8ec296d77c579e5b64a0f2723ec59cfa.png?auto=compress,format&s=ac5807d7d8583238244f7936854342ae",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3558670
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sleepingdogs_definitive",
+      "title": "Sleeping Dogs: Definitive Edition",
+      "image": "https://hb.imgix.net/5928243920a1fe0163f3402136741f84dab1ebfc.png?auto=compress,format&s=c9c1210299d4d0b1852e87dfd4646497",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        307690
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "quantumbreak",
+      "title": "Quantum Break",
+      "image": "https://hb.imgix.net/933b3964264eb5e6cbec9bd77e4a934599be09f5.png?auto=compress,format&s=a5d357bbea3bbaa99d8b0f9d2bebcaf8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        474960
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thelongdark",
+      "title": "The Long Dark®",
+      "image": "https://hb.imgix.net/01962c361e3658d430a409b724110958b6493c82.png?auto=compress,format&s=9db3772c9f40ecca8ef7cd735fa968ce",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        305620
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warhammer_40000tm_dawn_of_war_iii",
+      "title": "Warhammer 40,000: Dawn of War III",
+      "image": "https://hb.imgix.net/327db7d66433f17ff553b41848952bf84c9c775f.png?auto=compress,format&s=76931e1fbfb58520f226149704180903",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        285190
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hiveswap_act1",
+      "title": "HIVESWAP: Act 1",
+      "image": "https://hb.imgix.net/ea5711b0789ddac243e539dfc23c1e89163f29e1.png?auto=compress,format&s=4360d9b674a0ae4dd57602f7c8de9147",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        623940
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mrshifty",
+      "title": "Mr. Shifty",
+      "image": "https://hb.imgix.net/fc6ef044faa542fa5f933672278491b0c6f6382c.png?auto=compress,format&s=faac80a94e877501666a4b4b58af3ead",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        489140
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cursedcastilla",
+      "title": "Cursed Castilla (Maldita Castilla EX)",
+      "image": "https://hb.imgix.net/fa546eb79dd49958e3529dc55d522ccd2eb72ec0.png?auto=compress,format&s=1d8741f9e57b7982ac9acde267341559",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        534290
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hitchhiker",
+      "title": "Hitchhiker",
+      "image": "https://hb.imgix.net/de7676898c220dbf9e8b98f93d2476de8fe773d0.png?auto=compress,format&s=01c56d307a3a7e603146473bdb33e3c2",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

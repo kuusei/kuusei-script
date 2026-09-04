@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T10:07:39.092Z",
+  "generatedAt": "2026-09-04T12:11:41.604Z",
   "source": "humblebundle.com",
   "months": [
     {
@@ -25030,6 +25030,4289 @@
           "image": "https://hb.imgix.net/4fca710a3b31fd83050ce8de5c2b69c20de982b4.png?auto=compress,format&s=09b8eca26b532ceadae6a8dfaf4924b8",
           "platforms": [],
           "deliveryMethods": [],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2018-04",
+      "slug": "April-2018",
+      "title": "April 2018 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/april_2018_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:16.835Z",
+      "games": [
+        {
+          "id": "outlast2",
+          "title": "Outlast 2",
+          "image": "https://hb.imgix.net/6a053c0bbdc6d02357a8b66c09099652acf4a1ad.png?auto=compress,format&s=9782cbff3f36c9a2b28b318c4744dcae",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            414700
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "laracroftgo",
+          "title": "Lara Croft GO",
+          "image": "https://hb.imgix.net/a6480fe69779d0e283fdd53008f33e490f74d369.png?auto=compress,format&s=4e7c9256172a757873dea4872de57050",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            540840
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "deusex_mankinddivided",
+          "title": "Deus Ex: Mankind Divided™",
+          "image": "https://hb.imgix.net/b27dfc48e954e4460861d61c604533e6fa2e0aff.png?auto=compress,format&s=2582c1dce2fde97febc3c03a6f64fd6b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            337000
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "godeater2rageburst",
+          "title": "GOD EATER 2: Rage Burst",
+          "image": "https://hb.imgix.net/defb6387c3152150b33af57b8afb9287c60c7db6.png?auto=compress,format&s=87f300167287abdc47d71aeb1dd92b20",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "mafia3",
+          "title": "Mafia III",
+          "image": "https://hb.imgix.net/09078304fab0997913246f2aa12dd92ff397419b.png?auto=compress,format&s=51efbe6d5b7cc69af733aefd9039d446",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            360430
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "subterrain",
+          "title": "Subterrain",
+          "image": "https://hb.imgix.net/a80336f2af41c7d09f457d8020b58723f892d2ee.png?auto=compress,format&s=3c460e49cc50a8bd2f2253f46d342538",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            340490
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "aer_memoriesofold",
+          "title": "AER Memories of Old",
+          "image": "https://hb.imgix.net/6b71a15ad9a9c2757a7dc3308d812e2e96e28023.png?auto=compress,format&s=ad1321ff5ae17cbe620c0d7d96135348",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            331870
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "laserleague",
+          "title": "Laser League",
+          "image": "https://hb.imgix.net/2348706b9f847473e281d13897381a0eb3b272f4.png?auto=compress,format&s=1aff5e36f18cff97ac4cb6e05b579015",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "lyricsonata",
+          "title": "Lyric Sonata",
+          "image": "https://hb.imgix.net/4ec3ace4aeb35bf2876439e2a0775513d3e17923.png?auto=compress,format&s=d3d122c9e8aa2a8c44e7f965b71416e2",
+          "platforms": [],
+          "deliveryMethods": [],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2018-03",
+      "slug": "March-2018",
+      "title": "March 2018 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/march_2018_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:24.369Z",
+      "games": [
+        {
+          "id": "overgrowth",
+          "title": "Overgrowth",
+          "image": "https://hb.imgix.net/d98c25e99524cdcf2a8e6e7642fd73af7312e1ed.png?auto=compress,format&s=fbc1d443c8b9aeac6efb0a730a5124ee",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            25000
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "lostcastle",
+          "title": "Lost Castle",
+          "image": "https://hb.imgix.net/a1ba45454fac33436750e7662261c2d100d953e3.png?auto=compress,format&s=c8350e57e4ee385cccf7feaf41875ea8",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            1415420
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "darksouls3",
+          "title": "DARK SOULS™ III",
+          "image": "https://hb.imgix.net/ddefcf6bac200be85051d113c61ae894b1e2ec38.png?auto=compress,format&s=396c86dfac0c7bdea4739cfafe24ba02",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            374320
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "splasher",
+          "title": "Splasher",
+          "image": "https://hb.imgix.net/6ed4acf8d5fb0eb949e74ab8141d23800c7a328d.png?auto=compress,format&s=38a2f2fb02ab67c88c1a1dd7d153dcf5",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            446840
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "aviaryattorney",
+          "title": "Aviary Attorney",
+          "image": "https://hb.imgix.net/0836a174ccd95a6eb3285ba7c9ef32a120f2d374.png?auto=compress,format&s=4e4d0319791575a8275bf128f27f14b8",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            384630
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "lastdayofjune",
+          "title": "Last Day of June",
+          "image": "https://hb.imgix.net/caa3683013e9998e8529bb66bdce9a3bca79d18a.png?auto=compress,format&s=68619dde70949b4bdd527a566bc9451b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            635320
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "holypotatoeswereinspace",
+          "title": "Holy Potatoes! We're in Space?!",
+          "image": "https://hb.imgix.net/61fa374dcf6478a9beeea5874217b5006fe79865.png?auto=compress,format&s=3e488d9274f33540f91d3fe56d6dc797",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "drawkanoid",
+          "title": "Drawkanoid",
+          "image": "https://hb.imgix.net/254b5785cfd44b9dbbc9263ed906a71d040673f3.png?auto=compress,format&s=241fd97566faea8122e88a326dfb6df0",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            951370
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        }
+      ]
+    },
+    {
+      "id": "2018-02",
+      "slug": "February-2018",
+      "title": "February 2018 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/february_2018_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:28.016Z",
+      "games": [
+        {
+          "id": "lifeisstrange_complete",
+          "title": "Life is Strange Complete Season (Episodes 1-5)",
+          "image": "https://hb.imgix.net/d7344946167486042e1716efdb675cee58bad7e1.png?auto=compress,format&s=2b5d089b69b755677941babae85593c3",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "tacoma",
+          "title": "Tacoma",
+          "image": "https://hb.imgix.net/127a9e0e310ec2dc47edc60f1d85d72d88498852.png?auto=compress,format&s=27fbfd02fca5d60e48f8fe3fb177945e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            343860
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "civilization6",
+          "title": "Sid Meier’s Civilization® VI",
+          "image": "https://hb.imgix.net/422335c1fd7b071811941d568f08c4ac87b41279.png?auto=compress,format&s=4c86e20505a79435b2fa5545a8f49b0f",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            289070
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "owlboy",
+          "title": "Owlboy",
+          "image": "https://hb.imgix.net/6702080a00d9f77331c8337dc1b68e1633cf8d22.png?auto=compress,format&s=e939071b7edab2b83858a1a76e63939c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            115800
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "blackthefall",
+          "title": "Black the Fall",
+          "image": "https://hb.imgix.net/3998b25091e3bea95294fb8ddab5f1df533facb5.png?auto=compress,format&s=6a2ed9c2346a151e9944889d4ae4a70e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            308060
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "snakepass",
+          "title": "Snake Pass",
+          "image": "https://hb.imgix.net/06f8c4f49ff901d37be7bc87f6c65e505178bd76.png?auto=compress,format&s=a8b486148b5306048821311fab38919e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            544330
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thenorwoodsuite",
+          "title": "The Norwood Suite",
+          "image": "https://hb.imgix.net/f884cabb5d22ad239e3361aef2ac1ce960fd8ccb.png?auto=compress,format&s=c8fd508bdc60f6bd71f0c8f2b7d34fda",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            696480
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fortune499",
+          "title": "Fortune-499",
+          "image": "https://hb.imgix.net/1651a9d0713e8520e4a83576b5e08278598e1453.png?auto=compress,format&s=96a8f4f275310d0164fe6cfc476b0992",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2018-01",
+      "slug": "January-2018",
+      "title": "January 2018 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/january_2018_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:31.700Z",
+      "games": [
+        {
+          "id": "tombraider2013",
+          "title": "Tomb Raider",
+          "image": "https://hb.imgix.net/37c7669a8ec296d77c579e5b64a0f2723ec59cfa.png?auto=compress,format&s=ac5807d7d8583238244f7936854342ae",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            3558670
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "sleepingdogs_definitive",
+          "title": "Sleeping Dogs: Definitive Edition",
+          "image": "https://hb.imgix.net/5928243920a1fe0163f3402136741f84dab1ebfc.png?auto=compress,format&s=c9c1210299d4d0b1852e87dfd4646497",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            307690
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "quantumbreak",
+          "title": "Quantum Break",
+          "image": "https://hb.imgix.net/933b3964264eb5e6cbec9bd77e4a934599be09f5.png?auto=compress,format&s=a5d357bbea3bbaa99d8b0f9d2bebcaf8",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            474960
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thelongdark",
+          "title": "The Long Dark®",
+          "image": "https://hb.imgix.net/01962c361e3658d430a409b724110958b6493c82.png?auto=compress,format&s=9db3772c9f40ecca8ef7cd735fa968ce",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            305620
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "warhammer_40000tm_dawn_of_war_iii",
+          "title": "Warhammer 40,000: Dawn of War III",
+          "image": "https://hb.imgix.net/327db7d66433f17ff553b41848952bf84c9c775f.png?auto=compress,format&s=76931e1fbfb58520f226149704180903",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            285190
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hiveswap_act1",
+          "title": "HIVESWAP: Act 1",
+          "image": "https://hb.imgix.net/ea5711b0789ddac243e539dfc23c1e89163f29e1.png?auto=compress,format&s=4360d9b674a0ae4dd57602f7c8de9147",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            623940
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "mrshifty",
+          "title": "Mr. Shifty",
+          "image": "https://hb.imgix.net/fc6ef044faa542fa5f933672278491b0c6f6382c.png?auto=compress,format&s=faac80a94e877501666a4b4b58af3ead",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            489140
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "cursedcastilla",
+          "title": "Cursed Castilla (Maldita Castilla EX)",
+          "image": "https://hb.imgix.net/fa546eb79dd49958e3529dc55d522ccd2eb72ec0.png?auto=compress,format&s=1d8741f9e57b7982ac9acde267341559",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            534290
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hitchhiker",
+          "title": "Hitchhiker",
+          "image": "https://hb.imgix.net/de7676898c220dbf9e8b98f93d2476de8fe773d0.png?auto=compress,format&s=01c56d307a3a7e603146473bdb33e3c2",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-12",
+      "slug": "December-2017",
+      "title": "December 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/december_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:35.494Z",
+      "games": [
+        {
+          "id": "rivalsofaether",
+          "title": "Rivals of Aether",
+          "image": "https://hb.imgix.net/f6ab0ca54275132ecf3df6d330a9bbdc02715f33.png?auto=compress,format&s=762132c27ed1d874ca726c4a84e952ee",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            383980
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "h1z1",
+          "title": "H1Z1 + 2 in-game crates",
+          "image": "https://hb.imgix.net/41de890ca83231eed6eb22973dbc1da1a41aa4a1.png?auto=compress,format&s=f196deb0dae8ddfd8b53f0c17a5dfcb2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "blazblue_chronophantasmaextend",
+          "title": "BlazBlue: Chronophantasma Extend",
+          "image": "https://hb.imgix.net/da84ecd17a08385af7571b21df3cbfa0faed1cf7.png?auto=compress,format&s=fa6a5ef81d3195c875bd3ff70af3bc56",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            388750
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "nexmachina",
+          "title": "Nex Machina",
+          "image": "https://hb.imgix.net/3c93aac084f0324bc64d3a8d8f74a46dc0691ffd.png?auto=compress,format&s=5ebefbe807a33d44fe15bb80a2a3ac89",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            404540
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thesexybrutale",
+          "title": "The Sexy Brutale",
+          "image": "https://hb.imgix.net/fce65f901cfd1a9194e619d3b6f2f16ba55aff8b.png?auto=compress,format&s=a807ad38bee309bb888bcc71006f31ec",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            552590
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "strafe",
+          "title": "STRAFE: Millennium Edition",
+          "image": "https://hb.imgix.net/2177eddf2f52977f10f187485c7c9841d9620e0d.png?auto=compress,format&s=4cffb64a123ff137c0ac9de57dfc7290",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "passpartout_thestarvingartist",
+          "title": "Passpartout: The Starving Artist",
+          "image": "https://hb.imgix.net/67bb073e9d46a43b7078aa523dd494c23cf68ae5.png?auto=compress,format&s=bc73ccfe8ad37b27e38dd3fa60f1c527",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            582550
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wayofthepassivefist",
+          "title": "Way of the Passive Fist",
+          "image": "https://hb.imgix.net/b41557292591a1b4ff64fd4b52728f78c8de892c.png?auto=compress,format&s=ed09882a5bf7eb2b4bd7512b9fb6e3bb",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "thorn",
+          "title": "THOR.N",
+          "image": "https://hb.imgix.net/6619d3a1852bd3ae90d8572da611d0677f5b331b.png?auto=compress,format&s=51b7129dce573e2acca46b86ae136ff7",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "crescentbay",
+          "title": "Crescent Bay",
+          "image": "https://hb.imgix.net/b4e3e87273cc86dcd9ea32d7459a769b0bcbe69d.png?auto=compress,format&s=bc8b1ea677ead464b6809029c28b6458",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-11",
+      "slug": "November-2017",
+      "title": "November 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/november_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:39.424Z",
+      "games": [
+        {
+          "id": "residentevil5_gold",
+          "title": "Resident Evil™ 5 Gold Edition",
+          "image": "https://hb.imgix.net/50d04a961094e4fba4595968345fd3689ca48565.png?auto=compress,format&s=898bae9c2a403f28619244c43bcb5df1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "shadowtactics",
+          "title": "Shadow Tactics: Blades of the Shogun",
+          "image": "https://hb.imgix.net/ea342a9dbddfcb93790b4f6715dde3ea13fbfa49.png?auto=compress,format&s=3737298e917737ba913ad7c98df2a705",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            418240
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "elderscrollsonline_tamrielunlimited",
+          "title": "The Elder Scrolls Online: Tamriel Unlimited",
+          "image": "https://hb.imgix.net/3f806287e69e14a505a18d95948ebc3f38128230.png?auto=compress,format&s=c378fb2ca25e05bb853ca0a957eea4dc",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "quakechampions",
+          "title": "Quake Champions",
+          "image": "https://hb.imgix.net/9708d7a4332338dd9e53fa2a72389dc47844dedc.png?auto=compress,format&s=6b3a4c1c170502cc297be985d3611995",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            611500
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "elderscrollslegends",
+          "title": "a special offering for The Elder Scrolls: Legends",
+          "image": "https://hb.imgix.net/e500f035d5e347fd74d26930daf1d14657dd6d42.png?auto=compress,format&s=ff1f062cb7a967b09599f81b2c15939e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "riseofthetombraider",
+          "title": "Dead Rising 2",
+          "image": "https://hb.imgix.net/60121d3f8c7c012ef73dcca5b001ce194c0da287.png?auto=compress,format&s=ab9ba5c91430d3a57bad29c3113efc10",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            45740
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "silence",
+          "title": "Silence",
+          "image": "https://hb.imgix.net/1738f488d3ff32840c6fae88fae0afd3b7496b01.png?auto=compress,format&s=78c6b5cd608a5b725155643763249593",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "emilyisawaytoo",
+          "title": "Emily is Away Too",
+          "image": "https://hb.imgix.net/6e89ea28b90cece21e51af3acf0aab25d44117bd.png?auto=compress,format&s=feccf528fcdc1f1b27ddddf79d867f6a",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            523780
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "worldtothewest",
+          "title": "World to the West",
+          "image": "https://hb.imgix.net/386879145b7648dfcb105ba95411822f77438230.png?auto=compress,format&s=fbf44302c72281d186cbdaee0dcce311",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            530020
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wilmotswarehouse",
+          "title": "Wilmot's Warehouse",
+          "image": "https://hb.imgix.net/a1817ff9cfb8069ea227fa12cb58bf70a3b0297c.png?auto=compress,format&s=8fde2cc057889f903b85fc8acbaa18fa",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-10",
+      "slug": "October-2017",
+      "title": "October 2017 Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/october_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:43.509Z",
+      "games": [
+        {
+          "id": "wargame_reddragon",
+          "title": "Wargame: Red Dragon",
+          "image": "https://hb.imgix.net/a7ec90f146895ef8606ad1d6eedb016ad48d2b1e.png?auto=compress,format&s=1b879df78a7759e0cac339d06a889c26",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            251060
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "furi",
+          "title": "Furi",
+          "image": "https://hb.imgix.net/e62bcca5c70c15edb137fcabb8fa5ffa87dc68d2.png?auto=compress,format&s=8fc2f9a9421738c5723ab50baecd7843",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            423230
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "riseofthetombraider",
+          "title": "Rise of the Tomb Raider™",
+          "image": "https://hb.imgix.net/1a7bc7de5084ea372d2a53f6806f89c63b342e54.png?auto=compress,format&s=e95eda16d0b18aa1db67d39686697270",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            391220
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "orwell",
+          "title": "Orwell: Keeping an Eye On You",
+          "image": "https://hb.imgix.net/5587bb12f45af09f23e85fc328cd90ae8f6f6d25.png?auto=compress,format&s=4bb05feb80b992a6988e3c0a71434a35",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            491950
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "seasonsafterfall",
+          "title": "Seasons after Fall",
+          "image": "https://hb.imgix.net/9dd3c634481bad42ee7b4a87bd2b005166b0ba47.png?auto=compress,format&s=6badd772f2f17bae6d28af32983f135a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            366320
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theshroudedisle",
+          "title": "The Shrouded Isle",
+          "image": "https://hb.imgix.net/dd370413a75b5a962fdde6ef20a67dca83a42b61.png?auto=compress,format&s=3d129c273e0f6fdaa830cc70103b8411",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            501320
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "scannersombre",
+          "title": "Scanner Sombre",
+          "image": "https://hb.imgix.net/270778242ad5eaa50b37b4bd2e943045cf89543d.png?auto=compress,format&s=3fb19cf3f10997c6ff733d39f6420031",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            475190
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "gettingoveritwithbennettfoddy",
+          "title": "Getting Over It with Bennett Foddy",
+          "image": "https://hb.imgix.net/24921aae9063dbd4c73d1ad57b998d08fc39a819.png?auto=compress,format&s=ada09e5061adc37b3abd1e2663a48cc5",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-09",
+      "slug": "September-2017",
+      "title": "September 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/september_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:46.530Z",
+      "games": [
+        {
+          "id": "the_banner_saga_2",
+          "title": "Banner Saga 2",
+          "image": "https://hb.imgix.net/8e00eca3b9f3c8195466aa59ce9ec23cab872a83.png?auto=compress,format&s=d7f88d1768ae321cab8f918be25dabb7",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "momodora_reverie_under_the_moonlight",
+          "title": "Momodora: Reverie Under the Moonlight",
+          "image": "https://hb.imgix.net/c0c1a1309e13ac2c8619686342fd7fa00f9e5f6d.png?auto=compress,format&s=bea03b75bbdfa031cf30101d034b600f",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            428550
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "killingfloor2",
+          "title": "Killing Floor 2",
+          "image": "https://hb.imgix.net/f09b948a1db671833a26194eedb8505a9ddfeaaf.png?auto=compress,format&s=a76adb9dff15111037686db12609fb3a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            232090
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "worms_wmd",
+          "title": "Worms W.M.D",
+          "image": "https://hb.imgix.net/7c30d00ba08a5b4e3a808a74fc55761dcc43f60c.png?auto=compress,format&s=56e0e77fc755037cfc7c4862a9ff35cd",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            327030
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "storiesuntold",
+          "title": "Stories Untold",
+          "image": "https://hb.imgix.net/46e943d90ab16b23fce515506575e058e616082a.png?auto=compress,format&s=99ac864423f57d92b0fd63a7c133bc19",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            558420
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hackyzack",
+          "title": "HackyZack",
+          "image": "https://hb.imgix.net/1b93a47a44862dd5eda6ba9ededfb6ad8c151701.png?auto=compress,format&s=ab4a4a6584dd43999d4d113892c17046",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            508530
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "eterium",
+          "title": "Eterium",
+          "image": "https://hb.imgix.net/6434ce21bf47a8dae8b71e5a98d0d28b0bb9248d.png?auto=compress,format&s=c5a97189a134b4d922a7c57d466b57d2",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "volantia",
+          "title": "Volantia: Kingdom in the Sky",
+          "image": "https://hb.imgix.net/37c1ac84044bbdc17a4845662447576c732ff85b.png?auto=compress,format&s=1882c6589d9cd5356b4c89b6ab008df8",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-08",
+      "slug": "August-2017",
+      "title": "August 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/august_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:50.071Z",
+      "games": [
+        {
+          "id": "onepiece_burningblood",
+          "title": "ONE PIECE BURNING BLOOD",
+          "image": "https://hb.imgix.net/8b2e69a7a37603028f4322484cf1a71181d168e2.png?auto=compress,format&s=4016aecd0db41a1b9eb936f963b296f4",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            425220
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "offworldtradingco",
+          "title": "Offworld Trading Company",
+          "image": "https://hb.imgix.net/c948674388436d2278cabb22f41fe65894c4f696.png?auto=compress,format&s=fe424582495d08f2c05d21054c03348f",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            271240
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "pillarsofeternity_hero",
+          "title": "Pillars of Eternity",
+          "image": "https://hb.imgix.net/666d8912ee97a8be247e6924d84cab12016b2c26.png?auto=compress,format&s=54d2b994e096d4e71a9cf6526b7449da",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            291650
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "nba_2k17",
+          "title": "NBA 2K17",
+          "image": "https://hb.imgix.net/aafd0e0783a85188f5194b98fe5d628af1e6ce32.png?auto=compress,format&s=13011a3ab1bb3c3e3c81aa42753eb667",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "warfortheoverworld",
+          "title": "War for the Overworld",
+          "image": "https://hb.imgix.net/e0f222f5ee3f8068adddadc15c7ce624e04c43d7.png?auto=compress,format&s=4d84117d15406f2dc2dcde1b4eab9b0e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            230190
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "overcooked",
+          "title": "Overcooked",
+          "image": "https://hb.imgix.net/24f055b55dcd30599e0f50434d2bf747c5ebbd78.png?auto=compress,format&s=8b5c67ba1783bdd74e5f7c22539ff6cf",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            448510
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wuppo",
+          "title": "Wuppo",
+          "image": "https://hb.imgix.net/510968f56d8e0533bd28f5f2a42e63c3632ed368.png?auto=compress,format&s=274e8deacf00b72b70aa6cd05a9e91c1",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            400630
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "nongunz",
+          "title": "Nongünz",
+          "image": "https://hb.imgix.net/3a57ca477b9457be2392164cc3f9071561f6aa68.png?auto=compress,format&s=010e9c004704e1a30c61fb1cf61c87cd",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "underwhere_issues1-4",
+          "title": "Kevin Eastman's Underwhere Issues 1-4",
+          "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+          "platforms": [],
+          "deliveryMethods": [],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "quietcity",
+          "title": "Quiet City",
+          "image": "https://hb.imgix.net/fbd32bf47c24a59f5360636d67220f2617ebf848.png?auto=compress,format&s=3d39310235f08634d417b19f81c16505",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-07",
+      "slug": "July-2017",
+      "title": "July 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/july_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:54.168Z",
+      "games": [
+        {
+          "id": "galacticcivilizations3",
+          "title": "Galactic Civilizations® III - Core Edition",
+          "image": "https://hb.imgix.net/d84f145ccfafc1334614c6ef28a2264113423622.png?auto=compress,format&s=7989e2b640df0ba16858622d1744488a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hyperlightdrifter",
+          "title": "Hyper Light Drifter",
+          "image": "https://hb.imgix.net/b9303fb77734e9411e4563eec95f192b16a8c566.png?auto=compress,format&s=c9e337c5c25ee2523c0cd0f8b003a59c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            257850
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "stellaris",
+          "title": "DARK SOULS™ II: Scholar of the First Sin",
+          "image": "https://hb.imgix.net/e6d5cb8995137e2cea51afc6c4b8d412505f1a47.png?auto=compress,format&s=1e2db033f237a3740ebfd5038060bf82",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            335300
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "armello",
+          "title": "Armello",
+          "image": "https://hb.imgix.net/7c43d56c21d02dc53d265696ad22e33b06ecc6b6.png?auto=compress,format&s=1165dd1fd847ba69cba52b7cb4fa0afa",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            290340
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "simpleplanes",
+          "title": "SimplePlanes",
+          "image": "https://hb.imgix.net/db819574f9917a3facb09173bc26f0514cca8be6.png?auto=compress,format&s=4f4b389800c0c612f5d2bc8017bfb1f7",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            397340
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "sherlockholmes_devilsdaughter",
+          "title": "Sherlock Holmes: The Devil's Daughter",
+          "image": "https://hb.imgix.net/d4f7fdc58f37b1b9758c019a2cc402cf027d8f93.png?auto=compress,format&s=cd402d8ee28530ee4010f8a2742d0814",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            350640
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "keroblaster",
+          "title": "Kero Blaster",
+          "image": "https://hb.imgix.net/c254dfd5eaf07d1e58bc417e6c1b23094dc31ee3.png?auto=compress,format&s=285bc56b9f97d48fa84bb972a69ac775",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            292500
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "underwhere_issues1-3",
+          "title": "Kevin Eastman's Underwhere Issues 1-3",
+          "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+          "platforms": [],
+          "deliveryMethods": [],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "twothousandoneaspacefelony",
+          "title": "2000:1: A Space Felony",
+          "image": "https://hb.imgix.net/431a1eabf61467f9f6e44395ff9a81fa12a987b5.png?auto=compress,format&s=dfc603cdc9f099afa3be695d09fb050e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-06",
+      "slug": "June-2017",
+      "title": "June 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/june_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:10:57.834Z",
+      "games": [
+        {
+          "id": "plagueinc_evolved",
+          "title": "Plague Inc: Evolved",
+          "image": "https://hb.imgix.net/3131493a0c5f73d9e0e8df318c9ce4e8a17d03d8.png?auto=compress,format&s=2345c7365306ce6208239d0fcd167c78",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            246620
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "superhot",
+          "title": "SUPERHOT",
+          "image": "https://hb.imgix.net/a29abe8fe2e3c86565ef7aee0ab50ecad904e438.png?auto=compress,format&s=4512251e5bceeaca18970151634af2f4",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            322500
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "stellaris",
+          "title": "Stellaris",
+          "image": "https://hb.imgix.net/8d4a4d0f9d76165b167af26770a9565cb71a957b.png?auto=compress,format&s=e782207aedc3d9a838073a15886e5e7c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            281990
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "ashesofthesingularity_escalation",
+          "title": "Ashes of the Singularity: Escalation",
+          "image": "https://hb.imgix.net/f15f57417f00c3705cfcacc486c3211e561f3076.png?auto=compress,format&s=4fd3e697d46084ce9c3445e43a82c421",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            507490
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "brigador",
+          "title": "Brigador: Up-Armored Edition",
+          "image": "https://hb.imgix.net/052892e02cd2a47b5043b3938e37c4381fc90d89.png?auto=compress,format&s=8b14d90713563e409fe95b27e998437f",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            274500
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "shoppekeep",
+          "title": "Shoppe Keep",
+          "image": "https://hb.imgix.net/f03e066e7137e5a929306e146b1751c4b5ddbeef.png?auto=compress,format&s=a8a47ba5d44d9869dab3b1c66b0ad583",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            381120
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "maize",
+          "title": "Maize",
+          "image": "https://hb.imgix.net/2430fc799cdee7451778e635b85d48da64aa48e1.png?auto=compress,format&s=5ef5fbd235077edf95858b31af6447df",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            284240
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "underwhere_issues1-2",
+          "title": "Kevin Eastman's Underwhere Issues 1-2",
+          "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+          "platforms": [],
+          "deliveryMethods": [],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "tinyecho",
+          "title": "Tiny Echo",
+          "image": "https://hb.imgix.net/493626551dea11d2aabf6cc333f7d8f3f4523dee.png?auto=compress,format&s=d86bd782bcef16983c43dfbf71ae9a25",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-05",
+      "slug": "May-2017",
+      "title": "May 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/may_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:01.813Z",
+      "games": [
+        {
+          "id": "thisisthepolice",
+          "title": "This Is the Police",
+          "image": "https://hb.imgix.net/607a9a40426dc5348f7cd0429454cfdca5d783d1.png?auto=compress,format&s=0f09b33f5430962f8ecd7a18b3816056",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            443810
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "undertale",
+          "title": "UNDERTALE",
+          "image": "https://hb.imgix.net/52044b32a95d418beba6443282334d2966cdf3a5.png?auto=compress,format&s=9f45a069a6b2bc418f0b9608184e0e11",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            391540
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "dirtrally",
+          "title": "DiRT Rally",
+          "image": "https://hb.imgix.net/33fb63ca7797aad83584ba2bfb67a42facb5c326.png?auto=compress,format&s=346e86f97e517eb005b380840385a598",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "inside",
+          "title": "INSIDE",
+          "image": "https://hb.imgix.net/2fb2bfaae8363e39914c22707693ced41579f0e1.png?auto=compress,format&s=5609d402ff3856d0f82498468e510c26",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            304430
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "metrico_plus",
+          "title": "Metrico+",
+          "image": "https://hb.imgix.net/c032f96bdae4530c4d44ceaeca9c2b2c711568cf.png?auto=compress,format&s=147ca9576ec8925f377a5114d285b571",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            373990
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "gonner",
+          "title": "GoNNER - Press Jump To Die Edition",
+          "image": "https://hb.imgix.net/a35733ba69af58bf09f6a33b2dc901b5f7f3f643.png?auto=compress,format&s=1a1ca2caf54937d789fa30acad2bc13e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "underwhere_issue1",
+          "title": "Kevin Eastman's Underwhere #1",
+          "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+          "platforms": [],
+          "deliveryMethods": [],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "theturingtest",
+          "title": "The Turing Test",
+          "image": "https://hb.imgix.net/b63bfa0f9f43621d09b77f6be2081248b9b13b20.png?auto=compress,format&s=bd2afd10934855cc40b0f2ddb4aa9468",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            499520
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "superrudebearresurrection",
+          "title": "Super Rude Bear Resurrection",
+          "image": "https://hb.imgix.net/fe2ba84cb8ff65ae6af2e4a58b5db3dc1e9d534b.png?auto=compress,format&s=0c5b1a84274a4c874c86d1194996d79d",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            384250
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "a2be",
+          "title": "A2Be - A Science Fiction Narrative",
+          "image": "https://hb.imgix.net/e2df62b8aed4832774e2a61b75682b6440f92653.png?auto=compress,format&s=f9cca277d3175bc03019dc3a7f99bb39",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-04",
+      "slug": "April-2017",
+      "title": "April 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/april_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:05.622Z",
+      "games": [
+        {
+          "id": "layersoffear_masterpieceedition",
+          "title": "Layers of Fear: Masterpiece Edition",
+          "image": "https://hb.imgix.net/3a256e3ebd917d594c1cccb67ee1fef1bca932e6.png?auto=compress,format&s=c60974a3c8c05a0a2c91803a3f4beb71",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "blackmesa",
+          "title": "Black Mesa",
+          "image": "https://hb.imgix.net/b4e125dfc85a39042680f42e55857940a6fbc98e.png?auto=compress,format&s=c92e95f46cfd696c046b58ec41b09435",
+          "platforms": [
+            "linux",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            362890
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thewitness",
+          "title": "The Witness",
+          "image": "https://hb.imgix.net/b82a573f11e360e19c476f2752465ac30ea83d86.png?auto=compress,format&s=031f163806b8db6471e0d4ef86b57cbd",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            210970
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "kingdomnewlands",
+          "title": "Kingdom: New Lands Royal Edition",
+          "image": "https://hb.imgix.net/5837e87433001ff5fc934009b0752fa112fc9a86.png?auto=compress,format&s=32dc533878f28ee56c3bb5f5965042eb",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "event0",
+          "title": "Event[0]",
+          "image": "https://hb.imgix.net/bc2fae76b0aa91e96f5965293a23c62908902376.png?auto=compress,format&s=8cddcf287b8644a18b3ff104d167c5e4",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            470260
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "tumblestone",
+          "title": "Tumblestone",
+          "image": "https://hb.imgix.net/c40f1bfa362aad9d2503e21db421c4620de5f8ac.png?auto=compress,format&s=cdda2b650b9e54eb79359cb664616ae1",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            269710
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "slimesan",
+          "title": "Slime-san",
+          "image": "https://hb.imgix.net/e59d94a6e067f99781a55296acfe667c954ad023.png?auto=compress,format&s=b16184f6caba12290680cdce8291183e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            473530
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "jawns",
+          "title": "Jawns",
+          "image": "https://hb.imgix.net/da8eba675fbdf752e69b4ff85bc2f4f9dc880fb4.png?auto=compress,format&s=94548f539e79549161bbf3c3be77fecd",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-03",
+      "slug": "March-2017",
+      "title": "March 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/march_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:08.336Z",
+      "games": [
+        {
+          "id": "polybridge",
+          "title": "Poly Bridge",
+          "image": "https://hb.imgix.net/aee04b29617a9375baaaaa2ba1c6a3dec018ba9b.png?auto=compress,format&s=ac285110a4c9c2d370a1fd688717bd1b",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            367450
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "spacerungalaxy",
+          "title": "Space Run Galaxy",
+          "image": "https://hb.imgix.net/16a4fb84aae845325385c928d434b51ebc4a5f55.png?auto=compress,format&s=631ea7898693f63e4c79668d7f0df279",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            355800
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "totalwar_warhammer",
+          "title": "Total War™: WARHAMMER®",
+          "image": "https://hb.imgix.net/3f1bd89ae94ee6ac830a1c9e94547b50945a9eb3.png?auto=compress,format&s=d6359519db5bcd3e16819e4c3d8754ad",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            364360
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "onepiece_piratewarriors3",
+          "title": "ONE PIECE PIRATE WARRIORS 3",
+          "image": "https://hb.imgix.net/f0e31eac16445a27e366103c7aa52f4c1d480f3c.png?auto=compress,format&s=8a41fadfbe129ccf274fc9205faa016e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            331600
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "flatheroes",
+          "title": "Flat Heroes",
+          "image": "https://hb.imgix.net/fd4200433bed4ca480650194ab79489539fdae01.png?auto=compress,format&s=0bdfb2744c81869264bc118b2a9b383f",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            508790
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "rive",
+          "title": "RIVE: Wreck, Hack, Die, Retry",
+          "image": "https://hb.imgix.net/3aedbe266abc4ab62089d9a9a59dd512fffa7720.png?auto=compress,format&s=f95c5e6468b13225489c4bf2e5cc91a0",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "morphblade",
+          "title": "Morphblade",
+          "image": "https://hb.imgix.net/388719db3af6d2f643fc3567cfe74727ef660904.png?auto=compress,format&s=3d6953bfe978fca89e87cdecc773e0db",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            494720
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "uurnog",
+          "title": "Uurnog",
+          "image": "https://hb.imgix.net/44d117e467b40e0d8005e32cf69989818fec7be3.png?auto=compress,format&s=1d5b7c7b4ec31ad86de199b455c13e53",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-02",
+      "slug": "February-2017",
+      "title": "February 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/february_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:12.486Z",
+      "games": [
+        {
+          "id": "ryse_sonofrome",
+          "title": "Ryse: Son of Rome",
+          "image": "https://hb.imgix.net/44dafe8881193db1741f751ac09042be64765e95.png?auto=compress,format&s=608f6714fcb2d41483763e34f54cc61e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            302510
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "abzu",
+          "title": "ABZU",
+          "image": "https://hb.imgix.net/ed10a1708a74695d6523312c9d4c57c0e54067b9.png?auto=compress,format&s=52912865a31c1783043cb70591ce84fb",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            384190
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "xcom2",
+          "title": "XCOM® 2",
+          "image": "https://hb.imgix.net/ff7189a3a117c76c05a6ed30ddabe18c49fed12a.png?auto=compress,format&s=44f99a7844af1f6644eb93bf2b4e295c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            268500
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "steamworldheist",
+          "title": "SteamWorld Heist",
+          "image": "https://hb.imgix.net/c85fe36ca0d8e683b352f000004b77c03709137e.png?auto=compress,format&s=e8107d78990e88b5c04ab2ea6edbac87",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "okhlos",
+          "title": "Okhlos",
+          "image": "https://hb.imgix.net/6f7fcb94f3ab14e2292dd10d2b29656bc90c9202.png?auto=compress,format&s=0840456a4bad839c2a206cc487618d06",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            400180
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "projecthighrise",
+          "title": "Project Highrise",
+          "image": "https://hb.imgix.net/f4c590a473b1f505404fdeb9513fab86a56e2fe1.png?auto=compress,format&s=92a73e22386403a0f0cf5e35dd67e5b8",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            423580
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "husk",
+          "title": "Husk",
+          "image": "https://hb.imgix.net/18cc332f3172d9b8fe1fca1b9acbf10f971b036d.png?auto=compress,format&s=52fb6d54dff7f99b8ce0e1f073c16f94",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            553960
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hollowknight",
+          "title": "Hollow Knight",
+          "image": "https://hb.imgix.net/2a50a14b3291d001b9a2246b9b4cc1c9b5f7d0bf.png?auto=compress,format&s=f20a18ec010bf38961abc7ad2be7dd3e",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "ohdeer",
+          "title": "Oh, Deer!",
+          "image": "https://hb.imgix.net/8216ea19e2d2bb9f2f8d9316bb8ffe1645e02c91.png?auto=compress,format&s=0bee71d2cbbc01c133c6538c746e9bc6",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2017-01",
+      "slug": "January-2017",
+      "title": "January 2017 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/january_2017_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:15.629Z",
+      "games": [
+        {
+          "id": "projectcars",
+          "title": "Project CARS",
+          "image": "https://hb.imgix.net/705e690f6611a5726f30c23b972b4c8bc096bc46.png?auto=compress,format&s=3fe8051a1cf7b2b6b5c94acc4deac986",
+          "platforms": [
+            "oculus-rift",
+            "vive",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "motherrussiableeds",
+          "title": "Mother Russia Bleeds",
+          "image": "https://hb.imgix.net/9346c8697de1118541c8f505c72af344765cda78.png?auto=compress,format&s=438bf477c4b24ff7a9bd229c17c5bf43",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            361300
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "legendofheroes_trailsinthesky",
+          "title": "The Legend of Heroes: Trails in the Sky",
+          "image": "https://hb.imgix.net/bedf2a44d2cf5ec43319d3199b1e420beaf0df4e.png?auto=compress,format&s=e51740ad3dcf6282028e640119769792",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            251150
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "warhammer_endtimes_vermintide",
+          "title": "Warhammer: End Times - Vermintide + DLC",
+          "image": "https://hb.imgix.net/96064cc7caeb0d70053568cbca3cd431435fa3eb.png?auto=compress,format&s=aea2d6299e3b6cdacf69db4e796b32c0",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "neonchrome",
+          "title": "Neon Chrome",
+          "image": "https://hb.imgix.net/5752f1b4f58da9ba1ca086cd7e9902a0ef83a3b2.png?auto=compress,format&s=d9e87990426cbc8a3f51b982b9b68b39",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            428750
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "jotun",
+          "title": "Jotun",
+          "image": "https://hb.imgix.net/29df8af8a4850c0ba161d0d11918045b86bf8b7c.png?auto=compress,format&s=2b48636f9cb2885a300da5d445f043da",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            323580
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hopiko",
+          "title": "Hopiko",
+          "image": "https://hb.imgix.net/3f4e23d25f34c29c3dac8ebd821ee3ae35adbaf1.png?auto=compress,format&s=90fb7209feea80b87a7ee4238d759ed9",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            437390
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "kimmy",
+          "title": "Kimmy",
+          "image": "https://hb.imgix.net/df285d0c74b793a72ec66fab5af80ee46f142bf3.png?auto=compress,format&s=1e291da6e32e161ddea88d5029574dc7",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-12",
+      "slug": "December-2016",
+      "title": "December 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/december_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:19.275Z",
+      "games": [
+        {
+          "id": "theescapists_supermaxedition",
+          "title": "The Escapists: Supermax Edition",
+          "image": "https://hb.imgix.net/1352ef58676e33c116bb5299451b33cd19e68e80.png?auto=compress,format&s=d41318335e751e295407c8b0130fc65c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "mordheim_cityofthedamned",
+          "title": "Mordheim: City of the Damned",
+          "image": "https://hb.imgix.net/6efa63ae61483ee195e2a1e2ae549718d6c11a6a.png?auto=compress,format&s=aa9968d9e83b5c397b43a7548805931b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            276810
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hacknet",
+          "title": "Hacknet",
+          "image": "https://hb.imgix.net/2c3bbf5c02c165c3376fe8687b73d32dca5eb88e.png?auto=compress,format&s=81f31e01845172b212494a2f1df488a5",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            365450
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "western_press",
+          "title": "Western Press",
+          "image": "https://hb.imgix.net/e5ca079ba11f8d6c3518159e0008b1ba7b28fc88.png?auto=compress,format&s=f80b39a200291736c6db3c07c91f5f7d",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            377360
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theflameintheflood",
+          "title": "The Flame in the Flood",
+          "image": "https://hb.imgix.net/653dcd9caa612d8ad37e480a2aa33ababc824116.png?auto=compress,format&s=57c9e1adf097c3164009036e80c80818",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            318600
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "dragonsdogma_darkarisen",
+          "title": "Dragon's Dogma: Dark Arisen",
+          "image": "https://hb.imgix.net/328dc1c691d5a1e5e87b79858ec576c56a0ce203.png?auto=compress,format&s=c7642101081135b44eb965757b956cd8",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            367500
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "minionmasters",
+          "title": "Minion Masters",
+          "image": "https://hb.imgix.net/49d8cdc48543c07e32fca8943cb75dbbc61278e1.png?auto=compress,format&s=c7f0bcde68cf87f3b8cf4f275f08ada8",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            489520
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "yojimbrawl",
+          "title": "Yojimbrawl",
+          "image": "https://hb.imgix.net/ee2cd32372bf208093e797533bd069c08a393dad.png?auto=compress,format&s=2a160597d16f96145d5fa68ea5e4ff01",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-11",
+      "slug": "November-2016",
+      "title": "November 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/november_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:22.652Z",
+      "games": [
+        {
+          "id": "broforce",
+          "title": "BROFORCE",
+          "image": "https://hb.imgix.net/b09c00f1f14ff91b5bb88efcf64b11eb09881b61.png?auto=compress,format&s=f36b41bb873bf8e3471e41f95b8a02d5",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            274190
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "rebelgalaxy",
+          "title": "Rebel Galaxy",
+          "image": "https://hb.imgix.net/8679eadf7a55c0aa34b9e9cde67efd85b823d2f4.png?auto=compress,format&s=02694a4b764ddfa2fe1a49c7e522e6a7",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            290300
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "beyondeyes",
+          "title": "Beyond Eyes",
+          "image": "https://hb.imgix.net/6add10159ef532df5a0325be8763965bf192fb92.png?auto=compress,format&s=035de82406f900130b7e61c4b224ba55",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "kathy_rain",
+          "title": "Kathy Rain",
+          "image": "https://hb.imgix.net/8c8c62faec620e0413d9e61829cdc8f0806f111a.png?auto=compress,format&s=db5cdc775ecd46a54c17829a54967f5f",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            370910
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "styx_masterofshadows",
+          "title": "Styx: Master of Shadows",
+          "image": "https://hb.imgix.net/84751e815917cf33025769c18d3ba4d68ac7098d.png?auto=compress,format&s=30c548b9de6a27566a780d557de6c76b",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            242640
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "stardewvalley",
+          "title": "Stardew Valley",
+          "image": "https://hb.imgix.net/50ce0cc57466eaa619fda719834361b9b3f7d591.png?auto=compress,format&s=c69aff5814920ba6ee30fc06d35a8b7c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            413150
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "piratepopplus",
+          "title": "Pirate Pop Plus",
+          "image": "https://hb.imgix.net/760da90eb4d1ed27390c282ca28f8b012c5af7de.png?auto=compress,format&s=77088af1df290223aae17e6d51181d2e",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "keyboardsports",
+          "title": "Keyboard Sports - the final tribute",
+          "image": "https://hb.imgix.net/a36bc689f7931230b5bbad79119e8aca0367cfc3.png?auto=compress,format&s=972755df0bedc8c9053078518ed79e7d",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-10",
+      "slug": "October-2016",
+      "title": "October 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/october_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:26.083Z",
+      "games": [
+        {
+          "id": "slimerancher",
+          "title": "Slime Rancher (Early Access)",
+          "image": "https://hb.imgix.net/5b43316b41dd7dfc0ea4a299ddd8b38f16785ad3.png?auto=compress,format&s=5d5fc715ad25034c45b789addf53ffe6",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hotlinemiami2",
+          "title": "Hotline Miami 2: Wrong Number",
+          "image": "https://hb.imgix.net/46a703f26c1cfc8a4fd016b9afc35a189e1a21db.png?auto=compress,format&s=df87923fdb7b47f985a79305a6f85bb4",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            274170
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "deponiadoomsday",
+          "title": "Deponia Doomsday",
+          "image": "https://hb.imgix.net/46eace5ea5e60ffa3012b7006095fed90c81d19d.png?auto=compress,format&s=3b6bc0af5a3f4ce0fcd90947542d2cae",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            421050
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "trainvalley",
+          "title": "Train Valley",
+          "image": "https://hb.imgix.net/e235358bbb5359fb989be564de6fc0d4004791e6.png?auto=compress,format&s=cd0bd53c141785dec73eb6a6b0781d6f",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            353640
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "actionhenk",
+          "title": "Action Henk",
+          "image": "https://hb.imgix.net/ca436510349c1834ab987c66e867a0a06fc50acb.png?auto=compress,format&s=ac6967477d758a4467b6c7c05f046496",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            285820
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "grimdawn",
+          "title": "Grim Dawn",
+          "image": "https://hb.imgix.net/101d09233f32c7b6b7da0924bc877e6c1d72da2e.png?auto=compress,format&s=546beedeff301e1bfb5b32262699ac55",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            219990
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "thoth",
+          "title": "THOTH",
+          "image": "https://hb.imgix.net/61c3d0b82c73bd4c0b88b5b0e39081d88d5701e3.png?auto=compress,format&s=2012b678723540691ce5fac540d134ec",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            510620
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "fidel_dungeon_rescue",
+          "title": "Fidel - Dungeon Rescue",
+          "image": "https://hb.imgix.net/e029a37aa90ce6c2b59f184c81a9f143d3373f7e.png?auto=compress,format&s=bd3c6b6d8658be477dc50f75d840cba4",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-09",
+      "slug": "September-2016",
+      "title": "September 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/september_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:29.588Z",
+      "games": [
+        {
+          "id": "thebannersaga",
+          "title": "The Banner Saga",
+          "image": "https://hb.imgix.net/61f4d4bd639d4e6bac8b904ea9490bb88320bc95.png?auto=compress,format&s=2d32f351dfd36859086f6aa92ad2c49d",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            237990
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wwe2k16",
+          "title": "WWE 2K16",
+          "image": "https://hb.imgix.net/7f79d8dbafc462b7a56ac4145ae6e508396f37a7.png?auto=compress,format&s=31f732277afca96d0e6b34664af541b6",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "sheltered",
+          "title": "Sheltered",
+          "image": "https://hb.imgix.net/263b09e702e87445a73e73debbffc638432ac3f0.png?auto=compress,format&s=ed943b1a2ff927cd313faf9b89bf2965",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            356040
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "epistory_typingchronicles",
+          "title": "Epistory - Typing Chronicles",
+          "image": "https://hb.imgix.net/2ef451ee058975e8fb19ae413e7ba32c074f18dd.png?auto=compress,format&s=87270362cc18de00b4a36d5464837c02",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "townofsalem",
+          "title": "Town of Salem",
+          "image": "https://hb.imgix.net/7b823c70e398f476dd15b31c03eb92b580c7ba5a.png?auto=compress,format&s=d683d3bb9b9e0a1fa44b18df7f9ed072",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            334230
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "soma",
+          "title": "SOMA",
+          "image": "https://hb.imgix.net/5768749509fb39f54925f48e9e31d5dd4e221600.png?auto=compress,format&s=d11d417d2c3cbba396276ebd78b852d0",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            282140
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theuncertain",
+          "title": "The Uncertain",
+          "image": "https://hb.imgix.net/4cc0e41815f3ab49db0531482b695ae79b855ff1.png?auto=compress,format&s=bdaffe3121ea7a2d40be47a30e1b1b3a",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        },
+        {
+          "id": "spoolside",
+          "title": "Spoolside",
+          "image": "https://hb.imgix.net/42ba7bf1ddf1678ba1d4217702bfd3ef21f8ae7f.png?auto=compress,format&s=43820ebaf9426e6edc49400c52df9944",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-08",
+      "slug": "August-2016",
+      "title": "August 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/august_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:32.968Z",
+      "games": [
+        {
+          "id": "the_incredible_adventures_of_van_helsing_final_cut",
+          "title": "The Incredible Adventures of Van Helsing: Final Cut",
+          "image": "https://hb.imgix.net/7e0c17c0114d3541021de21dd4b167fe0c9da67f.png?auto=compress,format&s=450f74bd4173117a6aa7d94f90cf1f2e",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            400170
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "jackboxpartypack2",
+          "title": "The Jackbox Party Pack 2",
+          "image": "https://hb.imgix.net/6b7a01cdd9cf1226c39d94ecd684fd4734424b34.png?auto=compress,format&s=00a3380e6513ed129b07ab185e4eb416",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            397460
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "poi",
+          "title": "Poi (Early Access)",
+          "image": "https://hb.imgix.net/338f728a702e0eff4d3d19370c731a49ad63018e.png?auto=compress,format&s=32761ecd742e61d80d7bbd1200e0f0f7",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "planetoftheeyes",
+          "title": "Planet of the Eyes",
+          "image": "https://hb.imgix.net/94a88ba586c00016d6499f66c0098d144f9143c6.png?auto=compress,format&s=ccacab96001b386ca1972f1a90a75104",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            350970
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "starwardrogue",
+          "title": "Starward Rogue",
+          "image": "https://hb.imgix.net/62dd5575ec5e6806fe929d27c9b67f8185f51b33.png?auto=compress,format&s=feb8076e709e76008419be1152df48c1",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            410820
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "callofduty_blackops3_multiplayerstarterpack",
+          "title": "Call of Duty®: Black Ops III - Multiplayer Starter Pack",
+          "image": "https://hb.imgix.net/241fe23f1027a81d07df8d559b0b2ae6578eaa86.png?auto=compress,format&s=19654053b4944fdc044adbc2beff1008",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "randomaccessmurder",
+          "title": "Random Access Murder",
+          "image": "https://hb.imgix.net/18109826f6ee8fab792a8903b13999aba0fa9963.png?auto=compress,format&s=c63fe397f46cca0a13dcbd358144923d",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            438790
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "discroom",
+          "title": "Disc Room",
+          "image": "https://hb.imgix.net/e7c52a588fa70eb215bc16ae4d1f6199688ab0ae.png?auto=compress,format&s=a32e5a6491d28a08ae30fb26fcdd44bc",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-07",
+      "slug": "July-2016",
+      "title": "July 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/july_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:36.487Z",
+      "games": [
+        {
+          "id": "kentuckyroutezero",
+          "title": "Kentucky Route Zero",
+          "image": "https://hb.imgix.net/7c5611dd99bdc977533feac7b0befac2241c1f0d.png?auto=compress,format&s=d0eeb32b0baf4c61ed2167688d64e05a",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            231200
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "satellitereign",
+          "title": "Satellite Reign",
+          "image": "https://hb.imgix.net/b03dfaa1cbac01bb58351cb614aad3745a38f8e2.png?auto=compress,format&s=e6064ba4d100127e95adf6b5b052dc5c",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            268870
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "tis_100",
+          "title": "TIS-100",
+          "image": "https://hb.imgix.net/744a21fabcf221bc1cc637f04cd7178e0525329d.png?auto=compress,format&s=1500dc786cb5d6c9cdbaace09e0c78f5",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            370360
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "theredsolstice",
+          "title": "The Red Solstice",
+          "image": "https://hb.imgix.net/2fcc2a2cc84f0fed5b96281f25b21bbe3ae20dd7.png?auto=compress,format&s=06ff53bea8642b80471b0c07f64fbf20",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            265590
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "avernum2_crystalsouls",
+          "title": "Avernum 2: Crystal Souls",
+          "image": "https://hb.imgix.net/d2faf50259b0632d4a0ec2190f4b3d0ef56df3d9.png?auto=compress,format&s=e49dd2b00e5d25bce9c0e519ab60d9b2",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            337850
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "hurtworld",
+          "title": "Hurtworld",
+          "image": "https://hb.imgix.net/0be9f3df035ad4e6b46fc15c0729462dd17f778b.png?auto=compress,format&s=18a7c89d31556a7a22076ec9501a7d4a",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            393420
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "cthulurealms",
+          "title": "Cthulhu Realms - Full Version",
+          "image": "https://hb.imgix.net/b06253650d0c67935268f631738dcd238c03237a.png?auto=compress,format&s=bb0f179993a947412a377233cbfe69c8",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "copoka",
+          "title": "Copoka",
+          "image": "https://hb.imgix.net/134796167e5e583469228e75b316ca01963d5e1e.png?auto=compress,format&s=a560d6b5699b06846d75b362eb745253",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": true
+        }
+      ]
+    },
+    {
+      "id": "2016-06",
+      "slug": "June-2016",
+      "title": "June 2016 Humble Monthly",
+      "url": "https://www.humblebundle.com/monthly/p/june_2016_monthly",
+      "isActive": false,
+      "usesChoices": false,
+      "scrapedAt": "2026-09-04T12:11:39.654Z",
+      "games": [
+        {
+          "id": "theforest",
+          "title": "The Forest",
+          "image": "https://hb.imgix.net/b68c82aae3b588b13102d8c8fef5cf287e3c41af.png?auto=compress,format&s=e5e5b373da8a576e7612867e385c8730",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            242760
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "planetaryannihilation_titans",
+          "title": "Planetary Annihilation: TITANS",
+          "image": "https://hb.imgix.net/2f56d68d383aedf35d534dbeba0f5bd16866a800.png?auto=compress,format&s=c74ad52bdab6b6b4c0f7df2c3640b664",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            386070
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "keeptalkingandnobodyexplodes",
+          "title": "Keep Talking and Nobody Explodes",
+          "image": "https://hb.imgix.net/08a02236f7e9627c1b907b32791b75de18b2e522.png?auto=compress,format&s=03c8d5ce032f447f0236934985d02ae4",
+          "platforms": [
+            "mac",
+            "oculus-rift",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "other-key",
+            "steam"
+          ],
+          "steamAppIds": [
+            341800
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "dungeonoftheendless_crystalpack",
+          "title": "Dungeon of the Endless - Crystal Edition",
+          "image": "https://hb.imgix.net/2c6c00779d95628f849cbf703e4ec3e22a9af3e6.png?auto=compress,format&s=b7d06949d7e4e78328d9f915cf752917",
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "steredenn",
+          "title": "Steredenn",
+          "image": "https://hb.imgix.net/143894f4a8e5c2b34abb87eac6539aa8e9644f43.png?auto=compress,format&s=7ee3e4c074742ebd9e2e228d85729411",
+          "platforms": [
+            "linux",
+            "mac",
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download",
+            "steam"
+          ],
+          "steamAppIds": [
+            347160
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "rocketleague",
+          "title": "Rocket League®",
+          "image": "https://hb.imgix.net/a842e4f340a499ee549be48b2e10d992572bba77.png?auto=compress,format&s=bc716a30d21ca387a9855948b0f52e41",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "wasted",
+          "title": "WASTED",
+          "image": "https://hb.imgix.net/ac331ad9dbf8c70cb815ef11fbe11294dd2e256f.png?auto=compress,format&s=5048c9803d2f4a7d4a14f20a242428ad",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "steam"
+          ],
+          "steamAppIds": [
+            327510
+          ],
+          "developers": [],
+          "genres": [],
+          "msrpUsd": null,
+          "ratingPercent": null,
+          "expiresAt": null,
+          "isExtra": false
+        },
+        {
+          "id": "catgirlwithoutsalad",
+          "title": "Cat Girl Without Salad",
+          "image": "https://hb.imgix.net/033175b92f8ebf0959cd037deaba1511b2a30c02.png?auto=compress,format&s=3ac0c1eb651eb083bb3f35fcea5f5b28",
+          "platforms": [
+            "windows"
+          ],
+          "deliveryMethods": [
+            "download"
+          ],
           "steamAppIds": [],
           "developers": [],
           "genres": [],

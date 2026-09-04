@@ -1,0 +1,178 @@
+{
+  "id": "2017-04",
+  "slug": "April-2017",
+  "title": "April 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/april_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:05.622Z",
+  "games": [
+    {
+      "id": "layersoffear_masterpieceedition",
+      "title": "Layers of Fear: Masterpiece Edition",
+      "image": "https://hb.imgix.net/3a256e3ebd917d594c1cccb67ee1fef1bca932e6.png?auto=compress,format&s=c60974a3c8c05a0a2c91803a3f4beb71",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "blackmesa",
+      "title": "Black Mesa",
+      "image": "https://hb.imgix.net/b4e125dfc85a39042680f42e55857940a6fbc98e.png?auto=compress,format&s=c92e95f46cfd696c046b58ec41b09435",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        362890
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thewitness",
+      "title": "The Witness",
+      "image": "https://hb.imgix.net/b82a573f11e360e19c476f2752465ac30ea83d86.png?auto=compress,format&s=031f163806b8db6471e0d4ef86b57cbd",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        210970
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kingdomnewlands",
+      "title": "Kingdom: New Lands Royal Edition",
+      "image": "https://hb.imgix.net/5837e87433001ff5fc934009b0752fa112fc9a86.png?auto=compress,format&s=32dc533878f28ee56c3bb5f5965042eb",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "event0",
+      "title": "Event[0]",
+      "image": "https://hb.imgix.net/bc2fae76b0aa91e96f5965293a23c62908902376.png?auto=compress,format&s=8cddcf287b8644a18b3ff104d167c5e4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        470260
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tumblestone",
+      "title": "Tumblestone",
+      "image": "https://hb.imgix.net/c40f1bfa362aad9d2503e21db421c4620de5f8ac.png?auto=compress,format&s=cdda2b650b9e54eb79359cb664616ae1",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        269710
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "slimesan",
+      "title": "Slime-san",
+      "image": "https://hb.imgix.net/e59d94a6e067f99781a55296acfe667c954ad023.png?auto=compress,format&s=b16184f6caba12290680cdce8291183e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        473530
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jawns",
+      "title": "Jawns",
+      "image": "https://hb.imgix.net/da8eba675fbdf752e69b4ff85bc2f4f9dc880fb4.png?auto=compress,format&s=94548f539e79549161bbf3c3be77fecd",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

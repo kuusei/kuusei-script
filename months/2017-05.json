@@ -1,0 +1,209 @@
+{
+  "id": "2017-05",
+  "slug": "May-2017",
+  "title": "May 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/may_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:01.813Z",
+  "games": [
+    {
+      "id": "thisisthepolice",
+      "title": "This Is the Police",
+      "image": "https://hb.imgix.net/607a9a40426dc5348f7cd0429454cfdca5d783d1.png?auto=compress,format&s=0f09b33f5430962f8ecd7a18b3816056",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        443810
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "undertale",
+      "title": "UNDERTALE",
+      "image": "https://hb.imgix.net/52044b32a95d418beba6443282334d2966cdf3a5.png?auto=compress,format&s=9f45a069a6b2bc418f0b9608184e0e11",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        391540
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dirtrally",
+      "title": "DiRT Rally",
+      "image": "https://hb.imgix.net/33fb63ca7797aad83584ba2bfb67a42facb5c326.png?auto=compress,format&s=346e86f97e517eb005b380840385a598",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "inside",
+      "title": "INSIDE",
+      "image": "https://hb.imgix.net/2fb2bfaae8363e39914c22707693ced41579f0e1.png?auto=compress,format&s=5609d402ff3856d0f82498468e510c26",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        304430
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "metrico_plus",
+      "title": "Metrico+",
+      "image": "https://hb.imgix.net/c032f96bdae4530c4d44ceaeca9c2b2c711568cf.png?auto=compress,format&s=147ca9576ec8925f377a5114d285b571",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        373990
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gonner",
+      "title": "GoNNER - Press Jump To Die Edition",
+      "image": "https://hb.imgix.net/a35733ba69af58bf09f6a33b2dc901b5f7f3f643.png?auto=compress,format&s=1a1ca2caf54937d789fa30acad2bc13e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "underwhere_issue1",
+      "title": "Kevin Eastman's Underwhere #1",
+      "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "theturingtest",
+      "title": "The Turing Test",
+      "image": "https://hb.imgix.net/b63bfa0f9f43621d09b77f6be2081248b9b13b20.png?auto=compress,format&s=bd2afd10934855cc40b0f2ddb4aa9468",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        499520
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "superrudebearresurrection",
+      "title": "Super Rude Bear Resurrection",
+      "image": "https://hb.imgix.net/fe2ba84cb8ff65ae6af2e4a58b5db3dc1e9d534b.png?auto=compress,format&s=0c5b1a84274a4c874c86d1194996d79d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        384250
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "a2be",
+      "title": "A2Be - A Science Fiction Narrative",
+      "image": "https://hb.imgix.net/e2df62b8aed4832774e2a61b75682b6440f92653.png?auto=compress,format&s=f9cca277d3175bc03019dc3a7f99bb39",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

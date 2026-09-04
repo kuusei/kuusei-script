@@ -1,0 +1,177 @@
+{
+  "id": "2017-01",
+  "slug": "January-2017",
+  "title": "January 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/january_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:15.629Z",
+  "games": [
+    {
+      "id": "projectcars",
+      "title": "Project CARS",
+      "image": "https://hb.imgix.net/705e690f6611a5726f30c23b972b4c8bc096bc46.png?auto=compress,format&s=3fe8051a1cf7b2b6b5c94acc4deac986",
+      "platforms": [
+        "oculus-rift",
+        "vive",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "motherrussiableeds",
+      "title": "Mother Russia Bleeds",
+      "image": "https://hb.imgix.net/9346c8697de1118541c8f505c72af344765cda78.png?auto=compress,format&s=438bf477c4b24ff7a9bd229c17c5bf43",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        361300
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "legendofheroes_trailsinthesky",
+      "title": "The Legend of Heroes: Trails in the Sky",
+      "image": "https://hb.imgix.net/bedf2a44d2cf5ec43319d3199b1e420beaf0df4e.png?auto=compress,format&s=e51740ad3dcf6282028e640119769792",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        251150
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warhammer_endtimes_vermintide",
+      "title": "Warhammer: End Times - Vermintide + DLC",
+      "image": "https://hb.imgix.net/96064cc7caeb0d70053568cbca3cd431435fa3eb.png?auto=compress,format&s=aea2d6299e3b6cdacf69db4e796b32c0",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "neonchrome",
+      "title": "Neon Chrome",
+      "image": "https://hb.imgix.net/5752f1b4f58da9ba1ca086cd7e9902a0ef83a3b2.png?auto=compress,format&s=d9e87990426cbc8a3f51b982b9b68b39",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        428750
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jotun",
+      "title": "Jotun",
+      "image": "https://hb.imgix.net/29df8af8a4850c0ba161d0d11918045b86bf8b7c.png?auto=compress,format&s=2b48636f9cb2885a300da5d445f043da",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        323580
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hopiko",
+      "title": "Hopiko",
+      "image": "https://hb.imgix.net/3f4e23d25f34c29c3dac8ebd821ee3ae35adbaf1.png?auto=compress,format&s=90fb7209feea80b87a7ee4238d759ed9",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        437390
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kimmy",
+      "title": "Kimmy",
+      "image": "https://hb.imgix.net/df285d0c74b793a72ec66fab5af80ee46f142bf3.png?auto=compress,format&s=1e291da6e32e161ddea88d5029574dc7",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

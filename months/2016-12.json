@@ -1,0 +1,174 @@
+{
+  "id": "2016-12",
+  "slug": "December-2016",
+  "title": "December 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/december_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:19.275Z",
+  "games": [
+    {
+      "id": "theescapists_supermaxedition",
+      "title": "The Escapists: Supermax Edition",
+      "image": "https://hb.imgix.net/1352ef58676e33c116bb5299451b33cd19e68e80.png?auto=compress,format&s=d41318335e751e295407c8b0130fc65c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mordheim_cityofthedamned",
+      "title": "Mordheim: City of the Damned",
+      "image": "https://hb.imgix.net/6efa63ae61483ee195e2a1e2ae549718d6c11a6a.png?auto=compress,format&s=aa9968d9e83b5c397b43a7548805931b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        276810
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hacknet",
+      "title": "Hacknet",
+      "image": "https://hb.imgix.net/2c3bbf5c02c165c3376fe8687b73d32dca5eb88e.png?auto=compress,format&s=81f31e01845172b212494a2f1df488a5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        365450
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "western_press",
+      "title": "Western Press",
+      "image": "https://hb.imgix.net/e5ca079ba11f8d6c3518159e0008b1ba7b28fc88.png?auto=compress,format&s=f80b39a200291736c6db3c07c91f5f7d",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        377360
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theflameintheflood",
+      "title": "The Flame in the Flood",
+      "image": "https://hb.imgix.net/653dcd9caa612d8ad37e480a2aa33ababc824116.png?auto=compress,format&s=57c9e1adf097c3164009036e80c80818",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        318600
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dragonsdogma_darkarisen",
+      "title": "Dragon's Dogma: Dark Arisen",
+      "image": "https://hb.imgix.net/328dc1c691d5a1e5e87b79858ec576c56a0ce203.png?auto=compress,format&s=c7642101081135b44eb965757b956cd8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        367500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "minionmasters",
+      "title": "Minion Masters",
+      "image": "https://hb.imgix.net/49d8cdc48543c07e32fca8943cb75dbbc61278e1.png?auto=compress,format&s=c7f0bcde68cf87f3b8cf4f275f08ada8",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        489520
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "yojimbrawl",
+      "title": "Yojimbrawl",
+      "image": "https://hb.imgix.net/ee2cd32372bf208093e797533bd069c08a393dad.png?auto=compress,format&s=2a160597d16f96145d5fa68ea5e4ff01",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

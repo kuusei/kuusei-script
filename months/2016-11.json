@@ -1,0 +1,177 @@
+{
+  "id": "2016-11",
+  "slug": "November-2016",
+  "title": "November 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/november_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:22.652Z",
+  "games": [
+    {
+      "id": "broforce",
+      "title": "BROFORCE",
+      "image": "https://hb.imgix.net/b09c00f1f14ff91b5bb88efcf64b11eb09881b61.png?auto=compress,format&s=f36b41bb873bf8e3471e41f95b8a02d5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        274190
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rebelgalaxy",
+      "title": "Rebel Galaxy",
+      "image": "https://hb.imgix.net/8679eadf7a55c0aa34b9e9cde67efd85b823d2f4.png?auto=compress,format&s=02694a4b764ddfa2fe1a49c7e522e6a7",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        290300
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "beyondeyes",
+      "title": "Beyond Eyes",
+      "image": "https://hb.imgix.net/6add10159ef532df5a0325be8763965bf192fb92.png?auto=compress,format&s=035de82406f900130b7e61c4b224ba55",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "kathy_rain",
+      "title": "Kathy Rain",
+      "image": "https://hb.imgix.net/8c8c62faec620e0413d9e61829cdc8f0806f111a.png?auto=compress,format&s=db5cdc775ecd46a54c17829a54967f5f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        370910
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "styx_masterofshadows",
+      "title": "Styx: Master of Shadows",
+      "image": "https://hb.imgix.net/84751e815917cf33025769c18d3ba4d68ac7098d.png?auto=compress,format&s=30c548b9de6a27566a780d557de6c76b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        242640
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stardewvalley",
+      "title": "Stardew Valley",
+      "image": "https://hb.imgix.net/50ce0cc57466eaa619fda719834361b9b3f7d591.png?auto=compress,format&s=c69aff5814920ba6ee30fc06d35a8b7c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        413150
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "piratepopplus",
+      "title": "Pirate Pop Plus",
+      "image": "https://hb.imgix.net/760da90eb4d1ed27390c282ca28f8b012c5af7de.png?auto=compress,format&s=77088af1df290223aae17e6d51181d2e",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "keyboardsports",
+      "title": "Keyboard Sports - the final tribute",
+      "image": "https://hb.imgix.net/a36bc689f7931230b5bbad79119e8aca0367cfc3.png?auto=compress,format&s=972755df0bedc8c9053078518ed79e7d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

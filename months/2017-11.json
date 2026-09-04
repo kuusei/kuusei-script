@@ -1,0 +1,211 @@
+{
+  "id": "2017-11",
+  "slug": "November-2017",
+  "title": "November 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/november_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:39.424Z",
+  "games": [
+    {
+      "id": "residentevil5_gold",
+      "title": "Resident Evil™ 5 Gold Edition",
+      "image": "https://hb.imgix.net/50d04a961094e4fba4595968345fd3689ca48565.png?auto=compress,format&s=898bae9c2a403f28619244c43bcb5df1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shadowtactics",
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "image": "https://hb.imgix.net/ea342a9dbddfcb93790b4f6715dde3ea13fbfa49.png?auto=compress,format&s=3737298e917737ba913ad7c98df2a705",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        418240
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "elderscrollsonline_tamrielunlimited",
+      "title": "The Elder Scrolls Online: Tamriel Unlimited",
+      "image": "https://hb.imgix.net/3f806287e69e14a505a18d95948ebc3f38128230.png?auto=compress,format&s=c378fb2ca25e05bb853ca0a957eea4dc",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "quakechampions",
+      "title": "Quake Champions",
+      "image": "https://hb.imgix.net/9708d7a4332338dd9e53fa2a72389dc47844dedc.png?auto=compress,format&s=6b3a4c1c170502cc297be985d3611995",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        611500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "elderscrollslegends",
+      "title": "a special offering for The Elder Scrolls: Legends",
+      "image": "https://hb.imgix.net/e500f035d5e347fd74d26930daf1d14657dd6d42.png?auto=compress,format&s=ff1f062cb7a967b09599f81b2c15939e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "riseofthetombraider",
+      "title": "Dead Rising 2",
+      "image": "https://hb.imgix.net/60121d3f8c7c012ef73dcca5b001ce194c0da287.png?auto=compress,format&s=ab9ba5c91430d3a57bad29c3113efc10",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        45740
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "silence",
+      "title": "Silence",
+      "image": "https://hb.imgix.net/1738f488d3ff32840c6fae88fae0afd3b7496b01.png?auto=compress,format&s=78c6b5cd608a5b725155643763249593",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "emilyisawaytoo",
+      "title": "Emily is Away Too",
+      "image": "https://hb.imgix.net/6e89ea28b90cece21e51af3acf0aab25d44117bd.png?auto=compress,format&s=feccf528fcdc1f1b27ddddf79d867f6a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        523780
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "worldtothewest",
+      "title": "World to the West",
+      "image": "https://hb.imgix.net/386879145b7648dfcb105ba95411822f77438230.png?auto=compress,format&s=fbf44302c72281d186cbdaee0dcce311",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        530020
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wilmotswarehouse",
+      "title": "Wilmot's Warehouse",
+      "image": "https://hb.imgix.net/a1817ff9cfb8069ea227fa12cb58bf70a3b0297c.png?auto=compress,format&s=8fde2cc057889f903b85fc8acbaa18fa",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

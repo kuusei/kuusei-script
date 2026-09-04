@@ -1,0 +1,182 @@
+{
+  "id": "2018-03",
+  "slug": "March-2018",
+  "title": "March 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/march_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:24.369Z",
+  "games": [
+    {
+      "id": "overgrowth",
+      "title": "Overgrowth",
+      "image": "https://hb.imgix.net/d98c25e99524cdcf2a8e6e7642fd73af7312e1ed.png?auto=compress,format&s=fbc1d443c8b9aeac6efb0a730a5124ee",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        25000
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lostcastle",
+      "title": "Lost Castle",
+      "image": "https://hb.imgix.net/a1ba45454fac33436750e7662261c2d100d953e3.png?auto=compress,format&s=c8350e57e4ee385cccf7feaf41875ea8",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1415420
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "darksouls3",
+      "title": "DARK SOULS™ III",
+      "image": "https://hb.imgix.net/ddefcf6bac200be85051d113c61ae894b1e2ec38.png?auto=compress,format&s=396c86dfac0c7bdea4739cfafe24ba02",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        374320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "splasher",
+      "title": "Splasher",
+      "image": "https://hb.imgix.net/6ed4acf8d5fb0eb949e74ab8141d23800c7a328d.png?auto=compress,format&s=38a2f2fb02ab67c88c1a1dd7d153dcf5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        446840
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aviaryattorney",
+      "title": "Aviary Attorney",
+      "image": "https://hb.imgix.net/0836a174ccd95a6eb3285ba7c9ef32a120f2d374.png?auto=compress,format&s=4e4d0319791575a8275bf128f27f14b8",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        384630
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lastdayofjune",
+      "title": "Last Day of June",
+      "image": "https://hb.imgix.net/caa3683013e9998e8529bb66bdce9a3bca79d18a.png?auto=compress,format&s=68619dde70949b4bdd527a566bc9451b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        635320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "holypotatoeswereinspace",
+      "title": "Holy Potatoes! We're in Space?!",
+      "image": "https://hb.imgix.net/61fa374dcf6478a9beeea5874217b5006fe79865.png?auto=compress,format&s=3e488d9274f33540f91d3fe56d6dc797",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "drawkanoid",
+      "title": "Drawkanoid",
+      "image": "https://hb.imgix.net/254b5785cfd44b9dbbc9263ed906a71d040673f3.png?auto=compress,format&s=241fd97566faea8122e88a326dfb6df0",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        951370
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

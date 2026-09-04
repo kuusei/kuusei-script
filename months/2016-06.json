@@ -1,0 +1,175 @@
+{
+  "id": "2016-06",
+  "slug": "June-2016",
+  "title": "June 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/june_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:39.654Z",
+  "games": [
+    {
+      "id": "theforest",
+      "title": "The Forest",
+      "image": "https://hb.imgix.net/b68c82aae3b588b13102d8c8fef5cf287e3c41af.png?auto=compress,format&s=e5e5b373da8a576e7612867e385c8730",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        242760
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "planetaryannihilation_titans",
+      "title": "Planetary Annihilation: TITANS",
+      "image": "https://hb.imgix.net/2f56d68d383aedf35d534dbeba0f5bd16866a800.png?auto=compress,format&s=c74ad52bdab6b6b4c0f7df2c3640b664",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        386070
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "keeptalkingandnobodyexplodes",
+      "title": "Keep Talking and Nobody Explodes",
+      "image": "https://hb.imgix.net/08a02236f7e9627c1b907b32791b75de18b2e522.png?auto=compress,format&s=03c8d5ce032f447f0236934985d02ae4",
+      "platforms": [
+        "mac",
+        "oculus-rift",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "other-key",
+        "steam"
+      ],
+      "steamAppIds": [
+        341800
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dungeonoftheendless_crystalpack",
+      "title": "Dungeon of the Endless - Crystal Edition",
+      "image": "https://hb.imgix.net/2c6c00779d95628f849cbf703e4ec3e22a9af3e6.png?auto=compress,format&s=b7d06949d7e4e78328d9f915cf752917",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "steredenn",
+      "title": "Steredenn",
+      "image": "https://hb.imgix.net/143894f4a8e5c2b34abb87eac6539aa8e9644f43.png?auto=compress,format&s=7ee3e4c074742ebd9e2e228d85729411",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        347160
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rocketleague",
+      "title": "Rocket League®",
+      "image": "https://hb.imgix.net/a842e4f340a499ee549be48b2e10d992572bba77.png?auto=compress,format&s=bc716a30d21ca387a9855948b0f52e41",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wasted",
+      "title": "WASTED",
+      "image": "https://hb.imgix.net/ac331ad9dbf8c70cb815ef11fbe11294dd2e256f.png?auto=compress,format&s=5048c9803d2f4a7d4a14f20a242428ad",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        327510
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "catgirlwithoutsalad",
+      "title": "Cat Girl Without Salad",
+      "image": "https://hb.imgix.net/033175b92f8ebf0959cd037deaba1511b2a30c02.png?auto=compress,format&s=3ac0c1eb651eb083bb3f35fcea5f5b28",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

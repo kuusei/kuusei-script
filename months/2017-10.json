@@ -1,0 +1,177 @@
+{
+  "id": "2017-10",
+  "slug": "October-2017",
+  "title": "October 2017 Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/october_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:43.509Z",
+  "games": [
+    {
+      "id": "wargame_reddragon",
+      "title": "Wargame: Red Dragon",
+      "image": "https://hb.imgix.net/a7ec90f146895ef8606ad1d6eedb016ad48d2b1e.png?auto=compress,format&s=1b879df78a7759e0cac339d06a889c26",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        251060
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "furi",
+      "title": "Furi",
+      "image": "https://hb.imgix.net/e62bcca5c70c15edb137fcabb8fa5ffa87dc68d2.png?auto=compress,format&s=8fc2f9a9421738c5723ab50baecd7843",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        423230
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "riseofthetombraider",
+      "title": "Rise of the Tomb Raider™",
+      "image": "https://hb.imgix.net/1a7bc7de5084ea372d2a53f6806f89c63b342e54.png?auto=compress,format&s=e95eda16d0b18aa1db67d39686697270",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        391220
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "orwell",
+      "title": "Orwell: Keeping an Eye On You",
+      "image": "https://hb.imgix.net/5587bb12f45af09f23e85fc328cd90ae8f6f6d25.png?auto=compress,format&s=4bb05feb80b992a6988e3c0a71434a35",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        491950
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "seasonsafterfall",
+      "title": "Seasons after Fall",
+      "image": "https://hb.imgix.net/9dd3c634481bad42ee7b4a87bd2b005166b0ba47.png?auto=compress,format&s=6badd772f2f17bae6d28af32983f135a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        366320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theshroudedisle",
+      "title": "The Shrouded Isle",
+      "image": "https://hb.imgix.net/dd370413a75b5a962fdde6ef20a67dca83a42b61.png?auto=compress,format&s=3d129c273e0f6fdaa830cc70103b8411",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        501320
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "scannersombre",
+      "title": "Scanner Sombre",
+      "image": "https://hb.imgix.net/270778242ad5eaa50b37b4bd2e943045cf89543d.png?auto=compress,format&s=3fb19cf3f10997c6ff733d39f6420031",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        475190
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gettingoveritwithbennettfoddy",
+      "title": "Getting Over It with Bennett Foddy",
+      "image": "https://hb.imgix.net/24921aae9063dbd4c73d1ad57b998d08fc39a819.png?auto=compress,format&s=ada09e5061adc37b3abd1e2663a48cc5",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

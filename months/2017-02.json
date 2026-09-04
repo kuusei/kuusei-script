@@ -1,0 +1,196 @@
+{
+  "id": "2017-02",
+  "slug": "February-2017",
+  "title": "February 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/february_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:12.486Z",
+  "games": [
+    {
+      "id": "ryse_sonofrome",
+      "title": "Ryse: Son of Rome",
+      "image": "https://hb.imgix.net/44dafe8881193db1741f751ac09042be64765e95.png?auto=compress,format&s=608f6714fcb2d41483763e34f54cc61e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        302510
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "abzu",
+      "title": "ABZU",
+      "image": "https://hb.imgix.net/ed10a1708a74695d6523312c9d4c57c0e54067b9.png?auto=compress,format&s=52912865a31c1783043cb70591ce84fb",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        384190
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "xcom2",
+      "title": "XCOM® 2",
+      "image": "https://hb.imgix.net/ff7189a3a117c76c05a6ed30ddabe18c49fed12a.png?auto=compress,format&s=44f99a7844af1f6644eb93bf2b4e295c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        268500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "steamworldheist",
+      "title": "SteamWorld Heist",
+      "image": "https://hb.imgix.net/c85fe36ca0d8e683b352f000004b77c03709137e.png?auto=compress,format&s=e8107d78990e88b5c04ab2ea6edbac87",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "okhlos",
+      "title": "Okhlos",
+      "image": "https://hb.imgix.net/6f7fcb94f3ab14e2292dd10d2b29656bc90c9202.png?auto=compress,format&s=0840456a4bad839c2a206cc487618d06",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        400180
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "projecthighrise",
+      "title": "Project Highrise",
+      "image": "https://hb.imgix.net/f4c590a473b1f505404fdeb9513fab86a56e2fe1.png?auto=compress,format&s=92a73e22386403a0f0cf5e35dd67e5b8",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        423580
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "husk",
+      "title": "Husk",
+      "image": "https://hb.imgix.net/18cc332f3172d9b8fe1fca1b9acbf10f971b036d.png?auto=compress,format&s=52fb6d54dff7f99b8ce0e1f073c16f94",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        553960
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hollowknight",
+      "title": "Hollow Knight",
+      "image": "https://hb.imgix.net/2a50a14b3291d001b9a2246b9b4cc1c9b5f7d0bf.png?auto=compress,format&s=f20a18ec010bf38961abc7ad2be7dd3e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "ohdeer",
+      "title": "Oh, Deer!",
+      "image": "https://hb.imgix.net/8216ea19e2d2bb9f2f8d9316bb8ffe1645e02c91.png?auto=compress,format&s=0bee71d2cbbc01c133c6538c746e9bc6",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

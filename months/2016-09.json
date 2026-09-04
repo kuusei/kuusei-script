@@ -1,0 +1,174 @@
+{
+  "id": "2016-09",
+  "slug": "September-2016",
+  "title": "September 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/september_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:29.588Z",
+  "games": [
+    {
+      "id": "thebannersaga",
+      "title": "The Banner Saga",
+      "image": "https://hb.imgix.net/61f4d4bd639d4e6bac8b904ea9490bb88320bc95.png?auto=compress,format&s=2d32f351dfd36859086f6aa92ad2c49d",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        237990
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wwe2k16",
+      "title": "WWE 2K16",
+      "image": "https://hb.imgix.net/7f79d8dbafc462b7a56ac4145ae6e508396f37a7.png?auto=compress,format&s=31f732277afca96d0e6b34664af541b6",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sheltered",
+      "title": "Sheltered",
+      "image": "https://hb.imgix.net/263b09e702e87445a73e73debbffc638432ac3f0.png?auto=compress,format&s=ed943b1a2ff927cd313faf9b89bf2965",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        356040
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "epistory_typingchronicles",
+      "title": "Epistory - Typing Chronicles",
+      "image": "https://hb.imgix.net/2ef451ee058975e8fb19ae413e7ba32c074f18dd.png?auto=compress,format&s=87270362cc18de00b4a36d5464837c02",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "townofsalem",
+      "title": "Town of Salem",
+      "image": "https://hb.imgix.net/7b823c70e398f476dd15b31c03eb92b580c7ba5a.png?auto=compress,format&s=d683d3bb9b9e0a1fa44b18df7f9ed072",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        334230
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "soma",
+      "title": "SOMA",
+      "image": "https://hb.imgix.net/5768749509fb39f54925f48e9e31d5dd4e221600.png?auto=compress,format&s=d11d417d2c3cbba396276ebd78b852d0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        282140
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theuncertain",
+      "title": "The Uncertain",
+      "image": "https://hb.imgix.net/4cc0e41815f3ab49db0531482b695ae79b855ff1.png?auto=compress,format&s=bdaffe3121ea7a2d40be47a30e1b1b3a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "spoolside",
+      "title": "Spoolside",
+      "image": "https://hb.imgix.net/42ba7bf1ddf1678ba1d4217702bfd3ef21f8ae7f.png?auto=compress,format&s=43820ebaf9426e6edc49400c52df9944",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "2017-08",
+  "slug": "August-2017",
+  "title": "August 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/august_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:50.071Z",
+  "games": [
+    {
+      "id": "onepiece_burningblood",
+      "title": "ONE PIECE BURNING BLOOD",
+      "image": "https://hb.imgix.net/8b2e69a7a37603028f4322484cf1a71181d168e2.png?auto=compress,format&s=4016aecd0db41a1b9eb936f963b296f4",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        425220
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "offworldtradingco",
+      "title": "Offworld Trading Company",
+      "image": "https://hb.imgix.net/c948674388436d2278cabb22f41fe65894c4f696.png?auto=compress,format&s=fe424582495d08f2c05d21054c03348f",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        271240
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "pillarsofeternity_hero",
+      "title": "Pillars of Eternity",
+      "image": "https://hb.imgix.net/666d8912ee97a8be247e6924d84cab12016b2c26.png?auto=compress,format&s=54d2b994e096d4e71a9cf6526b7449da",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        291650
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nba_2k17",
+      "title": "NBA 2K17",
+      "image": "https://hb.imgix.net/aafd0e0783a85188f5194b98fe5d628af1e6ce32.png?auto=compress,format&s=13011a3ab1bb3c3e3c81aa42753eb667",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "warfortheoverworld",
+      "title": "War for the Overworld",
+      "image": "https://hb.imgix.net/e0f222f5ee3f8068adddadc15c7ce624e04c43d7.png?auto=compress,format&s=4d84117d15406f2dc2dcde1b4eab9b0e",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        230190
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "overcooked",
+      "title": "Overcooked",
+      "image": "https://hb.imgix.net/24f055b55dcd30599e0f50434d2bf747c5ebbd78.png?auto=compress,format&s=8b5c67ba1783bdd74e5f7c22539ff6cf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        448510
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "wuppo",
+      "title": "Wuppo",
+      "image": "https://hb.imgix.net/510968f56d8e0533bd28f5f2a42e63c3632ed368.png?auto=compress,format&s=274e8deacf00b72b70aa6cd05a9e91c1",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        400630
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nongunz",
+      "title": "Nongünz",
+      "image": "https://hb.imgix.net/3a57ca477b9457be2392164cc3f9071561f6aa68.png?auto=compress,format&s=010e9c004704e1a30c61fb1cf61c87cd",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "underwhere_issues1-4",
+      "title": "Kevin Eastman's Underwhere Issues 1-4",
+      "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "quietcity",
+      "title": "Quiet City",
+      "image": "https://hb.imgix.net/fbd32bf47c24a59f5360636d67220f2617ebf848.png?auto=compress,format&s=3d39310235f08634d417b19f81c16505",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

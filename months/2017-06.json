@@ -1,0 +1,197 @@
+{
+  "id": "2017-06",
+  "slug": "June-2017",
+  "title": "June 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/june_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:57.834Z",
+  "games": [
+    {
+      "id": "plagueinc_evolved",
+      "title": "Plague Inc: Evolved",
+      "image": "https://hb.imgix.net/3131493a0c5f73d9e0e8df318c9ce4e8a17d03d8.png?auto=compress,format&s=2345c7365306ce6208239d0fcd167c78",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        246620
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "superhot",
+      "title": "SUPERHOT",
+      "image": "https://hb.imgix.net/a29abe8fe2e3c86565ef7aee0ab50ecad904e438.png?auto=compress,format&s=4512251e5bceeaca18970151634af2f4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        322500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "stellaris",
+      "title": "Stellaris",
+      "image": "https://hb.imgix.net/8d4a4d0f9d76165b167af26770a9565cb71a957b.png?auto=compress,format&s=e782207aedc3d9a838073a15886e5e7c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        281990
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ashesofthesingularity_escalation",
+      "title": "Ashes of the Singularity: Escalation",
+      "image": "https://hb.imgix.net/f15f57417f00c3705cfcacc486c3211e561f3076.png?auto=compress,format&s=4fd3e697d46084ce9c3445e43a82c421",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        507490
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "brigador",
+      "title": "Brigador: Up-Armored Edition",
+      "image": "https://hb.imgix.net/052892e02cd2a47b5043b3938e37c4381fc90d89.png?auto=compress,format&s=8b14d90713563e409fe95b27e998437f",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        274500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shoppekeep",
+      "title": "Shoppe Keep",
+      "image": "https://hb.imgix.net/f03e066e7137e5a929306e146b1751c4b5ddbeef.png?auto=compress,format&s=a8a47ba5d44d9869dab3b1c66b0ad583",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        381120
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "maize",
+      "title": "Maize",
+      "image": "https://hb.imgix.net/2430fc799cdee7451778e635b85d48da64aa48e1.png?auto=compress,format&s=5ef5fbd235077edf95858b31af6447df",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        284240
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "underwhere_issues1-2",
+      "title": "Kevin Eastman's Underwhere Issues 1-2",
+      "image": "https://hb.imgix.net/92d89b49b5151d10e067e6ac0b472b69f080755f.png?auto=compress,format&s=d93dad126e9e9f2881f6d72ddd179183",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "tinyecho",
+      "title": "Tiny Echo",
+      "image": "https://hb.imgix.net/493626551dea11d2aabf6cc333f7d8f3f4523dee.png?auto=compress,format&s=d86bd782bcef16983c43dfbf71ae9a25",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

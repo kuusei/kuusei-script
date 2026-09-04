@@ -1,0 +1,177 @@
+{
+  "id": "2016-08",
+  "slug": "August-2016",
+  "title": "August 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/august_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:32.968Z",
+  "games": [
+    {
+      "id": "the_incredible_adventures_of_van_helsing_final_cut",
+      "title": "The Incredible Adventures of Van Helsing: Final Cut",
+      "image": "https://hb.imgix.net/7e0c17c0114d3541021de21dd4b167fe0c9da67f.png?auto=compress,format&s=450f74bd4173117a6aa7d94f90cf1f2e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        400170
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jackboxpartypack2",
+      "title": "The Jackbox Party Pack 2",
+      "image": "https://hb.imgix.net/6b7a01cdd9cf1226c39d94ecd684fd4734424b34.png?auto=compress,format&s=00a3380e6513ed129b07ab185e4eb416",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        397460
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "poi",
+      "title": "Poi (Early Access)",
+      "image": "https://hb.imgix.net/338f728a702e0eff4d3d19370c731a49ad63018e.png?auto=compress,format&s=32761ecd742e61d80d7bbd1200e0f0f7",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "planetoftheeyes",
+      "title": "Planet of the Eyes",
+      "image": "https://hb.imgix.net/94a88ba586c00016d6499f66c0098d144f9143c6.png?auto=compress,format&s=ccacab96001b386ca1972f1a90a75104",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        350970
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "starwardrogue",
+      "title": "Starward Rogue",
+      "image": "https://hb.imgix.net/62dd5575ec5e6806fe929d27c9b67f8185f51b33.png?auto=compress,format&s=feb8076e709e76008419be1152df48c1",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        410820
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "callofduty_blackops3_multiplayerstarterpack",
+      "title": "Call of Duty®: Black Ops III - Multiplayer Starter Pack",
+      "image": "https://hb.imgix.net/241fe23f1027a81d07df8d559b0b2ae6578eaa86.png?auto=compress,format&s=19654053b4944fdc044adbc2beff1008",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "randomaccessmurder",
+      "title": "Random Access Murder",
+      "image": "https://hb.imgix.net/18109826f6ee8fab792a8903b13999aba0fa9963.png?auto=compress,format&s=c63fe397f46cca0a13dcbd358144923d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        438790
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "discroom",
+      "title": "Disc Room",
+      "image": "https://hb.imgix.net/e7c52a588fa70eb215bc16ae4d1f6199688ab0ae.png?auto=compress,format&s=a32e5a6491d28a08ae30fb26fcdd44bc",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

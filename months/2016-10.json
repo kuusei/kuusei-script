@@ -1,0 +1,183 @@
+{
+  "id": "2016-10",
+  "slug": "October-2016",
+  "title": "October 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/october_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:26.083Z",
+  "games": [
+    {
+      "id": "slimerancher",
+      "title": "Slime Rancher (Early Access)",
+      "image": "https://hb.imgix.net/5b43316b41dd7dfc0ea4a299ddd8b38f16785ad3.png?auto=compress,format&s=5d5fc715ad25034c45b789addf53ffe6",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hotlinemiami2",
+      "title": "Hotline Miami 2: Wrong Number",
+      "image": "https://hb.imgix.net/46a703f26c1cfc8a4fd016b9afc35a189e1a21db.png?auto=compress,format&s=df87923fdb7b47f985a79305a6f85bb4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        274170
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deponiadoomsday",
+      "title": "Deponia Doomsday",
+      "image": "https://hb.imgix.net/46eace5ea5e60ffa3012b7006095fed90c81d19d.png?auto=compress,format&s=3b6bc0af5a3f4ce0fcd90947542d2cae",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        421050
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "trainvalley",
+      "title": "Train Valley",
+      "image": "https://hb.imgix.net/e235358bbb5359fb989be564de6fc0d4004791e6.png?auto=compress,format&s=cd0bd53c141785dec73eb6a6b0781d6f",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        353640
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "actionhenk",
+      "title": "Action Henk",
+      "image": "https://hb.imgix.net/ca436510349c1834ab987c66e867a0a06fc50acb.png?auto=compress,format&s=ac6967477d758a4467b6c7c05f046496",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        285820
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "grimdawn",
+      "title": "Grim Dawn",
+      "image": "https://hb.imgix.net/101d09233f32c7b6b7da0924bc877e6c1d72da2e.png?auto=compress,format&s=546beedeff301e1bfb5b32262699ac55",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        219990
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "thoth",
+      "title": "THOTH",
+      "image": "https://hb.imgix.net/61c3d0b82c73bd4c0b88b5b0e39081d88d5701e3.png?auto=compress,format&s=2012b678723540691ce5fac540d134ec",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        510620
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fidel_dungeon_rescue",
+      "title": "Fidel - Dungeon Rescue",
+      "image": "https://hb.imgix.net/e029a37aa90ce6c2b59f184c81a9f143d3373f7e.png?auto=compress,format&s=bd3c6b6d8658be477dc50f75d840cba4",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "2018-04",
+  "slug": "April-2018",
+  "title": "April 2018 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/april_2018_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:10:16.835Z",
+  "games": [
+    {
+      "id": "outlast2",
+      "title": "Outlast 2",
+      "image": "https://hb.imgix.net/6a053c0bbdc6d02357a8b66c09099652acf4a1ad.png?auto=compress,format&s=9782cbff3f36c9a2b28b318c4744dcae",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        414700
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "laracroftgo",
+      "title": "Lara Croft GO",
+      "image": "https://hb.imgix.net/a6480fe69779d0e283fdd53008f33e490f74d369.png?auto=compress,format&s=4e7c9256172a757873dea4872de57050",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        540840
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "deusex_mankinddivided",
+      "title": "Deus Ex: Mankind Divided™",
+      "image": "https://hb.imgix.net/b27dfc48e954e4460861d61c604533e6fa2e0aff.png?auto=compress,format&s=2582c1dce2fde97febc3c03a6f64fd6b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        337000
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "godeater2rageburst",
+      "title": "GOD EATER 2: Rage Burst",
+      "image": "https://hb.imgix.net/defb6387c3152150b33af57b8afb9287c60c7db6.png?auto=compress,format&s=87f300167287abdc47d71aeb1dd92b20",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mafia3",
+      "title": "Mafia III",
+      "image": "https://hb.imgix.net/09078304fab0997913246f2aa12dd92ff397419b.png?auto=compress,format&s=51efbe6d5b7cc69af733aefd9039d446",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        360430
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "subterrain",
+      "title": "Subterrain",
+      "image": "https://hb.imgix.net/a80336f2af41c7d09f457d8020b58723f892d2ee.png?auto=compress,format&s=3c460e49cc50a8bd2f2253f46d342538",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        340490
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "aer_memoriesofold",
+      "title": "AER Memories of Old",
+      "image": "https://hb.imgix.net/6b71a15ad9a9c2757a7dc3308d812e2e96e28023.png?auto=compress,format&s=ad1321ff5ae17cbe620c0d7d96135348",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        331870
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "laserleague",
+      "title": "Laser League",
+      "image": "https://hb.imgix.net/2348706b9f847473e281d13897381a0eb3b272f4.png?auto=compress,format&s=1aff5e36f18cff97ac4cb6e05b579015",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lyricsonata",
+      "title": "Lyric Sonata",
+      "image": "https://hb.imgix.net/4ec3ace4aeb35bf2876439e2a0775513d3e17923.png?auto=compress,format&s=d3d122c9e8aa2a8c44e7f965b71416e2",
+      "platforms": [],
+      "deliveryMethods": [],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

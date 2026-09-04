@@ -1,0 +1,180 @@
+{
+  "id": "2016-07",
+  "slug": "July-2016",
+  "title": "July 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/july_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:36.487Z",
+  "games": [
+    {
+      "id": "kentuckyroutezero",
+      "title": "Kentucky Route Zero",
+      "image": "https://hb.imgix.net/7c5611dd99bdc977533feac7b0befac2241c1f0d.png?auto=compress,format&s=d0eeb32b0baf4c61ed2167688d64e05a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        231200
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "satellitereign",
+      "title": "Satellite Reign",
+      "image": "https://hb.imgix.net/b03dfaa1cbac01bb58351cb614aad3745a38f8e2.png?auto=compress,format&s=e6064ba4d100127e95adf6b5b052dc5c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        268870
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tis_100",
+      "title": "TIS-100",
+      "image": "https://hb.imgix.net/744a21fabcf221bc1cc637f04cd7178e0525329d.png?auto=compress,format&s=1500dc786cb5d6c9cdbaace09e0c78f5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        370360
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "theredsolstice",
+      "title": "The Red Solstice",
+      "image": "https://hb.imgix.net/2fcc2a2cc84f0fed5b96281f25b21bbe3ae20dd7.png?auto=compress,format&s=06ff53bea8642b80471b0c07f64fbf20",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        265590
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "avernum2_crystalsouls",
+      "title": "Avernum 2: Crystal Souls",
+      "image": "https://hb.imgix.net/d2faf50259b0632d4a0ec2190f4b3d0ef56df3d9.png?auto=compress,format&s=e49dd2b00e5d25bce9c0e519ab60d9b2",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        337850
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "hurtworld",
+      "title": "Hurtworld",
+      "image": "https://hb.imgix.net/0be9f3df035ad4e6b46fc15c0729462dd17f778b.png?auto=compress,format&s=18a7c89d31556a7a22076ec9501a7d4a",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        393420
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "cthulurealms",
+      "title": "Cthulhu Realms - Full Version",
+      "image": "https://hb.imgix.net/b06253650d0c67935268f631738dcd238c03237a.png?auto=compress,format&s=bb0f179993a947412a377233cbfe69c8",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "copoka",
+      "title": "Copoka",
+      "image": "https://hb.imgix.net/134796167e5e583469228e75b316ca01963d5e1e.png?auto=compress,format&s=a560d6b5699b06846d75b362eb745253",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

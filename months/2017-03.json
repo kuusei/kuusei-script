@@ -1,0 +1,179 @@
+{
+  "id": "2017-03",
+  "slug": "March-2017",
+  "title": "March 2017 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/march_2017_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-04T12:11:08.336Z",
+  "games": [
+    {
+      "id": "polybridge",
+      "title": "Poly Bridge",
+      "image": "https://hb.imgix.net/aee04b29617a9375baaaaa2ba1c6a3dec018ba9b.png?auto=compress,format&s=ac285110a4c9c2d370a1fd688717bd1b",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        367450
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spacerungalaxy",
+      "title": "Space Run Galaxy",
+      "image": "https://hb.imgix.net/16a4fb84aae845325385c928d434b51ebc4a5f55.png?auto=compress,format&s=631ea7898693f63e4c79668d7f0df279",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        355800
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "totalwar_warhammer",
+      "title": "Total War™: WARHAMMER®",
+      "image": "https://hb.imgix.net/3f1bd89ae94ee6ac830a1c9e94547b50945a9eb3.png?auto=compress,format&s=d6359519db5bcd3e16819e4c3d8754ad",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        364360
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "onepiece_piratewarriors3",
+      "title": "ONE PIECE PIRATE WARRIORS 3",
+      "image": "https://hb.imgix.net/f0e31eac16445a27e366103c7aa52f4c1d480f3c.png?auto=compress,format&s=8a41fadfbe129ccf274fc9205faa016e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        331600
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "flatheroes",
+      "title": "Flat Heroes",
+      "image": "https://hb.imgix.net/fd4200433bed4ca480650194ab79489539fdae01.png?auto=compress,format&s=0bdfb2744c81869264bc118b2a9b383f",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        508790
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rive",
+      "title": "RIVE: Wreck, Hack, Die, Retry",
+      "image": "https://hb.imgix.net/3aedbe266abc4ab62089d9a9a59dd512fffa7720.png?auto=compress,format&s=f95c5e6468b13225489c4bf2e5cc91a0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "morphblade",
+      "title": "Morphblade",
+      "image": "https://hb.imgix.net/388719db3af6d2f643fc3567cfe74727ef660904.png?auto=compress,format&s=3d6953bfe978fca89e87cdecc773e0db",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        494720
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "uurnog",
+      "title": "Uurnog",
+      "image": "https://hb.imgix.net/44d117e467b40e0d8005e32cf69989818fec7be3.png?auto=compress,format&s=1d5b7c7b4ec31ad86de199b455c13e53",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}
