@@ -1,0 +1,141 @@
+{
+  "id": "2015-12",
+  "slug": "December-2015",
+  "title": "December 2015 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/december_2015_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:34:05.382Z",
+  "games": [
+    {
+      "id": "banished",
+      "title": "Banished",
+      "image": "https://hb.imgix.net/f3eaaf4ff66157e583fb7946fc0d2c1653fb661c.png?auto=compress,format&s=725c68db11f83132fa45663632f1f316",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        242920
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "rust",
+      "title": "Rust",
+      "image": "https://hb.imgix.net/ad14da88369857f77e2dbaee345df3984d6c2fe3.png?auto=compress,format&s=06c9a43ae45209de36602365336b53de",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        252490
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "payday2",
+      "title": "PAYDAY 2",
+      "image": "https://hb.imgix.net/5c1d8396291ca9719ac49803f97a154cf9ba6f63.png?auto=compress,format&s=830dfaf04632378ff9034c47cf32fb1e",
+      "platforms": [
+        "oculus-rift",
+        "vive",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        218620
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "neonstruct",
+      "title": "NEON STRUCT Deluxe Edition",
+      "image": "https://hb.imgix.net/8b938cd599e55ab2f79318335090b3ff39c78d0f.png?auto=compress,format&s=d1a249a4aec484e7a0be7335b9097901",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "chromasquad",
+      "title": "Chroma Squad",
+      "image": "https://hb.imgix.net/e1f79589f3e09d6c8d85b144987c95013a35b61b.png?auto=compress,format&s=82f827809cfd82700dd6d3dec422bb8a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        251130
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "coh2",
+      "title": "Company of Heroes 2",
+      "image": "https://hb.imgix.net/4c807b6c89efc3c5d274f37cbc3e5e4b0fd98513.png?auto=compress,format&s=d9620857c8819635da92477533c43409",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        231430
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "2016-04",
+  "slug": "April-2016",
+  "title": "April 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/april_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:33:52.483Z",
+  "games": [
+    {
+      "id": "nuclearthrone",
+      "title": "Nuclear Throne",
+      "image": "https://hb.imgix.net/3cb36a7804ef1e5e371fe650dcbe261cd7e8bf11.png?auto=compress,format&s=18a1c2ed0ebe341153bcbdcccf4a66f8",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        242680
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "renowned_explorers",
+      "title": "Renowned Explorers: International Society",
+      "image": "https://hb.imgix.net/d53a5f29a32c46ada32a969760d30427f9183cad.png?auto=compress,format&s=48e3c1dba77dbb2d365aabd717435ed6",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        296970
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "nova_111",
+      "title": "Nova-111",
+      "image": "https://hb.imgix.net/e09428a3e9adba0e2d856e25627362494f9f27c3.png?auto=compress,format&s=3bc16669f005ba457d37d780d33a042b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        325370
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "magic_circle",
+      "title": "The Magic Circle",
+      "image": "https://hb.imgix.net/c51874c30dbbedca8629d90224c90e172bb70b13.png?auto=compress,format&s=7c64b2072fb76a7884c6d5ef4ac6704d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        323380
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "avalanche2_super_avalanche",
+      "title": "Super Avalanche",
+      "image": "https://hb.imgix.net/4120c80f5b0ccd0363b38a6be2521b79bf11fbca.png?auto=compress,format&s=5cb0642542f4a2761433f3d1c918961a",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "southpark_thestickoftruth",
+      "title": "South Park™: The Stick of Truth™",
+      "image": "https://hb.imgix.net/0e47050d07152eb0d249e075e411376706e660e0.png?auto=compress,format&s=7d11afd8e722dbd1672a316c3db04016",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        213670
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "twom",
+      "title": "This War of Mine",
+      "image": "https://hb.imgix.net/00127c29299efaeaf6f30e7eff518e5313229741.png?auto=compress,format&s=2672609ac2601cc27e72444e3d78f512",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        282070
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "tailwind_prologue",
+      "title": "Tailwind: Prologue",
+      "image": "https://hb.imgix.net/290cb9bf05d6b16066afe39dd709e04cfb01aed9.png?auto=compress,format&s=b97c035c8ba6a919ccff26a132503e22",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "stikbold",
+      "title": "Stikbold! A Dodgeball Adventure",
+      "image": "https://hb.imgix.net/5880f042e4dfe18b7744957bb3e2eb5db327f3d7.png?auto=compress,format&s=ae10c2b7dfc44532259c5a7a47bb9b50",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        429330
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

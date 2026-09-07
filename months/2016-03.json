@@ -1,0 +1,181 @@
+{
+  "id": "2016-03",
+  "slug": "March-2016",
+  "title": "March 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/march_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:33:56.067Z",
+  "games": [
+    {
+      "id": "wasteland",
+      "title": "Wasteland 2: Director's Cut",
+      "image": "https://hb.imgix.net/5e206cb90155d82cb1be8c7801132a636f0f7d5e.png?auto=compress,format&s=d0738333227955e20617927a08689ac5",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        240760
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "grav",
+      "title": "GRAV",
+      "image": "https://hb.imgix.net/5467c60347451e13b356d7a3d3aad037c9c7abbf.png?auto=compress,format&s=ab17d1163b21beb9d93a8dd4c97e1277",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        332500
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "shantae",
+      "title": "Shantae and the Pirate's Curse",
+      "image": "https://hb.imgix.net/029b246025a886d5169972edd6ed57bef14d0d39.png?auto=compress,format&s=8c91f999fdd98ad69268533c942ffc30",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        345820
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "i-am-bread",
+      "title": "I am Bread",
+      "image": "https://hb.imgix.net/3914e4b074620dae51743c8b67724edc20062343.png?auto=compress,format&s=02366479919ffe02d926510992698281",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        327890
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sotm",
+      "title": "Sentinels of the Multiverse",
+      "image": "https://hb.imgix.net/10bedac55db217a78a5ce383d54305ca46f10879.png?auto=compress,format&s=8aac1aae05b3779ceb4bdca421fca96c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        337150
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "ark",
+      "title": "ARK: Survival Evolved",
+      "image": "https://hb.imgix.net/fcfe848391a5609b7884aa662c237bfd822d7fef.png?auto=compress,format&s=e3b931ed41dc46dc213576ff307b3214",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        346110
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "battlesloths",
+      "title": "BATTLESLOTHS",
+      "image": "https://hb.imgix.net/603cab2b555288b593a734d0b164ee3cecd0ebbd.png?auto=compress,format&s=c297049843adb7b3c3eb34eda951ccc4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "switchcars",
+      "title": "Switchcars",
+      "image": "https://hb.imgix.net/3c4aed26c4f7f0bace02c7d4be1b7449ae1357e6.png?auto=compress,format&s=84f26d7f7d6347ef71e40d7f1ed6e41d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        442210
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

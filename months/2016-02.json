@@ -1,0 +1,181 @@
+{
+  "id": "2016-02",
+  "slug": "February-2016",
+  "title": "February 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/february_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:33:59.720Z",
+  "games": [
+    {
+      "id": "titan-souls",
+      "title": "Titan Souls",
+      "image": "https://hb.imgix.net/aeab55ade2d53f463b24a59cb611dd780b6686b7.png?auto=compress,format&s=657aa779bf52cb3c54a9a33cb295764b",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        297130
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "broken-age",
+      "title": "Broken Age",
+      "image": "https://hb.imgix.net/bc3fc135d8c120c765ec40d7bb969d6ce34315ce.png?auto=compress,format&s=1cdc6284e203f3d2714a24a408969933",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        232790
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "volume",
+      "title": "Volume",
+      "image": "https://hb.imgix.net/3e8f006a6aba109df75065eec9babd25763c40ac.png?auto=compress,format&s=b038bda09a10fb8c4d908bce223f1e75",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "penarium",
+      "title": "Penarium",
+      "image": "https://hb.imgix.net/cd0a82bdc1b923b5198253053f93bff5070fc46d.png?auto=compress,format&s=8d496c6c6ad47147273594d80579263a",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        307590
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "dropsy",
+      "title": "Dropsy",
+      "image": "https://hb.imgix.net/1396435dda4e0ef603ace79797a6b07925e18d71.png?auto=compress,format&s=16df9b9cbf5d322c58da4fc6537041b9",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        274350
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "alien-isolation",
+      "title": "Alien: Isolation™",
+      "image": "https://hb.imgix.net/8a84f18a6376df8f790bcc43b2c88ff59951e602.png?auto=compress,format&s=be17a37c12e6e1d7ff01c457171b2e69",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        214490
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "elephant-in-the-room",
+      "title": "Elephant in the Room",
+      "image": "https://hb.imgix.net/c00fe607dc913399938f7766e2a7ee94da3e501a.png?auto=compress,format&s=8b0c91b68eec896202e1567a0b93aa71",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    },
+    {
+      "id": "planetoid-pioneers",
+      "title": "Planetoid Pioneers",
+      "image": "https://hb.imgix.net/6335f318dd06988ac457ff20abe2af1d9f2efd25.png?auto=compress,format&s=c3e6d49ac44ccafb921f3b5c5def594c",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "2016-01",
+  "slug": "January-2016",
+  "title": "January 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/january_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:34:02.559Z",
+  "games": [
+    {
+      "id": "the-talos-principle",
+      "title": "The Talos Principle",
+      "image": "https://hb.imgix.net/cd6a91cff4173f8b9f9a89c71be9f11b6a54a7ab.png?auto=compress,format&s=2704bd3addf678d37a6b292f2f315867",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        257510
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "the-masterplan",
+      "title": "The Masterplan",
+      "image": "https://hb.imgix.net/5e00f16820f71a9d6e98ff4c8046f4fe52362218.png?auto=compress,format&s=e8b18e201662523bbae99189d863a56d",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        313080
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "mushroom-11",
+      "title": "Mushroom 11",
+      "image": "https://hb.imgix.net/fff5540234947a120871b228b3f3832b6ebe58f7.png?auto=compress,format&s=bfd725d751e1737430b69b4433d3c6cc",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        243160
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "grim-fandango",
+      "title": "Grim Fandango Remastered",
+      "image": "https://hb.imgix.net/db5dd00d256cf81e90b37787958a43efffd69c83.png?auto=compress,format&s=9c5ca32f2d394991096962a72ff683c0",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        316790
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spelunky",
+      "title": "Spelunky",
+      "image": "https://hb.imgix.net/d05bb0234d79bc22d222143bd20f415c81a29ec1.png?auto=compress,format&s=6e8511cd9b35cb0b2f1d0400cce09a58",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        239350
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "fistful-of-gun",
+      "title": "A Fistful of Gun",
+      "image": "https://hb.imgix.net/a39cd31dcc210b164125941dd1e7a66251e8189b.png?auto=compress,format&s=31692e3f6cb3fd7a4c54ead7cfb47601",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        229810
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}

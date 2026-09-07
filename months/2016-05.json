@@ -1,0 +1,209 @@
+{
+  "id": "2016-05",
+  "slug": "May-2016",
+  "title": "May 2016 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/may_2016_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:33:48.494Z",
+  "games": [
+    {
+      "id": "infinifactory",
+      "title": "Infinifactory",
+      "image": "https://hb.imgix.net/79d5d1e83003526468e06506c7ee1fb0c9d3d4c8.png?auto=compress,format&s=60b89faa374682023c9180c07481c911",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        300570
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "crawl",
+      "title": "Crawl",
+      "image": "https://hb.imgix.net/3b06ae304938e779a683e571ed4cebfe337d8a4f.png?auto=compress,format&s=4e4d71dcf694400411320c5c9b79db89",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        293780
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "galakz",
+      "title": "Galak-Z",
+      "image": "https://hb.imgix.net/814b94d1e2d2920fe26f2d3c4ef440671e0132ee.png?auto=compress,format&s=7eb551d66ed884a4c0f6cc1036505bb4",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        300580
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "jumpjetrex",
+      "title": "JumpJet Rex",
+      "image": "https://hb.imgix.net/e7932281c86633c7f5ce6b21880db102b0e2c95e.png?auto=compress,format&s=a089866cdd5104ebcc1ea9e60ac2a305",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        329460
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "franbow",
+      "title": "Fran Bow",
+      "image": "https://hb.imgix.net/2b746d9fdc1a35f8b25634c1df121b96f5bb7ecf.png?auto=compress,format&s=00a0361286aa425a2e77aa2a193449ef",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        362680
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "oddworld_newntasty",
+      "title": "Oddworld: New 'n' Tasty",
+      "image": "https://hb.imgix.net/48dc368aa2ce39daa743eea07c168ab93c17111e.png?auto=compress,format&s=1e2060dac16492fdf62ae9a5751fad56",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        314660
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "spacemachine1993",
+      "title": "1993 Space Machine",
+      "image": "https://hb.imgix.net/1f1a026d782e7bdc523a1f9e3cca2368bce8fd30.png?auto=compress,format&s=bf19c272561b6fb14e7bc302998497aa",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        373480
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "madmax",
+      "title": "Mad Max",
+      "image": "https://hb.imgix.net/1d30ecbcd5ba7e8a45b40a14b62a98467b978207.png?auto=compress,format&s=6520ac0300463d2c6d8c0473b68a2e5c",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        234140
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "gunmetalarcadiazero",
+      "title": "Gunmetal Arcadia Zero",
+      "image": "https://hb.imgix.net/04ef33fe7a63eeb63eebe70578436e2646ce2e88.png?auto=compress,format&s=ca0c92897c1e14e97643875e7db791c6",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download"
+      ],
+      "steamAppIds": [],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": true
+    }
+  ]
+}

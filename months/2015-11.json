@@ -1,0 +1,142 @@
+{
+  "id": "2015-11",
+  "slug": "November-2015",
+  "title": "November 2015 Humble Monthly",
+  "url": "https://www.humblebundle.com/monthly/p/november_2015_monthly",
+  "isActive": false,
+  "usesChoices": false,
+  "scrapedAt": "2026-09-07T13:34:08.491Z",
+  "games": [
+    {
+      "id": "saintsrow4",
+      "title": "Saints Row IV",
+      "image": "https://hb.imgix.net/e36b96e3a9e0f67c6d52b98fe0e8e8614d8bce1b.png?auto=compress,format&s=cae7a724b6ed2cae38db841900b2bb1a",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        206420
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "besiege",
+      "title": "Besiege",
+      "image": "https://hb.imgix.net/e36cc95e446d8e7fc3c0e2ea1a5c79a02994eca3.png?auto=compress,format&s=4b23b8818df61a2cbee13bc833450f05",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        346010
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "valkyria",
+      "title": "Valkyria Chronicles™",
+      "image": "https://hb.imgix.net/35c82d76d53a2e9067e116e39522252254302c7f.png?auto=compress,format&s=62810478b3682e13c7d1445eb26cf9bc",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        294860
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "lethalleague",
+      "title": "Lethal League",
+      "image": "https://hb.imgix.net/16ccdce0e39903815ff1d738f3785e18ad818afd.png?auto=compress,format&s=37ce4d42fa674e6ac252e8f657e97436",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        261180
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "sanctuary",
+      "title": "SanctuaryRPG: Black Edition",
+      "image": "https://hb.imgix.net/9dbaf9b55c982e353c16d47aa68a273a04258525.png?auto=compress,format&s=1a364133bb06e10fb6b93f45a4852356",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        328760
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    },
+    {
+      "id": "legendofgrimrock",
+      "title": "Legend of Grimrock",
+      "image": "https://hb.imgix.net/ed35e845f76ea96e805ca8f4da7262cd7175bfbe.png?auto=compress,format&s=53a5d62bcf027cafb05485c81835dfd7",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "download",
+        "steam"
+      ],
+      "steamAppIds": [
+        207170
+      ],
+      "developers": [],
+      "genres": [],
+      "msrpUsd": null,
+      "ratingPercent": null,
+      "expiresAt": null,
+      "isExtra": false
+    }
+  ]
+}
