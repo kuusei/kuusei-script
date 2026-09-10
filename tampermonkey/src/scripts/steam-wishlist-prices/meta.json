@@ -1,0 +1,31 @@
+{
+  "name": "Steam 愿望单区域比价",
+  "namespace": "http://tampermonkey.net/",
+  "version": "2026.09.10.31",
+  "updatedAt": "2026-09-10T11:40:09+08:00",
+  "description": "在 Steam 愿望单页对比各区现价，愿望单与本区/美区 1 小时，原价 5 天",
+  "author": "kuusei",
+  "icon": "https://store.steampowered.com/favicon.ico",
+  "license": "MIT",
+  "match": [
+    "https://store.steampowered.com/wishlist*",
+    "https://steamcommunity.com/my/wishlist*",
+    "https://steamcommunity.com/*/wishlist*",
+    "https://steamcommunity.com/id/*/wishlist*",
+    "https://steamcommunity.com/profiles/*/wishlist*"
+  ],
+  "grant": [
+    "GM_xmlhttpRequest",
+    "GM_getValue",
+    "GM_setValue",
+    "GM_registerMenuCommand",
+    "unsafeWindow"
+  ],
+  "connect": [
+    "api.steampowered.com",
+    "store.steampowered.com",
+    "steamcommunity.com",
+    "open.er-api.com"
+  ],
+  "runAt": "document-idle"
+}

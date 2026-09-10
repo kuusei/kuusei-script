@@ -1,4 +1,5 @@
 import { build, context, type BuildOptions } from "esbuild";
+import { spawnSync } from "node:child_process";
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -94,6 +95,22 @@ function userscriptBanner(meta: UserscriptMeta) {
   ].join("\n");
 }
 
+function cssAsReadableJs(css: string) {
+  const limit = 2000;
+  const chunks: string[] = [];
+  for (const raw of css.split("\n")) {
+    if (raw.length <= limit) {
+      chunks.push(JSON.stringify(raw));
+      continue;
+    }
+    for (let i = 0; i < raw.length; i += limit) {
+      chunks.push(JSON.stringify(raw.slice(i, i + limit)));
+    }
+  }
+  if (chunks.length === 0) return 'export default "";';
+  return `const cssChunks = [${chunks.join(",\n")}];\nexport default cssChunks.join("\\n");`;
+}
+
 function createBuildOptions(script: ScriptEntry, outFile: string): BuildOptions {
   return {
     alias: {
@@ -108,6 +125,17 @@ function createBuildOptions(script: ScriptEntry, outFile: string): BuildOptions 
     charset: "utf8",
     legalComments: "none",
     minify: false,
+    plugins: [
+      {
+        name: "css-text-readable",
+        setup(build) {
+          build.onLoad({ filter: /\.css$/ }, async (args) => ({
+            contents: cssAsReadableJs(await readFile(args.path, "utf8")),
+            loader: "js",
+          }));
+        },
+      },
+    ],
     banner: {
       js: userscriptBanner(resolveMeta(script)),
     },
@@ -122,13 +150,18 @@ async function writeMetaFile(script: ScriptEntry) {
   );
 }
 
+function assertNotMinified(code: string, file: string) {
+  const flagged = code.split("\n").filter((line) => line.length > 5000 && line.includes("function"));
+  if (flagged.length > 0) {
+    throw new Error(`Greasy Fork would reject ${file}: line longer than 5000 with "function"`);
+  }
+}
+
 async function buildScript(script: ScriptEntry) {
-  await build(
-    createBuildOptions(script, path.join(distDir, `${script.name}.user.js`)),
-  );
-  console.log(
-    `[build:user] ${script.name} -> ${path.relative(__dirname, path.join(distDir, `${script.name}.user.js`))}`,
-  );
+  const outFile = path.join(distDir, `${script.name}.user.js`);
+  await build(createBuildOptions(script, outFile));
+  assertNotMinified(await readFile(outFile, "utf8"), path.relative(__dirname, outFile));
+  console.log(`[build:user] ${script.name} -> ${path.relative(__dirname, outFile)}`);
 
   await writeMetaFile(script);
   console.log(
@@ -136,7 +169,23 @@ async function buildScript(script: ScriptEntry) {
   );
 }
 
+function compileReportCss() {
+  const scriptDir = path.join(__dirname, "src", "scripts", "steam-wishlist-prices");
+  const input = path.join(scriptDir, "ui", "report.css");
+  const output = path.join(scriptDir, "ui", "report.generated.css");
+  const result = spawnSync(
+    "bunx",
+    ["@tailwindcss/cli", "-i", input, "-o", output],
+    { cwd: __dirname, stdio: "inherit" },
+  );
+  if (result.status !== 0) {
+    throw new Error("Tailwind CSS build failed");
+  }
+  console.log("[build:css] steam-wishlist-prices -> ui/report.generated.css");
+}
+
 async function run() {
+  await compileReportCss();
   await mkdir(distDir, { recursive: true });
 
   if (!watchMode) {

@@ -170,14 +170,24 @@ export class HudCard {
     });
   }
 
-  update(message: string, statusText = "进行中", type: "success" | "error" | "" = "") {
+  update(message: string, statusText?: string, type: "success" | "error" | "" = "") {
     this.bodyEl.innerText = message;
-    this.statusEl.innerText = statusText;
+    if (statusText !== undefined) {
+      this.statusEl.innerText = statusText;
+    }
 
     this.card.classList.remove("success", "error");
     if (type) {
       this.card.classList.add(type);
     }
+  }
+
+  setRequestCount(done: number, total: number) {
+    if (total <= 0 && done <= 0) {
+      this.statusEl.innerText = "缓存";
+      return;
+    }
+    this.statusEl.innerText = `${done}/${total}`;
   }
 
   setProgress(percent: number) {

@@ -1,0 +1,256 @@
+@import "tailwindcss";
+
+@source "../**/*.{ts,css}";
+
+@theme {
+  --color-paper: #1b2838;
+  --color-line: #2a475e;
+  --color-ink: #c7d5e0;
+  --color-muted: #8f98a0;
+  --color-cheap: #a4d007;
+  --color-near: #66c0f4;
+  --color-cream: #2a475e;
+  --color-sorted: #66c0f4;
+  --color-gift: #a4d007;
+  --color-giftbg: #4c6b22;
+  --color-chip: #2a475e;
+  --color-surface: #16202d;
+  --color-menu: #3d4450;
+  --color-pick: #67c1f5;
+}
+
+@layer components {
+  .tip {
+    position: relative;
+  }
+  .tip-box {
+    display: none;
+  }
+  .tip:hover .tip-box,
+  .tip:focus-visible .tip-box {
+    display: block;
+  }
+  #guide {
+    display: none;
+  }
+  #guide.open {
+    display: flex;
+  }
+  .wl-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+  }
+  .wl-chrome {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+  .wl-close {
+    height: 32px;
+    padding: 0 12px;
+    border: 0;
+    border-radius: 2px;
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .rounded-xl,
+  .rounded-lg,
+  .rounded-2xl {
+    border-radius: 2px;
+  }
+  #q:focus {
+    border-color: #66c0f4;
+  }
+  .wl-pop {
+    background: var(--color-menu);
+    border: 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+  }
+  .wl-opt {
+    border-radius: 0;
+    color: var(--color-ink);
+  }
+  .wl-opt.is-on,
+  .wl-opt:has(:checked) {
+    background: transparent;
+    color: #67c1f5;
+  }
+  .wl-opt:hover {
+    background: #2a475e;
+  }
+  .wl-dialog {
+    width: min(26rem, calc(100vw - 32px));
+    max-height: min(40rem, calc(100vh - 32px));
+    overflow: auto;
+    background: #1b2838;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
+  }
+  .wl-setup {
+    padding: 16px 16px 14px;
+  }
+  .wl-setup-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2px;
+  }
+  .wl-setup-chip {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 8px;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+  .wl-setup-chip:has(:disabled) {
+    opacity: 0.7;
+  }
+  .wl-setup-go {
+    margin-top: 16px;
+    height: 36px;
+    width: 100%;
+    border: 0;
+    border-radius: 2px;
+    background: #67c1f5;
+    color: #1b2838;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .wl-setup-go:hover {
+    background: #8ed0f8;
+  }
+  #list {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    flex-direction: column;
+    gap: 8px;
+    overflow: auto;
+  }
+  .wl-row {
+    display: flex;
+    gap: 12px;
+    padding: 10px 12px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .wl-row:hover {
+    background: #2a475e;
+  }
+  .wl-cap {
+    flex: none;
+    width: 184px;
+    height: 69px;
+    background: #000;
+  }
+  .wl-cap img {
+    display: block;
+    width: 184px;
+    height: 69px;
+    object-fit: cover;
+  }
+  .wl-row-body {
+    min-width: 0;
+    flex: 1;
+  }
+  .wl-title {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .wl-title:hover {
+    color: #66c0f4;
+  }
+  .wl-row-meta,
+  .wl-row-status,
+  .wl-row-stats {
+    margin-top: 4px;
+    color: #8f98a0;
+    font-size: 12px;
+  }
+  .wl-row-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #c7d5e0;
+  }
+  .wl-row-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  .wl-disc {
+    max-width: 100%;
+    display: inline-flex;
+    align-items: stretch;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .wl-disc.is-cheap {
+    outline: 1px solid #a4d007;
+  }
+  .wl-disc.is-near {
+    outline: 1px solid #66c0f4;
+  }
+  .wl-disc-region {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    background: #3d4450;
+    color: #c7d5e0;
+    white-space: nowrap;
+  }
+  .wl-disc-pct {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    background: #4c6b22;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .wl-disc-prices {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 8px;
+    white-space: nowrap;
+  }
+  .wl-row-cheapest,
+  .wl-disc.is-cheap .wl-disc-cny {
+    color: #beee32;
+  }
+  .wl-row-discount-time {
+    color: #ffd080;
+  }
+  .wl-disc.is-near .wl-disc-cny {
+    color: #66c0f4;
+  }
+  .wl-disc-cny {
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+  }
+  .wl-disc-local {
+    color: #738895;
+    font-size: 10px;
+  }
+  .wl-disc-gift {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    background: #4c6b22;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+}
