@@ -1,0 +1,17 @@
+{
+  "name": "Steam 社区自动点赞",
+  "namespace": "com.wt629.steam.voteup.auto.batch",
+  "version": "3.0.5",
+  "updatedAt": "2026-10-02T00:00:00+08:00",
+  "description": "为 Steam 好友动态点赞，自动跳过自己的内容，提供固定左上角的紧凑控制面板。",
+  "author": "wt629, kuusei",
+  "icon": "https://steamcommunity.com/favicon.ico",
+  "match": [
+    "*://steamcommunity.com/id/*/home*",
+    "*://steamcommunity.com/profiles/*/home*"
+  ],
+  "grant": [
+    "none"
+  ],
+  "runAt": "document-idle"
+}
