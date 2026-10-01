@@ -51,6 +51,7 @@ async function loadScripts(): Promise<ScriptEntry[]> {
         entry: path.join(baseDir, "index.ts"),
         meta,
         readme: await readOptionalText(path.join(baseDir, "README.md")),
+        thirdPartyNotices: await readOptionalText(path.join(baseDir, "THIRD-PARTY-NOTICES.txt")),
         listingIcon,
       };
     }),
@@ -83,6 +84,7 @@ function userscriptBanner(meta: UserscriptMeta) {
     `// @author       ${meta.author}`,
     ...(meta.icon ? [`// @icon         ${meta.icon}`] : []),
     ...meta.match.map((item) => `// @match        ${item}`),
+    ...(meta.require ?? []).map((item) => `// @require      ${item}`),
     ...meta.grant.map((item) => `// @grant        ${item}`),
     ...(meta.connect ?? []).map((item) => `// @connect      ${item}`),
     ...(meta.license ? [`// @license      ${meta.license}`] : []),
@@ -90,6 +92,7 @@ function userscriptBanner(meta: UserscriptMeta) {
     ...(meta.downloadURL ? [`// @downloadURL  ${meta.downloadURL}`] : []),
     ...(meta.updateURL ? [`// @updateURL     ${meta.updateURL}`] : []),
     ...(meta.runAt ? [`// @run-at       ${meta.runAt}`] : []),
+    ...(meta.noframes ? ["// @noframes"] : []),
     "// ==/UserScript==",
     "",
   ].join("\n");
@@ -137,7 +140,9 @@ function createBuildOptions(script: ScriptEntry, outFile: string): BuildOptions 
       },
     ],
     banner: {
-      js: userscriptBanner(resolveMeta(script)),
+      js: userscriptBanner(resolveMeta(script)) + (script.thirdPartyNotices
+        ? `\n/*\n${script.thirdPartyNotices.replace(/\*\//g, "* /")}\n*/\n`
+        : ""),
     },
   };
 }

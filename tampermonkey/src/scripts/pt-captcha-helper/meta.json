@@ -1,0 +1,20 @@
+{
+  "name": "PT CAPTCHA Helper",
+  "namespace": "https://example.com/pt-captcha-helper",
+  "version": "1.2.0",
+  "updatedAt": "2026-10-02T00:00:00+08:00",
+  "description": "NexusPHP 验证码本地 OCR、预处理预览、字符分割与诊断",
+  "author": "kuusei",
+  "match": [
+    "https://pt.eastgame.org/login.php*",
+    "https://pthome.net/login.php*",
+    "https://hdsky.me/login.php*",
+    "https://www.hddolby.com/login.php*"
+  ],
+  "require": [
+    "https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"
+  ],
+  "grant": ["none"],
+  "runAt": "document-idle",
+  "noframes": true
+}

@@ -9,6 +9,8 @@ export type UserscriptMeta = {
   license?: string;
   match: string[];
   grant: string[];
+  require?: string[];
+  noframes?: boolean;
   connect?: string[];
   homepageURL?: string;
   downloadURL?: string;
