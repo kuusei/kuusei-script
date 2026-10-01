@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { priceCacheKey } from "../../cache/cache";
 import { formatDiscountEnd, gameDiscountEnd } from "../../pricing/discount-time";
 import { buildGameRows } from "../../pricing/price-rows";
-import { steamListHtml } from "../../ui/steam-list";
+import { steamListHtml, type SteamGameCard } from "../../ui/steam-list";
 import {
   estimateCountryFillRequests,
   fetchAppIdPrices,
@@ -144,7 +144,7 @@ test("price rows and cards display the confirmed Beijing date and hide absent da
   assert.equal(formatDiscountEnd(endsAt * 1000, "en-US")?.label, "Sale ends");
   assert.equal(formatDiscountEnd(null), null);
   assert.equal(formatDiscountEnd(NaN), null);
-  const card = {
+  const card: SteamGameCard = {
     appid: item.appid, title: "Game", capsule: "", meta: "", status: "",
     vsHome: "相对南亚 51.3%", cheapestLabel: "最低", cheapest: "印度 70", discountEnd, chips: [{
       label: "中国", cny: "¥70", local: "70 CNY", cut: 60,
