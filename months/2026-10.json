@@ -1,0 +1,238 @@
+{
+  "id": "2026-10",
+  "slug": "October-2026",
+  "title": "October 2026",
+  "url": "https://www.humblebundle.com/membership/October-2026",
+  "isActive": true,
+  "usesChoices": false,
+  "scrapedAt": "2026-10-07T14:35:44.093Z",
+  "games": [
+    {
+      "id": "likeadragon_pirateyakuzainhawaii",
+      "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "image": "https://hb.imgix.net/a6045a40101582fa5b344a5962171d8c1fcb7047.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3c7aa2c59f4204ad512f89793d9e78bf",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        3061810
+      ],
+      "developers": [
+        "SEGA"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "princeofpersiathelostcrown",
+      "title": "Prince of Persia: The Lost Crown",
+      "image": "https://hb.imgix.net/0e6a5bc38b8dd7d61fd7e10026cc2e7a873fad4b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c46641473a2855ec34003d96357c681d",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2751000
+      ],
+      "developers": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.85,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "psychonauts2",
+      "title": "Psychonauts 2",
+      "image": "https://hb.imgix.net/f7a3b5ef6070c7befb5264b663d855e2037f677e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11ccd37f75180806a4e9c556fbbc507c",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        607080
+      ],
+      "developers": [
+        "Double Fine Productions"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "msrpUsd": 59.99,
+      "ratingPercent": 0.97,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "deeprockgalactic_survivor",
+      "title": "Deep Rock Galactic: Survivor",
+      "image": "https://hb.imgix.net/cfda7a954cfd5c295ec870437daca984720f2646.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d74da42d905fbf1dce505bae01d9634b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2321470
+      ],
+      "developers": [
+        "Ghost Ship Publishing"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "msrpUsd": 12.99,
+      "ratingPercent": 0.84,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "cataclismo",
+      "title": "Cataclismo",
+      "image": "https://hb.imgix.net/33a285b7161ac0e2bfcff4f1846dcf65eb2140a4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7ab7052d7c58a499adb3b27d1ce0e90b",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        1422440
+      ],
+      "developers": [
+        "Hooded Horse"
+      ],
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "msrpUsd": 29.99,
+      "ratingPercent": 0.89,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "dungeonsdegenerategamblers",
+      "title": "Dungeons & Degenerate Gamblers",
+      "image": "https://hb.imgix.net/97dd16157c964ec226ac04771d221e0f52bdf212.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5da8eda6f69ce452bc2224dbef056a43",
+      "platforms": [
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2400510
+      ],
+      "developers": [
+        "Yogscast Games"
+      ],
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 14.99,
+      "ratingPercent": 0.83,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "asgardsfallvikingsurvivors",
+      "title": "Asgard's Fall — Viking Survivors",
+      "image": "https://hb.imgix.net/d93148987a2194c7b6bd51c260f96be48f8db4c7.png?auto=compress,format&fit=clip&h=383&w=667&s=b0e8cee98a24d1d03dbd2a013e883b3e",
+      "platforms": [
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2780710
+      ],
+      "developers": [
+        "Assemble Entertainment, Sidekick Publishing"
+      ],
+      "genres": [
+        "Indie",
+        "Action",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.79,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "toyshire",
+      "title": "Toy Shire",
+      "image": "https://hb.imgix.net/d32a666ee8d174bd31c0eb3177fdc9628ae992ea.jpg?auto=compress,format&fit=clip&h=383&w=667&s=57ececedcabf071c026795e2f3feaab8",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "deliveryMethods": [
+        "steam"
+      ],
+      "steamAppIds": [
+        2361460
+      ],
+      "developers": [
+        "Catoptric Games"
+      ],
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "msrpUsd": 9.99,
+      "ratingPercent": 0.87,
+      "expiresAt": "2027-05-04T16:59:59",
+      "isExtra": false
+    },
+    {
+      "id": "ignplus_choicecoupon_2025",
+      "title": "Get One Month of IGN Plus",
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "platforms": [],
+      "deliveryMethods": [
+        "other-key"
+      ],
+      "steamAppIds": [],
+      "developers": [
+        "IGN Plus"
+      ],
+      "genres": [],
+      "msrpUsd": 4.99,
+      "ratingPercent": null,
+      "expiresAt": "2026-12-01T17:59:59",
+      "isExtra": true
+    }
+  ]
+}
