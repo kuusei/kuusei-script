@@ -3,6 +3,7 @@ import reportCss from "./report.generated.css";
 import { mountReport } from "./report-client";
 import type { ReportPayload } from "./report-html";
 import { renderReportShell } from "./report-html";
+import { mountItadSetup, renderItadSetup } from "./itad-settings";
 import {
   mountSetup,
   renderSetupShell,
@@ -44,7 +45,7 @@ const attachOverlay = (mode: "page" | "dialog") => {
 
 export const openReportOverlay = (
   payload: ReportPayload,
-  handlers?: { onRefetch?: () => void },
+  handlers?: { onRefetch?: () => void; onItadSetup?: () => void },
 ) => {
   const { app, closeBtn } = attachOverlay("page");
   closeBtn?.addEventListener("click", closeReportOverlay);
@@ -52,7 +53,16 @@ export const openReportOverlay = (
   mountReport(app, payload, handlers);
 };
 
-export const openRegionSetup = (initial: RegionSetup | null) =>
+export const openItadSetup = () => new Promise<boolean>((resolve) => {
+  const { overlay, app } = attachOverlay("dialog");
+  const finish = (saved: boolean) => { closeReportOverlay(); resolve(saved); };
+  app.innerHTML = renderItadSetup();
+  app.querySelector("#itad-close")?.addEventListener("click", () => finish(false));
+  overlay.addEventListener("click", (event) => { if (event.target === overlay) finish(false); });
+  mountItadSetup(app, () => finish(true));
+});
+
+export const openRegionSetup = (initial: RegionSetup | null, wishlistCount: number) =>
   new Promise<RegionSetup | null>((resolve) => {
     const { overlay, app } = attachOverlay("dialog");
     let done = false;
@@ -70,5 +80,5 @@ export const openRegionSetup = (initial: RegionSetup | null) =>
     mountSetup(app, initial, (setup) => {
       saveRegionSetup(setup);
       finish(setup);
-    });
+    }, wishlistCount);
   });

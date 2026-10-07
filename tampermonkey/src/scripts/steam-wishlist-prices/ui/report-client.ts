@@ -1,15 +1,16 @@
-import { AAA_USD_MIN, COUNTRIES, FX_CHEAP_BAND, GIFT_BAND_LOOSE, GIFT_BAND_STRICT } from "../config";
+import { COUNTRIES, FX_CHEAP_BAND, GIFT_BAND_LOOSE, GIFT_BAND_STRICT } from "../config";
 import { discountTimeMessages, formatDiscountEnd, gameDiscountEnd } from "../pricing/discount-time";
 import type { ReportPayload } from "./report-html";
-import { loadRegionSetup, saveRegionSetup } from "./region-settings";
+import { compareRegionLimit, loadRegionSetup, saveRegionSetup } from "./region-settings";
 import { steamListHtml } from "./steam-list";
+
+type PriceFilter = "sale" | "historyLow" | "newLow";
 
 type ReportState = {
   q: string;
-  sale: boolean;
+  priceFilter: PriceFilter | null;
   missing: boolean;
   gift: boolean;
-  aaa: boolean;
   soon: boolean;
   cheapest: string;
   sort: string;
@@ -23,7 +24,7 @@ type ReportState = {
 export const mountReport = (
   root: ParentNode,
   payload: ReportPayload,
-  handlers?: { onRefetch?: () => void },
+  handlers?: { onRefetch?: () => void; onItadSetup?: () => void },
 ) => {
   const codes = payload.countries.map((country) => country.code);
   const allCodes = COUNTRIES.map((country) => country.code);
@@ -37,14 +38,13 @@ export const mountReport = (
   };
   const state: ReportState = {
     q: "",
-    sale: false,
+    priceFilter: null,
     missing: false,
     gift: false,
-    aaa: false,
     soon: false,
     cheapest: "",
     sort: "vsHome",
-    dir: "desc",
+    dir: "asc",
     shown: loadShown(),
     giftLoose: localStorage.getItem("wishlist-gift-mode") === "loose",
     fxCheap: localStorage.getItem("wishlist-fx-cheap") !== "off",
@@ -107,6 +107,14 @@ export const mountReport = (
     row.delisted || row.comingSoon || row.free;
   const statusText = (row: ReportPayload["rows"][number]) =>
     row.delisted ? "已下架" : row.comingSoon ? "未发售" : row.free ? "免费" : "";
+  const homeOnSale = (row: ReportPayload["rows"][number]) =>
+    (row.prices[state.home]?.cut ?? 0) > 0;
+  const isNewLow = (row: ReportPayload["rows"][number]) =>
+    !noDeal(row) && homeOnSale(row) && !!payload.itad?.enabled &&
+    payload.itad.home === state.home && row.itadNewLow === true;
+  const isHistoryLow = (row: ReportPayload["rows"][number]) =>
+    !noDeal(row) && homeOnSale(row) && !!payload.itad?.enabled &&
+    (isNewLow(row) || row.historyLow?.country === state.home && row.historyLow.atLow === true);
   const filtered = (opts: { skipCheap?: boolean } = {}) =>
     payload.rows.filter((row) => {
       const query = state.q.trim().toLowerCase();
@@ -115,9 +123,11 @@ export const mountReport = (
       }
       const view = viewOf(row);
       const shownPrices = visibleCountries().map((country) => row.prices[country.code]);
-      if (state.sale && (noDeal(row) || !shownPrices.some((price) => price && price.cut > 0))) {
+      if (state.priceFilter === "sale" && (noDeal(row) || !shownPrices.some((price) => price && price.cut > 0))) {
         return false;
       }
+      if (state.priceFilter === "historyLow" && !isHistoryLow(row)) return false;
+      if (state.priceFilter === "newLow" && !isNewLow(row)) return false;
       if (state.missing && (noDeal(row) || shownPrices.every((price) => price?.cny != null))) {
         return false;
       }
@@ -128,11 +138,6 @@ export const mountReport = (
           canGiftToHome(row.prices[country.code]?.cny, country.code, home),
         );
         if (!giftable) return false;
-      }
-      if (state.aaa) {
-        if (noDeal(row)) return false;
-        const us = row.prices.US;
-        if (us?.currency !== "USD" || us?.regular == null || us.regular < AAA_USD_MIN) return false;
       }
       if (state.soon && row.comingSoon) return false;
       if (!opts.skipCheap && state.cheapest && !view.cheapestCodes.includes(state.cheapest)) {
@@ -157,6 +162,10 @@ export const mountReport = (
     if (key === "title") return row.title;
     if (key === "releasedAt") return row.releasedAt;
     if (key === "discountEndsAt") return noDeal(row) ? null : gameDiscountEnd(row.prices, state.home);
+    if (key === "discount") {
+      const price = row.prices[state.home];
+      return noDeal(row) || price?.amount == null ? null : price.cut;
+    }
     if (key === "appid") return row.appid;
     if (key === "cheapestCode") return view.cheapestCode || "";
     if (key === "cheapest") return view.cheapestCny;
@@ -188,6 +197,7 @@ export const mountReport = (
     if (key === "title") state.dir = "asc";
     else if (key === "releasedAt") state.dir = "desc";
     else if (key === "discountEndsAt") state.dir = "asc";
+    else if (key === "discount") state.dir = "desc";
     else if (!wasPrice) state.dir = "desc";
   };
   const dirLabel = () => {
@@ -209,6 +219,7 @@ export const mountReport = (
     const fixed = [
       { key: "vsHome", label: "相对账户区" },
       { key: "cheapest", label: "最低价" },
+      { key: "discount", label: "折扣" },
       { key: "title", label: "标题" },
       { key: "releasedAt", label: "发售日" },
       { key: "discountEndsAt", label: discountTimeMessages["zh-CN"].sort },
@@ -287,7 +298,7 @@ export const mountReport = (
     state.shown.add(state.home);
     saveRegionSetup({ home: state.home, shown: [...state.shown] });
     const needsFetch = [...state.shown].some((code) => !codes.includes(code));
-    if (needsFetch) {
+    if (needsFetch || state.shown.size > compareRegionLimit(payload.wishlistCount ?? payload.rows.length)) {
       handlers?.onRefetch?.();
       return;
     }
@@ -307,7 +318,8 @@ export const mountReport = (
   const persistHome = () => {
     state.shown.add(state.home);
     saveRegionSetup({ home: state.home, shown: [...state.shown] });
-    if (!codes.includes(state.home)) {
+    if (state.shown.size > compareRegionLimit(payload.wishlistCount ?? payload.rows.length) ||
+      !codes.includes(state.home) || (payload.itad?.enabled && state.home !== payload.itad.home)) {
       handlers?.onRefetch?.();
       return;
     }
@@ -317,8 +329,8 @@ export const mountReport = (
   };
   const giftTip = () =>
     state.giftLoose
-      ? "宽松 15%：给公开汇率和 Steam 内部结算汇率留余量。相对当前账户区域，该区价 ÷ 账户区价 ≥ 85%。当前账户区不标；最低价只要够近也会标。接近阈值仅供参考。"
-      : "严谨 10%：跟 SteamDB / 社区反推的旧送礼门槛。相对当前账户区域，该区价 ÷ 账户区价 ≥ 90%。当前账户区不标；最低价只要够近也会标。Valve 未公布官方百分比。";
+      ? "宽松 15%：给公开汇率和 Steam 内部结算汇率留余量。相对当前账户区域，该区价 ÷ 账户区价 ≥ 85%。"
+      : "严谨 10%：跟 SteamDB / 社区反推的旧送礼门槛。相对当前账户区域，该区价 ÷ 账户区价 ≥ 90%。";
   const syncGiftMode = () => {
     const value = Math.round(nearBand() * 100);
     el("near-pct").textContent = String(value);
@@ -347,7 +359,7 @@ export const mountReport = (
           appid: row.appid,
           title: row.title,
           capsule: row.capsule,
-          meta: `${row.appid} · ${ymd(row.releasedAt)}`,
+          released: row.releasedAt == null ? "" : ymd(row.releasedAt),
           status,
           discountEnd: status ? null : formatDiscountEnd(gameDiscountEnd(row.prices, state.home)),
           vsHome: status ? "" : `相对${labelOf(state.home)} ${pct(view.vsHome)}`,
@@ -369,8 +381,25 @@ export const mountReport = (
                   cut: price?.cut ?? 0,
                   band: band(cny, view.cheapestCny),
                   gift: canGiftToHome(cny, country.code, home),
+                  atLow: country.code === state.home && isHistoryLow(row),
+                  newLow: country.code === state.home && isNewLow(row),
+                  bundle: price?.bundle && price.bundle.cny !== null && price.bundle.cny < (price.cny ?? Infinity)
+                    ? {
+                      cny: `¥${fmt(price.bundle.cny)}`,
+                      local: `${price.bundle.amount.toFixed(2)} ${price.bundle.currency}`,
+                      name: price.bundle.name,
+                    }
+                    : undefined,
                 };
               }),
+          history: status || !payload.itad?.enabled ? undefined : row.historyLow?.country === state.home ? {
+            label: `${labelOf(state.home)}史低`,
+            price: `${row.historyLow.amount.toFixed(2)} ${row.historyLow.currency}${row.historyLow.currency !== "CNY" && row.historyLow.cny != null ? ` ≈ ¥${fmt(row.historyLow.cny)}` : ""}`,
+            date: row.historyLow.recordedAt ? new Date(row.historyLow.recordedAt).toLocaleDateString("en-CA", { timeZone: "Asia/Shanghai" }) : "",
+          } : {
+            label: payload.itad.warning ? "史低数据未获取" : "暂无史低数据",
+            price: "—", date: "",
+          },
         };
       }),
     );
@@ -386,20 +415,28 @@ export const mountReport = (
     state.q = (event.target as HTMLInputElement).value;
     render();
   });
-  (el("sale") as HTMLInputElement).addEventListener("change", (event) => {
-    state.sale = (event.target as HTMLInputElement).checked;
-    render();
-  });
+  el("itad-settings").addEventListener("click", () => handlers?.onItadSetup?.());
+  const priceFilters = ([["sale", "sale"], ["history-low", "historyLow"], ["new-low", "newLow"]] as const)
+    .filter(([id]) => id === "sale" || payload.itad?.enabled);
+  const syncPriceFilters = () => {
+    for (const [id, value] of priceFilters) {
+      (el(id) as HTMLInputElement).checked = state.priceFilter === value;
+    }
+  };
+  syncPriceFilters();
+  for (const [id, value] of priceFilters) {
+    el(id).addEventListener("change", (event) => {
+      state.priceFilter = (event.target as HTMLInputElement).checked ? value : null;
+      syncPriceFilters();
+      render();
+    });
+  }
   (el("missing") as HTMLInputElement).addEventListener("change", (event) => {
     state.missing = (event.target as HTMLInputElement).checked;
     render();
   });
   (el("gift") as HTMLInputElement).addEventListener("change", (event) => {
     state.gift = (event.target as HTMLInputElement).checked;
-    render();
-  });
-  (el("aaa") as HTMLInputElement).addEventListener("change", (event) => {
-    state.aaa = (event.target as HTMLInputElement).checked;
     render();
   });
   (el("soon") as HTMLInputElement).addEventListener("change", (event) => {

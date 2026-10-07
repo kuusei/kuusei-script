@@ -1,6 +1,6 @@
 import { loadTimedValue, loadValue, saveTimedValue } from "@/shared";
 
-import { CACHE_TTL_MS, REGULAR_PRICE_TTL_MS, WISHLIST_CACHE_TTL_MS } from "../config";
+import { CACHE_TTL_MS, WISHLIST_CACHE_TTL_MS } from "../config";
 
 type TimedValue<T> = {
   version: string;
@@ -25,9 +25,8 @@ export const cacheSet = <T>(key: string, value: T) => saveTimedValue(key, value,
 
 export const wishlistCacheKey = (steamId: string, home: string) => `wl-list:v2:${steamId}:${home}`;
 export const fxCacheKey = "wl-fx";
-export const priceCacheKey = (country: string) => `wl-price:${country}`;
+export const priceCacheKey = (country: string) => `wl-price:v4:${country}`;
 
 export const LIST_TTL_MS = WISHLIST_CACHE_TTL_MS;
-export const REGULAR_TTL_MS = REGULAR_PRICE_TTL_MS;
-export const MISS_TTL_MS = CACHE_TTL_MS;
+export const PRICE_TTL_MS = WISHLIST_CACHE_TTL_MS;
 export const FX_TTL_MS = CACHE_TTL_MS;

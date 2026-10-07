@@ -1,4 +1,5 @@
 import { COUNTRIES, type CountryColumn } from "../config";
+import { syncItadHome } from "../pricing/itad-prices";
 
 const SETUP_KEY = "wishlist-setup-v1";
 const SETUP_VERSION = 1;
@@ -38,6 +39,7 @@ export const loadRegionSetup = (): RegionSetup | null => {
 };
 
 export const saveRegionSetup = (setup: RegionSetup) => {
+  syncItadHome(setup.home);
   const shown = uniqueCodes(setup.home, setup.shown);
   localStorage.setItem(
     SETUP_KEY,
@@ -50,6 +52,11 @@ export const countriesForSetup = (setup: RegionSetup): CountryColumn[] => {
   const wanted = new Set(uniqueCodes(setup.home, setup.shown));
   return COUNTRIES.filter((country) => wanted.has(country.code));
 };
+
+export const compareRegionLimit = (wishlistCount: number) => wishlistCount > 4000 ? 5 : 9;
+
+export const needsRegionSetup = (setup: RegionSetup | null, wishlistCount: number, force = false) =>
+  force || !setup || countriesForSetup(setup).length > compareRegionLimit(wishlistCount);
 
 const defaultSetup = (): RegionSetup => ({
   home: DEFAULT_HOME,
@@ -105,27 +112,36 @@ export const renderSetupShell = (initial?: RegionSetup | null) => {
   <div class="mt-4 flex items-center justify-between gap-3">
     <div>
       <h2 class="text-[13px] font-medium text-ink">要比价的区域</h2>
-      <p class="mt-0.5 text-[11px] leading-4 text-muted">建议少于 8 个，区越多请求越慢</p>
     </div>
-    <button type="button" id="setup-all" class="shrink-0 text-xs text-muted hover:text-ink">全选</button>
+    <button type="button" id="setup-all" class="shrink-0 text-xs text-muted hover:text-ink">仅账户区</button>
   </div>
   <div id="setup-compare-list" class="wl-setup-grid mt-1.5">${compareItems}</div>
+  <p id="setup-limit-hint" class="mt-2 text-xs leading-5 text-ink" role="status" aria-live="polite"></p>
   <button type="button" id="setup-start" class="wl-setup-go">开始比价</button>
 </div>`;
 };
 
-export const mountSetup = (root: ParentNode, initial: RegionSetup | null | undefined, onStart: (setup: RegionSetup) => void) => {
+export const mountSetup = (root: ParentNode, initial: RegionSetup | null | undefined, onStart: (setup: RegionSetup) => void, wishlistCount = 0) => {
   const setup = draftRegionSetup(initial);
   const home = { current: setup.home };
   const shown = new Set(uniqueCodes(setup.home, setup.shown));
+  const limit = compareRegionLimit(wishlistCount);
   const el = (id: string) => root.querySelector(`#${id}`) as HTMLElement;
   const syncCompare = () => {
     for (const input of Array.from(el("setup-compare-list").querySelectorAll("input[data-compare]"))) {
       const box = input as HTMLInputElement;
       const code = box.dataset.compare || "";
       box.checked = shown.has(code);
-      box.disabled = code === home.current;
+      box.disabled = code === home.current || (!box.checked && shown.size >= limit);
     }
+    const over = shown.size > limit;
+    el("setup-limit-hint").textContent = over
+      ? `已选 ${shown.size} 个区域，请减少至 ${limit} 个以内。`
+      : `已选 ${shown.size} / ${limit} 个区域`;
+    const start = el("setup-start") as HTMLButtonElement;
+    start.disabled = over;
+    start.style.opacity = over ? "0.5" : "";
+    start.style.cursor = over ? "not-allowed" : "";
   };
   el("setup-home-list").addEventListener("change", (event) => {
     const input = event.target as HTMLInputElement;
@@ -138,15 +154,19 @@ export const mountSetup = (root: ParentNode, initial: RegionSetup | null | undef
     const input = (event.target as Element).closest("input[data-compare]") as HTMLInputElement | null;
     if (!input || input.disabled) return;
     const code = input.dataset.compare || "";
-    if (input.checked) shown.add(code);
+    if (input.checked && shown.size < limit) shown.add(code);
     else shown.delete(code);
+    syncCompare();
   });
   el("setup-all").addEventListener("click", () => {
-    for (const country of COUNTRIES) shown.add(country.code);
+    shown.clear();
+    shown.add(home.current);
     syncCompare();
   });
   el("setup-start").addEventListener("click", () => {
     shown.add(home.current);
+    if (shown.size > limit) { syncCompare(); return; }
     onStart({ home: home.current, shown: uniqueCodes(home.current, [...shown]) });
   });
+  syncCompare();
 };

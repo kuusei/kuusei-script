@@ -1,15 +1,15 @@
 import { loadValue, saveValue } from "@/shared";
 
-import { MISS_TTL_MS, priceCacheKey, REGULAR_TTL_MS } from "../cache/cache";
-import { COUNTRIES, US_STORE_COUNTRY } from "../config";
+import { priceCacheKey, PRICE_TTL_MS } from "../cache/cache";
+import { WISHLIST_STORE_FILL_MAX } from "../config";
 import {
   buildGetItemsUrl,
-  canFetchAppPricesInOneRequest,
   chunkGetItems,
   fillWishlistStoreItems,
   PRICE_DATA_REQUEST,
   readWebApiToken,
   steamGetJson,
+  type SteamPurchaseOption,
   type SteamStoreItem,
 } from "../steam/steam-http";
 
@@ -19,127 +19,28 @@ export type SteamDeal = {
   regular: number | null;
   cut: number;
   discountEndsAt: number | null;
+  bundle?: SteamBundlePrice;
 };
 
-type PriceHit = {
-  regularAt: number;
-  cutAt: number;
-  deal: SteamDeal | null;
+export type SteamBundlePrice = {
+  amount: number;
+  currency: string;
+  name: string;
 };
 
-type PriceBucket = Record<string, PriceHit | { savedAt: number; deal: SteamDeal | null }>;
-
-const fetchedThisRun = new Set<string>();
-
-const fetchKey = (country: string, appid: number) => `${country}:${appid}`;
-
-export const beginDiscountSync = () => {
-  fetchedThisRun.clear();
-};
-
-const markFetched = (country: string, appids: Iterable<number>) => {
-  for (const appid of appids) {
-    fetchedThisRun.add(fetchKey(country, appid));
-  }
-};
-
-const originalPrice = (deal: SteamDeal) => {
-  if (deal.regular != null && deal.regular > 0) {
-    return deal.regular;
-  }
-  if (deal.cut === 0 && deal.amount > 0) {
-    return deal.amount;
-  }
-  return null;
-};
-
-const amountFromRegular = (regular: number, cut: number) => {
-  const pct = Math.max(0, Math.min(100, cut));
-  return Math.round(regular * (100 - pct)) / 100;
-};
-
-const withCut = (deal: SteamDeal, cut: number): SteamDeal | null => {
-  const regular = originalPrice(deal);
-  if (regular == null) {
-    return null;
-  }
-  return {
-    amount: amountFromRegular(regular, cut),
-    currency: deal.currency,
-    regular,
-    cut,
-    // Only retain an end time confirmed for this region and the same discount.
-    discountEndsAt: deal.discountEndsAt == null || (cut > 0 && cut === deal.cut)
-      ? deal.discountEndsAt
-      : null,
-  };
-};
-
-const asHit = (raw: PriceBucket[string] | undefined): PriceHit | null => {
-  if (!raw) {
-    return null;
-  }
-  if ("regularAt" in raw && "cutAt" in raw) {
-    return raw;
-  }
-  if ("savedAt" in raw) {
-    return { regularAt: raw.savedAt, cutAt: raw.savedAt, deal: raw.deal };
-  }
-  return null;
-};
+type PriceHit = { savedAt: number; deal: SteamDeal | null };
+type PriceBucket = Record<string, PriceHit>;
 
 const loadBucket = (country: string) => loadValue<PriceBucket>(priceCacheKey(country), {});
-
 const saveBucket = (country: string, bucket: PriceBucket) => saveValue(priceCacheKey(country), bucket);
 
-const writeFetchedDeal = (bucket: PriceBucket, appid: number, deal: SteamDeal | null, now: number) => {
-  if (deal) {
-    bucket[String(appid)] = { regularAt: now, cutAt: now, deal };
-    return;
-  }
-  const prev = asHit(bucket[String(appid)]);
-  if (prev?.deal) {
-    return;
-  }
-  bucket[String(appid)] = { regularAt: now, cutAt: prev?.cutAt ?? 0, deal: null };
-};
+const freshPrice = (hit: PriceHit | undefined, now: number): hit is PriceHit =>
+  !!hit && Number.isFinite(hit.savedAt) && now - hit.savedAt >= 0 && now - hit.savedAt < PRICE_TTL_MS;
 
-const propagateDiscount = (sourceCountry: string, sourceDeals: Map<number, SteamDeal>, now: number) => {
-  if (sourceDeals.size === 0) {
-    return;
-  }
-  for (const country of COUNTRIES) {
-    if (country.code === sourceCountry) {
-      continue;
-    }
-    const bucket = loadBucket(country.code);
-    let changed = false;
-    for (const [appid, source] of sourceDeals) {
-      if (fetchedThisRun.has(fetchKey(country.code, appid))) {
-        continue;
-      }
-      const hit = asHit(bucket[String(appid)]);
-      if (!hit?.deal) {
-        continue;
-      }
-      const next = withCut(hit.deal, source.cut);
-      if (!next) {
-        continue;
-      }
-      if (
-        hit.deal.amount === next.amount &&
-        hit.deal.cut === next.cut &&
-        hit.deal.regular === next.regular
-      ) {
-        continue;
-      }
-      bucket[String(appid)] = { regularAt: hit.regularAt, cutAt: now, deal: next };
-      changed = true;
-    }
-    if (changed) {
-      saveBucket(country.code, bucket);
-    }
-  }
+const usable = (hit: PriceHit | undefined, now: number) => {
+  if (!freshPrice(hit, now)) return false;
+  return !hit.deal || hit.deal.discountEndsAt === null ||
+    (hit.deal.discountEndsAt !== undefined && hit.deal.discountEndsAt > now);
 };
 
 const COUNTRY_CURRENCY: Record<string, string> = {
@@ -154,6 +55,9 @@ const COUNTRY_CURRENCY: Record<string, string> = {
   IN: "INR",
   ID: "IDR",
   PH: "PHP",
+  VN: "VND",
+  KZ: "KZT",
+  AZ: "USD",
   PK: "USD",
   RU: "RUB",
   AR: "USD",
@@ -168,6 +72,8 @@ const currencyOf = (country: string, formatted: string | undefined) => {
   if (text.includes("₱")) return "PHP";
   if (text.includes("₽") || text.toLowerCase().includes("руб")) return "RUB";
   if (text.includes("₴")) return "UAH";
+  if (text.includes("₸")) return "KZT";
+  if (text.includes("₫")) return "VND";
   if (text.includes("$")) return "USD";
   return COUNTRY_CURRENCY[country] ?? "USD";
 };
@@ -183,12 +89,49 @@ const fromCents = (value: string | undefined) => {
   return cents / 100;
 };
 
+const standaloneOption = (item: SteamStoreItem): SteamPurchaseOption | undefined => {
+  const options = [...(item.purchase_options ?? []), item.best_purchase_option]
+    .filter((option): option is SteamPurchaseOption =>
+      !!option && (option.bundleid == null || Number(option.bundleid) <= 0) &&
+      (option.packageid == null || Number(option.packageid) > 0) &&
+      fromCents(option.final_price_in_cents) !== null,
+    );
+  const best = item.best_purchase_option;
+  if (best && (best.bundleid == null || Number(best.bundleid) <= 0) &&
+      (best.packageid == null || Number(best.packageid) > 0) &&
+      fromCents(best.final_price_in_cents) !== null &&
+      (best.included_game_count == null || best.included_game_count > 0)) {
+    return best;
+  }
+  const gamePackages = options.filter((option) => option.included_game_count == null || option.included_game_count > 0);
+  const candidates = gamePackages.length > 0 ? gamePackages : options;
+  return candidates.reduce<SteamPurchaseOption | undefined>((selected, option) => {
+    if (!selected) return option;
+    return (fromCents(option.final_price_in_cents) ?? Infinity) <
+      (fromCents(selected.final_price_in_cents) ?? Infinity) ? option : selected;
+  }, undefined);
+};
+
+const bundleOption = (item: SteamStoreItem): SteamPurchaseOption | undefined => {
+  let selected: SteamPurchaseOption | undefined;
+  let lowest = Infinity;
+  for (const option of [...(item.purchase_options ?? []), item.best_purchase_option]) {
+    if (!option || option.bundleid == null || Number(option.bundleid) <= 0) continue;
+    const amount = fromCents(option.final_price_in_cents);
+    if (amount !== null && amount < lowest) {
+      selected = option;
+      lowest = amount;
+    }
+  }
+  return selected;
+};
+
 const toDeal = (item: SteamStoreItem, country: string, appid?: number): SteamDeal | null => {
   const id = item.appid && item.appid > 0 ? item.appid : appid;
   if (!id || item.unvailable_for_country_restriction) {
     return null;
   }
-  const best = item.best_purchase_option;
+  const best = standaloneOption(item);
   const amount = fromCents(best?.final_price_in_cents);
   if (amount == null) {
     return null;
@@ -203,12 +146,21 @@ const toDeal = (item: SteamStoreItem, country: string, appid?: number): SteamDea
   const endDates = (best?.active_discounts ?? [])
     .map((discount) => discount.discount_end_date)
     .filter((end): end is number => Number.isInteger(end) && Number(end) > 0 && Number(end) <= 0xffffffff);
+  const bundle = bundleOption(item);
+  const bundleAmount = fromCents(bundle?.final_price_in_cents);
   return {
     amount,
     currency: currencyOf(country, best?.formatted_final_price),
     regular,
     cut,
     discountEndsAt: cut > 0 && endDates.length > 0 ? Math.min(...endDates) * 1000 : null,
+    ...(bundle && bundleAmount !== null && bundleAmount < amount ? {
+      bundle: {
+        amount: bundleAmount,
+        currency: currencyOf(country, bundle.formatted_final_price),
+        name: bundle.purchase_option_name ?? "捆绑包",
+      },
+    } : {}),
   };
 };
 
@@ -275,192 +227,47 @@ export const fetchWishlistCountryPrices = async (
   return deals;
 };
 
-const fillCountryAppPrices = async (
-  steamId: string,
-  token: string,
-  country: string,
-  appids: number[],
-  listSize = 0,
-) => {
-  if (appids.length === 0) {
-    return new Map<number, SteamDeal>();
-  }
-  if (canFetchAppPricesInOneRequest(appids, country, token)) {
-    return fetchAppIdPrices(country, appids, token);
-  }
-  return fetchWishlistCountryPrices(steamId, token, country, appids, listSize);
+export type CountryPriceLoad = {
+  refreshed: boolean;
+  addedAppids: number[];
+  countryItems: Map<string, Map<number, SteamStoreItem>>;
 };
 
-const rememberStoreItems = (country: string, storeItems: Map<number, SteamStoreItem>, now: number) => {
-  if (storeItems.size === 0) {
-    return new Map<number, SteamDeal>();
-  }
+const loadedItems = (country: string, options: CountryPriceLoad) => {
+  if (!options.refreshed) return null;
+  return options.countryItems.get(country) ?? null;
+};
+
+const pendingIds = (country: string, appids: number[], options: CountryPriceLoad, now: number) => {
+  if (loadedItems(country, options)) return [];
   const bucket = loadBucket(country);
-  const deals = new Map<number, SteamDeal>();
-  for (const [appid, item] of storeItems) {
-    const deal = toDeal(item, country, appid);
-    writeFetchedDeal(bucket, appid, deal, now);
-    if (deal) {
-      deals.set(appid, deal);
-    }
-  }
-  saveBucket(country, bucket);
-  markFetched(country, storeItems.keys());
-  propagateDiscount(country, deals, now);
-  return deals;
-};
-
-const rememberFetchedDeals = (
-  country: string,
-  appids: number[],
-  fetched: Map<number, SteamDeal>,
-  now: number,
-) => {
-  const bucket = loadBucket(country);
-  for (const appid of appids) {
-    writeFetchedDeal(bucket, appid, fetched.get(appid) ?? null, now);
-  }
-  saveBucket(country, bucket);
-  markFetched(country, appids);
-  propagateDiscount(country, fetched, now);
-};
-
-const regularTtlMs = (hit: PriceHit) => (hit.deal ? REGULAR_TTL_MS : MISS_TTL_MS);
-
-const needsRegular = (hit: PriceHit | null, now: number) => {
-  if (!hit || hit.regularAt <= 0) {
-    return true;
-  }
-  if (hit.deal && (
-    hit.deal.discountEndsAt === undefined ||
-    (hit.deal.discountEndsAt !== null && hit.deal.discountEndsAt <= now)
-  )) {
-    return true;
-  }
-  return now - hit.regularAt > regularTtlMs(hit);
-};
-
-const exclusiveForCountry = (exclusive: number[], bucket: PriceBucket, now: number) =>
-  exclusive.filter((appid) => needsRegular(asHit(bucket[String(appid)]), now));
-
-const uniqueAppIds = (...lists: number[][]) => {
-  const seen = new Set<number>();
-  const out: number[] = [];
-  for (const list of lists) {
-    for (const appid of list) {
-      if (!seen.has(appid)) {
-        seen.add(appid);
-        out.push(appid);
-      }
-    }
-  }
-  return out;
-};
-
-const dealsFromBucket = (country: string, appids: number[]) => {
-  const bucket = loadBucket(country);
-  const fresh = new Map<number, SteamDeal>();
-  for (const appid of appids) {
-    const deal = asHit(bucket[String(appid)])?.deal;
-    if (deal) {
-      fresh.set(appid, deal);
-    }
-  }
-  return fresh;
-};
-
-const hasDeal = (country: string, appid: number) => Boolean(asHit(loadBucket(country)[String(appid)])?.deal);
-
-const itemHasDeal = (items: Map<number, SteamStoreItem>, country: string, appid: number) => {
-  const item = items.get(appid);
-  return Boolean(item && toDeal(item, country, appid));
+  const added = new Set(options.addedAppids);
+  return appids.filter((appid) => options.refreshed || !usable(bucket[appid], now) ||
+    (added.has(appid) && !bucket[appid]?.deal));
 };
 
 export const estimateCountryFillRequests = (
-  countries: string[],
-  appids: number[],
-  options: CountryPriceLoad,
-  token: string,
-  _wishlistCount: number,
+  countries: string[], appids: number[], options: CountryPriceLoad, token: string, wishlistCount: number,
 ) => {
-  const now = Date.now();
-  const added = new Set(options.addedAppids);
-  const exclusive = options.refreshed
-    ? appids.filter(
-        (appid) =>
-          !itemHasDeal(options.homeItems, options.home, appid) &&
-          !itemHasDeal(options.usItems, US_STORE_COUNTRY, appid),
-      )
-    : [];
-  const targets = options.refreshed
-    ? countries.filter((code) => code !== options.home && code !== US_STORE_COUNTRY)
-    : countries;
-  let n = 0;
-  for (const country of targets) {
-    const batch = missingBatchForCountry(country, appids, added, exclusive, now, options.refreshed);
-    if (batch.length === 0) {
-      continue;
+  if (appids.length === 0) return 0;
+  const pages = Math.max(1, Math.ceil(Math.max(wishlistCount, appids.length) / WISHLIST_STORE_FILL_MAX));
+  return [...new Set(countries)].reduce((total, country) => {
+    const items = loadedItems(country, options);
+    if (items) {
+      const missing = [...new Set(appids)].filter((appid) => !items.has(appid));
+      return total + chunkGetItems(missing, { language: "schinese", country_code: country }, PRICE_DATA_REQUEST, token).length;
     }
-    n += canFetchAppPricesInOneRequest(batch, country, token) ? 1 : 1;
-  }
-  return n;
+    return total + (pendingIds(country, appids, options, Date.now()).length > 0 ? pages : 0);
+  }, 0);
 };
 
-export type CountryPriceLoad = {
-  home: string;
-  refreshed: boolean;
-  addedAppids: number[];
-  homeItems: Map<number, SteamStoreItem>;
-  usItems: Map<number, SteamStoreItem>;
-};
-
-const missingBatchForCountry = (
-  country: string,
-  appids: number[],
-  added: Set<number>,
-  exclusive: number[],
-  now: number,
-  refreshed: boolean,
-) => {
+const rememberDeals = (country: string, appids: number[], deals: Map<number, SteamDeal>, now: number) => {
   const bucket = loadBucket(country);
-  const missingRegular = appids.filter((appid) => {
-    const hit = asHit(bucket[String(appid)]);
-    return needsRegular(hit, now) || (refreshed && added.has(appid) && !hit?.deal);
-  });
-  return uniqueAppIds(
-    missingRegular,
-    refreshed ? exclusiveForCountry(exclusive, bucket, now) : [],
-  );
-};
-
-const fillSelectedCountryPrices = async (
-  steamId: string,
-  token: string,
-  countries: string[],
-  appids: number[],
-  added: Set<number>,
-  exclusiveStart: number[],
-  now: number,
-  refreshed: boolean,
-  onCountry?: (country: string, index: number, total: number) => void,
-) => {
-  let exclusive = exclusiveStart;
-  const jobs = countries.filter((code, index, list) => list.indexOf(code) === index);
-  const work = jobs.filter(
-    (country) => missingBatchForCountry(country, appids, added, exclusive, now, refreshed).length > 0,
-  );
-  let done = 0;
-  for (const country of work) {
-    const batch = missingBatchForCountry(country, appids, added, exclusive, now, refreshed);
-    if (batch.length === 0) {
-      continue;
-    }
-    done += 1;
-    onCountry?.(country, done, work.length);
-    const fetched = await fillCountryAppPrices(steamId, token, country, batch, appids.length);
-    rememberFetchedDeals(country, batch, fetched, now);
-    exclusive = exclusive.filter((appid) => !fetched.has(appid));
+  for (const appid of appids) {
+    // A successful regional response without a price clears the previous offer.
+    bucket[appid] = { savedAt: now, deal: deals.get(appid) ?? null };
   }
+  saveBucket(country, bucket);
 };
 
 export const loadSteamCountryPrices = async (
@@ -469,57 +276,49 @@ export const loadSteamCountryPrices = async (
   appids: number[],
   options: CountryPriceLoad,
   onCountry?: (country: string, index: number, total: number) => void,
+  wishlistCount = appids.length,
 ) => {
   const now = Date.now();
-  const added = new Set(options.addedAppids);
-  if (options.refreshed) {
-    beginDiscountSync();
-    const token = await readWebApiToken();
-    rememberStoreItems(options.home, options.homeItems, now);
-    if (options.home !== US_STORE_COUNTRY) {
-      rememberStoreItems(US_STORE_COUNTRY, options.usItems, now);
+  const selected = [...new Set(countries)];
+  const uniqueAppids = [...new Set(appids)];
+  let token: string | undefined;
+  const getToken = async () => token ??= await readWebApiToken();
+  for (const country of selected) {
+    const items = loadedItems(country, options);
+    if (!items) continue;
+    const deals = new Map<number, SteamDeal>();
+    for (const appid of uniqueAppids) {
+      const item = items.get(appid);
+      const deal = item ? toDeal(item, country, appid) : null;
+      if (deal) deals.set(appid, deal);
     }
-    const exclusive = appids.filter(
-      (appid) => !hasDeal(options.home, appid) && !hasDeal(US_STORE_COUNTRY, appid),
-    );
-    const others = countries.filter(
-      (code) => code !== options.home && code !== US_STORE_COUNTRY,
-    );
-    await fillSelectedCountryPrices(
-      steamId,
-      token,
-      others,
-      appids,
-      added,
-      exclusive,
-      now,
-      true,
-      onCountry,
-    );
-  } else {
-    const selected = countries.filter((code, index, list) => list.indexOf(code) === index);
-    const hasWork = selected.some(
-      (country) => missingBatchForCountry(country, appids, added, [], now, false).length > 0,
-    );
-    if (hasWork) {
-      beginDiscountSync();
-      const token = await readWebApiToken();
-      await fillSelectedCountryPrices(
-        steamId,
-        token,
-        selected,
-        appids,
-        added,
-        [],
-        now,
-        false,
-        onCountry,
-      );
+    const missing = uniqueAppids.filter((appid) => !items.has(appid));
+    if (missing.length > 0) {
+      for (const [appid, deal] of await fetchAppIdPrices(country, missing, await getToken())) {
+        deals.set(appid, deal);
+      }
+    }
+    rememberDeals(country, uniqueAppids, deals, now);
+  }
+  const work = selected.map((country) => ({ country, appids: pendingIds(country, uniqueAppids, options, now) }))
+    .filter((job) => job.appids.length > 0);
+  if (work.length > 0) {
+    const token = await getToken();
+    for (const [index, job] of work.entries()) {
+      onCountry?.(job.country, index + 1, work.length);
+      const deals = await fetchWishlistCountryPrices(steamId, token, job.country, job.appids, wishlistCount);
+      rememberDeals(job.country, job.appids, deals, Date.now());
     }
   }
-  const countryDeals = new Map<string, Map<number, SteamDeal>>();
-  for (const country of countries) {
-    countryDeals.set(country, dealsFromBucket(country, appids));
+  const result = new Map<string, Map<number, SteamDeal>>();
+  for (const country of selected) {
+    const bucket = loadBucket(country);
+    const deals = new Map<number, SteamDeal>();
+    for (const appid of uniqueAppids) {
+      const hit = bucket[appid];
+      if (freshPrice(hit, Date.now()) && hit.deal) deals.set(appid, hit.deal);
+    }
+    result.set(country, deals);
   }
-  return countryDeals;
+  return result;
 };

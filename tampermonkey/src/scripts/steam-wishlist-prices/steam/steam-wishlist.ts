@@ -1,11 +1,7 @@
 import { cacheSet, wishlistCacheKey } from "../cache/cache";
 import { wishlistAttemptKey, wishlistCacheMessages, wishlistCacheState } from "../cache/wishlist-cache";
-import { US_STORE_COUNTRY } from "../config";
 import {
-  buildGetItemsUrl,
-  chunkGetItems,
   fillWishlistStoreItems,
-  PRICE_DATA_REQUEST,
   readWebApiToken,
   steamGetJson,
   withSteamAuth,
@@ -35,8 +31,7 @@ export type WishlistLoad = {
   games: WishlistGame[];
   refreshed: boolean;
   addedAppids: number[];
-  homeItems: Map<number, SteamStoreItem>;
-  usItems: Map<number, SteamStoreItem>;
+  countryItems: Map<string, Map<number, SteamStoreItem>>;
 };
 
 type CatalogItem = {
@@ -85,7 +80,7 @@ const catalogFromStoreItem = (appid: number, item: SteamStoreItem): CatalogItem 
   };
 };
 
-const fetchWishlistAppIds = async (steamId: string, token: string) => {
+export const fetchWishlistAppIds = async (steamId: string, token: string) => {
   const data = await steamGetJson<{
     response?: { items?: Array<{ appid?: number }> };
   }>(
@@ -99,28 +94,6 @@ const fetchWishlistAppIds = async (steamId: string, token: string) => {
   return appids;
 };
 
-const fetchStoreCatalogGetItems = async (appids: number[], country: string, token: string) => {
-  const catalog = new Map<number, CatalogItem>();
-  if (appids.length === 0) {
-    return catalog;
-  }
-  const context = { language: "schinese", country_code: country };
-  for (const group of chunkGetItems(appids, context, CATALOG_REQUEST, token)) {
-    const data = await steamGetJson<{ response?: { store_items?: SteamStoreItem[] } }>(
-      buildGetItemsUrl(group, context, CATALOG_REQUEST, token),
-      "Steam GetItems",
-    );
-    for (const item of data.response?.store_items ?? []) {
-      const appid = item.appid && item.appid > 0 ? item.appid : item.id;
-      if (!appid) {
-        continue;
-      }
-      catalog.set(appid, catalogFromStoreItem(appid, item));
-    }
-  }
-  return catalog;
-};
-
 const mergeCatalog = (base: Map<number, CatalogItem>, extra: Map<number, CatalogItem>) => {
   for (const [appid, item] of extra) {
     const current = base.get(appid);
@@ -130,7 +103,7 @@ const mergeCatalog = (base: Map<number, CatalogItem>, extra: Map<number, Catalog
     }
     if (current.delisted && !item.delisted) {
       base.set(appid, {
-        title: current.title,
+        title: current.title === `App ${appid}` ? item.title : current.title,
         comingSoon: current.comingSoon || item.comingSoon,
         releasedAt: current.releasedAt ?? item.releasedAt,
         free: current.free || item.free,
@@ -143,7 +116,7 @@ const mergeCatalog = (base: Map<number, CatalogItem>, extra: Map<number, Catalog
       continue;
     }
     base.set(appid, {
-      title: current.title,
+      title: current.title === `App ${appid}` ? item.title : current.title,
       comingSoon: current.comingSoon || item.comingSoon,
       releasedAt: current.releasedAt ?? item.releasedAt,
       free: current.free || item.free,
@@ -165,7 +138,13 @@ const mergeAppIds = (appids: number[], extra: number[]) => {
 
 const isPricedGame = (game: WishlistGame) => !game.delisted && !game.comingSoon && !game.free;
 
-export const loadSteamWishlist = async (steamId: string, home: string, pageCount: number | null = null): Promise<WishlistLoad> => {
+export const loadSteamWishlist = async (
+  steamId: string,
+  home: string,
+  pageCount: number | null = null,
+  countries: string[] = [home],
+  knownAppids?: number[],
+): Promise<WishlistLoad> => {
   const key = wishlistCacheKey(steamId, home);
   const state = wishlistCacheState(steamId, home, pageCount);
   const previous = state.games ?? [];
@@ -175,40 +154,31 @@ export const loadSteamWishlist = async (steamId: string, home: string, pageCount
       games: state.games,
       refreshed: false,
       addedAppids: [],
-      homeItems: new Map(),
-      usItems: new Map(),
+      countryItems: new Map(),
     };
   }
   cacheSet(wishlistAttemptKey(steamId), true);
   const token = await readWebApiToken();
-  const appids = await fetchWishlistAppIds(steamId, token);
+  const appids = knownAppids ? [...knownAppids] : await fetchWishlistAppIds(steamId, token);
   const filled = await fillWishlistStoreItems(steamId, token, home, CATALOG_REQUEST, undefined, appids.length);
+  const countryItems = new Map([[home, filled.storeItems]]);
   mergeAppIds(appids, filled.appids);
   const catalog = new Map<number, CatalogItem>();
   for (const [appid, item] of filled.storeItems) {
     catalog.set(appid, catalogFromStoreItem(appid, item));
   }
-  const missing = appids.filter((appid) => !catalog.get(appid));
-  if (missing.length > 0) {
-    const fallback = home === US_STORE_COUNTRY ? "CN" : US_STORE_COUNTRY;
-    mergeCatalog(catalog, await fetchStoreCatalogGetItems(missing, fallback, token));
-  }
-  let usItems = filled.storeItems;
-  if (home !== US_STORE_COUNTRY) {
-    const usFilled = await fillWishlistStoreItems(
-      steamId,
-      token,
-      US_STORE_COUNTRY,
-      PRICE_DATA_REQUEST,
-      undefined,
-      appids.length,
-    );
-    usItems = usFilled.storeItems;
-    const usCatalog = new Map<number, CatalogItem>();
-    for (const [appid, item] of usItems) {
-      usCatalog.set(appid, catalogFromStoreItem(appid, item));
-    }
-    mergeCatalog(catalog, usCatalog);
+  const missingMetadata = () => appids.filter((appid) => {
+    const item = catalog.get(appid);
+    return !item || item.delisted || item.title === `App ${appid}` || !item.capsule ||
+      (item.releasedAt === null && !item.comingSoon);
+  });
+  // Selected regions are also needed for prices; retain their complete responses for reuse.
+  for (const country of new Set(countries)) {
+    if (country === home || missingMetadata().length === 0) continue;
+    const extra = await fillWishlistStoreItems(steamId, token, country, CATALOG_REQUEST, undefined, appids.length);
+    countryItems.set(country, extra.storeItems);
+    mergeCatalog(catalog, new Map([...extra.storeItems].map(([appid, item]) =>
+      [appid, catalogFromStoreItem(appid, item)])));
   }
   const games = appids.map((appid) => {
     const item = catalog.get(appid);
@@ -231,7 +201,6 @@ export const loadSteamWishlist = async (steamId: string, home: string, pageCount
     games,
     refreshed: true,
     addedAppids,
-    homeItems: filled.storeItems,
-    usItems,
+    countryItems,
   };
 };

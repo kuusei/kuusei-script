@@ -30,6 +30,18 @@ export type SteamStoreAssets = {
   main_capsule?: string;
 };
 
+export type SteamPurchaseOption = {
+  packageid?: number;
+  bundleid?: number;
+  final_price_in_cents?: string;
+  original_price_in_cents?: string;
+  formatted_final_price?: string;
+  discount_pct?: number;
+  active_discounts?: { discount_end_date?: number }[];
+  purchase_option_name?: string;
+  included_game_count?: number;
+};
+
 export type SteamStoreItem = {
   id?: number;
   appid?: number;
@@ -44,13 +56,8 @@ export type SteamStoreItem = {
     steam_release_date?: number;
     original_release_date?: number;
   };
-  best_purchase_option?: {
-    final_price_in_cents?: string;
-    original_price_in_cents?: string;
-    formatted_final_price?: string;
-    discount_pct?: number;
-    active_discounts?: { discount_end_date?: number }[];
-  };
+  best_purchase_option?: SteamPurchaseOption;
+  purchase_options?: SteamPurchaseOption[];
 };
 
 export type WishlistSortedItem = {
@@ -219,18 +226,6 @@ export const buildGetItemsUrl = (
 
 export const PRICE_DATA_REQUEST: Record<string, boolean> = {
   include_all_purchase_options: true,
-};
-
-export const canFetchAppPricesInOneRequest = (
-  appids: number[],
-  country: string,
-  token = "",
-) => {
-  if (appids.length === 0) {
-    return true;
-  }
-  const context = { language: "schinese", country_code: country };
-  return chunkGetItems(appids, context, PRICE_DATA_REQUEST, token).length <= 1;
 };
 
 export const chunkGetItems = (
