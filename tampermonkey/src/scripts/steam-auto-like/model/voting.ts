@@ -9,7 +9,7 @@ export const contentOptions: [ContentType, keyof Config][] = [
 ];
 const selectors: Record<ContentType, string> = {
   status: ".blotter_block .blotter_userstatus",
-  screenshot: ".blotter_block .blotter_screenshot .thumb_up",
+  screenshot: ".blotter_block .blotter_screenshot",
   review: ".blotter_block .blotter_recommendation",
   purchase: ".blotter_block .blotter_gamepurchase",
   artwork: ".blotter_block .blotter_workshopitempublished",
@@ -19,6 +19,22 @@ const labels: Record<ContentType, [string, string]> = {
   review: ["游戏评测", "Game reviews"], purchase: ["购买游戏", "Game purchases"],
   artwork: ["艺术作品与收藏", "Artwork & favorites"],
 };
+
+function firstScreenshotControls(group: Element): Element | null {
+  const firstThumbnail = group.querySelector(
+    ".blotter_screenshot_gallery_image, .blotter_screenshot_gallery_image_selected",
+  );
+  const screenshotId = firstThumbnail?.id.match(/^ss_.+_(\d+)$/)?.[1];
+  if (screenshotId) {
+    // Use the first thumbnail's controls even when a different image is selected.
+    // If its controls are missing, skip the group instead of liking another image.
+    return group.querySelector(`[id="ratingcontrols_ss_${screenshotId}"]`);
+  }
+  const controls = group.querySelector('[id^="ratingcontrols_ss_"]');
+  if (controls) return controls;
+  const icon = group.querySelector(".thumb_up");
+  return icon?.parentElement?.parentElement?.parentElement || null;
+}
 
 export function voteContentType(type: ContentType, config: Config, log: (message: string) => void): void {
   const chinese = config.language === "chinese";
@@ -33,7 +49,7 @@ export function voteContentType(type: ContentType, config: Config, log: (message
     const self = isOwnActivity(element, identity);
     if (self === true) { own++; continue; }
     if (self === null) { unknown++; continue; }
-    const scope = type === "screenshot" ? element.parentElement?.parentElement?.parentElement : element;
+    const scope = type === "screenshot" ? firstScreenshotControls(element) : element;
     if (!scope) { unknown++; continue; }
     if (scope.querySelector(".active, .btn_active")) { already++; continue; }
     let useFunny = false;
@@ -42,7 +58,7 @@ export function voteContentType(type: ContentType, config: Config, log: (message
       if (thumb.includes("thumbsDown.png")) useFunny = true;
       else if (!thumb.includes("thumbsUp.png")) { unknown++; continue; }
     }
-    const icon = type === "screenshot" ? element : scope.querySelector(useFunny ? ".funny" : ".thumb_up");
+    const icon = scope.querySelector(useFunny ? ".funny" : ".thumb_up");
     if (!icon) continue;
     const target = icon.closest<HTMLElement>("button, a, [onclick]") || icon.parentElement?.parentElement;
     if (!(target instanceof HTMLElement) || clicked.has(target)) continue;
