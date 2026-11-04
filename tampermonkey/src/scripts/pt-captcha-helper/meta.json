@@ -9,7 +9,7 @@
     "https://pt.eastgame.org/login.php*",
     "https://pthome.net/login.php*",
     "https://hdsky.me/login.php*",
-    "https://www.hddolby.com/login.php*"
+    "https://www.uhddolby.com/login.php*"
   ],
   "require": [
     "https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"
