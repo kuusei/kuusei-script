@@ -1,0 +1,14 @@
+{
+  "name": "Steam 评测语言增强",
+  "namespace": "moe.kuusei.steam.review-languages",
+  "version": "1.0.7",
+  "updatedAt": "2026-11-04T14:24:30+08:00",
+  "description": "按语言展示评论数、好评数、差评数、占比和好评率，以 Steam 蓝红配色显示各语言自身的好差评比例，额外显示全部购买方式总计。",
+  "author": "kuusei",
+  "icon": "https://store.steampowered.com/favicon.ico",
+  "match": ["https://store.steampowered.com/app/*"],
+  "grant": ["GM_getValue", "GM_setValue"],
+  "runAt": "document-idle",
+  "noframes": true,
+  "license": "MIT"
+}
