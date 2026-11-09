@@ -1,0 +1,110 @@
+#kuusei-steam-market-ratio {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 14px 0;
+  padding: 12px 14px;
+  border: 1px solid #415267;
+  border-radius: 6px;
+  background: #19232e;
+  color: #c7d5e0;
+  font: 13px/1.6 system-ui, "Microsoft YaHei", sans-serif;
+}
+#kuusei-steam-market-ratio .ksr-settings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+}
+#kuusei-steam-market-ratio strong { color: #dbe8f5; }
+#kuusei-steam-market-ratio label {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+#kuusei-steam-market-ratio input {
+  box-sizing: border-box;
+  width: 100px;
+  padding: 5px 8px;
+  border: 1px solid #56687d;
+  border-radius: 4px;
+  color: #eef5ff;
+  background: #101820;
+  font: inherit;
+}
+#kuusei-steam-market-ratio #ksr-quantity { width: 72px; }
+#kuusei-steam-market-ratio button {
+  padding: 5px 12px;
+  border: 1px solid #56687d;
+  border-radius: 4px;
+  background: #29435b;
+  color: #eef5ff;
+  cursor: pointer;
+  font: inherit;
+}
+#kuusei-steam-market-ratio button:disabled { opacity: .5; cursor: wait; }
+#kuusei-steam-market-ratio input:focus-visible,
+#kuusei-steam-market-ratio button:focus-visible {
+  outline: 2px solid #75bdff;
+  outline-offset: 2px;
+}
+#kuusei-steam-market-ratio .ksr-info {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  color: #9aafbf;
+  font-size: 12px;
+}
+#kuusei-steam-market-ratio a { color: #8db7dc; }
+#kuusei-steam-market-ratio #ksr-unit { color: #8cdbb4; }
+#kuusei-steam-market-ratio #ksr-status,
+#kuusei-steam-market-ratio #ksr-validation { color: #f1bb77; }
+
+table[data-kuusei-ratio-table] { width: 100%; }
+table[data-kuusei-ratio-table] [data-kuusei-summary-empty] { display: none; }
+table[data-kuusei-ratio-table] [data-kuusei-ratio] {
+  padding: 6px 8px;
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+}
+table[data-kuusei-ratio-table] th[data-kuusei-ratio] { color: #b3c7da; }
+table[data-kuusei-ratio-table] td[data-kuusei-ratio="net"] { cursor: help; color: #c7d5e0; }
+table[data-kuusei-ratio-table] td[data-kuusei-ratio="ratio"] { color: #8cdbb4; }
+table[data-kuusei-ratio-table] [data-kuusei-tip] { cursor: help; }
+table[data-kuusei-ratio-table] [data-kuusei-tip]:focus-visible {
+  outline: 1px solid #78aaca;
+  outline-offset: -1px;
+}
+
+/* Match the Steam wishlist report's .tip-box styling. */
+#kuusei-steam-market-ratio-tooltip {
+  position: fixed;
+  z-index: 99999;
+  box-sizing: border-box;
+  width: max-content;
+  max-width: calc(100vw - 16px);
+  padding: 8px 12px;
+  border: 1px solid #4a7591;
+  border-radius: 4px;
+  background: #101c28;
+  color: #e1edf5;
+  font: 400 12px/1.65 system-ui, "Microsoft YaHei", sans-serif;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+#kuusei-steam-market-ratio-tooltip[hidden] { display: none; }
+
+@media (max-width: 640px) {
+  table[data-kuusei-ratio-table] th,
+  table[data-kuusei-ratio-table] td,
+  table[data-kuusei-ratio-table] [data-kuusei-ratio] {
+    padding: 6px 4px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}

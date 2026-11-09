@@ -1,0 +1,14 @@
+{
+  "name": "Steam 挂刀比例计算器",
+  "namespace": "com.kuusei.steam.market.ratio",
+  "version": "1.6.0",
+  "updatedAt": "2026-11-09T11:30:00+08:00",
+  "description": "专用于 CS2 新版市场，展示买卖前十档、堆积数量、税后人民币、挂刀比例与总金额，自动处理手续费和汇率。",
+  "author": "kuusei",
+  "icon": "https://steamcommunity.com/favicon.ico",
+  "match": ["https://steamcommunity.com/market/listings/730/*"],
+  "grant": ["GM_getValue", "GM_setValue", "GM_xmlhttpRequest"],
+  "connect": ["open.er-api.com"],
+  "runAt": "document-idle",
+  "noframes": true
+}
