@@ -1,3 +1,5 @@
+import { normalizeBlocks, type BlockRule } from "./blocks";
+
 export type Language = "chinese" | "english";
 export type Config = {
   isEnable: boolean;
@@ -11,6 +13,7 @@ export type Config = {
   thumbUpRecommendation: boolean;
   thumbHappyByRecommendation: boolean;
   language: Language;
+  blocks: BlockRule[];
 };
 
 // Retain the original key so existing users keep their choices.
@@ -34,6 +37,7 @@ export function loadConfig(): Config {
     thumbUpGamePurchase: true, thumbUpScreenshot: true,
     thumbUpRecommendation: true, thumbHappyByRecommendation: true,
     language: navigator.language.toLowerCase().startsWith("zh") ? "chinese" : "english",
+    blocks: [],
   };
   try {
     const saved: unknown = JSON.parse(localStorage.getItem(CONFIG_KEY) || "null");
@@ -44,6 +48,7 @@ export function loadConfig(): Config {
     }
     config.refreshTimeout = normalizeTimeout(values.refreshTimeout);
     if (values.language === "chinese" || values.language === "english") config.language = values.language;
+    config.blocks = normalizeBlocks(values.blocks);
   } catch { /* Use defaults if the old settings cannot be read. */ }
   return config;
 }

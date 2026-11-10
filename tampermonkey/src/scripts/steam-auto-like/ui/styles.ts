@@ -68,5 +68,30 @@ export const panelStyles = `
 #wt629_com_controlPanel .sav-details summary:hover{color:var(--sav-accent);background:#ffffff04}
 #wt629_com_controlPanel .sav-details summary:focus-visible{outline:2px solid var(--sav-accent);outline-offset:-3px}
 #wt629_com_controlPanel .sav-detail-body{padding:0 10px 9px}
+#wt629_com_controlPanel #sav-blocks summary{justify-content:flex-start}
+#wt629_com_controlPanel #sav-blocks summary:after{margin-left:auto}
+#wt629_com_controlPanel .sav-count{margin-left:8px;color:var(--sav-accent);font-variant-numeric:tabular-nums}
+#wt629_com_controlPanel .sav-count:empty{display:none}
+#wt629_com_controlPanel .sav-block-tools{display:inline-flex;align-items:center;gap:1px;margin-left:4px}
+#wt629_com_controlPanel .sav-block-tools button{display:grid;place-items:center;width:18px;height:18px;padding:0;border-radius:4px;color:var(--sav-muted)}
+#wt629_com_controlPanel .sav-block-tools button:hover{color:var(--sav-accent);background:#ffffff0d}
+#wt629_com_controlPanel .sav-block-tools svg{width:14px;height:14px}
+#wt629_com_controlPanel .sav-block-list{display:flex;flex-direction:column;gap:2px;max-height:132px;overflow:auto;scrollbar-width:thin;scrollbar-color:#42576a transparent}
+#wt629_com_controlPanel .sav-block-row{display:flex;align-items:center;gap:6px;min-height:24px}
+#wt629_com_controlPanel .sav-block-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#wt629_com_controlPanel .sav-block-type{flex-shrink:0;color:var(--sav-muted);font-size:10px}
+#wt629_com_controlPanel .sav-empty{margin:0;color:#657b8e;font-size:10px}
 
+`;
+
+export const feedBlockStyles = `
+.sav-block-actions{display:inline-flex !important;align-items:center;gap:4px;margin:0 0 0 6px;vertical-align:middle;position:relative;z-index:3;line-height:0;white-space:nowrap}
+.sav-block-launch{appearance:none;display:inline-flex !important;align-items:center;gap:1px;width:auto !important;height:auto !important;min-width:0 !important;margin:0;padding:1px;border:0 !important;border-radius:3px;background:transparent !important;box-shadow:none !important;color:#9fb3c4;cursor:pointer;line-height:0;float:none !important;text-transform:none !important}
+.sav-block-launch svg{width:14px;height:14px;display:block;flex:none;pointer-events:none}
+.sav-block-launch:hover,.sav-block-launch:focus-visible{color:#67c1f5}
+.sav-fold-bar{display:flex !important;align-items:center;gap:8px;margin:6px 0;padding:6px 10px;border:1px solid #67c1f547;border-radius:3px;background:#67c1f514;color:inherit;font:12px/1.4 "Segoe UI","Microsoft YaHei",sans-serif;position:relative;z-index:3}
+.sav-fold-bar .sav-fold-text{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sav-fold-bar button{appearance:none;display:inline-flex !important;align-items:center;width:auto !important;height:auto !important;min-width:0 !important;margin:0;border:0;background:transparent;box-shadow:none;color:#67c1f5;padding:0 2px;white-space:nowrap;cursor:pointer;font:inherit;float:none !important}
+.sav-fold-bar button:hover{text-decoration:underline}
+.sav-folded:not(.sav-fold-open)>:not(.sav-fold-bar){display:none !important}
 `;

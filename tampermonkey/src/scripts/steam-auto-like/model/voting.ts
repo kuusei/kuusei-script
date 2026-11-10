@@ -1,19 +1,14 @@
+import { ruleMatches } from "./blocks";
 import type { Config } from "./config";
-import { getSelfIdentity, isOwnActivity } from "./identity";
+import { contentSelectors, type ContentType } from "./content";
+import { getSelfIdentity, isOwnAuthor, readActivityAuthor } from "./identity";
 
-export type ContentType = "status" | "screenshot" | "review" | "purchase" | "artwork";
+export type { ContentType };
 export const contentOptions: [ContentType, keyof Config][] = [
   ["status", "thumbUpUserStatus"], ["screenshot", "thumbUpScreenshot"],
   ["review", "thumbUpRecommendation"], ["purchase", "thumbUpGamePurchase"],
   ["artwork", "thumbUpWorkshopItemPublished"],
 ];
-const selectors: Record<ContentType, string> = {
-  status: ".blotter_block .blotter_userstatus",
-  screenshot: ".blotter_block .blotter_screenshot",
-  review: ".blotter_block .blotter_recommendation",
-  purchase: ".blotter_block .blotter_gamepurchase",
-  artwork: ".blotter_block .blotter_workshopitempublished",
-};
 const labels: Record<ContentType, [string, string]> = {
   status: ["状态动态", "Status updates"], screenshot: ["游戏截图", "Screenshots"],
   review: ["游戏评测", "Game reviews"], purchase: ["购买游戏", "Game purchases"],
@@ -43,11 +38,14 @@ export function voteContentType(type: ContentType, config: Config, log: (message
     log(chinese ? "无法识别当前账号，已停止点赞。可在脚本 selfProfileUrl 中填写自己的资料链接。" : "Cannot identify the signed-in account. Voting stopped; set selfProfileUrl if needed.");
     return;
   }
-  let own = 0, unknown = 0, already = 0, likes = 0, funny = 0;
+  let own = 0, unknown = 0, already = 0, likes = 0, funny = 0, blocked = 0;
+  const rules = config.blocks ?? [];
   const clicked = new Set<HTMLElement>();
-  for (const element of Array.from(document.querySelectorAll(selectors[type]))) {
-    const self = isOwnActivity(element, identity);
+  for (const element of Array.from(document.querySelectorAll(contentSelectors[type]))) {
+    const author = readActivityAuthor(element);
+    const self = isOwnAuthor(author, identity);
     if (self === true) { own++; continue; }
+    if (author && rules.some(rule => ruleMatches(rule, author, type))) { blocked++; continue; }
     if (self === null) { unknown++; continue; }
     const scope = type === "screenshot" ? firstScreenshotControls(element) : element;
     if (!scope) { unknown++; continue; }
@@ -68,5 +66,5 @@ export function voteContentType(type: ContentType, config: Config, log: (message
   }
   const label = labels[type][chinese ? 0 : 1];
   log(chinese ? `${label} · 本次点击 ${likes}，欢乐 ${funny}，已点赞 ${already}` : `${label} · Clicked ${likes}, funny ${funny}, already liked ${already}`);
-  log(chinese ? `跳过自己的内容：${own} · 跳过无法识别的内容：${unknown}` : `Skipped own content: ${own} · Skipped unidentified content: ${unknown}`);
+  log(chinese ? `跳过自己的内容：${own} · 跳过屏蔽：${blocked} · 跳过无法识别的内容：${unknown}` : `Skipped own content: ${own} · Skipped blocked: ${blocked} · Skipped unidentified content: ${unknown}`);
 }

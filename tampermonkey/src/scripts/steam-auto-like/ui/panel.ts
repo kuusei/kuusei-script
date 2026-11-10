@@ -1,6 +1,9 @@
 import { injectStyle } from "@/shared";
+import { exportBlocks, importBlocks, personLabel, removeBlock as removeStoredBlock, removeMatchingBlocks, upsertBlock } from "../model/blocks";
 import { booleanConfigKeys, saveConfig, type BooleanConfigKey, type Config, type Language } from "../model/config";
 import { contentOptions, voteContentType, type ContentType } from "../model/voting";
+import { renderBlockList } from "./block-list";
+import { mountActivityBlocks } from "./feed-blocks";
 import { panelStyles } from "./styles";
 
 type PanelController = {
@@ -12,12 +15,14 @@ type PanelController = {
   setEvent(): void; voteContentType(type: ContentType): void;
   runSelectedLikes(manual?: boolean): void; syncRefreshTimer(): void;
   pageReloadTimeOut(): void; thumbUpEvnet(): void; setControlPanelHtml(): void; saveConfig(): void;
+  renderBlocks(): void; removeBlock(id: string): void; copyBlocks(): void; pasteBlocks(): void;
+  feed: { refresh(): void } | null;
 };
 
 export function mountPanel(config: Config): void {
   if (document.getElementById("wt629_com_controlPanel")) return;
   const app: PanelController = {
-    config, controlPanelHtml: "", pageTimeOut: config.refreshTimeout, interval: null,
+    config, controlPanelHtml: "", pageTimeOut: config.refreshTimeout, interval: null, feed: null,
     saveConfig() {
       try { saveConfig(config); }
       catch { app.log(config.language === "chinese" ? "无法保存设置，请检查浏览器存储权限" : "Cannot save settings; check browser storage permissions", true); }
@@ -59,7 +64,12 @@ export function mountPanel(config: Config): void {
 					settings: '页面设置', refresh: '定时刷新', seconds: '秒', range: '10–3600 秒', show: '启动时展开面板',
 					language: '语言', logs: '运行记录', clear: '清空', empty: '暂无运行记录', guide: '使用说明',
 					saved: '设置已保存', noTypes: '请先选择要点赞的内容', manual: '开始手动点赞', done: '本轮处理完成',
-					timerOff: '定时刷新未开启', refreshPaused: '自动点赞暂停 · 刷新暂停', reload: '正在刷新…', after: ' 秒后刷新'
+					timerOff: '定时刷新未开启', refreshPaused: '自动点赞暂停 · 刷新暂停', reload: '正在刷新…', after: ' 秒后刷新',
+					blocks: '屏蔽', blocksEmpty: '还没有屏蔽', remove: '移除',
+					block: '屏蔽', blocked: '已屏蔽', foldExpand: '展开', foldCollapse: '收起', unblock: '取消屏蔽', join: '、',
+					blockUnknown: '无法识别这位玩家，暂时不能屏蔽', blockFull: '屏蔽名单已满，最多 200 条',
+					export: '导出', import: '导入', copied: '已复制', clipboardWrite: '无法写入剪贴板', clipboardRead: '无法读取剪贴板',
+					badImport: '格式不对', noNew: '没有新屏蔽'
 				},
 				english: {
 					collapse: 'Collapse panel', expand: 'Expand panel', enabled: 'Enabled', paused: 'Paused',
@@ -70,7 +80,12 @@ export function mountPanel(config: Config): void {
 					settings: 'Page settings', refresh: 'Auto refresh', seconds: 'sec', range: '10–3600 sec', show: 'Expand panel on startup',
 					language: 'Language', logs: 'Activity log', clear: 'Clear', empty: 'No activity yet', guide: 'Help',
 					saved: 'Settings saved', noTypes: 'Select at least one content type first', manual: 'Starting manual likes', done: 'This batch is complete',
-					timerOff: 'Auto refresh is off', refreshPaused: 'Likes paused · refresh paused', reload: 'Refreshing…', after: ' sec until refresh'
+					timerOff: 'Auto refresh is off', refreshPaused: 'Likes paused · refresh paused', reload: 'Refreshing…', after: ' sec until refresh',
+					blocks: 'Blocks', blocksEmpty: 'Nothing blocked yet', remove: 'Remove',
+					block: 'Block', blocked: 'Blocked', foldExpand: 'Expand', foldCollapse: 'Collapse', unblock: 'Unblock', join: ', ',
+					blockUnknown: 'Cannot identify this player yet, so they were not blocked', blockFull: 'The block list is full (200)',
+					export: 'Export', import: 'Import', copied: 'Copied', clipboardWrite: 'Cannot write to the clipboard', clipboardRead: 'Cannot read the clipboard',
+					badImport: 'Invalid format', noNew: 'No new blocks'
 				}
 			};
 			return words[app.config.language === 'english' ? 'english' : 'chinese'][key] || key;
@@ -168,6 +183,8 @@ export function mountPanel(config: Config): void {
 					app.syncConfigDataToForm();
 					app.setEvent();
 					app.renderLogs();
+					app.renderBlocks();
+					app.feed?.refresh();
 					if (collapsed) app.hideControlPanel();
 				} else {
 					if (key === 'isEnable' || key === 'isTimedRefresh' || key === 'refreshTimeout') app.syncRefreshTimer();
@@ -188,6 +205,16 @@ export function mountPanel(config: Config): void {
 				} else if (button.id === 'sav-clear') {
 					app.logEntries = [];
 					app.renderLogs();
+				} else if (button.id === 'sav-block-export') {
+					event.preventDefault();
+					event.stopPropagation();
+					app.copyBlocks();
+				} else if (button.id === 'sav-block-import') {
+					event.preventDefault();
+					event.stopPropagation();
+					app.pasteBlocks();
+				} else if (button.dataset.unblock) {
+					app.removeBlock(button.dataset.unblock);
 				} else if (button.getAttribute('data-vote-type')) {
 					var type = button.getAttribute('data-vote-type');
 					if (contentOptions.some(item => item[0] === type)) app.voteContentType(type as ContentType);
@@ -229,6 +256,58 @@ export function mountPanel(config: Config): void {
 			} else app.updatePanelState();
 		},
 
+		renderBlocks: function() {
+			var list = document.getElementById('sav-block-list');
+			var count = document.getElementById('sav-block-count');
+			if (count) count.textContent = config.blocks.length ? String(config.blocks.length) : '';
+			if (!(list instanceof HTMLElement)) return;
+			renderBlockList(list, config.blocks, {
+				typeLabel: type => app.uiText(type),
+				removeLabel: app.uiText('remove'),
+				empty: app.uiText('blocksEmpty'),
+			});
+		},
+
+		copyBlocks: function() {
+			navigator.clipboard.writeText(exportBlocks(config.blocks)).then(function() {
+				app.log(app.uiText('copied'), true);
+			}, function() {
+				app.log(app.uiText('clipboardWrite'), true);
+			});
+		},
+
+		pasteBlocks: function() {
+			navigator.clipboard.readText().then(function(text) {
+				var result = importBlocks(config.blocks, text);
+				if (result.status === 'invalid') {
+					app.log(app.uiText('badImport'), true);
+					return;
+				}
+				if (!result.added) {
+					app.log(app.uiText(result.status === 'full' ? 'blockFull' : 'noNew'), true);
+					return;
+				}
+				config.blocks = result.rules;
+				app.saveConfig();
+				app.renderBlocks();
+				app.feed?.refresh();
+				app.log(config.language === 'chinese' ? `已导入 ${result.added}` : `Imported ${result.added}`, true);
+			}, function() {
+				app.log(app.uiText('clipboardRead'), true);
+			});
+		},
+
+		removeBlock: function(id) {
+			var rule = config.blocks.find(item => item.id === id);
+			if (!rule) return;
+			config.blocks = removeStoredBlock(config.blocks, id);
+			app.saveConfig();
+			app.renderBlocks();
+			app.feed?.refresh();
+			var name = personLabel(rule);
+			app.log(config.language === 'chinese' ? `已取消屏蔽 ${name} 的${app.uiText(rule.type)}` : `Unblocked ${name}'s ${app.uiText(rule.type)}`, true);
+		},
+
 		thumbUpEvnet: function() {
 			if (app.config.isEnable) app.runSelectedLikes();
 			app.syncRefreshTimer();
@@ -243,6 +322,8 @@ export function mountPanel(config: Config): void {
 				var paths: Record<string, string> = {
 					like: '<path d="M7 10v11H3V10h4Zm0 0 5-7c1-1 3 0 3 2v4h4c2 0 2 2 2 3l-2 7c0 1-1 2-3 2H7"/>',
 					chevron: '<path d="m6 14 6-6 6 6"/>',
+					export: '<path d="M12 16V5"/><path d="m7 9 5-5 5 5"/><path d="M5 19h14"/>',
+					import: '<path d="M12 5v11"/><path d="m7 12 5 5 5-5"/><path d="M5 19h14"/>',
 					status: '<path d="M21 11a8 8 0 0 1-8 8H5l-3 3V11a9 9 0 0 1 19 0Z"/><path d="M7 9h10M7 13h6"/>',
 					screenshot: '<rect x="3" y="4" width="18" height="16" rx="3"/><path d="m3 16 5-5 4 4 4-4 5 5"/><circle cx="16" cy="8" r="1"/>',
 					review: '<path d="M6 3h12v18l-6-3-6 3V3Z"/><path d="M9 8h6M9 12h4"/>',
@@ -264,6 +345,7 @@ export function mountPanel(config: Config): void {
 				<div class="wt629_com_controlPanel_main" id="sav-body">
 					<section class="sav-section"><div class="sav-auto"><label for="wt629_com_is_enable">${t('automatic')}</label><span class="sav-status"></span>${toggle('wt629_com_is_enable', 'isEnable', t('automatic'))}</div><button type="button" class="sav-primary" id="sav-run">${icon('like')}${t('run')}</button></section>
 					<section class="sav-section"><h3>${t('types')}</h3>${row('status', 'thumbUpUserStatus', 'user_status')}${row('screenshot', 'thumbUpScreenshot', 'screenshot')}${row('review', 'thumbUpRecommendation', 'recommendation')}<div class="sav-subrow" title="${t('funnyHint')}"><label for="wt629_com_config_thumb_happy_by_recommendation">${t('funny')}</label>${toggle('wt629_com_config_thumb_happy_by_recommendation', 'thumbHappyByRecommendation', t('funny'))}</div>${row('purchase', 'thumbUpGamePurchase', 'game_purchase')}${row('artwork', 'thumbUpWorkshopItemPublished', 'workshop_item_published')}</section>
+					<details class="sav-section sav-details" id="sav-blocks"><summary>${t('blocks')}<span class="sav-count" id="sav-block-count"></span><span class="sav-block-tools"><button type="button" id="sav-block-export" aria-label="${t('export')}" title="${t('export')}">${icon('export')}</button><button type="button" id="sav-block-import" aria-label="${t('import')}" title="${t('import')}">${icon('import')}</button></span></summary><div class="sav-detail-body"><div id="sav-block-list" class="sav-block-list"></div></div></details>
 					<details class="sav-section sav-details" id="sav-settings"><summary>${t('settings')}</summary><div class="sav-detail-body"><div class="sav-setting"><label for="wt629_com_is_timed_refresh">${t('refresh')}</label><div class="sav-refresh-number"><input type="number" id="wt629_com_refresh_timeout" data-config="refreshTimeout" min="10" max="3600" step="1" aria-label="${t('range')}" title="${t('range')}"><span>${t('seconds')}</span></div>${toggle('wt629_com_is_timed_refresh', 'isTimedRefresh', t('refresh'))}</div><div class="sav-setting"><label for="wt629_com_is_show">${t('show')}</label>${toggle('wt629_com_is_show', 'isShow', t('show'))}</div><div class="sav-setting"><label for="sav-language">${t('language')}</label><select id="sav-language" data-config="language"><option value="chinese"${s.config.language !== 'english' ? ' selected' : ''}>简体中文</option><option value="english"${s.config.language === 'english' ? ' selected' : ''}>English</option></select></div></div></details>
 					<section class="sav-section" id="sav-logs"><div class="sav-log-header"><h3>${t('logs')}</h3><button type="button" id="sav-clear" class="sav-text-button">${t('clear')}</button></div><div id="wt629_com_controlPanel_msg" class="sav-log" role="log" aria-live="polite" aria-relevant="additions" data-empty="${t('empty')}"></div></section>
 					<footer class="sav-footer"><span id="wt629_com_controlPanel_page_reload_tip"></span><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1709983331" target="_blank" rel="noopener noreferrer">${t('guide')} ↗</a></footer>
@@ -275,7 +357,58 @@ export function mountPanel(config: Config): void {
   app.setControlPanelHtml();
   document.body.insertAdjacentHTML("beforeend", app.controlPanelHtml);
   app.syncConfigDataToForm();
+  app.renderBlocks();
   if (!config.isShow) app.hideControlPanel();
   app.setEvent();
+  app.feed = mountActivityBlocks({
+    getRules: () => config.blocks,
+    onBlock(author, type) {
+      const result = upsertBlock(config.blocks, {
+        type, accountId: author.accountId, profile: author.profile, name: author.name,
+      });
+      if (result.status === "full") {
+        app.log(app.uiText("blockFull"), true);
+        return;
+      }
+      if (result.status === "unchanged") {
+        app.feed?.refresh();
+        return;
+      }
+      config.blocks = result.rules;
+      app.saveConfig();
+      app.renderBlocks();
+      app.feed?.refresh();
+      const name = personLabel(author);
+      const label = app.uiText(type);
+      app.log(config.language === "chinese" ? `已屏蔽 ${name} 的${label}` : `Blocked ${name}'s ${label}`, true);
+    },
+    onUnblock(matches) {
+      const next = removeMatchingBlocks(config.blocks, matches.map(match => ({
+        type: match.type, accountId: match.author.accountId, profile: match.author.profile,
+      })));
+      if (next.length === config.blocks.length) return;
+      config.blocks = next;
+      app.saveConfig();
+      app.renderBlocks();
+      app.feed?.refresh();
+      if (matches.length === 1) {
+        const name = personLabel(matches[0].author);
+        const label = app.uiText(matches[0].type);
+        app.log(config.language === "chinese" ? `已取消屏蔽 ${name} 的${label}` : `Unblocked ${name}'s ${label}`, true);
+        return;
+      }
+      app.log(config.language === "chinese" ? `已取消 ${matches.length} 条屏蔽` : `Removed ${matches.length} blocks`, true);
+    },
+    onUnknown() { app.log(app.uiText("blockUnknown"), true); },
+    copy: () => ({
+      block: app.uiText("block"),
+      blocked: app.uiText("blocked"),
+      expand: app.uiText("foldExpand"),
+      collapse: app.uiText("foldCollapse"),
+      unblock: app.uiText("unblock"),
+      join: app.uiText("join"),
+      typeLabel: type => app.uiText(type),
+    }),
+  });
   app.thumbUpEvnet();
 }
