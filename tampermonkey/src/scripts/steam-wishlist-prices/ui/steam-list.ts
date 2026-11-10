@@ -1,4 +1,5 @@
 import type { formatDiscountEnd } from "../pricing/discount-time";
+import { tagEscape } from "./wishlist-tags";
 
 export type SteamPriceChip = {
   label: string;
@@ -24,6 +25,8 @@ export type SteamGameCard = {
   cheapest: string;
   chips: SteamPriceChip[];
   history?: { label: string; price: string; date: string };
+  tags?: { id: string; name: string }[];
+  editTags?: boolean;
 };
 
 const escapeHtml = (value: string) =>
@@ -63,7 +66,8 @@ export const steamListHtml = (cards: SteamGameCard[]) => {
         ? `<img alt="" loading="lazy" src="${escapeHtml(card.capsule)}" />`
         : "";
       const released = card.released ? `<span class="wl-release-date">${escapeHtml(card.released)}</span>` : "";
-      return `<article class="wl-row"><a class="wl-cap" href="${href}" target="_blank" rel="noreferrer">${cap}</a><div class="wl-row-body"><div class="wl-row-heading"><a class="wl-title" href="${href}" target="_blank" rel="noreferrer">${escapeHtml(card.title)}</a>${released}</div>${body}</div></article>`;
+      const tags = card.tags?.length || card.editTags ? `<div class="wl-row-tags">${(card.tags ?? []).map((tag) => `<button type="button" class="wl-game-tag" data-game-tag="${tagEscape(tag.id)}">${tagEscape(tag.name)}</button>`).join("")}${card.editTags ? `<button type="button" class="wl-tag-edit" data-edit-tags="${card.appid}">＋ 编辑标签</button>` : ""}</div>` : "";
+      return `<article class="wl-row"><a class="wl-cap" href="${href}" target="_blank" rel="noreferrer">${cap}</a><div class="wl-row-body"><div class="wl-row-heading"><a class="wl-title" href="${href}" target="_blank" rel="noreferrer">${escapeHtml(card.title)}</a>${released}</div>${tags}${body}</div></article>`;
     })
     .join("");
 };

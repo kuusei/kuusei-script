@@ -32,6 +32,7 @@ export type WishlistLoad = {
   refreshed: boolean;
   addedAppids: number[];
   countryItems: Map<string, Map<number, SteamStoreItem>>;
+  tagIds?: Record<string, string[]>;
 };
 
 type CatalogItem = {
@@ -198,6 +199,7 @@ export const loadSteamWishlist = async (
     .map((game) => game.appid);
   cacheSet(key, games);
   return {
+    tagIds: filled.tagIds,
     games,
     refreshed: true,
     addedAppids,

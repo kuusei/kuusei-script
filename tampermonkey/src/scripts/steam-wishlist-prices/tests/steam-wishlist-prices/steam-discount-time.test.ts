@@ -86,6 +86,7 @@ test("personalized bundles never replace the standalone price or produce a false
       fetchedAt: "", usdTo: { CNY: 7, INR: 84 },
     }, new Map([[appid, { amount: 290, currency: "INR", country: "IN", recordedAt: "2026-10-02" }]]));
     assert.equal(rows[0].itadNewLow, false);
+    assert.equal(rows[0].prices.IN.regularCny, 415 / 84 * 7);
   }
 });
 

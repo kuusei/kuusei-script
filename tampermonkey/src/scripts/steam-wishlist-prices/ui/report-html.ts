@@ -1,6 +1,8 @@
 import { COUNTRIES } from "../config";
 import type { CountryColumn } from "../config";
 import type { GameRow } from "../pricing/price-rows";
+import type { WishlistTags } from "../steam/wishlist-tags";
+import { tagControlsHtml } from "./wishlist-tags";
 
 export type ReportPayload = {
   wishlistCount?: number;
@@ -11,6 +13,8 @@ export type ReportPayload = {
   home: string;
   countries: CountryColumn[];
   rows: GameRow[];
+  tags?: WishlistTags;
+  tagShareToken?: string;
   itad?: { enabled: boolean; home: string; warning: string | null };
 };
 
@@ -56,8 +60,7 @@ export const renderReportShell = (payload: ReportPayload) => {
               </div>
             </div>
           </span>
-          <button type="button" id="guide-open" class="text-xs font-normal text-muted underline decoration-dotted underline-offset-2 hover:text-ink">说明</button>
-          <button type="button" id="itad-settings" class="text-xs font-normal text-near underline underline-offset-2">史低设置</button>
+          <button type="button" id="setup-open" class="text-xs font-normal text-near underline underline-offset-2">设置</button>
         </h1>
         <p class="ml-auto shrink-0 text-xs text-muted">生成于 ${fmtWhen(payload.generatedAt)} · 汇率 ${fmtWhen(payload.fxAt)}</p>
       </div>
@@ -102,6 +105,7 @@ export const renderReportShell = (payload: ReportPayload) => {
         <div id="sort-menu-list" class="max-h-72 overflow-auto"></div>
       </div>
     </div>
+    ${payload.tags ? tagControlsHtml() : ""}
     <span id="count" class="wl-toolbar-count"></span>
     <div class="wl-toolbar-filters" role="group" aria-label="游戏筛选">
       <div class="wl-price-filters" role="group" aria-label="价格筛选">
@@ -115,21 +119,6 @@ export const renderReportShell = (payload: ReportPayload) => {
   </div>
   <div class="flex min-h-0 flex-1 flex-col px-5 py-4">
     <div id="list"></div>
-  </div>
-  <div id="guide" class="fixed inset-0 z-50 items-center justify-center bg-[rgba(27,25,22,0.45)] p-4">
-    <div class="wl-pop max-h-[min(36rem,calc(100vh-2rem))] w-full max-w-lg overflow-auto rounded-2xl p-5">
-      <h2 class="text-base font-semibold text-ink">说明</h2>
-      <div class="mt-3 space-y-3 text-sm leading-6 text-ink">
-        <p>当前账户区域是你 Steam 实际所在区。比价和可送礼都相对这个区。</p>
-        <p><span class="font-bold text-cheap">绿色</span>是最低价区，差价小于 1% 默认视为汇率误差也算最低价。<span class="font-bold text-near">浅蓝色</span>是和最低价区差价 +≤10%（宽松 15%）以内的区。<span class="font-bold text-gift">可送礼</span>说明可以赠送到当前区域。临界价格受 Steam 汇率影响，不一定能送。</p>
-        <p>比价区域用来选择要拉取对比的区。账户区始终包含在内。</p>
-        <p>各区现价、折扣和截止时间分别取自该区 Steam 愿望单。价格缓存 1 小时，愿望单刷新时更新所选区域。</p>
-        <p>「折扣」筛选显示区域中有折扣的游戏，包含其中的史低和新史低。配置 ITAD 后显示史低和「新史低」筛选：史低筛选本区已达史低的游戏（包含新史低）；「新史低」只筛选本区新史低。这三项只能选一个，选中时自动取消另外两项，再次点击可取消。其他筛选条件与所选项取交集。</p>
-        <p>ITAD 只查询当前账户区域的 Steam 商店史低。史低持久保存，切换主区域时清除。现价与已保存史低币种相同且高于或等于史低时，跳过该游戏的 ITAD 查询；无记录或现价更低时再查，同价重查间隔 1 小时。本区没有数据时显示暂无史低数据。价格后的绿色史低表示现价已达到史低；本区现价低于 ITAD 记录的史低，或 ITAD 本区 Steam 报价标记为新史低且与现价一致时，显示深绿色「新史低」。人民币换算采用当前汇率，币种不同时不判断是否达到史低。</p>
-      </div>
-      <p class="mt-3 text-sm leading-6 text-muted">ITAD 的新史低识别不完全准确，部分新史低可能仅标记为史低，因此「新史低」筛选可能遗漏这些游戏。</p>
-      <button type="button" id="guide-close" class="mt-5 h-9 w-full rounded-lg bg-cream text-sm text-ink hover:bg-chip">好</button>
-    </div>
   </div>
 </div>`;
 };

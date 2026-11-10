@@ -537,11 +537,14 @@ test("report renders ITAD settings and switching home refetches history even wit
     itad: { enabled: true, home: "CN", warning: "<failed>" as string | null },
   };
   const html = renderReportShell(payload);
-  assert.match(html, /id="itad-settings"/);
-  assert.doesNotMatch(html, /美区参考/);
+  assert.match(html, /id="setup-open"/);
+  assert.doesNotMatch(html, /id="itad-settings"|id="guide-open"|id="guide"|美区参考/);
   const { root, nodes } = reportHarness();
   let refetched = 0;
-  mountReport(root, payload, { onRefetch: () => { refetched += 1; } });
+  let openedSetup = 0;
+  mountReport(root, payload, { onRefetch: () => { refetched += 1; }, onSetup: () => { openedSetup += 1; } });
+  nodes.get("#setup-open").events.get("click")();
+  assert.equal(openedSetup, 1);
   assert.match(nodes.get("#list").innerHTML, /史低数据未获取/);
   payload.itad.warning = null;
   mountReport(root, payload, { onRefetch: () => { refetched += 1; } });
@@ -641,7 +644,7 @@ test("discount sorting uses the home region and defaults to highest discount fir
 test("price filters are mutually exclusive, history lows require a sale, and search still intersects", () => {
   const game = (appid: number, title: string, cut: number): ReportPayload["rows"][number] => ({
     appid, title, capsule: "", releasedAt: null, free: false, comingSoon: false, delisted: false,
-    prices: { CN: { amount: 10, currency: "CNY", regular: 20, cut, discountEndsAt: null, cny: 10 } },
+    prices: { CN: { amount: 10, currency: "CNY", regular: 20, cut, discountEndsAt: null, cny: 10, regularCny: 20 } },
     cheapestCode: "CN", cheapestCny: 10, vsCn: 0,
   });
   const history = { amount: 10, currency: "CNY", country: "CN", recordedAt: null, cny: 10, atLow: true };
@@ -709,22 +712,22 @@ test("price filters are mutually exclusive, history lows require a sale, and sea
   setFilter("history-low", true);
   assertSelection("history-low");
   assert.deepEqual(titles(), []);
-  assert.equal(nodes.get("#count").textContent, "显示 0 / 6");
+  assert.equal(nodes.get("#count").textContent, "显示 0 / 6 · 本区总价 ¥0.00 · 原价 ¥0.00");
   assert.doesNotMatch(nodes.get("#list").innerHTML, /aria-label="本区已达史低">史低/);
   for (const itad of [undefined, { enabled: false, home: "CN", warning: null }]) {
     const disabled = { ...payload, itad };
     const html = renderReportShell(disabled);
     assert.match(html, /id="sale"/);
-    assert.match(html, /id="itad-settings"/);
+    assert.match(html, /id="setup-open"/);
     assert.doesNotMatch(html, /id="history-low"|id="new-low"/);
     const unconfigured = reportHarness(["#history-low", "#new-low"]);
     mountReport(unconfigured.root, disabled);
-    assert.equal(unconfigured.nodes.get("#count").textContent, "显示 6 / 6");
+    assert.equal(unconfigured.nodes.get("#count").textContent, "显示 6 / 6 · 本区总价 ¥60.00 · 原价 ¥120.00");
     unconfigured.nodes.get("#sale").events.get("change")({ target: { checked: true } });
-    assert.equal(unconfigured.nodes.get("#count").textContent, "显示 3 / 6");
+    assert.equal(unconfigured.nodes.get("#count").textContent, "显示 3 / 6 · 本区总价 ¥30.00 · 原价 ¥60.00");
     assert.equal(unconfigured.nodes.get("#sale").checked, true);
     unconfigured.nodes.get("#sale").events.get("change")({ target: { checked: false } });
-    assert.equal(unconfigured.nodes.get("#count").textContent, "显示 6 / 6");
+    assert.equal(unconfigured.nodes.get("#count").textContent, "显示 6 / 6 · 本区总价 ¥60.00 · 原价 ¥120.00");
   }
   assert.match(renderReportShell({ ...payload, itad: { enabled: true, home: "CN", warning: "failed" } }), /id="history-low"/);
   assert.match(renderReportShell({ ...payload, itad: { enabled: true, home: "CN", warning: "failed" } }), /id="new-low"/);

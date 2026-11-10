@@ -62,6 +62,7 @@ export type SteamStoreItem = {
 
 export type WishlistSortedItem = {
   appid?: number;
+  category_ids?: string[];
   store_item?: SteamStoreItem;
 };
 
@@ -158,6 +159,7 @@ export const fillWishlistStoreItems = async (
   const storeItems = new Map<number, SteamStoreItem>();
   const appids: number[] = [];
   const listed = new Set<number>();
+  const tagIds: Record<string, string[]> = {};
   let start = 0;
   for (let page = 0; page < 100; page++) {
     const remain = listed.size > 0 ? listed.size - start : 0;
@@ -181,6 +183,10 @@ export const fillWishlistStoreItems = async (
     }
     let filled = 0;
     for (const item of items) {
+      if (item.appid && (item.category_ids === undefined || Array.isArray(item.category_ids) &&
+        item.category_ids.every((id) => typeof id === "string" && /^[1-9]\d*$/.test(id)))) {
+        tagIds[item.appid] = [...new Set(item.category_ids ?? [])];
+      }
       if (item.appid && hasStoreItem(item) && item.store_item && !storeItems.has(item.appid)) {
         storeItems.set(item.appid, item.store_item);
         filled += 1;
@@ -203,7 +209,7 @@ export const fillWishlistStoreItems = async (
       break;
     }
   }
-  return { appids, storeItems, resolved: listed };
+  return { appids, storeItems, resolved: listed, tagIds };
 };
 
 export const buildGetItemsUrl = (

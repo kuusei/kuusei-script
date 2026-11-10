@@ -1,10 +1,14 @@
 import { beforeEach, test } from "node:test";
 import assert from "node:assert/strict";
 import { COUNTRIES } from "../../config";
-import { compareRegionLimit, mountSetup, needsRegionSetup, renderSetupShell, type RegionSetup } from "../../ui/region-settings";
+import { compareRegionLimit, loadTagsEnabled, mountSetup, needsGuideSetup, needsRegionSetup, renderSetupShell, saveTagsEnabled, type RegionSetup, type SetupDraft } from "../../ui/region-settings";
 
 beforeEach(() => {
-  Object.assign(globalThis, { localStorage: { getItem: () => null } });
+  Object.assign(globalThis, {
+    localStorage: { getItem: () => null, setItem: () => {} },
+    GM_getValue: undefined,
+    GM_setValue: undefined,
+  });
 });
 
 const selection = (count: number): RegionSetup => ({ home: "CN", shown: COUNTRIES.slice(0, count).map(country => country.code) });
@@ -37,7 +41,7 @@ const harness = (initial: RegionSetup, count: number) => {
     });
     return nodes.get(id);
   } } as unknown as ParentNode;
-  const started: RegionSetup[] = [];
+  const started: SetupDraft[] = [];
   mountSetup(root, initial, setup => started.push(setup), count);
   const fire = (id: string, name: string, target?: unknown) => nodes.get(`#${id}`).events.get(name)({ target });
   const toggle = (code: string, checked: boolean) => {
@@ -75,23 +79,56 @@ test("unselected regions are disabled at the cap and become selectable after rem
   assert.equal(ui.started[0].shown.length, 9);
 });
 
-test("changing home cannot exceed the cap and resetting keeps only the current account region", () => {
+test("changing home cannot exceed the cap and locks the new account region", () => {
   const ui = harness(selection(5), 5000);
   ui.fire("setup-home-list", "change", { name: "wl-home", value: "VN", checked: true });
   assert.equal(ui.nodes.get("#setup-start").disabled, true);
+  assert.equal(ui.boxes.find(box => box.dataset.compare === "VN")?.disabled, true);
+  assert.equal(ui.boxes.find(box => box.dataset.compare === "CN")?.disabled, false);
   ui.fire("setup-start", "click");
   assert.equal(ui.started.length, 0);
-  ui.fire("setup-all", "click");
-  assert.equal(ui.boxes.filter(box => box.checked).length, 1);
-  assert.equal(ui.boxes.find(box => box.dataset.compare === "VN")?.disabled, true);
+  ui.toggle("CN", false);
   ui.fire("setup-start", "click");
-  assert.deepEqual(ui.started, [{ home: "VN", shown: ["VN"] }]);
+  assert.equal(ui.started.length, 1);
+  assert.equal(ui.started[0].home, "VN");
+  assert.equal(ui.started[0].shown.length, 5);
+  assert.ok(ui.started[0].shown.includes("VN"));
 });
 
 test("setup keeps the selection controls without the wishlist-count description", () => {
   const html = renderSetupShell(selection(6));
   assert.doesNotMatch(html, /愿望单.*款.*最多/);
-  assert.match(html, /仅账户区/);
+  assert.doesNotMatch(html, /仅账户区|setup-all/);
   assert.match(html, /aria-live="polite"/);
   assert.doesNotMatch(html, /建议少于 8 个|>全选</);
+  assert.match(html, /id="setup-close"[^>]*aria-label="关闭"[\s\S]*?<svg/);
+  assert.match(html, /历史低价数据 Key/);
+  assert.match(html, /ITAD 注册应用<\/a>后复制。留空则不查询史低<\/p>/);
+  assert.doesNotMatch(html, /油猴脚本存储|关闭后不请求标签/);
+  assert.match(html, /开启后读取 Steam 标签，可筛选和编辑。<\/p>/);
+  assert.match(html, /id="setup-itad-key"/);
+  assert.match(html, /id="setup-tags"[^>]*checked/);
+});
+
+test("saved guide v1 opens setup again, and tags stay on unless explicitly disabled", () => {
+  const saved = new Map<string, string>([["wishlist-guide-done", "1"]]);
+  Object.assign(globalThis, { localStorage: {
+    getItem: (key: string) => saved.get(key) ?? null,
+    setItem: (key: string, value: string) => saved.set(key, value),
+  } });
+  assert.equal(needsGuideSetup(), true);
+  assert.equal(loadTagsEnabled(), true);
+  saveTagsEnabled(false);
+  assert.equal(loadTagsEnabled(), false);
+  saved.set("wishlist-guide-done", "v2");
+  assert.equal(needsGuideSetup(), false);
+  const ui = harness(selection(2), 10);
+  const tags = ui.nodes.get("#setup-tags");
+  const key = ui.nodes.get("#setup-itad-key");
+  assert.equal(tags.checked, false);
+  key.value = "  itad-key  ";
+  tags.checked = true;
+  ui.fire("setup-start", "click");
+  assert.equal(ui.started[0].tagsEnabled, true);
+  assert.equal(ui.started[0].itadKey, "  itad-key  ");
 });

@@ -3,6 +3,7 @@ import { discountTimeMessages, formatDiscountEnd, gameDiscountEnd } from "../pri
 import type { ReportPayload } from "./report-html";
 import { compareRegionLimit, loadRegionSetup, saveRegionSetup } from "./region-settings";
 import { steamListHtml } from "./steam-list";
+import { mountWishlistTagControls } from "./wishlist-tags";
 
 type PriceFilter = "sale" | "historyLow" | "newLow";
 
@@ -24,11 +25,12 @@ type ReportState = {
 export const mountReport = (
   root: ParentNode,
   payload: ReportPayload,
-  handlers?: { onRefetch?: () => void; onItadSetup?: () => void },
+  handlers?: { onRefetch?: () => void; onSetup?: () => void },
 ) => {
   const codes = payload.countries.map((country) => country.code);
   const allCodes = COUNTRIES.map((country) => country.code);
   const el = (id: string) => root.querySelector(`#${id}`) as HTMLElement;
+  let tagControls: ReturnType<typeof mountWishlistTagControls> | undefined;
   const loadShown = (): Set<string> => {
     const setup = loadRegionSetup();
     if (setup?.shown.length) {
@@ -117,6 +119,7 @@ export const mountReport = (
     (isNewLow(row) || row.historyLow?.country === state.home && row.historyLow.atLow === true);
   const filtered = (opts: { skipCheap?: boolean } = {}) =>
     payload.rows.filter((row) => {
+      if (tagControls && !tagControls.matches(row.appid)) return false;
       const query = state.q.trim().toLowerCase();
       if (query && !row.title.toLowerCase().includes(query) && !String(row.appid).includes(query)) {
         return false;
@@ -349,7 +352,17 @@ export const mountReport = (
   const render = () => {
     const countries = visibleCountries();
     const rows = sorted(filtered());
-    el("count").textContent = `显示 ${rows.length} / ${payload.rows.length}`;
+    const tagNames = new Map(payload.tags?.categories.map((tag) => [tag.id, tag]));
+    const homePrices = rows.filter((row) => !row.free).map((row) => row.prices[state.home]);
+    const totalText = (values: (number | null | undefined)[]) => {
+      const prices = values.filter((price): price is number => price != null && Number.isFinite(price));
+      const missing = values.length - prices.length;
+      if (missing > 0 && prices.length === 0) return "—";
+      return `¥${fmt(prices.reduce((sum, price) => sum + price, 0))}${missing > 0 ? `（${missing} 款无价格）` : ""}`;
+    };
+    const currentTotal = totalText(homePrices.map((price) => price?.cny));
+    const regularTotal = totalText(homePrices.map((price) => price?.regularCny ?? (price?.cut === 0 ? price.cny : null)));
+    el("count").textContent = `显示 ${rows.length} / ${payload.rows.length} · 本区总价 ${currentTotal} · 原价 ${regularTotal}`;
     syncSortMenu();
     el("list").innerHTML = steamListHtml(
       rows.map((row) => {
@@ -358,6 +371,9 @@ export const mountReport = (
         return {
           appid: row.appid,
           title: row.title,
+          tags: payload.tags?.items[row.appid]?.map((id) => tagNames.get(id))
+            .filter((tag): tag is { id: string; name: string } => !!tag),
+          editTags: payload.tags?.editable && payload.tags.items[row.appid] !== undefined,
           capsule: row.capsule,
           released: row.releasedAt == null ? "" : ymd(row.releasedAt),
           status,
@@ -415,7 +431,7 @@ export const mountReport = (
     state.q = (event.target as HTMLInputElement).value;
     render();
   });
-  el("itad-settings").addEventListener("click", () => handlers?.onItadSetup?.());
+  el("setup-open").addEventListener("click", () => handlers?.onSetup?.());
   const priceFilters = ([["sale", "sale"], ["history-low", "historyLow"], ["new-low", "newLow"]] as const)
     .filter(([id]) => id === "sale" || payload.itad?.enabled);
   const syncPriceFilters = () => {
@@ -520,17 +536,7 @@ export const mountReport = (
     closeMenus();
     render();
   });
-  el("guide-close").addEventListener("click", () => {
-    el("guide").classList.remove("open");
-    localStorage.setItem("wishlist-guide-done", "1");
-  });
-  el("guide-open").addEventListener("click", () => el("guide").classList.add("open"));
-  el("guide").addEventListener("click", (event) => {
-    if (event.target === el("guide")) {
-      el("guide").classList.remove("open");
-      localStorage.setItem("wishlist-guide-done", "1");
-    }
-  });
+  if (payload.tags) tagControls = mountWishlistTagControls(root, payload, render);
   syncRegionMenu();
   syncCheapMenu();
   syncHomeMenu();

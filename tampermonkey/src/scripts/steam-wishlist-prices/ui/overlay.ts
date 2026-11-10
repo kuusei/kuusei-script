@@ -3,15 +3,17 @@ import reportCss from "./report.generated.css";
 import { mountReport } from "./report-client";
 import type { ReportPayload } from "./report-html";
 import { renderReportShell } from "./report-html";
-import { mountItadSetup, renderItadSetup } from "./itad-settings";
+import { saveItadApiKey } from "../pricing/itad-prices";
 import {
   mountSetup,
   renderSetupShell,
   saveRegionSetup,
+  saveTagsEnabled,
   type RegionSetup,
 } from "./region-settings";
 
 const HOST_ID = "wl-prices-overlay";
+const closeIcon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg>`;
 
 export const closeReportOverlay = () => {
   document.getElementById(HOST_ID)?.remove();
@@ -31,7 +33,7 @@ const attachOverlay = (mode: "page" | "dialog") => {
     overlay.innerHTML = `<div class="wl-app wl-dialog overflow-auto rounded-xl"></div>`;
   } else {
     overlay.className = "wl-overlay fixed inset-0 z-[2147483646] flex flex-col p-3";
-    overlay.innerHTML = `<div class="wl-chrome"><button type="button" class="wl-close">关闭</button></div><div class="wl-app min-h-0 flex-1 overflow-hidden rounded-xl bg-paper shadow-xl"></div>`;
+    overlay.innerHTML = `<div class="wl-chrome"><button type="button" class="wl-close" aria-label="关闭">${closeIcon}</button></div><div class="wl-app min-h-0 flex-1 overflow-hidden rounded-xl bg-paper shadow-xl"></div>`;
   }
   shadow.append(style, overlay);
   document.documentElement.style.overflow = "hidden";
@@ -45,22 +47,13 @@ const attachOverlay = (mode: "page" | "dialog") => {
 
 export const openReportOverlay = (
   payload: ReportPayload,
-  handlers?: { onRefetch?: () => void; onItadSetup?: () => void },
+  handlers?: { onRefetch?: () => void; onSetup?: () => void },
 ) => {
   const { app, closeBtn } = attachOverlay("page");
   closeBtn?.addEventListener("click", closeReportOverlay);
   app.innerHTML = renderReportShell(payload);
   mountReport(app, payload, handlers);
 };
-
-export const openItadSetup = () => new Promise<boolean>((resolve) => {
-  const { overlay, app } = attachOverlay("dialog");
-  const finish = (saved: boolean) => { closeReportOverlay(); resolve(saved); };
-  app.innerHTML = renderItadSetup();
-  app.querySelector("#itad-close")?.addEventListener("click", () => finish(false));
-  overlay.addEventListener("click", (event) => { if (event.target === overlay) finish(false); });
-  mountItadSetup(app, () => finish(true));
-});
 
 export const openRegionSetup = (initial: RegionSetup | null, wishlistCount: number) =>
   new Promise<RegionSetup | null>((resolve) => {
@@ -78,6 +71,8 @@ export const openRegionSetup = (initial: RegionSetup | null, wishlistCount: numb
     app.innerHTML = renderSetupShell(initial);
     app.querySelector("#setup-close")?.addEventListener("click", () => finish(null));
     mountSetup(app, initial, (setup) => {
+      saveItadApiKey(setup.itadKey);
+      saveTagsEnabled(setup.tagsEnabled);
       saveRegionSetup(setup);
       finish(setup);
     }, wishlistCount);

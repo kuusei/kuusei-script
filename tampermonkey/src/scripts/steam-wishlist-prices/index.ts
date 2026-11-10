@@ -2,10 +2,10 @@ import { HudCard, injectStyle, startPolling, whenDocumentReady } from "@/shared"
 
 import { loadUsdRates } from "./pricing/currency-rates";
 import { estimateOpeningRequests, fxRequestPending } from "./requests/estimate-opening";
-import { closeReportOverlay, openItadSetup, openRegionSetup, openReportOverlay } from "./ui/overlay";
+import { closeReportOverlay, openRegionSetup, openReportOverlay } from "./ui/overlay";
 import { loadItadApiKey, loadItadSteamLows } from "./pricing/itad-prices";
 import { buildGameRows } from "./pricing/price-rows";
-import { countriesForSetup, legacyRegionSetup, loadRegionSetup, needsRegionSetup } from "./ui/region-settings";
+import { countriesForSetup, legacyRegionSetup, loadRegionSetup, loadTagsEnabled, needsGuideSetup, needsRegionSetup } from "./ui/region-settings";
 import { createRequestMeter, setRequestHook } from "./requests/request-meter";
 import { resolveSteamId } from "./steam/steam-id";
 import { estimateCountryFillRequests, loadSteamCountryPrices } from "./pricing/steam-prices";
@@ -14,6 +14,7 @@ import { peekWebApiToken, readWebApiToken } from "./steam/steam-http";
 import { fetchWishlistAppIds, loadSteamWishlist } from "./steam/steam-wishlist";
 import { readWishlistPageCount } from "./cache/wishlist-cache";
 import type { ReportPayload } from "./ui/report-html";
+import { loadWishlistTags } from "./steam/wishlist-tags";
 
 const BUTTON_ID = "wl-prices-launch";
 const TITLE_RE = /愿望单|願望單|Wishlist/i;
@@ -121,7 +122,7 @@ const runReport = async (forceSetup = false) => {
       wishlistCount = knownAppids.length;
     }
     const saved = loadRegionSetup();
-    const setup = needsRegionSetup(saved, wishlistCount, forceSetup)
+    const setup = needsRegionSetup(saved, wishlistCount, forceSetup || needsGuideSetup())
       ? await openRegionSetup(saved ?? legacyRegionSetup(), wishlistCount) : saved;
     if (!setup) { hud.dismiss(0); return; }
     const countries = countriesForSetup(setup);
@@ -175,6 +176,10 @@ const runReport = async (forceSetup = false) => {
     hud.update("换算人民币…");
     const rates = await loadUsdRates();
     const rows = buildGameRows(games, deals, countries, rates, itad.lows, itad.deals);
+    const tagsEnabled = loadTagsEnabled();
+    const tagShareToken = tagsEnabled ? new URL(location.href).searchParams.get("share_token") || "" : "";
+    if (tagsEnabled) hud.update("读取愿望单标签…");
+    const tags = tagsEnabled ? await loadWishlistTags(steamId, setup.home, tagShareToken, wishlist.tagIds) : undefined;
     const payload: ReportPayload = {
       generatedAt: new Date().toISOString(),
       fxAt: rates.fetchedAt,
@@ -184,11 +189,13 @@ const runReport = async (forceSetup = false) => {
       home: setup.home,
       countries,
       rows,
+      tags,
+      tagShareToken,
       itad: { enabled: itad.enabled, home: itad.home, warning: itad.warning },
     };
     const showReport = () => openReportOverlay(payload, {
       onRefetch: () => void runReport(false),
-      onItadSetup: () => void configureItad(showReport),
+      onSetup: () => void configureSetup(payload.wishlistCount ?? rows.length, showReport),
     });
     showReport();
     hud.update(`${steamName} · ${rows.length} 款`, "完成", "success");
@@ -202,8 +209,8 @@ const runReport = async (forceSetup = false) => {
   }
 };
 
-const configureItad = async (onCancel?: () => void) => {
-  if (await openItadSetup()) void runReport();
+const configureSetup = async (wishlistCount: number, onCancel?: () => void) => {
+  if (await openRegionSetup(loadRegionSetup() ?? legacyRegionSetup(), wishlistCount)) void runReport();
   else onCancel?.();
 };
 
@@ -216,5 +223,4 @@ whenDocumentReady(() => {
   GM_registerMenuCommand("设置比价区域", () => {
     void runReport(true);
   });
-  GM_registerMenuCommand("史低设置", () => void configureItad());
 });

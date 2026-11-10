@@ -22,6 +22,7 @@ export type RegionPrice = {
   cut: number;
   discountEndsAt: number | null;
   cny: number | null;
+  regularCny?: number | null;
   bundle?: { amount: number; currency: string; cny: number | null; name: string };
 };
 
@@ -48,12 +49,14 @@ const emptyPrice = (): RegionPrice => ({
   cut: 0,
   discountEndsAt: null,
   cny: null,
+  regularCny: null,
 });
 
 const fromDeal = (deal: SteamDeal | undefined, rates: UsdRates): RegionPrice => {
   if (!deal) {
     return emptyPrice();
   }
+  const regular = deal.regular ?? (deal.cut === 0 ? deal.amount : null);
   return {
     amount: deal.amount,
     currency: deal.currency,
@@ -61,6 +64,7 @@ const fromDeal = (deal: SteamDeal | undefined, rates: UsdRates): RegionPrice => 
     cut: deal.cut,
     discountEndsAt: deal.cut > 0 ? deal.discountEndsAt ?? null : null,
     cny: toCny(deal.amount, deal.currency, rates),
+    regularCny: regular == null ? null : toCny(regular, deal.currency, rates),
     ...(deal.bundle ? {
       bundle: {
         ...deal.bundle,
