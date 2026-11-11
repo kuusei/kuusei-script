@@ -4,6 +4,7 @@ import type { ReportPayload } from "./report-html";
 import { compareRegionLimit, loadRegionSetup, saveRegionSetup } from "./region-settings";
 import { steamListHtml } from "./steam-list";
 import { mountWishlistTagControls } from "./wishlist-tags";
+import { openScreenshotExport } from "./screenshot-export";
 
 type PriceFilter = "sale" | "historyLow" | "newLow";
 
@@ -432,6 +433,17 @@ export const mountReport = (
     render();
   });
   el("setup-open").addEventListener("click", () => handlers?.onSetup?.());
+  el("screenshot-open").addEventListener("click", () => {
+    closeMenus();
+    openScreenshotExport(root as HTMLElement, {
+      steamName: payload.steamName || payload.steamId,
+      home: labelOf(state.home),
+      countries: visibleCountries().map((country) => country.label),
+      generatedAt: `生成于 ${new Date(payload.generatedAt).toLocaleString("zh-CN", { hour12: false, timeZone: "Asia/Shanghai" })}`,
+      summary: el("count").textContent || "",
+      listHtml: el("list").innerHTML,
+    }, el("screenshot-open"));
+  });
   const priceFilters = ([["sale", "sale"], ["history-low", "historyLow"], ["new-low", "newLow"]] as const)
     .filter(([id]) => id === "sale" || payload.itad?.enabled);
   const syncPriceFilters = () => {

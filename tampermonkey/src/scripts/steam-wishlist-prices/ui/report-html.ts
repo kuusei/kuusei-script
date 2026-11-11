@@ -117,8 +117,11 @@ export const renderReportShell = (payload: ReportPayload) => {
       ${filterToggle("soon", "屏蔽未发售")}
     </div>
   </div>
-  <div class="flex min-h-0 flex-1 flex-col px-5 py-4">
+  <div class="relative flex min-h-0 flex-1 flex-col px-5 py-4">
     <div id="list"></div>
+    <button type="button" id="screenshot-open" class="wl-icon-button wl-shot-trigger" aria-label="导出截图" title="导出截图">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h4l2-3h4l2 3h4a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z" /><circle cx="12" cy="13" r="3.5" /></svg>
+    </button>
   </div>
 </div>`;
 };

@@ -20,6 +20,41 @@
 }
 
 @layer components {
+  .wl-shot-trigger { position: absolute; right: 28px; bottom: 24px; z-index: 1; box-shadow: 0 2px 8px rgba(0, 0, 0, .35); }
+  .wl-shot-modal { position: fixed; inset: 0; z-index: 80; display: flex; align-items: center; justify-content: center; padding: 16px; background: rgba(0, 0, 0, .7); }
+  .wl-shot-dialog { width: min(380px, 100%); padding: 16px 18px 18px; }
+  .wl-shot-presets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 16px 0; padding: 0; border: 0; }
+  .wl-shot-presets legend { margin-bottom: 8px; color: #dbe7f2; font-size: 13px; }
+  .wl-shot-intro-option { margin-top: 12px; }
+  .wl-shot-error { margin: 12px 0 0; color: #ff9b8a; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+  .wl-shot-error:empty { display: none; }
+  .wl-shot-note { margin: 12px 0 0; color: #a8bbca; font-size: 12px; line-height: 1.6; }
+  .wl-shot-stage { position: fixed; top: 0; left: -100000px; pointer-events: none; }
+  .wl-shot-document { box-sizing: border-box; padding: 24px; background: #1b2838; color: #c7d5e0; font: 14px/1.5 "Motiva Sans", Arial, "Microsoft YaHei", sans-serif; }
+  .wl-shot-document * { box-sizing: border-box; }
+  .wl-shot-heading { padding-bottom: 16px; }
+  .wl-shot-heading h1 { margin: 0 0 8px; color: #fff; font-size: 22px; font-weight: 600; overflow-wrap: anywhere; }
+  .wl-shot-heading p { margin: 4px 0 0; color: #a8bbca; overflow-wrap: anywhere; }
+  .wl-shot-list { display: flex; flex-direction: column; gap: 8px; }
+  .wl-shot-document .wl-row { margin: 0; }
+  .wl-shot-document .wl-row:hover { background: rgba(0, 0, 0, .2); }
+  .wl-shot-document .wl-title { overflow-wrap: anywhere; }
+  .wl-shot-document .wl-row-stats { display: block; }
+  .wl-shot-document .wl-row-stats > span { margin-right: 10px; }
+  .wl-shot-document .wl-disc { max-width: 100%; flex-wrap: wrap; }
+  .wl-shot-document .wl-disc-prices { white-space: normal; }
+  .wl-shot-document .wl-disc-price-line { flex-wrap: wrap; overflow-wrap: anywhere; }
+  .wl-shot-document .wl-game-tag { cursor: default; }
+  .wl-shot-intro { margin-top: 20px; padding-top: 14px; border-top: 1px solid #355066; }
+  .wl-shot-intro p { margin: 0 0 4px; color: #c7d5e0; }
+  .wl-shot-intro a { color: #67c1f5; font-size: 12px; overflow-wrap: anywhere; text-decoration: none; }
+  .wl-shot-document.is-mobile { padding: 16px; }
+  .wl-shot-document.is-mobile .wl-shot-heading h1 { font-size: 20px; }
+  .wl-shot-document.is-mobile .wl-row { flex-direction: column; gap: 10px; padding: 12px; }
+  .wl-shot-document.is-mobile .wl-cap { width: 184px; height: 69px; }
+}
+
+@layer components {
   .wl-tags-menu { position: absolute; left: 0; top: 100%; z-index: 45; width: min(320px, calc(100vw - 48px)); margin-top: 8px; padding: 12px; border-radius: 4px; }
   .wl-tag-input { width: 100%; min-width: 0; height: 34px; padding: 6px 10px; border: 1px solid #355066; border-radius: 3px; background: #101c28; color: #e1edf5; font-size: 13px; }
   .wl-tag-input:focus-visible { outline: 2px solid #66c0f4; outline-offset: 1px; }
@@ -213,6 +248,23 @@
   }
   .wl-toolbar-button:hover { background: #24394b; border-color: #4d708a; }
   .wl-toolbar-button:focus-visible { outline: 2px solid var(--color-near); outline-offset: 2px; }
+  .wl-icon-button {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid #355066;
+    border-radius: 4px;
+    background: var(--color-surface);
+    color: var(--color-ink);
+    cursor: pointer;
+  }
+  .wl-icon-button > svg { width: 22px; height: 22px; }
+  .wl-icon-button:hover { background: #24394b; border-color: #4d708a; color: #fff; }
+  .wl-icon-button:focus-visible { outline: 2px solid var(--color-near); outline-offset: 2px; }
   .wl-toolbar-sort { flex: none; }
   .wl-sort-controls {
     display: flex;
@@ -588,9 +640,13 @@
   }
   .wl-setup-switch {
     position: relative;
+    display: flex;
+    align-items: center;
     flex: none;
+    box-sizing: border-box;
     width: 36px;
     height: 20px;
+    padding: 2px;
     border: 1px solid #455d73;
     border-radius: 999px;
     background: #2b3d4f;
@@ -598,9 +654,8 @@
   }
   .wl-setup-switch::after {
     content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
+    display: block;
+    flex: none;
     width: 14px;
     height: 14px;
     border-radius: 999px;
@@ -651,6 +706,8 @@
     flex-direction: column;
     gap: 8px;
     overflow: auto;
+    padding-bottom: 52px;
+    scroll-padding-bottom: 52px;
   }
   .wl-row {
     display: flex;
