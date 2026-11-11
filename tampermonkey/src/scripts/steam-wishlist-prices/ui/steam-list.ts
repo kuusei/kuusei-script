@@ -63,7 +63,7 @@ export const steamListHtml = (cards: SteamGameCard[]) => {
         ? `<p class="wl-row-status">${escapeHtml(card.status)}</p>`
         : `<div class="wl-row-stats"><span>${escapeHtml(card.cheapestLabel)} <span class="wl-row-cheapest">${escapeHtml(card.cheapest)}</span></span><span>${escapeHtml(card.vsHome)}</span>${end}</div>${history}<div class="wl-row-chips">${card.chips.map(chipHtml).join("")}</div>`;
       const cap = card.capsule
-        ? `<img alt="" loading="lazy" src="${escapeHtml(card.capsule)}" />`
+        ? `<img alt="" crossorigin="anonymous" loading="lazy" src="${escapeHtml(card.capsule)}" />`
         : "";
       const released = card.released ? `<span class="wl-release-date">${escapeHtml(card.released)}</span>` : "";
       const tags = card.tags?.length || card.editTags ? `<div class="wl-row-tags">${(card.tags ?? []).map((tag) => `<button type="button" class="wl-game-tag" data-game-tag="${tagEscape(tag.id)}">${tagEscape(tag.name)}</button>`).join("")}${card.editTags ? `<button type="button" class="wl-tag-edit" data-edit-tags="${card.appid}">＋ 编辑标签</button>` : ""}</div>` : "";

@@ -1,8 +1,8 @@
 {
   "name": "Steam 愿望单区域比价",
   "namespace": "http://tampermonkey.net/",
-  "version": "2026.11.11.97",
-  "updatedAt": "2026-11-11T09:25:00+08:00",
+  "version": "2026.11.11.102",
+  "updatedAt": "2026-11-11T11:31:33+08:00",
   "description": "对比 Steam 愿望单各区现价，显示 ITAD Steam 本区历史最低价",
   "author": "kuusei",
   "icon": "https://store.steampowered.com/favicon.ico",

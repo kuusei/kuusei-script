@@ -437,6 +437,7 @@ export const mountReport = (
     closeMenus();
     openScreenshotExport(root as HTMLElement, {
       steamName: payload.steamName || payload.steamId,
+      wishlistUrl: (el("wishlist-link") as HTMLAnchorElement).href,
       home: labelOf(state.home),
       countries: visibleCountries().map((country) => country.label),
       generatedAt: `生成于 ${new Date(payload.generatedAt).toLocaleString("zh-CN", { hour12: false, timeZone: "Asia/Shanghai" })}`,

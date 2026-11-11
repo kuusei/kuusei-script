@@ -23,23 +23,29 @@ test("395 games fill long JPGs up to the format limit without losing their order
   }
 });
 
-test("screenshots preserve the selected report content and can omit plugin attribution", () => {
+test("screenshots preserve report content and independently toggle the wishlist QR code and plugin attribution", () => {
   const snapshot = {
     steamName: '<img src=x onerror="bad()">', home: "中国", countries: ["中国", "美国"],
+    wishlistUrl: "https://store.steampowered.com/wishlist/profiles/76561198000000000/",
     generatedAt: "生成于 2026/11/10 20:00:00", summary: "显示 1 / 3 · 本区总价 ¥9.00",
     listHtml: '<article class="wl-row">筛选后的游戏</article>',
   };
-  const withIntro = screenshotHtml(snapshot, { layout: "mobile", includeIntro: true });
-  const withoutIntro = screenshotHtml(snapshot, { layout: "pc", includeIntro: false });
+  const withIntro = screenshotHtml(snapshot, { layout: "mobile", includeWishlistQr: true, includeIntro: true });
+  const withoutIntro = screenshotHtml(snapshot, { layout: "pc", includeWishlistQr: true, includeIntro: false });
+  const withoutQr = screenshotHtml(snapshot, { layout: "pc", includeWishlistQr: false, includeIntro: true });
   assert.match(withIntro, /Steam 愿望单区域比价 by kuusei/);
-  assert.match(withIntro, /href="https:\/\/greasyfork.org\/zh-CN\/scripts\/595010-/);
+  assert.match(withIntro, /href="https:\/\/greasyfork.org\/zh-CN\/scripts\/595010"/);
+  assert.equal(withIntro.match(/<svg\b/g)?.length, 1);
   assert.doesNotMatch(withIntro, /<img/);
   for (const html of [withIntro, withoutIntro]) {
+    assert.match(html, /aria-label="Steam 愿望单二维码"/);
     assert.match(html, /中国 \/ 美国/);
     assert.match(html, /显示 1 \/ 3/);
     assert.match(html, /筛选后的游戏/);
   }
   assert.doesNotMatch(withoutIntro, /by kuusei|greasyfork/);
+  assert.match(withoutQr, /Steam 愿望单区域比价 by kuusei/);
+  assert.doesNotMatch(withoutQr, /<svg\b/);
   assert.equal(SCREENSHOT_WIDTHS.mobile * SCREENSHOT_SCALE, 960);
   assert.equal(SCREENSHOT_WIDTHS.pc * SCREENSHOT_SCALE, 2560);
 });

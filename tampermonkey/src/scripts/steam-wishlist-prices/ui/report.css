@@ -25,16 +25,26 @@
   .wl-shot-dialog { width: min(380px, 100%); padding: 16px 18px 18px; }
   .wl-shot-presets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 16px 0; padding: 0; border: 0; }
   .wl-shot-presets legend { margin-bottom: 8px; color: #dbe7f2; font-size: 13px; }
-  .wl-shot-intro-option { margin-top: 12px; }
+  .wl-shot-dialog .wl-setup-switch-row + .wl-setup-switch-row { margin-top: 8px; }
   .wl-shot-error { margin: 12px 0 0; color: #ff9b8a; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
   .wl-shot-error:empty { display: none; }
   .wl-shot-note { margin: 12px 0 0; color: #a8bbca; font-size: 12px; line-height: 1.6; }
   .wl-shot-stage { position: fixed; top: 0; left: -100000px; pointer-events: none; }
   .wl-shot-document { box-sizing: border-box; padding: 24px; background: #1b2838; color: #c7d5e0; font: 14px/1.5 "Motiva Sans", Arial, "Microsoft YaHei", sans-serif; }
   .wl-shot-document * { box-sizing: border-box; }
-  .wl-shot-heading { padding-bottom: 16px; }
-  .wl-shot-heading h1 { margin: 0 0 8px; color: #fff; font-size: 22px; font-weight: 600; overflow-wrap: anywhere; }
-  .wl-shot-heading p { margin: 4px 0 0; color: #a8bbca; overflow-wrap: anywhere; }
+  .wl-shot-heading, .wl-shot-intro { border: 1px solid #355066; border-radius: 8px; overflow-wrap: anywhere; }
+  .wl-shot-heading { margin-bottom: 16px; padding: 20px 24px 16px; background: linear-gradient(115deg, #2a475e, #16202d 80%); box-shadow: inset 0 3px #66c0f4; }
+  .wl-shot-heading h1 { margin: 0 0 12px; color: #fff; font-size: 28px; font-weight: 700; line-height: 1.25; }
+  .wl-shot-heading-main { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  .wl-shot-copy { min-width: 0; }
+  .wl-shot-qr { display: block; flex: none; }
+  .wl-shot-regions, .wl-shot-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+  .wl-shot-regions span { min-width: 0; max-width: 100%; padding: 4px 9px; border: 1px solid #3b5e77; border-radius: 4px; background: #1b2838; color: #e1edf5; font-size: 12px; word-break: keep-all; }
+  .wl-shot-regions strong { color: #8ed1fa; font-weight: 600; }
+  .wl-shot-meta { justify-content: space-between; margin-top: 14px; padding-top: 12px; box-shadow: inset 0 1px #355066; }
+  .wl-shot-meta p { min-width: 0; margin: 0; }
+  .wl-shot-meta p:first-child { color: #e1edf5; font-weight: 600; }
+  .wl-shot-meta p:last-child { color: #a8bbca; font-size: 12px; }
   .wl-shot-list { display: flex; flex-direction: column; gap: 8px; }
   .wl-shot-document .wl-row { margin: 0; }
   .wl-shot-document .wl-row:hover { background: rgba(0, 0, 0, .2); }
@@ -45,11 +55,13 @@
   .wl-shot-document .wl-disc-prices { white-space: normal; }
   .wl-shot-document .wl-disc-price-line { flex-wrap: wrap; overflow-wrap: anywhere; }
   .wl-shot-document .wl-game-tag { cursor: default; }
-  .wl-shot-intro { margin-top: 20px; padding-top: 14px; border-top: 1px solid #355066; }
-  .wl-shot-intro p { margin: 0 0 4px; color: #c7d5e0; }
-  .wl-shot-intro a { color: #67c1f5; font-size: 12px; overflow-wrap: anywhere; text-decoration: none; }
+  .wl-shot-intro { margin-top: 16px; padding: 12px 16px; background: #16202d; box-shadow: inset 3px 0 #66c0f4; }
+  .wl-shot-intro p { margin: 0; color: #e1edf5; font-weight: 600; }
+  .wl-shot-intro a { display: inline-block; max-width: 100%; margin-top: 6px; padding: 5px 9px; border-radius: 4px; background: #1a3548; color: #8ed1fa; font-size: 12px; text-decoration: none; }
   .wl-shot-document.is-mobile { padding: 16px; }
-  .wl-shot-document.is-mobile .wl-shot-heading h1 { font-size: 20px; }
+  .wl-shot-document.is-mobile .wl-shot-heading { padding: 16px; }
+  .wl-shot-document.is-mobile .wl-shot-heading h1 { font-size: 23px; }
+  .wl-shot-document.is-mobile .wl-shot-meta { flex-direction: column; align-items: flex-start; }
   .wl-shot-document.is-mobile .wl-row { flex-direction: column; gap: 10px; padding: 12px; }
   .wl-shot-document.is-mobile .wl-cap { width: 184px; height: 69px; }
 }

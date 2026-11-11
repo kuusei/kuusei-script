@@ -1,4 +1,5 @@
 import { domToCanvas } from "modern-screenshot";
+import qrcode from "qrcode-generator";
 import { loadValue, saveValue } from "@/shared";
 
 export const SCREENSHOT_WIDTHS = { mobile: 480, pc: 1280 } as const;
@@ -6,8 +7,10 @@ export const SCREENSHOT_SCALE = 2;
 export const JPEG_MAX_HEIGHT = 65000;
 const JPEG_QUALITY = 0.86;
 const OPTIONS_KEY = "wishlist-screenshot-options-v1";
-const PLUGIN_URL = "https://greasyfork.org/zh-CN/scripts/595010-steam-%E6%84%BF%E6%9C%9B%E5%8D%95%E5%8C%BA%E5%9F%9F%E6%AF%94%E4%BB%B7";
+const PLUGIN_URL = "https://greasyfork.org/zh-CN/scripts/595010";
 const EMPTY_IMAGE = "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='184' height='69'/%3E";
+const IMAGE_CONCURRENCY = 16;
+const COVER_JPEG_QUALITY = 0.92;
 const capsuleCache = new Map<string, Promise<string>>();
 const imageQueue: (() => void)[] = [];
 let activeImages = 0;
@@ -23,10 +26,15 @@ export const SCREENSHOT_STYLE_PROPERTIES = [
   "flex", "flex-direction", "flex-wrap", "align-items", "align-self", "justify-content", "gap", "row-gap", "column-gap",
 ];
 
-type ExportOptions = { layout: keyof typeof SCREENSHOT_WIDTHS; includeIntro: boolean };
+type ExportOptions = {
+  layout: keyof typeof SCREENSHOT_WIDTHS;
+  includeWishlistQr: boolean;
+  includeIntro: boolean;
+};
 export type ScreenshotProgress = { phase: "covers" | "render" | "encode"; done: number; total: number };
 export type ScreenshotSnapshot = {
   steamName: string;
+  wishlistUrl: string;
   home: string;
   countries: string[];
   generatedAt: string;
@@ -36,6 +44,17 @@ export type ScreenshotSnapshot = {
 
 const escapeHtml = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;")
   .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+const wishlistQrSvg = (url: string) => {
+  const code = qrcode(0, "M");
+  code.addData(url);
+  code.make();
+  // The dark card provides the quiet zone for the light modules.
+  return code.createSvgTag({ margin: 0, scalable: true })
+    .replace("<svg ", '<svg class="wl-shot-qr" width="96" height="96" role="img" aria-label="Steam 愿望单二维码" ')
+    .replace('fill="white"', 'fill="none"')
+    .replace('fill="black"', 'fill="#e1edf5"');
+};
 
 // Keep cards intact and leave enough room for the repeated header and footer.
 export const splitScreenshotRows = (heights: number[], availableHeight: number): number[][] => {
@@ -57,13 +76,26 @@ export const splitScreenshotRows = (heights: number[], availableHeight: number):
 
 export const screenshotHtml = (snapshot: ScreenshotSnapshot, options: ExportOptions) => `
   <header class="wl-shot-heading">
-    <h1>Steam ${escapeHtml(snapshot.steamName)} 愿望单</h1>
-    <p>账户区：${escapeHtml(snapshot.home)} · 比价区：${snapshot.countries.map(escapeHtml).join(" / ")}</p>
-    <p>${escapeHtml(snapshot.summary)}</p>
-    <p>${escapeHtml(snapshot.generatedAt)}</p>
+    <div class="wl-shot-heading-main">
+      <div class="wl-shot-copy">
+        <h1>Steam ${escapeHtml(snapshot.steamName)} 愿望单</h1>
+        <div class="wl-shot-regions">
+          <span><strong>账户区：</strong>${escapeHtml(snapshot.home)}</span>
+          <span><strong>比价区：</strong>${snapshot.countries.map(escapeHtml).join(" / ")}</span>
+        </div>
+      </div>
+      ${options.includeWishlistQr ? wishlistQrSvg(snapshot.wishlistUrl) : ""}
+    </div>
+    <div class="wl-shot-meta">
+      <p>${escapeHtml(snapshot.summary)}</p>
+      <p>${escapeHtml(snapshot.generatedAt)}</p>
+    </div>
   </header>
   <div class="wl-shot-list">${snapshot.listHtml}</div>
-  ${options.includeIntro ? `<footer class="wl-shot-intro"><p>Steam 愿望单区域比价 by kuusei</p><a href="${PLUGIN_URL}">${escapeHtml(decodeURI(PLUGIN_URL))}</a></footer>` : ""}`;
+  ${options.includeIntro ? `<footer class="wl-shot-intro">
+    <p>Steam 愿望单区域比价 by kuusei</p>
+    <a href="${PLUGIN_URL}">${PLUGIN_URL}</a>
+  </footer>` : ""}`;
 
 const blobDataUrl = (blob: Blob) => new Promise<string>((resolve, reject) => {
   const reader = new FileReader();
@@ -72,11 +104,43 @@ const blobDataUrl = (blob: Blob) => new Promise<string>((resolve, reject) => {
   reader.readAsDataURL(blob);
 });
 
-const readCapsule = async (url: string) => {
+const copyDecodedImage = (img: HTMLImageElement) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = img.naturalWidth;
+  canvas.height = img.naturalHeight;
+  try {
+    const context = canvas.getContext("2d");
+    if (!context) return "";
+    context.drawImage(img, 0, 0);
+    const data = canvas.toDataURL("image/jpeg", COVER_JPEG_QUALITY);
+    return data.startsWith("data:image/jpeg") ? data : "";
+  } catch {
+    return "";
+  } finally {
+    canvas.width = 0;
+    canvas.height = 0;
+  }
+};
+
+const loadedReportCapsules = (root: HTMLElement) => {
+  const capsules = new Map<string, HTMLImageElement>();
+  root.querySelectorAll<HTMLImageElement>("img").forEach((img) => {
+    if (!img.complete || !img.naturalWidth || img.closest(".wl-shot-stage")) return;
+    const current = img.currentSrc || img.src;
+    if (current.startsWith("https://shared.akamai.steamstatic.com/") && !capsules.has(current)) {
+      capsules.set(current, img);
+    }
+  });
+  return capsules;
+};
+
+const readCapsule = async (url: string, loadedImage?: HTMLImageElement) => {
   if (url.startsWith("data:image/")) return url;
   // Only Steam's fixed asset origin is eligible for privileged image requests.
   if (new URL(url).origin !== "https://shared.akamai.steamstatic.com") return EMPTY_IMAGE;
-  if (activeImages >= 5) await new Promise<void>((resolve) => imageQueue.push(resolve));
+  const copied = loadedImage && copyDecodedImage(loadedImage);
+  if (copied) return copied;
+  if (activeImages >= IMAGE_CONCURRENCY) await new Promise<void>((resolve) => imageQueue.push(resolve));
   else activeImages++;
   try {
     let blob: Blob;
@@ -101,11 +165,11 @@ const readCapsule = async (url: string) => {
   }
 };
 
-const cachedCapsule = (url: string) => {
+const cachedCapsule = (url: string, loadedImage?: HTMLImageElement) => {
   const cached = capsuleCache.get(url);
   if (cached) return cached;
   if (capsuleCache.size >= 1000) capsuleCache.delete(capsuleCache.keys().next().value!);
-  const pending = readCapsule(url).then((value) => {
+  const pending = readCapsule(url, loadedImage).then((value) => {
     if (value === EMPTY_IMAGE) capsuleCache.delete(url);
     return value;
   });
@@ -188,12 +252,13 @@ export const exportScreenshot = async (
     timings.coverCount = urls.length;
     timings.memoryCacheHits = urls.filter((url) => capsuleCache.has(url)).length;
     const coverStart = performance.now();
+    const loadedImages = loadedReportCapsules(root);
     const assets = new Map<string, string>();
     let loaded = 0;
     onProgress?.({ phase: "covers", done: 0, total: urls.length });
     // Resolve unique covers before rendering any page, with a shared request limit.
     await Promise.all(urls.map(async (url) => {
-      const image = await cachedCapsule(url);
+      const image = await cachedCapsule(url, loadedImages.get(url));
       if (image === EMPTY_IMAGE) timings.failedCovers++;
       assets.set(url, image);
       onProgress?.({ phase: "covers", done: ++loaded, total: urls.length });
@@ -224,7 +289,7 @@ export const exportScreenshot = async (
         width: SCREENSHOT_WIDTHS[options.layout], height, scale: SCREENSHOT_SCALE,
         backgroundColor: "#1b2838", font: false, maximumCanvasSize: heightLimit,
         features: { copyScrollbar: false }, includeStyleProperties: SCREENSHOT_STYLE_PROPERTIES,
-        fetchFn: cachedCapsule,
+        fetchFn: (url) => cachedCapsule(url),
         onCloneEachNode: (cloned) => {
           if (cloned instanceof HTMLElement && cloned.classList.contains("wl-cap")) {
             cloned.style.width = "184px"; cloned.style.height = "69px";
@@ -258,11 +323,19 @@ export const exportScreenshot = async (
   } finally { stage.remove(); }
 };
 
+const screenshotSwitch = (id: string, label: string, checked: boolean) => `
+  <label class="wl-setup-switch-row">
+    <span class="wl-setup-label">${label}</span>
+    <input type="checkbox" class="wl-setup-switch-input" id="${id}" ${checked ? "checked" : ""} />
+    <span class="wl-setup-switch" aria-hidden="true"></span>
+  </label>`;
+
 export const openScreenshotExport = (root: HTMLElement, snapshot: ScreenshotSnapshot, trigger: HTMLElement) => {
   if (root.querySelector(".wl-shot-modal")) return;
   const saved = loadValue<Partial<ExportOptions> | null>(OPTIONS_KEY, null);
   const options: ExportOptions = {
     layout: saved?.layout === "mobile" || saved?.layout === "pc" ? saved.layout : window.innerWidth <= 640 ? "mobile" : "pc",
+    includeWishlistQr: saved?.includeWishlistQr !== false,
     includeIntro: saved?.includeIntro !== false,
   };
   const modal = document.createElement("div");
@@ -273,11 +346,13 @@ export const openScreenshotExport = (root: HTMLElement, snapshot: ScreenshotSnap
   modal.innerHTML = `<section class="wl-dialog wl-shot-dialog" role="dialog" aria-modal="true" aria-labelledby="wl-shot-title">
     <div class="wl-setup-header"><h2 id="wl-shot-title" class="wl-setup-title">导出截图</h2><button type="button" class="wl-setup-close" data-shot-close aria-label="关闭">×</button></div>
     <fieldset class="wl-shot-presets"><legend>图片宽度</legend>${(["mobile", "pc"] as const).map((layout) => `<label class="wl-setup-chip"><input type="radio" name="wl-shot-layout" value="${layout}" ${layout === options.layout ? "checked" : ""} /><span>${layout === "mobile" ? "手机版" : "PC 版"} · ${SCREENSHOT_WIDTHS[layout] * SCREENSHOT_SCALE}px</span><span class="wl-setup-dot" aria-hidden="true"></span></label>`).join("")}</fieldset>
-    <label class="wl-setup-switch-row wl-shot-intro-option"><span class="wl-setup-label">附带插件介绍</span><input type="checkbox" class="wl-setup-switch-input" id="wl-shot-intro" ${options.includeIntro ? "checked" : ""} /><span class="wl-setup-switch" aria-hidden="true"></span></label>
+    ${screenshotSwitch("wl-shot-wishlist-qr", "愿望单二维码", options.includeWishlistQr)}
+    ${screenshotSwitch("wl-shot-intro", "附带插件介绍", options.includeIntro)}
     ${gameCount > 50 ? `<p class="wl-shot-note">共 ${gameCount} 款游戏，导出可能需要较长时间。</p>` : ""}
     <p class="wl-shot-error" role="alert"></p><button type="button" class="wl-setup-go" data-shot-save>导出 JPG</button>
   </section>`;
   let busy = false;
+  let awaitingConfirmation = false;
   const close = () => { if (!busy) { modal.remove(); trigger.focus(); } };
   modal.querySelector("[data-shot-close]")!.addEventListener("click", close);
   modal.addEventListener("click", (event) => { if (event.target === modal) close(); });
@@ -294,11 +369,18 @@ export const openScreenshotExport = (root: HTMLElement, snapshot: ScreenshotSnap
   const save = modal.querySelector<HTMLButtonElement>("[data-shot-save]")!;
   save.addEventListener("click", async () => {
     if (busy) return;
-    const layout = modal.querySelector<HTMLInputElement>('input[name="wl-shot-layout"]:checked')!.value;
-    options.layout = layout === "mobile" ? "mobile" : "pc";
-    options.includeIntro = modal.querySelector<HTMLInputElement>("#wl-shot-intro")!.checked;
     const error = modal.querySelector<HTMLElement>(".wl-shot-error")!;
     error.textContent = "";
+    if (gameCount > 99 && !awaitingConfirmation) {
+      awaitingConfirmation = true;
+      save.textContent = `确认导出 ${gameCount} 款游戏`;
+      return;
+    }
+    awaitingConfirmation = false;
+    const layout = modal.querySelector<HTMLInputElement>('input[name="wl-shot-layout"]:checked')!.value;
+    options.layout = layout === "mobile" ? "mobile" : "pc";
+    options.includeWishlistQr = modal.querySelector<HTMLInputElement>("#wl-shot-wishlist-qr")!.checked;
+    options.includeIntro = modal.querySelector<HTMLInputElement>("#wl-shot-intro")!.checked;
     busy = true; save.textContent = "导出中…";
     modal.querySelectorAll<HTMLInputElement | HTMLButtonElement>("input, button").forEach((control) => { control.disabled = true; });
     try {

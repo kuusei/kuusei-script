@@ -47,7 +47,7 @@ export const renderReportShell = (payload: ReportPayload) => {
     <div class="px-5 py-4">
       <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
         <h1 class="flex min-w-0 flex-wrap items-center gap-2 text-xl font-semibold text-ink">
-          Steam <a class="tip inline cursor-help border-b border-dotted border-muted hover:text-ink" href="${href}" target="_blank" rel="noreferrer">${name}<span class="tip-box absolute left-0 top-full z-40 mt-1.5 w-max tabular-nums">${escapeHtml(payload.steamId)}</span></a> 愿望单
+          Steam <a id="wishlist-link" class="tip inline cursor-help border-b border-dotted border-muted hover:text-ink" href="${href}" target="_blank" rel="noreferrer">${name}<span class="tip-box absolute left-0 top-full z-40 mt-1.5 w-max tabular-nums">${escapeHtml(payload.steamId)}</span></a> 愿望单
           <span class="inline-flex items-center gap-1.5">
             <span class="text-xs font-normal text-muted">当前账户区域</span>
             <div class="relative">

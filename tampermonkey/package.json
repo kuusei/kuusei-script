@@ -19,6 +19,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "modern-screenshot": "4.7.0"
+    "modern-screenshot": "4.7.0",
+    "qrcode-generator": "2.0.4"
   }
 }
