@@ -1,4 +1,4 @@
-const INR_MINIMUM_FEE = 200;
+const MINIMUM_FEE = 200;
 const EXCHANGE_RATE_BUFFER = 0.003;
 
 export function parseCnyAmount(text: string) {
@@ -15,7 +15,7 @@ export function findReceivePrice(
   minimum: number,
   maximum: number,
   steamTotal: (receive: number) => number,
-  inrFees?: (receive: number) => number,
+  steamFees: (receive: number) => number,
 ) {
   const estimatedTotal = Math.floor(targetCny * walletCurrencyPerCny * (1 - EXCHANGE_RATE_BUFFER));
   if (!Number.isSafeInteger(estimatedTotal) || !Number.isSafeInteger(minimum) || minimum <= 0) {
@@ -23,20 +23,13 @@ export function findReceivePrice(
   }
   if (maximum > 0 && estimatedTotal > maximum) throw new Error("目标售价超过 Steam 价格上限。");
 
-  const getTotal = (receive: number) => {
-    const total = steamTotal(receive);
-    if (!Number.isSafeInteger(total) || total <= 0) throw new Error("Steam 手续费计算失败。");
-    return total;
-  };
   const fits = (receive: number) => {
-    if (!inrFees) return getTotal(receive) <= estimatedTotal;
-
-    // Preserve distinct INR payouts even when Steam rounds their buyer totals to the same price.
-    const fees = inrFees(receive);
+    // Steam rounds the displayed buyer total separately from the entered payout.
+    const fees = steamFees(receive);
     if (!Number.isSafeInteger(fees) || fees < 0) {
       throw new Error("Steam 手续费计算失败。");
     }
-    return receive + Math.max(INR_MINIMUM_FEE, fees) <= estimatedTotal;
+    return receive + Math.max(MINIMUM_FEE, fees) <= estimatedTotal;
   };
   if (!fits(minimum)) return null;
 
@@ -47,7 +40,8 @@ export function findReceivePrice(
     if (fits(mid)) low = mid;
     else high = mid - 1;
   }
-  const total = getTotal(low);
+  const total = steamTotal(low);
+  if (!Number.isSafeInteger(total) || total <= 0) throw new Error("Steam 手续费计算失败。");
   if (maximum > 0 && total > maximum) throw new Error("目标售价超过 Steam 价格上限。");
   return total >= 3 * minimum ? low : null;
 }

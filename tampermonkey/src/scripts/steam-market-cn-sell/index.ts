@@ -284,7 +284,7 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
     const getFee = page.CalculateFee;
     const currency = page.GetCurrencyCode?.(Number(wallet?.wallet_currency));
     if (!item || item !== activeItem) return;
-    if (!wallet || !getTotal || !currency || (currency === "INR" && !getFee)) {
+    if (!wallet || !getTotal || !getFee || !currency) {
       error.textContent = "未读取到物品或手续费，请重新打开出售窗口。";
       return;
     }
@@ -318,9 +318,7 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
         Number(wallet.wallet_market_minimum ?? 1),
         Number(wallet.wallet_trade_max_balance),
         (value) => getTotal(value, publisherFee, steamFee, wallet),
-        currency === "INR" && getFee
-          ? (value) => getFee(value, publisherFee, wallet) + getFee(value, steamFee, wallet)
-          : undefined,
+        (value) => getFee(value, publisherFee, wallet) + getFee(value, steamFee, wallet),
       );
       if (amount === null) throw new Error("目标售价低于 Steam 最低售价。");
 

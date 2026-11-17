@@ -27,7 +27,9 @@ test("applies the minimum fee, higher native fees, and the minimum listing price
   assert.equal(findReceivePrice(20, rate, 100, 0, steamTotal, () => 200), null);
 });
 
-test("uses the UAH buyer total to keep a two-decimal payout within the target", () => {
-  assert.equal(findReceivePrice(99, 6, 100, 0, steamTotal), 349);
-  assert.equal(findReceivePrice(50, 6, 100, 0, steamTotal), null);
+test("UAH target ¥2.18 keeps the 12.78 payout when Steam displays 15", () => {
+  const payout = findReceivePrice(218, 6.803345, 100, 0, steamTotal, () => 200);
+  assert.equal(payout, 1278);
+  assert.equal(steamTotal(payout), 1500);
+  assert.equal(findReceivePrice(40, 6.803345, 100, 0, steamTotal, () => 200), null);
 });
