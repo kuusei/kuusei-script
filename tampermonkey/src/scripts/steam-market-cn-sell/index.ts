@@ -31,7 +31,6 @@ const ROW = "kuusei-market-cn-prices";
 const OPTIONS = [
   { offset: 0, label: "最低价" },
   { offset: 1, label: "-0.01" },
-  { offset: 10, label: "-0.1" },
 ];
 const boundRows = new WeakMap<Element, () => void>();
 
@@ -105,13 +104,13 @@ function mount(dialog: HTMLElement) {
   row.style.marginTop = "8px";
   row.style.textAlign = "left";
   const group = document.createElement("div");
-  group.style.cssText = "display:flex;flex-wrap:wrap;justify-content:center;gap:6px";
+  group.style.cssText = "display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px";
   const choices = OPTIONS.map(({ offset, label }) => ({ offset, suffix: label, ...createButton(label) }));
   group.append(...choices.map(({ button }) => button));
   const retry = createButton("重试").button;
   group.append(retry);
   const manual = document.createElement("div");
-  manual.style.cssText = `${group.style.cssText};align-items:center;margin-top:8px`;
+  manual.style.cssText = group.style.cssText;
   const targetLabel = document.createElement("label");
   targetLabel.className = "market_sell_dialog_field_label";
   targetLabel.htmlFor = `${ROW}-custom`;
@@ -124,6 +123,7 @@ function mount(dialog: HTMLElement) {
   customPrice.style.width = "6em";
   const applyPrice = createButton("换算填入").button;
   manual.append(targetLabel, customPrice, applyPrice);
+  group.append(manual);
   const error = document.createElement("div");
   error.setAttribute("role", "alert");
   error.style.color = "#ff8585";
@@ -133,7 +133,7 @@ function mount(dialog: HTMLElement) {
   const retryOrders = createButton("重试盘口").button;
   const tables = document.createElement("div");
   tables.className = "market_commodity_orders_table_container";
-  row.append(group, quoteError, manual, error, tables, orderStatus, retryOrders);
+  row.append(group, quoteError, error, tables, orderStatus, retryOrders);
   const inputs = area.querySelector("#market_sell_dialog_input_boxes");
   if (inputs?.parentNode) inputs.parentNode.insertBefore(row, inputs.nextSibling);
   else area.prepend(row);
