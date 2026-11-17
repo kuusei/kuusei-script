@@ -26,3 +26,8 @@ test("applies the minimum fee, higher native fees, and the minimum listing price
   assert.equal(findReceivePrice(72, rate, 100, 0, (amount) => amount + 250, () => 250), 760);
   assert.equal(findReceivePrice(20, rate, 100, 0, steamTotal, () => 200), null);
 });
+
+test("uses the UAH buyer total to keep a two-decimal payout within the target", () => {
+  assert.equal(findReceivePrice(99, 6, 100, 0, steamTotal), 349);
+  assert.equal(findReceivePrice(50, 6, 100, 0, steamTotal), null);
+});
