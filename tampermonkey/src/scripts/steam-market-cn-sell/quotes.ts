@@ -5,7 +5,7 @@ const MARKET = "https://steamcommunity.com/market/priceoverview/";
 const MARKET_CURRENCY = { country: "CN", currency: "23" };
 const RATES = "https://open.er-api.com/v6/latest/CNY";
 
-export type ItemKey = { appid: number; marketHashName: string };
+export type ItemKey = { appid: number; marketHashName: string; itemNameId?: string };
 
 function getText(url: string, label: string, cookie?: string): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -62,11 +62,13 @@ export async function loadChinaLowest({ appid, marketHashName }: ItemKey) {
   return cents;
 }
 
-export async function loadChinaOrderBook({ appid, marketHashName }: ItemKey) {
-  const listing = `https://steamcommunity.com/market/listings/${appid}/${encodeURIComponent(marketHashName)}?l=english`;
-  // The classic page exposes the histogram ID. Apply Steam's opt-out preference to this request only.
-  const html = await getText(listing, "国区盘口", "bMarketOptOut=1");
-  const itemNameId = /Market_LoadOrderSpread\(\s*(\d+)\s*\)/.exec(html)?.[1];
+export async function loadChinaOrderBook({ appid, marketHashName, itemNameId }: ItemKey) {
+  if (!itemNameId) {
+    const listing = `https://steamcommunity.com/market/listings/${appid}/${encodeURIComponent(marketHashName)}?l=english`;
+    // The classic page exposes the histogram ID. Apply Steam's opt-out preference to this request only.
+    const html = await getText(listing, "国区盘口", "bMarketOptOut=1");
+    itemNameId = /Market_LoadOrderSpread\(\s*(\d+)\s*\)/.exec(html)?.[1];
+  }
   if (!itemNameId) throw new Error("Steam 未提供此物品的国区盘口。");
 
   const params = new URLSearchParams({
