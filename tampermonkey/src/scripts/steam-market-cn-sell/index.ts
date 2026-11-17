@@ -335,6 +335,15 @@ if (window.top === window || isInventoryFrame(new URL(location.href))) {
   const style = document.createElement("style");
   style.textContent = `
     ${DIALOG}:has(#${ROW}) :is(#kuusei-market-cn-sell, #kuusei-market-inr-prices) { display: none; }
+    #${ROW},
+    ${DIALOG}:has(#${ROW}) #market_sell_dialog_input_boxes { font-size: 12px; line-height: 1.35; }
+    #${ROW} :is(.market_commodity_orders_table, caption, th, td, .btn_small, .btn_small > span) {
+      font-size: inherit;
+    }
+    @media (pointer: fine) {
+      #${ROW} input,
+      ${DIALOG}:has(#${ROW}) #market_sell_dialog_input_boxes input { font-size: inherit; }
+    }
     #${ROW} [hidden] { display: none; }
     #${ROW} .market_commodity_orders_table_container:not([hidden]) {
       display: grid;
