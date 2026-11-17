@@ -337,7 +337,7 @@ if (window.top === window || isInventoryFrame(new URL(location.href))) {
     ${DIALOG}:has(#${ROW}) :is(#kuusei-market-cn-sell, #kuusei-market-inr-prices) { display: none; }
     #${ROW},
     ${DIALOG}:has(#${ROW}) #market_sell_dialog_input_boxes { font-size: 12px; line-height: 1.35; }
-    #${ROW} :is(.market_commodity_orders_table, caption, th, td, .btn_small, .btn_small > span) {
+    #${ROW} :is(.market_commodity_orders_table, caption, th, .btn_small, .btn_small > span) {
       font-size: inherit;
     }
     @media (pointer: fine) {
@@ -353,6 +353,7 @@ if (window.top === window || isInventoryFrame(new URL(location.href))) {
     }
     #${ROW} .market_commodity_orders_table { width: 100%; margin: 0; text-align: center; }
     #${ROW} .market_commodity_orders_table :is(th, td) { min-width: 0; padding: 2px 4px; }
+    #${ROW} .market_commodity_orders_table td { font-size: 11px; }
     #${ROW} .market_commodity_orders_table tbody tr:nth-child(odd) { background: #1b2939; }
     #${ROW} .market_commodity_orders_table tbody tr:nth-child(even) { background: transparent; }
   `;
