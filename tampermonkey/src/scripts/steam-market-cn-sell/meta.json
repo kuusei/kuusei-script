@@ -1,8 +1,8 @@
 {
   "name": "Steam 国区参考定价辅助工具",
   "namespace": "com.kuusei.steam.market.cn.sell",
-  "version": "1.2.4",
-  "updatedAt": "2026-11-17T12:58:41+08:00",
+  "version": "1.2.5",
+  "updatedAt": "2026-11-17T13:00:04+08:00",
   "description": "显示国区五档求购和在售价，支持手填国区目标价或使用最低价快捷按钮，自动换算印度卢比或乌克兰格里夫纳收款。",
   "author": "kuusei",
   "icon": "https://steamcommunity.com/favicon.ico",

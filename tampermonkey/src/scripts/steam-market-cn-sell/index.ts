@@ -130,6 +130,10 @@ function mount(dialog: HTMLElement) {
   const quoteError = error.cloneNode() as HTMLDivElement;
   const orderStatus = document.createElement("div");
   orderStatus.setAttribute("role", "status");
+  const orderSpinner = document.createElement("span");
+  orderSpinner.className = "kuusei-market-order-loading";
+  orderSpinner.setAttribute("role", "img");
+  orderSpinner.setAttribute("aria-label", "正在查询国区买卖价");
   const retryOrders = createButton("重试盘口").button;
   const tables = document.createElement("div");
   tables.className = "market_commodity_orders_table_container";
@@ -185,7 +189,7 @@ function mount(dialog: HTMLElement) {
   const loadOrderBook = async (item: MarketItem) => {
     const token = session;
     retryOrders.hidden = true;
-    orderStatus.textContent = "正在查询国区买卖价…";
+    orderStatus.replaceChildren(orderSpinner);
     try {
       const { buy, sell } = await loadChinaOrderBook(readItemKey(item));
       if (!isCurrent(item, token)) return;
@@ -345,6 +349,20 @@ if (window.top === window || isInventoryFrame(new URL(location.href))) {
       ${DIALOG}:has(#${ROW}) #market_sell_dialog_input_boxes input { font-size: inherit; }
     }
     #${ROW} [hidden] { display: none; }
+    #${ROW} .kuusei-market-order-loading {
+      display: block;
+      width: 12px;
+      height: 12px;
+      box-sizing: border-box;
+      margin: 8px auto 0;
+      border: 1px solid #3b4c5c;
+      border-top-color: currentColor;
+      border-radius: 50%;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      #${ROW} .kuusei-market-order-loading { animation: kuusei-market-order-spin 0.8s linear infinite; }
+    }
+    @keyframes kuusei-market-order-spin { to { transform: rotate(360deg); } }
     #${ROW} .market_commodity_orders_table_container:not([hidden]) {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
