@@ -30,7 +30,6 @@ type SteamPage = {
   GetCurrencyCode?: (currencyId: number) => string;
   GetMarketHashName?: (description: NonNullable<MarketItem["description"]>) => string;
   GetTotalWithFees?: (receive: number, publisherRate: number, steamRate: number, wallet: Wallet) => number;
-  CalculateFee?: (receive: number, rate: number, wallet: Wallet) => number;
 };
 
 type PricingSource<Item> = {
@@ -281,10 +280,9 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
     const item = getItem();
     const wallet = page.g_rgWalletInfo;
     const getTotal = page.GetTotalWithFees;
-    const getFee = page.CalculateFee;
     const currency = page.GetCurrencyCode?.(Number(wallet?.wallet_currency));
     if (!item || item !== activeItem) return;
-    if (!wallet || !getTotal || !getFee || !currency) {
+    if (!wallet || !getTotal || !currency) {
       error.textContent = "未读取到物品或手续费，请重新打开出售窗口。";
       return;
     }
@@ -318,7 +316,8 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
         Number(wallet.wallet_market_minimum ?? 1),
         Number(wallet.wallet_trade_max_balance),
         (value) => getTotal(value, publisherFee, steamFee, wallet),
-        (value) => getFee(value, publisherFee, wallet) + getFee(value, steamFee, wallet),
+        publisherFee,
+        steamFee,
       );
       if (amount === null) throw new Error("目标售价低于 Steam 最低售价。");
 

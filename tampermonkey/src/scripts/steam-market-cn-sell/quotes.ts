@@ -3,7 +3,7 @@ import { parseCnyAmount } from "./price";
 
 const MARKET = "https://steamcommunity.com/market/priceoverview/";
 const MARKET_CURRENCY = { country: "CN", currency: "23" };
-const RATES = "https://open.er-api.com/v6/latest/CNY";
+const RATES = "https://marketdb.info/api/v1/exchange-rates?base=CNY";
 
 export type ItemKey = { appid: number; marketHashName: string; itemNameId?: string };
 
@@ -106,29 +106,30 @@ function parseOrderTable(table: unknown, side: "buy" | "sell") {
 }
 
 type WalletCurrency = "INR" | "UAH";
-type Rates = Partial<Record<WalletCurrency, unknown>>;
+type Rates = { base: "CNY"; rates: { code: string; rate: unknown }[] };
 
 let cachedRates: { rates: Rates; expiresAt: number } | undefined;
+let pendingRates: Promise<Rates> | undefined;
 
 export async function loadCurrencyPerCny(currency: WalletCurrency) {
   const now = Date.now();
-  let rate = cachedRates && cachedRates.expiresAt > now ? cachedRates.rates[currency] : undefined;
-  if (!isValidRate(rate)) {
-    const data = await getJson(RATES, "汇率") as {
-      result?: unknown;
-      base_code?: unknown;
-      rates?: Rates;
-      time_next_update_unix?: unknown;
-    } | null;
-    const rates = data?.rates;
-    rate = rates?.[currency];
-    if (data?.result !== "success" || data.base_code !== "CNY" || !rates || !isValidRate(rate)) {
-      throw new Error(`未取得有效的人民币兑 ${currency} 汇率。`);
-    }
-    const nextUpdate = Number(data.time_next_update_unix) * 1000;
-    const expiresAt = nextUpdate > now ? Math.min(nextUpdate, now + 86_400_000) : now + 3_600_000;
-    cachedRates = { rates, expiresAt };
+  let data = cachedRates && cachedRates.expiresAt > now ? cachedRates.rates : undefined;
+  if (!data) {
+    pendingRates ??= getJson(RATES, "汇率").then((response) => {
+      const result = response as Partial<Rates> | null;
+      const entries = result?.rates;
+      if (result?.base !== "CNY" || !Array.isArray(entries)
+        || !["INR", "UAH"].every((code) => entries.some((entry) => entry?.code === code && isValidRate(entry.rate)))) {
+        throw new Error("未取得有效的 Steam 市场汇率。");
+      }
+      const rates = result as Rates;
+      cachedRates = { rates, expiresAt: Date.now() + 3_600_000 };
+      return rates;
+    }).finally(() => { pendingRates = undefined; });
+    data = await pendingRates;
   }
+  const rate = data.rates.find((entry) => entry?.code === currency)?.rate;
+  if (!isValidRate(rate)) throw new Error(`未取得有效的人民币兑 ${currency} 汇率。`);
   return rate;
 }
 
