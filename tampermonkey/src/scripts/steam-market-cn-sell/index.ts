@@ -11,6 +11,7 @@ type Wallet = {
 
 type MarketItem = {
   appid?: number | string;
+  contextid?: number | string;
   description?: { market_hash_name?: string; market_name?: string; name?: string };
 };
 
@@ -56,11 +57,12 @@ function readPage() {
 
 function readItemKey(item: MarketItem) {
   const appid = Number(item.appid);
+  const contextid = String(item.contextid ?? "");
   const marketHashName = item.description && readPage().GetMarketHashName?.(item.description);
   if (!Number.isSafeInteger(appid) || appid <= 0 || !marketHashName) {
     throw new Error("未读取到物品，请重新打开出售窗口。");
   }
-  return { appid, marketHashName };
+  return { appid, contextid, marketHashName };
 }
 
 function formatCny(cents: number) {

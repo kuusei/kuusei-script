@@ -5,15 +5,14 @@ const MARKET = "https://steamcommunity.com/market/priceoverview/";
 const MARKET_CURRENCY = { country: "CN", currency: "23" };
 const RATES = "https://marketdb.info/api/v1/exchange-rates?base=CNY";
 
-export type ItemKey = { appid: number; marketHashName: string; itemNameId?: string };
+export type ItemKey = { appid: number; marketHashName: string; contextid?: string; itemNameId?: string };
 
-function getText(url: string, label: string, cookie?: string): Promise<string> {
+function getText(url: string, label: string, anonymous = true): Promise<string> {
   return new Promise((resolve, reject) => {
     GM_xmlhttpRequest({
       method: "GET",
       url,
-      anonymous: !cookie,
-      cookie,
+      anonymous,
       timeout: 12_000,
       onload(response) {
         if (response.status !== 200) {
@@ -62,14 +61,42 @@ export async function loadChinaLowest({ appid, marketHashName }: ItemKey) {
   return cents;
 }
 
-export async function loadChinaOrderBook({ appid, marketHashName, itemNameId }: ItemKey) {
-  if (!itemNameId) {
-    const listing = `https://steamcommunity.com/market/listings/${appid}/${encodeURIComponent(marketHashName)}?l=english`;
-    // The classic page exposes the histogram ID. Apply Steam's opt-out preference to this request only.
-    const html = await getText(listing, "国区盘口", "bMarketOptOut=1");
-    itemNameId = /Market_LoadOrderSpread\(\s*(\d+)\s*\)/.exec(html)?.[1];
+const itemNameIds = new Map<string, Promise<string>>();
+
+function loadItemNameId({ appid, contextid, marketHashName }: ItemKey) {
+  if (!contextid || !/^[1-9]\d*$/.test(contextid)) throw new Error("Steam 未提供此物品的国区盘口。");
+  const url = new URL("https://steamcommunity.com/market/multisell");
+  url.search = new URLSearchParams({ appid: String(appid), contextid, "items[]": marketHashName }).toString();
+  let pending = itemNameIds.get(url.href);
+  if (!pending) {
+    // Steam's batch page still exposes exact histogram IDs and requires the user's Steam session.
+    pending = getText(url.href, "国区盘口", false).then((html) => {
+      const readArray = (name: string): unknown => {
+        const match = new RegExp(String.raw`\b${name}\s*=\s*(\[(?:\s*(?:"(?:[^"\\]|\\.)*"|\d+)\s*,?)*\s*\])`).exec(html);
+        return match ? JSON.parse(match[1]) : undefined;
+      };
+      const names = readArray("g_rgMarketHashNames");
+      const ids = readArray("g_rgItemNameIds");
+      const pageAppid = /\bg_unAppId\s*=\s*(\d+)\s*;/.exec(html)?.[1];
+      const index = Array.isArray(names) ? names.indexOf(marketHashName) : -1;
+      const id = Array.isArray(ids) && index >= 0 ? ids[index] : undefined;
+      if (Number(pageAppid) !== appid || !Array.isArray(names) || !Array.isArray(ids)
+        || names.length !== ids.length || typeof id !== "string" || !/^[1-9]\d*$/.test(id)) {
+        throw new Error("Steam 未提供此物品的国区盘口。");
+      }
+      return id;
+    }).catch((failure) => {
+      itemNameIds.delete(url.href);
+      throw failure;
+    });
+    itemNameIds.set(url.href, pending);
   }
-  if (!itemNameId) throw new Error("Steam 未提供此物品的国区盘口。");
+  return pending;
+}
+
+export async function loadChinaOrderBook(item: ItemKey) {
+  const itemNameId = item.itemNameId ?? await loadItemNameId(item);
+  if (!/^[1-9]\d*$/.test(itemNameId)) throw new Error("Steam 未提供此物品的国区盘口。");
 
   const params = new URLSearchParams({
     ...MARKET_CURRENCY,
