@@ -1,19 +1,6 @@
 import { findReceivePrice, parseCnyAmount } from "./price";
 import { loadChinaLowest, loadChinaOrderBook, loadCurrencyPerCny, type ItemKey } from "./quotes";
-
-type Wallet = {
-  wallet_currency?: number | string;
-  wallet_market_minimum?: number | string;
-  wallet_trade_max_balance?: number | string;
-  wallet_publisher_fee_percent_default?: number | string;
-  wallet_fee_percent?: number | string;
-};
-
-type MarketItem = {
-  appid?: number | string;
-  contextid?: number | string;
-  description?: { market_hash_name?: string; market_name?: string; name?: string };
-};
+import { enableReactDecimals, preserveReactSellPrice, reactBuyerTotal, reactFeeRule, reactSales, readReactSale, setReactReceive, type MarketItem, type Wallet } from "./react-dialog";
 
 type SteamPage = {
   g_rgWalletInfo?: Wallet;
@@ -40,6 +27,9 @@ type PricingSource<Item> = {
   getItem: () => Item | undefined;
   getItemKey: (item: Item) => ItemKey;
   getFeeRates: (wallet: Wallet) => readonly [number, number] | undefined;
+  getWallet?: () => Wallet | undefined;
+  getTotal?: (receive: number, publisherRate: number, steamRate: number, wallet: Wallet) => number;
+  setReceive?: (amount: number) => void;
   isEditable?: () => boolean;
 };
 
@@ -50,6 +40,7 @@ const OPTIONS = [
   { offset: 1, label: "-0.01" },
 ];
 const boundRows = new WeakMap<Element, () => void>();
+const reactInputs = new WeakMap<Element, HTMLInputElement>();
 
 function readPage() {
   return (typeof unsafeWindow === "undefined" ? window : unsafeWindow) as unknown as SteamPage;
@@ -58,7 +49,8 @@ function readPage() {
 function readItemKey(item: MarketItem) {
   const appid = Number(item.appid);
   const contextid = String(item.contextid ?? "");
-  const marketHashName = item.description && readPage().GetMarketHashName?.(item.description);
+  const marketHashName = item.description
+    && (readPage().GetMarketHashName?.(item.description) ?? item.description.market_hash_name);
   if (!Number.isSafeInteger(appid) || appid <= 0 || !marketHashName) {
     throw new Error("未读取到物品，请重新打开出售窗口。");
   }
@@ -94,10 +86,10 @@ function createOrderTable(title: string, levels: Awaited<ReturnType<typeof loadC
   return table;
 }
 
-function createButton(text: string) {
+function createButton(text: string, modern = false) {
   const button = document.createElement("button");
   button.type = "button";
-  button.className = "btn_grey_white_innerfade btn_small";
+  button.className = modern ? "kuusei-market-react-button" : "btn_grey_white_innerfade btn_small";
   const label = document.createElement("span");
   label.textContent = text;
   button.append(label);
@@ -138,14 +130,15 @@ function mount(dialog: HTMLElement) {
 
 function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
   const { scope, receive, buyer, getItem, getItemKey, getFeeRates } = source;
-  row.className = ROW;
+  row.classList.add(ROW);
   row.style.marginTop = "8px";
   row.style.textAlign = "left";
   const group = document.createElement("div");
   group.style.cssText = "display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px";
-  const choices = OPTIONS.map(({ offset, label }) => ({ offset, suffix: label, ...createButton(label) }));
+  const makeButton = (text: string) => createButton(text, row.classList.contains("kuusei-market-react-pricing"));
+  const choices = OPTIONS.map(({ offset, label }) => ({ offset, suffix: label, ...makeButton(label) }));
   group.append(...choices.map(({ button }) => button));
-  const retry = createButton("重试").button;
+  const retry = makeButton("重试").button;
   group.append(retry);
   const manual = document.createElement("div");
   manual.style.cssText = group.style.cssText;
@@ -159,7 +152,7 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
   customPrice.inputMode = "decimal";
   customPrice.className = "market_dialog_input";
   customPrice.style.width = "6em";
-  const applyPrice = createButton("换算填入").button;
+  const applyPrice = makeButton("换算填入").button;
   manual.append(targetLabel, customPrice, applyPrice);
   group.append(manual);
   const error = document.createElement("div");
@@ -172,7 +165,7 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
   orderSpinner.className = "kuusei-market-order-loading";
   orderSpinner.setAttribute("role", "img");
   orderSpinner.setAttribute("aria-label", "正在查询国区买卖价");
-  const retryOrders = createButton("重试盘口").button;
+  const retryOrders = makeButton("重试盘口").button;
   const tables = document.createElement("div");
   tables.className = "market_commodity_orders_table_container";
   row.append(group, quoteError, error, tables, orderStatus, retryOrders);
@@ -182,19 +175,20 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
   let quoteState: "idle" | "loading" | "ready" | "error" = "idle";
   let filling = false;
   const isVisible = () => row.isConnected && receive.getClientRects().length > 0;
-  const canFill = () => isVisible() && (source.isEditable?.() ?? true) && !receive.disabled && !buyer.disabled;
+  const canEdit = () => (source.isEditable?.() ?? true) && !receive.disabled && !buyer.disabled && !receive.readOnly;
+  const canFill = () => isVisible() && canEdit();
 
   const render = () => {
     group.setAttribute("aria-busy", String(quoteState === "loading" || filling));
     retry.style.display = quoteState === "error" ? "" : "none";
-    customPrice.disabled = !activeItem || filling || receive.disabled || buyer.disabled;
+    customPrice.disabled = !activeItem || filling || !canEdit();
     applyPrice.disabled = customPrice.disabled || !customPrice.value.trim();
     for (const { offset, suffix, button, label } of choices) {
       const target = (lowest ?? 0) - offset;
       label.textContent = lowest === undefined
         ? suffix
         : `${target > 0 ? formatCny(target) : "—"} ${suffix}`;
-      button.disabled = target <= 0 || receive.disabled || buyer.disabled;
+      button.disabled = target <= 0 || !canEdit();
       button.setAttribute("aria-disabled", String(button.disabled || filling));
     }
   };
@@ -264,7 +258,7 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
   const observer = new MutationObserver(() => { sync(); render(); });
   observer.observe(scope, { attributes: true, attributeFilter: ["open", "style"] });
   for (const field of [receive, buyer]) {
-    observer.observe(field, { attributes: true, attributeFilter: ["disabled"] });
+    observer.observe(field, { attributes: true, attributeFilter: ["disabled", "readonly"] });
   }
   boundRows.set(row, sync);
   render();
@@ -280,9 +274,14 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
     if (filling || target <= 0 || !canFill()) return;
     const page = readPage();
     const item = getItem();
-    const wallet = page.g_rgWalletInfo;
-    const getTotal = page.GetTotalWithFees;
-    const currency = page.GetCurrencyCode?.(Number(wallet?.wallet_currency));
+    const getWallet = source.getWallet ?? (() => readPage().g_rgWalletInfo);
+    const wallet = getWallet();
+    const getTotal = source.getTotal ?? page.GetTotalWithFees;
+    const getCurrency = () => {
+      const id = Number(getWallet()?.wallet_currency);
+      return id === 24 ? "INR" : id === 18 ? "UAH" : page.GetCurrencyCode?.(id);
+    };
+    const currency = getCurrency();
     if (!item || item !== activeItem) return;
     if (!wallet || !getTotal || !currency) {
       error.textContent = "未读取到物品或手续费，请重新打开出售窗口。";
@@ -299,8 +298,8 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
     filling = true;
     error.textContent = "";
     render();
-    const canApply = () => isCurrent(item, token) && canFill() && page.g_rgWalletInfo === wallet
-      && page.GetCurrencyCode?.(Number(wallet.wallet_currency)) === currency
+    const canApply = () => isCurrent(item, token) && canFill() && getWallet() === wallet
+      && getCurrency() === currency
       && receive.value === previousReceive && buyer.value === previousBuyer;
 
     try {
@@ -323,9 +322,12 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
       );
       if (amount === null) throw new Error("目标售价低于 Steam 最低售价。");
 
-      receive.value = (amount / 100).toFixed(2);
-      // The native keyup handler fills the buyer field and updates the total.
-      receive.dispatchEvent(new KeyboardEvent("keyup", { bubbles: true }));
+      if (source.setReceive) source.setReceive(amount);
+      else {
+        receive.value = (amount / 100).toFixed(2);
+        // The native keyup handler fills the buyer field and updates the total.
+        receive.dispatchEvent(new KeyboardEvent("keyup", { bubbles: true }));
+      }
     } catch (failure) {
       if (canApply()) error.textContent = failure instanceof Error ? failure.message : "填价失败，请重试。";
     } finally {
@@ -355,6 +357,40 @@ function mountPricing<Item>(row: HTMLDivElement, source: PricingSource<Item>) {
 
 function mountSellDialogs() {
   document.querySelectorAll<HTMLElement>(DIALOG).forEach(mount);
+  const page = (typeof unsafeWindow === "undefined" ? window : unsafeWindow) as Window & typeof globalThis;
+  for (const sale of reactSales(page.document)) {
+    enableReactDecimals(sale);
+    const existing = sale.root.parentElement?.querySelector(`#${ROW}-react`);
+    const syncExisting = existing && boundRows.get(existing);
+    if (syncExisting && reactInputs.get(existing!) === sale.input) { syncExisting(); continue; }
+    existing?.remove();
+    const panel = document.createElement("div");
+    panel.id = `${ROW}-react`;
+    panel.classList.add("kuusei-market-react-pricing");
+    sale.root.after(panel);
+    const current = () => sale.input.isConnected ? readReactSale(sale.input) : undefined;
+    const buyer = Array.from(sale.root.querySelectorAll<HTMLInputElement>('input[type="text"]'))
+      .find((input) => input !== sale.input && readReactSale(input, false)?.currency === sale.currency);
+    if (!buyer) { panel.remove(); continue; }
+    reactInputs.set(panel, sale.input);
+    mountPricing(panel, {
+      scope: sale.root, receive: sale.input, buyer,
+      getItem: () => current()?.item,
+      getItemKey: readItemKey,
+      getWallet: () => current()?.walletInfo,
+      getFeeRates: () => {
+        const context = current();
+        const rule = context && reactFeeRule(context);
+        return rule ? [rule.publisherRate, rule.steamRate] : undefined;
+      },
+      getTotal: (amount) => {
+        const context = current();
+        return context ? reactBuyerTotal(context, amount) : NaN;
+      },
+      setReceive: (amount) => setReactReceive(sale.input, amount),
+      isEditable: () => typeof current()?.prices.onSellerPriceChange === "function",
+    });
+  }
 }
 
 function mountMultiSell() {
@@ -424,6 +460,8 @@ function isInventoryFrame(url: URL) {
 
 // The market's Sell button opens the same inventory dialog in a Steam iframe.
 if (window.top === window || isInventoryFrame(new URL(location.href))) {
+  const page = (typeof unsafeWindow === "undefined" ? window : unsafeWindow) as Window & typeof globalThis;
+  preserveReactSellPrice(page);
   // The renamed script can coexist with an earlier install during the update.
   const style = document.createElement("style");
   style.textContent = `
@@ -463,6 +501,19 @@ if (window.top === window || isInventoryFrame(new URL(location.href))) {
     .${ROW} .market_commodity_orders_table td { font-size: 11px; }
     .${ROW} .market_commodity_orders_table tbody tr:nth-child(odd) { background: #1b2939; }
     .${ROW} .market_commodity_orders_table tbody tr:nth-child(even) { background: transparent; }
+    .kuusei-market-react-pricing { width: 100%; color: #acb2b8; }
+    .kuusei-market-react-button {
+      display: inline-flex; align-items: center; justify-content: center; min-height: 28px;
+      color: #dfe3e6; background: #3b4451; border: 0; border-radius: 2px; padding: 6px 12px;
+      font: inherit; font-weight: 500; line-height: 1.35; white-space: nowrap; cursor: pointer;
+      box-shadow: none; text-shadow: none;
+    }
+    .kuusei-market-react-button:hover:not(:disabled) { background: #4b5665; color: #fff; }
+    .kuusei-market-react-button:active:not(:disabled) { background: #2f3945; }
+    .kuusei-market-react-button:focus-visible { outline: 2px solid #1a9fff; outline-offset: 2px; }
+    .kuusei-market-react-button:disabled { color: #6e7680; background: #2e343d; cursor: default; }
+    .kuusei-market-react-button > span { font: inherit; line-height: inherit; }
+    .kuusei-market-react-pricing input { color: #dfe3e6; background: #1c2025; border: 1px solid #3b424c; padding: 5px; }
     .market_multi_table .kuusei-market-multi-pricing > td { height: auto; padding: 5px 8px; }
     .kuusei-market-multi-pricing summary { cursor: pointer; }
     .kuusei-market-multi-pricing .market_commodity_orders_table td { height: auto; background: transparent; }
@@ -472,7 +523,12 @@ if (window.top === window || isInventoryFrame(new URL(location.href))) {
     mountMultiSell();
   } else {
     mountSellDialogs();
-    new MutationObserver(mountSellDialogs).observe(document.documentElement, {
+    let scheduled = false;
+    new MutationObserver(() => {
+      if (scheduled) return;
+      scheduled = true;
+      queueMicrotask(() => { scheduled = false; mountSellDialogs(); });
+    }).observe(document.documentElement, {
       childList: true,
       subtree: true,
       attributes: true,
